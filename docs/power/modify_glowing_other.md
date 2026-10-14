@@ -20,7 +20,7 @@ Type ID: `neo-apoli:modify/glowing/other`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`use_team_color` | [Boolean Provider][boolean_provider] | `true` | Determines whether the glowing effect should use the other entity's team color.
+`use_team_color` | [Boolean Provider][boolean_provider] | `true` | Determines whether the glowing effect should use the entity's team color.
 `color` | [Color][color] | *optional* | Determines the color that'll be used for the glowing effect.
 
 
