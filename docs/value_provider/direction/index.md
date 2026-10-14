@@ -10,7 +10,7 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired direction provider type.
 
 
-???+ question "Implicit `constant`"
+???+ question "Implicit type"
 
     When defining a direction provider, if you specify a [string][string], it will implicitly use the `constant` direction provider type.
 

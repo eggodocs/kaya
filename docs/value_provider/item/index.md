@@ -10,7 +10,7 @@ Field | Type | Default | Description
 `type`| [Identifier]({{ mc.identifier }}) | | The identifier of the desired item provider type.
 
 
-???+ question "Implicit `context`"
+???+ question "Implicit type"
 
     When defining an item provider, if you specify a [string][string], it will implicitly use the `context` item provider type.
 

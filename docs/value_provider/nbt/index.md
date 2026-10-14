@@ -10,7 +10,7 @@ Field | Type | Default | Description
 `type`| [Identifier]({{ mc.identifier }}) |  | The identifier of the desired NBT provider type.
 
 
-???+ question "Implicit `constant`"
+???+ question "Implicit type"
 
     When defining an NBT provider, if you specify a [string][string] or NBT, it will implicitly use the `constant` NBT provider type.
 

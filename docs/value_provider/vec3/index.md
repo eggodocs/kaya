@@ -13,9 +13,9 @@ Field | Type | Default | Description
 ------|------|:-------:|------------
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired vec3 provider type. |
 
-???+ question "Implicit `constant`"
+???+ question "Implicit type"
     
-    When defining a vec3 provider, if you specify an array, it will implicitly use the `constant` vec3 provider type.
+    When defining a vec3 provider, if you specify an [array][array] of 3 [floats][float], it will implicitly use the `constant` vec3 provider type.
 
 
 ### List of vec3 provider types
