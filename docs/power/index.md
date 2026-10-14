@@ -61,7 +61,7 @@ Field | Type | Default | Description
 - [`modify/entity/type_tag`](modify_entity_type_tag.md)
 - [`modify/exhaustion`](modify_exhaustion.md)
 - [`modify/falling`](modify_falling.md)
-- `modify/glowing/other`
+- [`modify/glowing/other`](modify_glowing_other.md)
 - `modify/glowing/self`
 - `modify/invisibility`
 - `modify/item/use`
