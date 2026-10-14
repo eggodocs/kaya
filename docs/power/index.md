@@ -62,7 +62,7 @@ Field | Type | Default | Description
 - [`modify/exhaustion`](modify_exhaustion.md)
 - [`modify/falling`](modify_falling.md)
 - [`modify/glowing/other`](modify_glowing_other.md)
-- `modify/glowing/self`
+- [`modify/glowing/self`](modify_glowing_self.md)
 - `modify/invisibility`
 - `modify/item/use`
 - `modify/item/wearable`
