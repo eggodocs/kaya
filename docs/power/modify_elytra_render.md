@@ -14,7 +14,7 @@ Type ID: `neo-apoli:modify/elytra/render`
 ### Format
 
 Field | Type | Default | Description
-------|------|---------|------------
+------|------|:-------:|------------
 `asset_id` | [Identifier]({{ mc.identifier }}) | | The ID of the equipment definition to use.
 `trim` | [Identifier]({{ mc.identifier }}) | *optional* | If specified, the trim with this ID will be applied to the rendered wings.
 `color` | [Color][color] | *optional* | If specified, this color will be applied to the rendered wings.
