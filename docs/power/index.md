@@ -60,7 +60,7 @@ Field | Type | Default | Description
 - [`modify/elytra/render`](modify_elytra_render.md)
 - [`modify/entity/type_tag`](modify_entity_type_tag.md)
 - [`modify/exhaustion`](modify_exhaustion.md)
-- `modify/falling`
+- [`modify/falling`](modify_falling.md)
 - `modify/glowing/other`
 - `modify/glowing/self`
 - `modify/invisibility`
