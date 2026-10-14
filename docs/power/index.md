@@ -57,7 +57,7 @@ Field | Type | Default | Description
 - [`modify/effect/duration`](modify_effect_duration.md)
 - [`modify/effect/immunity`](modify_effect_immunity.md)
 - [`modify/elytra/flight`](modify_elytra_flight.md)
-- `modify/elytra/render`
+- [`modify/elytra/render`](modify_elytra_render.md)
 - `modify/entity/type_tag`
 - `modify/exhaustion`
 - `modify/falling`
