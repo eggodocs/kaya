@@ -22,7 +22,7 @@ Type ID: `neo-apoli:replace_loot_table`
         Parameter | Description
         ----------|------------
         `neo-apoli:actor_entity` | The entity holding the power.
-        `neo-apoli:broken_block` | The block broken by the player.
+        `neo-apoli:block` | The block broken by the player.
         `neo-apoli:tool_item` | The item used by the player for breaking a block.
 
     === "Chest"
@@ -31,7 +31,7 @@ Type ID: `neo-apoli:replace_loot_table`
         ----------|------------
         `neo-apoli:actor_entity` | The entity holding the power.
         `neo-apoli:target_entity` | The player that opened a chest block.
-        `neo-apoli:broken_block` | The chest block opened by the player.
+        `neo-apoli:block` | The chest block opened by the player.
 
     === "Entity"
 
@@ -39,7 +39,7 @@ Type ID: `neo-apoli:replace_loot_table`
         ----------|------------
         `neo-apoli:actor_entity` | The entity holding the power
         `neo-apoli:target_entity` | The entity that died.
-        `neo-apoli:broken_block` | The block at the position of the entity that died.
+        `neo-apoli:block` | The block at the position of the entity that died.
 
     === "Fishing"
 
@@ -47,7 +47,7 @@ Type ID: `neo-apoli:replace_loot_table`
         ----------|------------
         `neo-apoli:actor_entity` | The entity holding the power.
         `neo-apoli:target_entity` | The fishing bobber of the entity holding the power.
-        `neo-apoli:broken_block` | The block at the position of the fishing bobber.
+        `neo-apoli:block` | The block at the position of the fishing bobber.
         `neo-apoli:tool_item` | The rod item used for fishing.
 
 
