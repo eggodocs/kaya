@@ -74,4 +74,4 @@ Field | Type | Default | Description
 - [`multiple`](multiple.md)
 - [`nbt`](nbt.md)
 - [`replace_loot_table`](replace_loot_table.md)
-- `toggle`
+- [`toggle`](toggle.md)
