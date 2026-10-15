@@ -18,8 +18,9 @@ Field | Type | Default | Description
 -   `conditional/composite`
 -   `conditional`
 -   `constant`
--   `join`
 -   `entity/uuid`
--   `nbt`
--   `from_int`
+-   `escape`
 -   `from_float`
+-   `from_int`
+-   `join`
+-   `nbt`
