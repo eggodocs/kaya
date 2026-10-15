@@ -31,7 +31,6 @@ Field | Type | Default | Description
 - `entity_has_item_equipped`
 - `entity_has_power`
 - `entity_has_pressed_keys_simultaneously`
-- `exists`
 - `inverted`
 - `is_block_entity`
 - `is_block_in_tag`
@@ -56,4 +55,5 @@ Field | Type | Default | Description
 - `item_matches_ingredient`
 - `item_matches_predicate`
 - `matches_block_pattern`
+- `parameter_exists`
 - `reference`
