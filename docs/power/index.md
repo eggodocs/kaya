@@ -71,7 +71,7 @@ Field | Type | Default | Description
 - [`modify/model/shaking`](modify_model_shaking.md)
 - [`modify/player/spawn`](modify_player_spawn.md)
 - [`modify/recipe/crafting`](modify_recipe_crafting.md)
-- `multiple`
+- [`multiple`](multiple.md)
 - `nbt`
 - `replace_loot_table`
 - `toggle`
