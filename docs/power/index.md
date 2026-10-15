@@ -73,5 +73,5 @@ Field | Type | Default | Description
 - [`modify/recipe/crafting`](modify_recipe_crafting.md)
 - [`multiple`](multiple.md)
 - [`nbt`](nbt.md)
-- `replace_loot_table`
+- [`replace_loot_table`](replace_loot_table.md)
 - `toggle`
