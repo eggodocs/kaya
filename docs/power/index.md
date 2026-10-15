@@ -66,7 +66,7 @@ Field | Type | Default | Description
 - [`modify/invisibility`](modify_invisibility.md)
 - [`modify/item/use`](modify_item_use.md)
 - [`modify/item/wearable`](modify_item_wearable.md)
-- `modify/model/color/other`
+- [`modify/model/color/other`](modify_model_color_other.md)
 - `modify/model/color/self`
 - `modify/model/shaking`
 - `modify/player/spawn`
