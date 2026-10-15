@@ -73,4 +73,7 @@ extra:
   mc:
     identifier: https://minecraft.wiki/w/Identifier
     text_component: https://minecraft.wiki/w/Text_component_format
-
+    biome_identifier: https://minecraft.wiki/w/Biome#Biome_IDs
+    structure_identifier: https://minecraft.wiki/w/Structure#ID
+    biome_tag: https://minecraft.wiki/w/Biome_tag_(Java_Edition)
+    structure_tag: https://minecraft.wiki/w/Structure_tag_(Java_Edition)

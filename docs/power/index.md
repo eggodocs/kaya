@@ -69,7 +69,7 @@ Field | Type | Default | Description
 - [`modify/model/color/other`](modify_model_color_other.md)
 - [`modify/model/color/self`](modify_model_color_self.md)
 - [`modify/model/shaking`](modify_model_shaking.md)
-- `modify/player/spawn`
+- [`modify/player/spawn`](modify_player_spawn.md)
 - `modify/recipe/crafting`
 - `multiple`
 - `nbt`
