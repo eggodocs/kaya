@@ -72,6 +72,6 @@ Field | Type | Default | Description
 - [`modify/player/spawn`](modify_player_spawn.md)
 - [`modify/recipe/crafting`](modify_recipe_crafting.md)
 - [`multiple`](multiple.md)
-- `nbt`
+- [`nbt`](nbt.md)
 - `replace_loot_table`
 - `toggle`
