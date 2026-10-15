@@ -64,7 +64,7 @@ Field | Type | Default | Description
 - [`modify/glowing/other`](modify_glowing_other.md)
 - [`modify/glowing/self`](modify_glowing_self.md)
 - [`modify/invisibility`](modify_invisibility.md)
-- `modify/item/use`
+- [`modify/item/use`](modify_item_use.md)
 - `modify/item/wearable`
 - `modify/model/color/other`
 - `modify/model/color/self`
