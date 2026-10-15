@@ -61,6 +61,10 @@
          <lastmod>2026-10-15</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/item_stack/</loc>
+         <lastmod>2026-10-15</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/key_reference/</loc>
          <lastmod>2026-10-15</lastmod>
     </url>
@@ -246,6 +250,10 @@
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_player_spawn/</loc>
+         <lastmod>2026-10-15</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_recipe_crafting/</loc>
          <lastmod>2026-10-15</lastmod>
     </url>
     <url>
