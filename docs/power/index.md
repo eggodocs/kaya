@@ -67,7 +67,7 @@ Field | Type | Default | Description
 - [`modify/item/use`](modify_item_use.md)
 - [`modify/item/wearable`](modify_item_wearable.md)
 - [`modify/model/color/other`](modify_model_color_other.md)
-- `modify/model/color/self`
+- [`modify/model/color/self`](modify_model_color_self.md)
 - `modify/model/shaking`
 - `modify/player/spawn`
 - `modify/recipe/crafting`
