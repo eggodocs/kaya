@@ -11,8 +11,8 @@ Type ID: `neo-apoli:modify/player/spawn`
 Field | Type | Default | Description
 ------|------|:-------:|------------
 `dimension` | [Identifier]({{ mc.identifier }}) | | The ID of the dimension to look for a new spawn point.
-`biome` | [Identifier]({{ mc.biome_identifier }}) or [Tag]({{ mc.biome_tag }}) | | The ID or the tag of a biome to look for a new spawn point.
-`structure` | [Identifier]({{ mc.structure_identifier }}) or [Tag]({{ mc.structure_tag }}) | | The ID or the tag of the structure to look for a spawn point.
+`biome` | [Identifier]({{ mc.biome_identifier }}) or [Tag]({{ mc.biome_tag }}) | *optional* | The ID or the tag of a biome to look for a new spawn point.
+`structure` | [Identifier]({{ mc.structure_identifier }}) or [Tag]({{ mc.structure_tag }}) | *optional* | The ID or the tag of the structure to look for a spawn point.
 `priority` | [Integer][integer] | `0` | Determines the order of which powers of this type will be checked.
 
 
