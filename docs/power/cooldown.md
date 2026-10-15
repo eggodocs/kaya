@@ -12,9 +12,9 @@ Type ID: `neo-apoli:cooldown`
 
     Parameter | Description
     ----------|------------
-    `hud/value` | An integer that refers to the cooldown's remaining ticks.
-    `hud/max_value` | An integer specified in the `cooldown` field.
-    `hud/min_value` | `0`
+    `hud/value` | A float that refers to the cooldown's remaining ticks.
+    `hud/max_value` | A float specified in the `cooldown` field.
+    `hud/min_value` | `0.0`
 
 
 ### Format
@@ -46,14 +46,8 @@ Field | Type | Default | Description
 				"type": "neo-apoli:clamped",
 				"value": {
 					"type": "neo-apoli:quotient",
-					"dividend": {
-						"type": "neo-apoli:from_int",
-						"value": "hud/value"
-					},
-					"divisor": {
-						"type": "neo-apoli:from_int",
-						"value": "hud/max_value"
-					}
+					"dividend": "hud/value",
+					"divisor": "hud/max_value"
 				},
 				"min": 0.0,
 				"max": 0.75
