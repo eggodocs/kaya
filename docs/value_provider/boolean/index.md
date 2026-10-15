@@ -17,7 +17,8 @@ Field | Type | Default | Description
 
 ### List of boolean provider types
 
+- `condition_result`
 - `conditional/composite`
 - `conditional`
 - `constant`
-- `condition_result`
+- `nbt`
