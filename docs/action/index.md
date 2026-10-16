@@ -26,7 +26,7 @@ Field | Type | Default | Description
 
 -   [`conditional/composite`](conditional_composite.md)
 -   [`conditional`](conditional.md)
--   `loop`
+-   [`loop`](loop.md)
 -   `nothing`
 -   `reference`
 -   `sequence`
