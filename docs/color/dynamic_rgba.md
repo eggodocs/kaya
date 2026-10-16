@@ -3,7 +3,7 @@
 Provides an RGBA color (which is then converted to ARGB) using [float providers][float_provider].
 
 
-Type ID: `neo-apoli:dynamic/argb`
+Type ID: `neo-apoli:dynamic/rgba`
 
 
 ### Format
