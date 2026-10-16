@@ -20,4 +20,4 @@ Field | Type | Default | Description
 
 - [`overlay/nausea`](overlay_nausea.md)
 - [`overlay/texture`](overlay_texture.md)
-- `resource_bar`
+- [`resource_bar`](resource_bar.md)
