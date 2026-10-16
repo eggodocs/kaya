@@ -19,7 +19,7 @@ Field | Type | Default | Description
 
 ### List of comparison types
 
-- `entity`
+- [`entity`](entity.md)
 - `float`
 - `int`
 - `nbt`
