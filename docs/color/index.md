@@ -24,5 +24,5 @@ Field | Type | Default | Description
 - [`dynamic/argb`](dynamic_argb.md)
 - [`dynamic/hsv`](dynamic_hsv.md)
 - [`dynamic/rgba`](dynamic_rgba.md)
-- `hsv`
+- [`hsv`](hsv.md)
 - `rgba`

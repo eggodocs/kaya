@@ -1,6 +1,6 @@
 #   Dynamic HSV
 
-Provides an HSV color (which is then converted to ARGB) with [float providers][float_provider].
+Provides an HSV (hue, saturation, value/brightness/lightness) color (which is then converted to ARGB) with [float providers][float_provider].
 
 
 Type ID: `neo-apoli:dynamic/hsv`
