@@ -10,7 +10,7 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired color type.
 
 
-!!! question "Implicit `rgba`"
+!!! question "Implicit type"
 
     When defining a color, if a [string][string] is specified, it will implicitly use the `rgba` color type.
 
@@ -25,4 +25,4 @@ Field | Type | Default | Description
 - [`dynamic/hsv`](dynamic_hsv.md)
 - [`dynamic/rgba`](dynamic_rgba.md)
 - [`hsv`](hsv.md)
-- `rgba`
+- [`rgba`](rgba.md)
