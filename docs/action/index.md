@@ -30,7 +30,7 @@ Field | Type | Default | Description
 -   [`nothing`](nothing.md)
 -   [`reference`](reference.md)
 -   [`sequence`](sequence.md)
--   `side`
+-   [`side`](side.md)
 -   `weighted`
 
 
