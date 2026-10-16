@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ### List of color types
 
-- `argb`
-- `hsv`
-- `rgba`
-- `dynamic/argb`
-- `dynamic/hsv`
-- `dynamic/rgba`
+- [`argb`](argb.md)
 - `biome/foliage`
 - `biome/grass`
 - `biome/water`
+- `dynamic/argb`
+- `dynamic/hsv`
+- `dynamic/rgba`
+- `hsv`
+- `rgba`
