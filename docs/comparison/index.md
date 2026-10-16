@@ -22,5 +22,5 @@ Field | Type | Default | Description
 - [`entity`](entity.md)
 - [`float`](float.md)
 - [`int`](int.md)
-- `nbt`
+- [`nbt`](nbt.md)
 - `string`
