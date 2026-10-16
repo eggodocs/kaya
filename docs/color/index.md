@@ -20,7 +20,7 @@ Field | Type | Default | Description
 - [`argb`](argb.md)
 - [`biome/foliage`](biome_foliage.md)
 - [`biome/grass`](biome_grass.md)
-- `biome/water`
+- [`biome/water`](biome_water.md)
 - `dynamic/argb`
 - `dynamic/hsv`
 - `dynamic/rgba`
