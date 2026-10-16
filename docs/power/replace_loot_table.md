@@ -55,7 +55,7 @@ Type ID: `neo-apoli:replace_loot_table`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`replacements` | Replacement Map | | Determines which loot tables to replace with other loot tables.
+`replacements` | [Replacement Map](#replacement_map) | | Determines which loot tables to replace with other loot tables.
 `priority` | [Integer][integer] | `0` | Determines the order of which powers of this type will be iterated.
 
 
@@ -63,6 +63,7 @@ Field | Type | Default | Description
 
     The instances of this type will be sorted in its **reversed** *natural order* meaning that instances that have a higher priority value will be executed first before those that have lower priority values.
 
+[](){ #replacement_map }
 
 ???+ info "Replacement Map"
 
