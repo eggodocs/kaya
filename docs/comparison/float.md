@@ -1,4 +1,4 @@
-#   Float
+#   Float { #float_comparison }
 
 Compares the first and second floats.
 
@@ -10,6 +10,7 @@ Type ID: `neo-apoli:float`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
+`comparator` | [Comparator][comparator] | | Determines how the floats are compared.
 `first` | [Float Provider][float_provider] | | The first float to compare to.
 `second` | [Float Provider][float_provider] | | The second float to be compared.
 

@@ -1,4 +1,4 @@
-#   Int
+#   Int { #int_comparison }
 
 Compares the first and second integers.
 
@@ -10,6 +10,7 @@ Type ID: `neo-apoli:int`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
+`comparator` | [Comparator][comparator] | | Determines how the integers are compared.
 `first` | [Int Provider][int_provider] | | The first integer to compare to.
 `second` | [Int Provider][int_provider] | | The second integer to be compared.
 

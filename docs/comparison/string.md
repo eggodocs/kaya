@@ -1,4 +1,4 @@
-#   String
+#   String { #string_comparison }
 
 Compares the first and second strings lexicographically (1).
 { .annotate }
@@ -14,6 +14,7 @@ Type ID: `neo-apoli:string`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
+`comparator` | [Comparator][comparator] | | Determines how the strings are compared lexicographically.
 `first` | [String Provider][string_provider] | | The first string to compare to.
 `second` | [String Provider][string_provider] | | The second string to be compared.
 `case_sensitive` | [Boolean Provider][boolean_provider] | `true` | Determines whether comparing the strings should be case-sensitive.

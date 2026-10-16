@@ -1,4 +1,4 @@
-#   Entity
+#   Entity { #entity_comparison }
 
 Compares the IDs of the first and second entities.
 
