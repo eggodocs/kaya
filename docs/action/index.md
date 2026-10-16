@@ -29,7 +29,7 @@ Field | Type | Default | Description
 -   [`loop`](loop.md)
 -   [`nothing`](nothing.md)
 -   [`reference`](reference.md)
--   `sequence`
+-   [`sequence`](sequence.md)
 -   `side`
 -   `weighted`
 
