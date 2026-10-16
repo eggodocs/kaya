@@ -23,6 +23,6 @@ Field | Type | Default | Description
 - [`biome/water`](biome_water.md)
 - [`dynamic/argb`](dynamic_argb.md)
 - [`dynamic/hsv`](dynamic_hsv.md)
-- `dynamic/rgba`
+- [`dynamic/rgba`](dynamic_rgba.md)
 - `hsv`
 - `rgba`
