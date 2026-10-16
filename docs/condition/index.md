@@ -27,7 +27,7 @@ Field | Type | Default | Description
 - `dynamic`
 - `inverted`
 - `parameter_exists`
-- `reference`
+- [`reference`](reference.md)
 
 
 ### Types
