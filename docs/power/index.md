@@ -26,7 +26,7 @@ Field | Type | Default | Description
     A power, **unless stated otherwise** by its type, supports an optional `active_condition` field which determines whether the power is considered active. If the field is absent, the power will be considered as always active.
 
 
-### List of power types
+### List of callback types
 
 - [`callback/block/break`](callback_block_break.md)
 - [`callback/block/place`](callback_block_place.md)
@@ -39,11 +39,10 @@ Field | Type | Default | Description
 - [`callback/power/revoked`](callback_power_revoked.md)
 - [`callback/power/tick`](callback_power_tick.md)
 - [`callback/projectile/land`](callback_projectile_land.md)
-- [`cooldown`](cooldown.md)
-- [`crafting_recipe`](crafting_recipe.md)
-- [`dummy`](dummy.md)
-- [`hud_render`](hud_render.md)
-- [`inventory`](inventory.md)
+
+
+### List of modifying types
+
 - [`modify/air/speed`](modify_air_speed.md)
 - [`modify/attribute/vanilla`](modify_attribute_vanilla.md)
 - [`modify/attribute`](modify_attribute.md)
@@ -71,6 +70,15 @@ Field | Type | Default | Description
 - [`modify/model/shaking`](modify_model_shaking.md)
 - [`modify/player/spawn`](modify_player_spawn.md)
 - [`modify/recipe/crafting`](modify_recipe_crafting.md)
+
+
+### List of other types
+
+- [`cooldown`](cooldown.md)
+- [`crafting_recipe`](crafting_recipe.md)
+- [`dummy`](dummy.md)
+- [`hud_render`](hud_render.md)
+- [`inventory`](inventory.md)
 - [`multiple`](multiple.md)
 - [`nbt`](nbt.md)
 - [`replace_loot_table`](replace_loot_table.md)
