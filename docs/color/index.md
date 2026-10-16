@@ -21,7 +21,7 @@ Field | Type | Default | Description
 - [`biome/foliage`](biome_foliage.md)
 - [`biome/grass`](biome_grass.md)
 - [`biome/water`](biome_water.md)
-- `dynamic/argb`
+- [`dynamic/argb`](dynamic_argb.md)
 - `dynamic/hsv`
 - `dynamic/rgba`
 - `hsv`
