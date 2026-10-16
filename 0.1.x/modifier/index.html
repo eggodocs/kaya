@@ -4433,10 +4433,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#list_of_modifier_types" class="md-nav__link">
+  <a href="#types" class="md-nav__link">
     <span class="md-ellipsis">
       
-        List of modifier types
+        Types
       
     </span>
   </a>
@@ -4484,7 +4484,7 @@
 </tr>
 <tr>
 <td><code>phase</code></td>
-<td>Phase</td>
+<td><a href="#phase">Phase</a></td>
 <td style="text-align: center;"></td>
 <td>Determines when the modifier will be applied.</td>
 </tr>
@@ -4502,12 +4502,9 @@
 </tr>
 </tbody>
 </table>
-<details class="note">
-<summary>About fields</summary>
-<p>The table contains the common fields used by modifiers. Some modifiers may not have the same fields, so make sure to check!</p>
-</details>
-<div class="admonition question">
-<p class="admonition-title">Modifier phases</p>
+<p><a href="" id="phase"></a></p>
+<details class="question" open="open">
+<summary>Phase</summary>
 <p>Modifiers are applied in the following two phases, listed in order:</p>
 <table>
 <thead>
@@ -4527,22 +4524,54 @@
 </tr>
 </tbody>
 </table>
+</details>
+<h3 id="types">Types</h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Modifiers are applied in the order they're listed below, with <code>add</code> being applied first and <code>set</code> being applied last.</p>
 </div>
-<h3 id="list_of_modifier_types">List of modifier types</h3>
-<ul>
-<li><code>add</code></li>
-<li><code>multiply</code></li>
-<li><code>multiply_additive</code></li>
-<li><code>multiply_multiplicative</code></li>
-<li><code>divide</code></li>
-<li><code>min</code></li>
-<li><code>max</code></li>
-<li><code>set</code></li>
-</ul>
-<div class="admonition question">
-<p class="admonition-title">Order of modifiers</p>
-<p>The modifiers are applied in the order they're listed in, where <code>add</code> is applied first and <code>set</code> is applied last.</p>
-</div>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>add</code></td>
+<td>Adds all of the modifiers' amounts to the value.<br>$(Total = Amount_1 + Amount_2 + ... + Amount_n)$</td>
+</tr>
+<tr>
+<td><code>multiply</code></td>
+<td>Multiplies the modifiers' amounts to the value.<br>$(Total = Amount_1 * Amount_2 + ... + Amount_n)$</td>
+</tr>
+<tr>
+<td><code>multiply_additive</code></td>
+<td>Multiplies the base value by (1 + sum of modifiers' amounts.)<br>$(Total = Base * (1 + Amount_1 + Amount_2 + ... + Amount_n))$</td>
+</tr>
+<tr>
+<td><code>multiply_multiplicative</code></td>
+<td>Multiplies the base value by (1 + modifiers' amount) for every modifier.<br>$(Total = Base * (1 + Amount_1) * (1 + Amount_2) * ... * (1 + Amount_n))$</td>
+</tr>
+<tr>
+<td><code>divide</code></td>
+<td>Divides the value to all of the modifiers' amounts.<br>$(Total = Amount_1 \div Amount_2 \div ... \div Amount_3)$</td>
+</tr>
+<tr>
+<td><code>min</code></td>
+<td>Returns the minimum value of all the modifiers' amounts.<br>$(Total = \argmin f(Amount_n))$</td>
+</tr>
+<tr>
+<td><code>max</code></td>
+<td>Returns the maximum value of all the modifiers' amounts.<br>$(Total = \argmax f(Amount_n))$</td>
+</tr>
+<tr>
+<td><code>set</code></td>
+<td>Uses the modifier's value as the new total value.<br>$(Total = Amount_n)$</td>
+</tr>
+</tbody>
+</table>
 
 
 
