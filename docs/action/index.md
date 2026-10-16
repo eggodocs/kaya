@@ -17,20 +17,30 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired action type.
 
 
-???+ question "Implicit `sequence`"
+???+ question "Implicit type"
 
     When defining an action, if you specify an array instead of an object, it will implicitly use the `sequence` action type.
 
 
-### List of action types
+### List of meta types
+
+-   `conditional/composite`
+-   `conditional`
+-   `loop`
+-   `nothing`
+-   `reference`
+-   `sequence`
+-   `side`
+-   `weighted`
+
+
+### List of types
 
 -   `add_velocity`
 -   `apply_effects`
 -   `area_of_effect`
 -   `bone_meal`
 -   `clear_powers`
--   `conditional/composite`
--   `conditional`
 -   `consume_item`
 -   `damage_entity`
 -   `damage_item`
@@ -43,19 +53,15 @@ Field | Type | Default | Description
 -   `gain_air`
 -   `give_items`
 -   `grant_power`
--   `loop`
 -   `modify_block_state_property`
 -   `modify_item`
 -   `mount`
--   `nothing`
 -   `place_block`
 -   `play_sound`
 -   `random_chance`
--   `reference`
 -   `remove_power`
 -   `revoke_all_powers`
 -   `revoke_power`
--   `sequence`
 -   `set_entity_on_fire`
 -   `shoot_entity`
 -   `side`
@@ -64,4 +70,3 @@ Field | Type | Default | Description
 -   `tame`
 -   `toggle_power`
 -   `trigger_power_cooldown`
--   `weighted`

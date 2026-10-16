@@ -13,14 +13,18 @@ Field | Type | Default | Description
     When defining a string provider, if you specify a [string][string], it will implicitly use the `constant` string provider type.
 
 
-### List of string provider types
+### List of meta types
 
--   `conditional/composite`
--   `conditional`
--   `constant`
--   `entity/uuid`
--   `escape`
--   `from_float`
--   `from_int`
--   `join`
--   `nbt`
+- `conditional/composite`
+- `conditional`
+- `constant`
+- `escape`
+- `join`
+
+
+### List of types
+
+- `entity/uuid`
+- `from_float`
+- `from_int`
+- `nbt`

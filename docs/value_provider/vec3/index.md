@@ -18,14 +18,18 @@ Field | Type | Default | Description
     When defining a vec3 provider, if you specify an [array][array] of 3 [floats][float], it will implicitly use the `constant` vec3 provider type.
 
 
-### List of vec3 provider types
+### List of meta types
 
--   `conditional/composite`
--   `conditional`
--   `constant`
--   `direction`
--   `dynamic`
--   `entity/position`
--   `entity/velocity`
--   `entity/view`
--   `offset`
+- `conditional/composite`
+- `conditional`
+- `constant`
+- `dynamic`
+- `offset`
+
+
+### List of types
+
+- `direction`
+- `entity/position`
+- `entity/velocity`
+- `entity/view`

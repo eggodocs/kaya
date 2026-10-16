@@ -17,21 +17,28 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired condition type.
 
 
-### List of condition types
+### List of meta types
 
 - `all_of`
 - `any_of`
-- `block_state_property`
 - `compare`
 - `constant`
 - `difficulty`
 - `dynamic`
+- `inverted`
+- `parameter_exists`
+- `reference`
+
+
+### List of condition types
+
+
+- `block_state_property`
 - `entity_has_active_power`
 - `entity_has_correct_tool_for_block`
 - `entity_has_item_equipped`
 - `entity_has_power`
 - `entity_has_pressed_keys_simultaneously`
-- `inverted`
 - `is_block_entity`
 - `is_block_in_tag`
 - `is_block_of_type`
@@ -55,5 +62,3 @@ Field | Type | Default | Description
 - `item_matches_ingredient`
 - `item_matches_predicate`
 - `matches_block_pattern`
-- `parameter_exists`
-- `reference`

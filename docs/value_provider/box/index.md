@@ -15,7 +15,7 @@ Field | Type | Default | Description
     When defining a box provider, if an [array][array] of 6 [floats][float] is specified, it will implicitly use the `constant` box provider type.
 
 
-### List of box provider types
+### List of meta types
 
 - `conditional/composite`
 - `conditional`
@@ -23,5 +23,9 @@ Field | Type | Default | Description
 - `dynamic`
 - `offset`
 - `translate`
+
+
+### List of types
+
 - `block/bounds`
 - `entity/bounds`

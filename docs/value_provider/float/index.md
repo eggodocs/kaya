@@ -20,7 +20,7 @@ Field | Type | Default | Description
     [Float][float] | `constant`
 
 
-### List of float provider types
+### List of meta types
 
 <div class="annotate" markdown>
 
@@ -35,7 +35,6 @@ Field | Type | Default | Description
 - `linear_interpolated`(3)
 - `max`
 - `min`
-- `nbt`
 - `negate`
 - `power`
 - `product`(4)
@@ -44,17 +43,6 @@ Field | Type | Default | Description
 - `round`
 - `sum`(7)
 - `weighted`
-- `box/component`
-- `box/size`
-- `brightness`
-- `distance_between_positions`
-- `entity/attribute`
-- `entity/fluid_height`
-- `item/attribute`
-- `player/saturation`
-- `power/cooldown/progress`
-- `vector/component`
-- `vector/length`
 
 </div>
 
@@ -65,3 +53,19 @@ Field | Type | Default | Description
 5. Aliases: `div`, `divide`
 6. Aliases: `random`, `rand`
 7. Aliases: `add`, `addition`
+
+
+### List of types
+
+- `box/component`
+- `box/size`
+- `brightness`
+- `distance_between_positions`
+- `entity/attribute`
+- `entity/fluid_height`
+- `item/attribute`
+- `nbt`
+- `player/saturation`
+- `power/cooldown/progress`
+- `vector/component`
+- `vector/length`

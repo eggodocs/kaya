@@ -19,12 +19,16 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired command source provider.
 
 
-### List of command source provider types
-
-<div class="annotate" markdown>
+### List of meta types
 
 - `conditional/composite`
 - `conditional`
+
+
+### List of types
+
+<div class="annotate" markdown>
+
 - `block`
 - `entity`
 - `server`(1)

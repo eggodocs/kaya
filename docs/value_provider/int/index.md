@@ -20,7 +20,7 @@ Field | Type | Default | Description
     [Integer][integer] | `constant`
 
 
-### List of int provider types
+### List of meta types
 
 <div class="annotate" markdown>
 
@@ -34,7 +34,6 @@ Field | Type | Default | Description
 - `from_float`
 - `max`
 - `min`
-- `nbt`
 - `negate`
 - `product` (3)
 - `quotient`(4)
@@ -42,24 +41,6 @@ Field | Type | Default | Description
 - `random/uniform`(5)
 - `sum`(6)
 - `weighted`
-- `adjacent_blocks`
-- `blocks_colliding_box`
-- `blocks_in_radius`
-- `blocks_intersecting_box`
-- `effect/amplifier`
-- `entities_in_radius`
-- `entity/active_effects`
-- `equipped_enchantment_level`
-- `item/count`
-- `item/count/max`
-- `item/fuel`
-- `key/pressed_ticks`
-- `key/pressed_time`
-- `light_level`
-- `player/food`
-- `power/cooldown/remaining_ticks`
-- `slot_id`
-- `time`
 
 </div>
 
@@ -69,3 +50,26 @@ Field | Type | Default | Description
 4. Aliases: `div`, `divide`
 5. Aliases: `rand`, `random`
 6. Aliases: `add`, `addition`
+
+
+### List of types
+
+- `adjacent_blocks`
+- `blocks_colliding_box`
+- `blocks_in_radius`
+- `blocks_intersecting_box`
+- `effect/amplifier`
+- `entities_in_radius`
+- `entity/active_effects`
+- `equipped_enchantment_level`
+- `item/count/max`
+- `item/count`
+- `item/fuel`
+- `key/pressed_ticks`
+- `key/pressed_time`
+- `light_level`
+- `nbt`
+- `player/food`
+- `power/cooldown/remaining_ticks`
+- `slot_id`
+- `time`

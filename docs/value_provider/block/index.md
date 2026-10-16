@@ -19,9 +19,13 @@ Field | Type | Default | Description
     When defining a block provider, if a [string][string] is specified, it will implicitly use the `context` block provider type.
 
 
-### List of block provider types
+### List of meta types
 
 - `conditional/composite`
 - `conditional`
 - `context`
+
+
+### List of types
+
 - `world`

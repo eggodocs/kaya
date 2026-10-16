@@ -15,9 +15,13 @@ Field | Type | Default | Description
     When defining a entity provider, if you specify a [string][string], it will implicitly use the `context` entity provider type.
 
 
-### List of entity provider types
+### List of meta types
 
 - `conditional/composite`
 - `conditional`
 - `context`
+
+
+### List of types
+
 - `selector`

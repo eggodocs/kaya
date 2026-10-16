@@ -18,10 +18,15 @@ Field | Type | Default | Description
     When defining a slot provider, if you specify a [string][string], it will implicitly use the `context` slot provider type.
 
 
-### List of slot provider types
+### List of meta types
 
--   `conditional/composite`
--   `conditional`
--   `context`
--   `block`
--   `entity`
+- `conditional/composite`
+- `conditional`
+- `context`
+
+
+### List of types
+
+- `block`
+- `entity`
+  
