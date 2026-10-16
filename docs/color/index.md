@@ -18,7 +18,7 @@ Field | Type | Default | Description
 ### List of color types
 
 - [`argb`](argb.md)
-- `biome/foliage`
+- [`biome/foliage`](biome_foliage.md)
 - `biome/grass`
 - `biome/water`
 - `dynamic/argb`
