@@ -3,6 +3,9 @@
 Compares the IDs of the first and second entities.
 
 
+Type ID: `neo-apoli:entity`
+
+
 ### Format
 
 Field | Type | Default | Description
