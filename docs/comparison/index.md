@@ -23,4 +23,4 @@ Field | Type | Default | Description
 - [`float`](float.md)
 - [`int`](int.md)
 - [`nbt`](nbt.md)
-- `string`
+- [`string`](string.md)
