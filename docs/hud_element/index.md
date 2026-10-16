@@ -19,5 +19,5 @@ Field | Type | Default | Description
 ### List of HUD element types
 
 - [`overlay/nausea`](overlay_nausea.md)
-- `overlay/texture`
+- [`overlay/texture`](overlay_texture.md)
 - `resource_bar`
