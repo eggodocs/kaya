@@ -22,7 +22,7 @@ Field | Type | Default | Description
 - [`biome/grass`](biome_grass.md)
 - [`biome/water`](biome_water.md)
 - [`dynamic/argb`](dynamic_argb.md)
-- `dynamic/hsv`
+- [`dynamic/hsv`](dynamic_hsv.md)
 - `dynamic/rgba`
 - `hsv`
 - `rgba`
