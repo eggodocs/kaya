@@ -15,10 +15,10 @@ Type ID: `neo-apoli:argb`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`alpha` | [Float][float] | | The alpha (transparency) component of the color. The value is clamped from 0.0 to 1.0.
-`red` | [Float][float] | | The red component of the color. The value is clamped from 0.0 to 1.0.
-`green` | [Float][float] | | The green component of the color. The value is clamped from 0.0 to 1.0.
-`blue` | [Float][float] | | The blue component of the color. The value is clamped from 0.0 to 1.0.
+`alpha` | [Float][float] | | The alpha (transparency) component of the color. The value should be within the range of 0.0 to 1.0.
+`red` | [Float][float] | | The red component of the color. The value should be within the range of 0.0 to 1.0.
+`green` | [Float][float] | | The green component of the color. The value should be within the range of 0.0 to 1.0.
+`blue` | [Float][float] | | The blue component of the color. The value should be within the range of 0.0 to 1.0.
 
 
 ### Example
