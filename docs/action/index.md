@@ -28,7 +28,7 @@ Field | Type | Default | Description
 -   [`conditional`](conditional.md)
 -   [`loop`](loop.md)
 -   [`nothing`](nothing.md)
--   `reference`
+-   [`reference`](reference.md)
 -   `sequence`
 -   `side`
 -   `weighted`
