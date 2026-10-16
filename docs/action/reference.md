@@ -1,6 +1,6 @@
 #   Reference
 
-Invokes a condition file and returns its value.
+Invokes an action file.
 
 
 Type ID: `neo-apoli:reference`
@@ -10,8 +10,8 @@ Type ID: `neo-apoli:reference`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`value` | [Identifier]({{ mc.identifier }}) | | The ID of the condition to invoke.
-`parameters` | [Context Parameter Map][context_parameter_map] | *optional* | If specified, these context parameters will be provided to the context for invoking the condition.
+`value` | [Identifier]({{ mc.identifier }}) | | The ID of the action to invoke.
+`parameters` | [Context Parameter Map][context_parameter_map] | *optional* | If specified, these context parameters will be provided to the context for invoking the action.
 
 
 ### Example
@@ -21,29 +21,21 @@ Field | Type | Default | Description
     ```json
     {
         "type": "neo-apoli:reference",
-        "value": "example:entity/is_in_water"//(1)!
+        "value": "example:entity/set_on_fire_for_5_secs"//(1)!
     }
     ```
 
-    1. The location of the file is `data/example/neo-apoli/condition/entity/is_in_water.json` with this as its contents:
+    1. The location of the file is `data/example/neo-apoli/action/entity/set_on_fire_for_5_secs.json` with this as its contents:
 
         ```json
         {
-            "type": "neo-apoli:compare",
-            "comparison": {
-                "type": "neo-apoli:float",
-                "comparator": ">",
-                "first": {
-                    "type": "neo-apoli:entity/fluid_height",
-                    "fluid_tag": "#minecraft:water",
-                    "entity": "this"
-                },
-                "second": 0.0
-            }
+            "type": "neo-apoli:set_entity_on_fire",
+            "ticks": 200,
+            "entity": "this"
         }
         ```
 
-    This example invokes the `example:entity/is_in_water` condition and returns its result.
+    This example invokes the `example:entity/set_on_fire_for_5_secs` action.
 
 
 === "Complex"
@@ -51,39 +43,40 @@ Field | Type | Default | Description
     ```json
     {
         "type": "neo-apoli:reference",
-        "value": "example:item/is_armor_higher_than_threshold"/*(1)!*/,
+        "value": "example:entity/add_local_velocity"/*(1)!*/,
         "parameters": {
-            "example:item": {
-                "type": "neo-apoli:item",
-                "value": "worn_item"
+            "example:entity_to_launch": {
+                "type": "neo-apoli:entity",
+                "entity": "this"
             },
-            "example:threshold": {
-                "type": "neo-apoli:float",
-                "value": 2.0
+            "example:velocity": {
+                "type": "neo-apoli:vec3",
+                "value": [
+                    0.0,
+                    4.0,
+                    0.0
+                ]
             }
         }
     }
     ```
 
-    1. The location of the file is `data/example/neo-apoli/condition/item/is_armor_higher_than_threshold.json` with this as its contents:
+    1. The location of the file is `data/example/neo-apoli/action/entity/add_local_velocity.json` with this as its contents:
    
         ```json
         {
-            "type": "neo-apoli:compare",
-            "comparison": {
-                "type": "neo-apoli:float",
-                "comparator": ">",
-                "first": {
-                    "type": "neo-apoli:item/attribute",
-                    "attribute": "minecraft:armor",
-                    "item": "example:item"
-                },
-                "second": "example:threshold"
+            "type": "neo-apoli:add_velocity",
+            "method": "single",
+            "space": "local",
+            "entity": "example:entity_to_launch",
+            "velocity": {
+                "type": "neo-apoli:context",
+                "parameter": "example:velocity"
             }
         }
         ```
 
-    This example provides the context parameters (specifically used by the condition) before invoking the `example:item/is_armor_higher_than_threshold` condition.
+    This example provides the context parameters (specifically used by the action) before invoking the `example:entity/add_local_velocity` action.
 
 
 ### History
