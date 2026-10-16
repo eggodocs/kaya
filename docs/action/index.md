@@ -25,7 +25,7 @@ Field | Type | Default | Description
 ### Meta types
 
 -   [`conditional/composite`](conditional_composite.md)
--   `conditional`
+-   [`conditional`](conditional.md)
 -   `loop`
 -   `nothing`
 -   `reference`
