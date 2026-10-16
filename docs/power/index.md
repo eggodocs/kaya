@@ -26,7 +26,7 @@ Field | Type | Default | Description
     A power, **unless stated otherwise** by its type, supports an optional `active_condition` field which determines whether the power is considered active. If the field is absent, the power will be considered as always active.
 
 
-### List of callback types
+### Callback types
 
 - [`callback/block/break`](callback_block_break.md)
 - [`callback/block/place`](callback_block_place.md)
@@ -41,7 +41,7 @@ Field | Type | Default | Description
 - [`callback/projectile/land`](callback_projectile_land.md)
 
 
-### List of modifying types
+### Modifying types
 
 - [`modify/air/speed`](modify_air_speed.md)
 - [`modify/attribute/vanilla`](modify_attribute_vanilla.md)
@@ -72,7 +72,7 @@ Field | Type | Default | Description
 - [`modify/recipe/crafting`](modify_recipe_crafting.md)
 
 
-### List of other types
+### Types
 
 - [`cooldown`](cooldown.md)
 - [`crafting_recipe`](crafting_recipe.md)

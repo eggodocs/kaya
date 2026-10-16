@@ -15,14 +15,14 @@ Field | Type | Default | Description
     When defining an NBT provider, if you specify a [string][string] or NBT, it will implicitly use the `constant` NBT provider type.
 
 
-### List of meta types
+### Meta types
 
 - `conditional/composite`
 - `conditional`
 - `constant`
 
 
-### List of types
+### Types
 
 - `block`
 - `entity`

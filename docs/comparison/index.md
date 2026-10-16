@@ -17,7 +17,7 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired comparison type.
 
 
-### List of comparison types
+### Types
 
 - [`entity`](entity.md)
 - [`float`](float.md)

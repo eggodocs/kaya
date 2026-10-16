@@ -15,21 +15,21 @@ Field | Type | Default | Description
     When defining a color, if a [string][string] is specified, it will implicitly use the `rgba` color type.
 
   
-### List of hardcoded color types
+### Hardcoded types
 
 - [`argb`](argb.md)
 - [`hsv`](hsv.md)
 - [`rgba`](rgba.md)
 
 
-### List of dynamic color types
+### Dynamic types
 
 - [`dynamic/argb`](dynamic_argb.md)
 - [`dynamic/hsv`](dynamic_hsv.md)
 - [`dynamic/rgba`](dynamic_rgba.md)
 
 
-### List of other color types
+### Types
 
 - [`biome/foliage`](biome_foliage.md)
 - [`biome/grass`](biome_grass.md)

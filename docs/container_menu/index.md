@@ -15,7 +15,7 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired container menu type.
 
 
-## List of container menu types
+## Types
 
 <div class="annotate" markdown>
 

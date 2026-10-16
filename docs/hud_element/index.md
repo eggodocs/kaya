@@ -16,7 +16,7 @@ Field | Type | Default | Description
     HUD elements will be sorted in *natural order* meaning that the elements that have a lower order values will be rendered first before those that have higher order values.
 
 
-### List of HUD element types
+### Types
 
 - [`overlay/nausea`](overlay_nausea.md)
 - [`overlay/texture`](overlay_texture.md)

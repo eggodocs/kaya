@@ -18,7 +18,7 @@ Field | Type | Default | Description
     When defining a vec3 provider, if you specify an [array][array] of 3 [floats][float], it will implicitly use the `constant` vec3 provider type.
 
 
-### List of meta types
+### Meta types
 
 - `conditional/composite`
 - `conditional`
@@ -27,7 +27,7 @@ Field | Type | Default | Description
 - `offset`
 
 
-### List of types
+### Types
 
 - `direction`
 - `entity/position`

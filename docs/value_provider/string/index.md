@@ -13,7 +13,7 @@ Field | Type | Default | Description
     When defining a string provider, if you specify a [string][string], it will implicitly use the `constant` string provider type.
 
 
-### List of meta types
+### Meta types
 
 - `conditional/composite`
 - `conditional`
@@ -22,7 +22,7 @@ Field | Type | Default | Description
 - `join`
 
 
-### List of types
+### Types
 
 - `entity/uuid`
 - `from_float`

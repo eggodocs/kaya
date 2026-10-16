@@ -17,7 +17,7 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired condition type.
 
 
-### List of meta types
+### Meta types
 
 - `all_of`
 - `any_of`
@@ -30,7 +30,7 @@ Field | Type | Default | Description
 - `reference`
 
 
-### List of condition types
+### Types
 
 
 - `block_state_property`

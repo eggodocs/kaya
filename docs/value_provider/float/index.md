@@ -20,7 +20,7 @@ Field | Type | Default | Description
     [Float][float] | `constant`
 
 
-### List of meta types
+### Meta types
 
 <div class="annotate" markdown>
 
@@ -55,7 +55,7 @@ Field | Type | Default | Description
 7. Aliases: `add`, `addition`
 
 
-### List of types
+### Types
 
 - `box/component`
 - `box/size`

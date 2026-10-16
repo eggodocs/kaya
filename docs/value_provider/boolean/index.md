@@ -15,14 +15,14 @@ Field | Type | Default | Description
     When defining a boolean provider, if a boolean (`true`/`false`) is specified, it will implicitly use the `constant` boolean provider type.
 
 
-### List of meta types
+### Meta types
 
 - `conditional/composite`
 - `conditional`
 - `constant`
 
 
-### List of types
+### Types
 
 - `condition_result`
 - `nbt`

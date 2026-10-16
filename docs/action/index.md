@@ -22,7 +22,7 @@ Field | Type | Default | Description
     When defining an action, if you specify an array instead of an object, it will implicitly use the `sequence` action type.
 
 
-### List of meta types
+### Meta types
 
 -   `conditional/composite`
 -   `conditional`
@@ -34,7 +34,7 @@ Field | Type | Default | Description
 -   `weighted`
 
 
-### List of types
+### Types
 
 -   `add_velocity`
 -   `apply_effects`

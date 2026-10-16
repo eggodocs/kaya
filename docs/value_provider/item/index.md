@@ -15,7 +15,7 @@ Field | Type | Default | Description
     When defining an item provider, if you specify a [string][string], it will implicitly use the `context` item provider type.
 
 
-### List of types
+### Types
 
 - `conditional/composite`
 - `conditional`

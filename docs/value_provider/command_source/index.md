@@ -19,13 +19,13 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired command source provider.
 
 
-### List of meta types
+### Meta types
 
 - `conditional/composite`
 - `conditional`
 
 
-### List of types
+### Types
 
 <div class="annotate" markdown>
 

@@ -20,7 +20,7 @@ Field | Type | Default | Description
     [Integer][integer] | `constant`
 
 
-### List of meta types
+### Meta types
 
 <div class="annotate" markdown>
 
@@ -52,7 +52,7 @@ Field | Type | Default | Description
 6. Aliases: `add`, `addition`
 
 
-### List of types
+### Types
 
 - `adjacent_blocks`
 - `blocks_colliding_box`

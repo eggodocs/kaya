@@ -15,7 +15,7 @@ Field | Type | Default | Description
     When defining a direction provider, if you specify a [string][string], it will implicitly use the `constant` direction provider type.
 
 
-### List of types
+### Types
 
 - `conditional/composite`
 - `conditional`

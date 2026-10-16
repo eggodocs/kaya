@@ -18,7 +18,7 @@ Field | Type | Default | Description
     When defining a damage source provider, if a [string][string] is specified, it will implicitly use the `context` damage source provider type.
 
 
-### List of types
+### Types
 
 - `conditional/composite`
 - `conditional`
