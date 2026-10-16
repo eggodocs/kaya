@@ -21,12 +21,6 @@ Field | Type | Default | Description
 `should_render` | [Boolean Provider][boolean_provider] | `true` | Determines whether the overlay should render.
 `hide_with_hud` | [Boolean Provider][boolean_provider] | `true` | Determines whether the overlay should hide alongside the HUD. (e.g: when pressing F1)
 `visible_in_third_person` | [Boolean Provider][boolean_provider] | `true` | Determines whether the overlay should be visible when in third person.
-`order` | [Integer][integer] | `0` | Determines the order of which the overlay is rendered over other HUD elements.
-
-
-??? question "About orders"
-
-    HUD elements will be sorted in its *natural order* meaning that HUD elements that have a lower order value will be rendered first before those that have a higher order values.
 
 
 ### Example

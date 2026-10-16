@@ -34,12 +34,6 @@ Field | Type | Default | Description
 `value` | [Float Provider][float_provider] | *optional* | If present, this will be used as the "fill" value of the bar.
 `min` | [Float Provider][float_provider] | *optional* | If present, this will be used as the minimum bounds of the bar.
 `max` | [Float Provider][float_provider] | *optional* | If present, this will be used as the maximum bounds of the bar.
-`order` | [Integer][integer] | `0`| Determines the order of which the overlay is rendered over other HUD elements.
-
-
-??? question "About orders"
-
-    HUD elements will be sorted in its *natural order* meaning that HUD elements that have a lower order value will be rendered first before those that have a higher order values.
 
 
 [](){ #sprite_location }
