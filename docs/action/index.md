@@ -36,7 +36,7 @@ Field | Type | Default | Description
 
 ### Types
 
--   `add_velocity`
+-   [`add_velocity`](add_velocity.md)
 -   `apply_effects`
 -   `area_of_effect`
 -   `bone_meal`
