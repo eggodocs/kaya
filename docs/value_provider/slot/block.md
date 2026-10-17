@@ -1,0 +1,46 @@
+#   Block
+
+Provides the slot from a block.
+
+
+Type ID: `neo-apoli:block`
+
+
+### Format
+
+Field | Type | Default | Description
+------|------|:-------:|------------
+`block` | [Block Provider][block_provider] | | The block to get the slot from.
+`slot` | [Int Provider][int_provider] | | The numerical ID of the slot to get from the block.
+
+
+### Example
+
+```json
+{
+    "type": "neo-apoli:block",
+    "block": "used_block",
+    "slot": {
+        "type": "neo-apoli:slot_id",
+        "slot": "container.0"
+    }
+}
+```
+
+This example provides the first slot of the block provided by the `neo-apoli:used_block` context parameter.
+
+
+### History
+
+<table>
+    <tr>
+        <td style="text-align: center; vertical-align: middle"><b>Minecraft</b></td>
+        <td style="text-align: center; vertical-align: middle"><b>Mod</b></td>
+        <td style="vertical-align: middle"><b>Changelog</b></td>
+    </tr>
+    <tr style="text-align: center; vertical-align: middle">
+        <td style="text-align: center; vertical-align: middle">1.21.5</td>
+        <td style="text-align: center; vertical-align: middle">0.1.0</td>
+        <td style="vertical-align: middle">Added the type.</td>
+    </tr>
+</table>

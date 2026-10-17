@@ -27,6 +27,6 @@ Field | Type | Default | Description
 
 ### Types
 
-- `block`
-- `entity`
+- [`block`](block.md)
+- [`entity`](entity.md)
   
