@@ -501,6 +501,18 @@
          <lastmod>2026-10-17</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/meta/conditional/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/meta/conditional_composite/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/meta/context/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/nbt/</loc>
          <lastmod>2026-10-17</lastmod>
     </url>
