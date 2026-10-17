@@ -676,4 +676,36 @@
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/</loc>
          <lastmod>2026-10-17</lastmod>
     </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/block_position/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/constant/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/direction/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/dynamic/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/entity_position/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/entity_velocity/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/entity_view/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/offset/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
 </urlset>
