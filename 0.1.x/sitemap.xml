@@ -221,6 +221,10 @@
          <lastmod>2026-10-17</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/shape_type/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/space/</loc>
          <lastmod>2026-10-17</lastmod>
     </url>
@@ -238,6 +242,10 @@
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/text_alignment/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/vec3/</loc>
          <lastmod>2026-10-17</lastmod>
     </url>
     <url>
@@ -482,6 +490,30 @@
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/box/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/box/block_bounds/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/box/constant/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/box/dynamic/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/box/entity_bounds/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/box/inflate/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/box/resize/</loc>
          <lastmod>2026-10-17</lastmod>
     </url>
     <url>
