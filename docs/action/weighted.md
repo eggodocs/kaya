@@ -15,10 +15,10 @@ Type ID: `neo-apoli:weighted`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`entries` | [Array][array] of [Weighted Entries](#action_weighted_entry) | | The entries to pick a random entry from.
+`entries` | [Array][array] of [Weighted Entries](#weighted_entry) | | The entries to pick a random entry from.
 
 
-[](){ #action_weighted_entry }
+[](){ #weighted_entry }
 
 ???+ info "Weighted Entry"
 
