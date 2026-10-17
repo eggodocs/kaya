@@ -57,6 +57,6 @@ This example renders a light blue and slightly transparent overlay that doesn't 
     <tr style="text-align: center; vertical-align: middle">
         <td style="text-align: center; vertical-align: middle">1.21.5</td>
         <td style="text-align: center; vertical-align: middle">0.1.0</td>
-        <td style="vertical-align: middle">Added the power type.</td>
+        <td style="vertical-align: middle">Added the type.</td>
     </tr>
 </table>
