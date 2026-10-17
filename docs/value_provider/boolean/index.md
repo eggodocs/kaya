@@ -31,4 +31,4 @@ Field | Type | Default | Description
 ### Types
 
 - [`condition_result`](condition_result.md)
-- `nbt`
+- [`nbt`](nbt.md)
