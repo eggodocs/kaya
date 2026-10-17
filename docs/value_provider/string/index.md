@@ -17,14 +17,14 @@ Field | Type | Default | Description
 
 - [`conditional/composite`](../meta/conditional_composite.md)
 - [`conditional`](../meta/conditional.md)
-- `constant`
-- `escape`
-- `join`
+- [`constant`](constant.md)
+- [`escape`](escape.md)
+- [`join`](join.md)
 
 
 ### Types
 
-- `entity/uuid`
-- `from_float`
-- `from_int`
-- `nbt`
+- [`entity/uuid`](entity_uuid.md)
+- [`from_float`](from_float.md)
+- [`from_int`](from_int.md)
+- [`nbt`](nbt.md)
