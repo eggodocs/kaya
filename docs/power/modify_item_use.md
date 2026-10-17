@@ -6,9 +6,9 @@ Modifies the interaction of an item.
 Type ID: `neo-apoli:modify/item/use`
 
 
-!!! note "Context info"
+???+ info
 
-    This power type provides the following context parameters:
+    This type provides the following context parameters:
 
     Parameter | Description
     ----------|------------

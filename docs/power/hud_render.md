@@ -15,7 +15,7 @@ Field | Type | Default | Description
 
 !!! warning
 
-    This power type does **not** support the `active_condition` field.
+    This type does **not** support the `active_condition` field.
 
 
 ### Example

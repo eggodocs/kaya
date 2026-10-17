@@ -8,9 +8,9 @@ Field | Type | Default | Description
 ------|------|:-------:|------------
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired string provider type. |
 
-???+ question "Implicit type"
+???+ tip
     
-    When defining a string provider, if you specify a [string][string], it will implicitly use the `constant` string provider type.
+    Specifying a [string][string] will implicitly use the `constant` string provider type.
 
 
 ### Meta types

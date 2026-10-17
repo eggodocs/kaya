@@ -6,9 +6,9 @@ Modifies the duration of a status effect inflicted on the entity holding the pow
 Type ID: `neo-apoli:modify/effect/duration`
 
 
-!!! note "Context info"
+???+ info
 
-    This power type provides the following context parameters:
+    This type provides the following context parameters:
 
     Parameter | Description
     ----------|------------

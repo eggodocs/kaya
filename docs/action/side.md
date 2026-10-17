@@ -15,9 +15,10 @@ Field | Type | Default | Description
 
 
 [](){ #environment }
+
 ???+ info "Environment"
 
-    An environment is a string that determines when an action is invoked.
+    A [string][string] that determines when an action is invoked on which logical side.
 
     Value | Description
     ------|------------

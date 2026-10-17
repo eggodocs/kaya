@@ -6,7 +6,7 @@ Provides a customizable inventory where items can be stored and may or may not p
 Type ID: `neo-apoli:inventory`
 
 
-!!! note "Context info"
+???+ info
 
     When the player dies, this type checks its `drop_on_death_condition` on each item it contains and provides the following context parameters:
 

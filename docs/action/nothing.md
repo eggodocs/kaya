@@ -11,9 +11,9 @@ Type ID: `neo-apoli:nothing`
 *No additional fields.*
 
 
-!!! tip
+???+ tip
 
-    This action type can be inlined by providing an empty object. (`{}`)
+    This type can be inlined by providing an empty object. (`{}`)
 
 
 ### Example

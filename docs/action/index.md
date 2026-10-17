@@ -17,9 +17,14 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired action type.
 
 
-???+ question "Implicit type"
+???+ tip
 
-    When defining an action, if you specify an array instead of an object, it will implicitly use the `sequence` action type.
+    Specifying certain data types will implicitly use a specific type:
+
+    Data Type | Action Type
+    ----------|------------
+    [Array][array] of [Actions][action] | [`sequence`](sequence.md)
+    Empty Object (`{}`) | [`nothing`](nothing.md)
 
 
 ### Meta types

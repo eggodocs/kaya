@@ -6,9 +6,9 @@ Modifies whether the player holding the power or not should be able to break or 
 Type ID: `neo-apoli:modify/block/selectable`
 
 
-!!! note "Context info"
+???+ info
 
-    This power type provides the following context parameters:
+    This type provides the following context parameters:
 
     Parameter | Description
     ----------|------------

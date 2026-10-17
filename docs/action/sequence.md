@@ -13,9 +13,9 @@ Field | Type | Default | Description
 `actions` | [Array][array] of [Actions][action] | | The actions to execute sequentially.
 
 
-!!! tip
+???+ tip
 
-    This action type can be inlined by specifying an array of objects.
+    This type can be inlined by specifying an [array][array] of [actions][action].
 
 
 ### Example

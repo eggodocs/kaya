@@ -10,10 +10,10 @@ Type ID: `neo-apoli:hsv`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`hue` | Float | | The hue component of the color. The value should be within the range of 0.0 to 1.0.
-`saturation` | Float | | The saturation component of the color. The value should be within the range of 0.0 to 1.0.
-`value` | Float | | The value/brightness/lightness component of the color. The value should be within the range of 0.0 to 1.0.
-`alpha` | Float | | The alpha (transparency) component of the color. The value should be within the range of 0.0 to 1.0.
+`hue` | Float | | The hue component of the color. The value must be within the range of 0.0 to 1.0.
+`saturation` | Float | | The saturation component of the color. The value must be within the range of 0.0 to 1.0.
+`value` | Float | | The value/brightness/lightness component of the color. The value must be within the range of 0.0 to 1.0.
+`alpha` | Float | | The alpha (transparency) component of the color. The value must be within the range of 0.0 to 1.0.
 
 
 ### Example

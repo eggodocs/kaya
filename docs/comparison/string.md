@@ -1,6 +1,6 @@
 #   String { #string_comparison }
 
-Compares the first and second strings lexicographically (1).
+Compares the first and second strings lexicographically(1).
 { .annotate }
 
 

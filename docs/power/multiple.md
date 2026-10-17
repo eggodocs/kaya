@@ -6,19 +6,19 @@ Allows for defining powers in a single file.
 Type ID: `neo-apoli:multiple`
 
 
-!!! note
+???+ tip
 
     Sub-powers can be referenced by using the `@` character. (e.g: `namespace:path/to/power@sub_power`)
 
 
 ### Format
 
-Any fields except `type`, `name`, `description`, `hidden`, `fabric:load_conditions`, or fields that starts with `$` will be considered as a "sub-power."
+*Any fields (except `type`, `name`, `description`, `hidden`, `fabric:load_conditions`, or fields that starts with `$`) will be considered as a "sub-power."*
 
 
 !!! warning
 
-    This power type does **not** support the `active_condition` field.
+    This type does **not** support the `active_condition` field.
 
 
 ### Example

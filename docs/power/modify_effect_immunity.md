@@ -6,9 +6,9 @@ Modifies whether the entity holding the power should be immune to the afflicted 
 Type ID: `neo-apoli:modify/effect/immunity`
 
 
-!!! note "Context info"
+???+ info
 
-    This power type provides the following context parameters:
+    This type provides the following context parameters:
 
     Parameter | Description
     ----------|------------

@@ -6,11 +6,6 @@ Provides an RGBA color (which is then converted to ARGB.)
 Type ID: `neo-apoli:rgba`
 
 
-!!! note
-
-    This color type supports being inlined as a hexadecimal string. (`#RRGGBBAA`) The string must be prefixed with `#`, otherwise, it will return an error.
-
-
 ### Format
 
 Field | Type | Default | Description
@@ -21,17 +16,30 @@ Field | Type | Default | Description
 `alpha` | [Float][float] | | The alpha (transparency) component of the color. The value should be within the range of 0.0 to 1.0.
 
 
+???+ tip
+
+    This type can be inlined as a hexadecimal string. (`#RRGGBBAA`) The string must be prefixed with `#`, otherwise, it will return an error.
+
+
 ### Example
 
-```json
-{
-    "type": "neo-apoli:rgba",
-    "red": 1.0,
-    "green": 1.0,
-    "blue": 0.0,
-    "alpha": 0.5
-}
-```
+=== "Full"
+
+    ```json
+    {
+        "type": "neo-apoli:rgba",
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 0.0,
+        "alpha": 0.5
+    }
+    ```
+
+=== "Inlined"
+
+    ```json
+    "#ffff0080"
+    ```
 
 This example provides a translucent yellow RGBA color.
 

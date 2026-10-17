@@ -6,9 +6,9 @@ Invokes an action when a projectile hits a block or an entity.
 Type ID: `neo-apoli:callback/projectile/land`
 
 
-!!! note "Context info"
+???+ info
 
-    This power type provides the following context parameters depending on the scenario:
+    This type provides the following context parameters depending on the scenario:
 
     === "An entity was hit"
 

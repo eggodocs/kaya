@@ -22,7 +22,7 @@ Field | Type | Default | Description
 
 ???+ info "Weighted Entry"
 
-    An object that contains an action and its weight.
+    An object that contains an [action][action] and its weight.
 
 
     ### Format

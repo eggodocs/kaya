@@ -11,7 +11,7 @@ Field | Type | Default | Description
 `order` | [Integer][integer] | | Determines the order at which the element is rendered.
 
 
-??? question "About orders"
+??? info "About orders"
 
     HUD elements will be sorted in *natural order* meaning that the elements that have a lower order values will be rendered first before those that have higher order values.
 

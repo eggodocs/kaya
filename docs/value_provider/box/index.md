@@ -10,14 +10,14 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired box provider.
 
 
-???+ question "Implicit types"
+???+ tip
 
-    When defining a box provider, specifying certain data types will implicitly use a specific type:
+    Specifying certain data types will implicitly use a specific type:
 
     Data Type | Box Provider Type
     ----------|------------------
     [String][string] | `context`
-    [Array][array] of 6 [floats][float] | `constant`
+    [Array][array] of 6 [Floats][float] | `constant`
 
 
 ### Meta types

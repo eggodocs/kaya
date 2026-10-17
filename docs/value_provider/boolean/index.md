@@ -10,9 +10,9 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired boolean provider.
 
 
-???+ question "Implict types"
+???+ tip
 
-    When defining a boolean provider, specifying certain data types will implicitly use a specific type:
+    Specifying certain data types will implicitly use a specific type:
 
     Data Type | Boolean Provider Type
     ----------|----------------------

@@ -11,7 +11,7 @@ Type ID: `neo-apoli:resource_bar`
     Custom resource bar textures must be placed in the `assets/<namespace>/textures/gui/sprites` directory of a resource pack to be recognized and used properly. [See here](https://github.com/eggomods/neo-apoli/tree/1.21.5/src/client/resources/assets/neo-apoli/textures/gui/sprites/resource_bar) for a collection of resource bar sprites included in the mod.
 
 
-!!! note "Used context parameters"
+???+ info
 
     This HUD element type uses the following context parameters. The following fields must, or must not be present, depending on whether the context parameters are provided:
 

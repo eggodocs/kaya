@@ -14,9 +14,9 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired block provider.
 
 
-???+ question "Implicit type"
+???+ tip
 
-    When defining a block provider, if a [string][string] is specified, it will implicitly use the `context` block provider type.
+    Specifying a [string][string] will implicitly use the `context` block provider type.
 
 
 ### Meta types

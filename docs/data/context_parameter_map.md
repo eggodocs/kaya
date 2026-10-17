@@ -7,22 +7,26 @@ An object that contains a key-value pair where the keys are the names of the con
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`<name>` | [Entry](#parameter_entry) | | The context parameter to provide. The `<name>` can be arbitrary as long as it follows the rules of [identifiers]({{ mc.identifier }}).
+`<name>` | [Entry](#entry) | | The context parameter to provide. The `<name>` can be arbitrary as long as it follows the rules of [identifiers]({{ mc.identifier }}).
 
-[](){ #parameter_entry }
+[](){ #entry }
 
-???+ question "Entry"
+???+ info "Entry"
 
-    The object for the `<name>` has the following format:
+    An object that defines a context parameter.
+
+
+    ### Format
 
     Field | Type | Default | Description
     ------|------|:-------:|------------
     `type` | Parameter Type | | The type of the context parameter.
     `value` | Value Provider | | The value provider to provide the value of the context parameter.
 
-    !!! question "Parameter types and values"
 
-        Defining a context parameter requires specifying its type. Refer to the table below for context parameter types and its corresponding value providers:
+    ??? question "Parameter types and values"
+
+        Defining a context parameter requires specifying its type. Refer to the table below for a collection of available context parameter types and its corresponding value provider:
 
         Parameter Type | Value Provider
         ---------------|---------------

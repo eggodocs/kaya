@@ -6,9 +6,9 @@ Modifies the color of the base model texture of the entity holding the power for
 Type ID: `neo-apoli:modify/model/color/self`
 
 
-!!! note "Context info"
+???+ info
 
-    This power type provides the following context parameters when the entity holding the power is rendered:
+    This type provides the following context parameters when the entity holding the power is rendered:
 
     Parameter | Description
     ----------|------------

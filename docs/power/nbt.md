@@ -6,9 +6,14 @@ Provides a storage for storing arbitrary NBT data.
 Type ID: `neo-apoli:nbt`
 
 
-!!! tip
+???+ tip
 
-    This power type is to be used in conjunction with the `/data ... neo-apoli:power` command, which can query or modify its contents.
+    This type is to be used in conjunction with the following to query/modify its contents:
+
+    Type | Details
+    -----|--------
+    `/data ... neo-apoli:power` command | This can query/modify the contents of the power.
+    `neo-apoli:power` [NBT provider][nbt_provider] | This can query the contents of the power and provide it as an NBT value.
 
 
 ### Format
@@ -18,7 +23,7 @@ Type ID: `neo-apoli:nbt`
 
 !!! warning
 
-    This power type does **not** support the `active_condition` field.
+    This type does **not** support the `active_condition` field.
 
 
 ### Example

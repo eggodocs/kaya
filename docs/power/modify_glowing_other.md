@@ -6,9 +6,9 @@ Modifies whether other entities seen by the entity holding the power should glow
 Type ID: `neo-apoli:modify/glowing/other`
 
 
-!!! note "Context info"
+???+ info
 
-    This power type provides the following context parameters:
+    This type provides the following context parameters:
 
     Parameter | Description
     ----------|------------

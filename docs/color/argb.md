@@ -6,9 +6,9 @@ Provides an ARGB color.
 Type ID: `neo-apoli:argb`
 
 
-!!! note
+??? tip
 
-    Usually, color components are represented as an [integer][integer] ranging from 0 to 255. To convert them into [floats][float], you can divide the value by 255.
+    Usually, color components are represented as an [integer][integer] ranging from 0 to 255. To convert them into [floats][float], you can divide the [integer][integer] by 255.
 
 
 ### Format

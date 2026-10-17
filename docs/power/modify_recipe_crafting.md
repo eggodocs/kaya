@@ -6,15 +6,24 @@ Modifies a recipe and executes an action upon the recipe being modified.
 Type ID: `neo-apoli:modify/recipe/crafting`
 
 
-!!! note "Context info"
+???+ info
 
-    This power type provides the following context parameters when modifying the result of a crafting recipe or taking the result of a crafted recipe:
+    This type provides the following context parameters when modifying the result of a crafting recipe or taking the result item stack of a crafted recipe:
 
-    Parameter | Description
-    ----------|------------
-    `neo-apoli:crafting_block` | The block used for crafting the item. **Only present when a block is used for crafting an item.**
-    `neo-apoli:crafted_item` | The result item stack of the crafted recipe.
-    `neo-apoli:crafted_item_slot` | The slot of the result item stack.
+    === "From the inventory"
+
+        Parameter | Description
+        ----------|------------
+        `neo-apoli:crafted_item` | The result item stack of the crafted recipe.
+        `neo-apoli:crafted_item_slot` | The slot of the result item stack.
+
+    === "From a crafting block"
+
+        Parameter | Description
+        ----------|------------
+        `neo-apoli:crafting_block` | The block used for crafting the item. (e.g: crafting table)
+        `neo-apoli:crafted_item` | The result item stack of the crafted recipe.
+        `neo-apoli:crafted_item_slot` | The slot of the result item stack.
 
 
 ### Format

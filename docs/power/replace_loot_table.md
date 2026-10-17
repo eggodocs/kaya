@@ -6,9 +6,9 @@ Replaces a loot table with another loot table.
 Type ID: `neo-apoli:replace_loot_table`
 
 
-!!! note "Context info"
+???+ info
 
-    This power type provides the following context parameters depending on the type of the loot table:
+    This type provides the following context parameters depending on the type of the loot table:
 
     === "Barter"
 

@@ -13,9 +13,9 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | The identifier of the desired damage source provider.
 
 
-???+ question "Implicit type"
+???+ tip
 
-    When defining a damage source provider, if a [string][string] is specified, it will implicitly use the `context` damage source provider type.
+    Specifying a [string][string] will implicitly use the `context` damage source provider type.
 
 
 ### Types

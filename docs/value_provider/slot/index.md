@@ -13,9 +13,9 @@ Field | Type | Default | Description
 ------|------|:-------:|------------
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired slot provider type.
 
-???+ question "Implicit type"
+???+ tip
     
-    When defining a slot provider, if you specify a [string][string], it will implicitly use the `context` slot provider type.
+    Specifying a [string][string] will implicitly use the `context` slot provider type.
 
 
 ### Meta types

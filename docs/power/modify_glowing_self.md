@@ -6,14 +6,14 @@ Modifies whether the entity holding the power should glow for other entities and
 Type ID: `neo-apoli:modify/glowing/self`
 
 
-!!! note "Context info"
+???+ info
 
-    This power type provides the following context parameters:
+    This type provides the following context parameters:
 
     Parameter | Description
     ----------|------------
     `neo-apoli:actor_entity` | The entity seeing the entity holding the power.
-    `neo-apoli:target_entity` | The entity holdng the power.
+    `neo-apoli:target_entity` | The entity holding the power.
 
 
 ###  Format

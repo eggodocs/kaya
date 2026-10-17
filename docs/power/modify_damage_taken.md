@@ -6,9 +6,9 @@ Modifies the damage taken by the entity holding the power from another entity.
 Type ID: `neo-apoli:modify/damage/taken`
 
 
-!!! note "Context info"
+???+ info
 
-    This power type provides the following context parameters:
+    This type provides the following context parameters:
 
     Parameter | Description
     ----------|------------

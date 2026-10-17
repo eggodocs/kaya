@@ -6,9 +6,9 @@ Modifies the color of the base model texture of other entities that can be seen 
 Type ID: `neo-apoli:modify/model/color/other`
 
 
-!!! note "Context info"
+???+ info
 
-    This power type provides the following context parameters when an entity is rendered:
+    This type provides the following context parameters when an entity is rendered:
 
     Parameter | Description
     ----------|------------

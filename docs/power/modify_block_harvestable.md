@@ -6,9 +6,9 @@ Modifies whether a block should be harvestable by the player holding the power o
 Type ID: `neo-apoli:modify/block/harvestable`
 
 
-!!! note "Context info"
+???+ info
 
-    This power type provides the following context parameters:
+    This type provides the following context parameters:
 
     Parameter | Description
     ----------|------------

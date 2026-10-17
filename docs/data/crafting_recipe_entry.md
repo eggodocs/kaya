@@ -11,7 +11,7 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier for the type of the desired crafting recipe.
 
 
-!!! note 
+???+ tip 
 
     See [Recipe (JSON format)](https://minecraft.wiki/w/Recipe_(Java_Edition)#JSON_format) for more information regarding recipe types provided by vanilla. Please note that this specific data type will only accept **crafting** variants.
 
@@ -19,7 +19,7 @@ Field | Type | Default | Description
 ### Example
 
 ```json
-"recipe": {
+{
     "id": "example:epic_sword",
     "type": "minecraft:crafting_shaped",
     "pattern": [

@@ -6,9 +6,9 @@ Modifies whether the entity holding the power should be invisible and whether th
 Type ID: `neo-apoli:modify/invisibility`
 
 
-!!! note "Context info"
+???+ info
 
-    This power type provides the following context parameters:
+    This type provides the following context parameters:
 
     Parameter | Description
     ----------|------------

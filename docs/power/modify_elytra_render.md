@@ -6,9 +6,9 @@ Modifies how an elytra wings is rendered on the entity holding the power.
 Type ID: `neo-apoli:modify/elytra/render`
 
 
-!!! note
+???+ info
 
-    When rendering the elytra wings, this power type will specifically use the `wings` layer defined in the equipment definition specified in `asset_id`. See [Minecraft Wiki: Equipment](https://minecraft.wiki/w/Equipment) for more information about creating custom equipment definitions.
+    When rendering the elytra wings, this type will specifically use the `wings` layer defined in the equipment definition specified in `asset_id`. See [Minecraft Wiki: Equipment](https://minecraft.wiki/w/Equipment) for more information about creating custom equipment definitions.
 
 
 ### Format

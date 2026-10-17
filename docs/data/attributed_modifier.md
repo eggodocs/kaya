@@ -13,9 +13,9 @@ Field | Type | Default | Description
 `operation` | [String][string] | | Determines how the modifier modifies the value.
 
 
-!!! question "Operations"
+???+ info
 
-    Here are the possible operations an attributed modifier can perform:
+    Attributed modifiers are performed in the following order:
 
     Operation | Description
     ----------|------------

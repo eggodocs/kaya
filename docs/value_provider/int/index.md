@@ -10,9 +10,9 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired int provider type.
 
 
-???+ question "Implicit types"
+???+ tip
 
-    When defining an int provider, specifying certain data types will implicitly use a specific type:
+    Specifying certain data types will implicitly use a specific type:
 
     Data Type | Int Provider Type
     ----------|------------------

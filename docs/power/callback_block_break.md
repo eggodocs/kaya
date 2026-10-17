@@ -6,9 +6,9 @@ Invokes an action upon the player breaking a block.
 Type ID: `neo-apoli:callback/block/break`
 
 
-!!! note "Context info"
+???+ info
     
-    This power type provides the following context parameters:
+    This type provides the following context parameters:
 
     Parameter | Description
     ----------|------------

@@ -6,9 +6,9 @@ Provides a timer to be used for powers that normally do not have a built-in cool
 Type ID: `neo-apoli:cooldown`
 
 
-!!! note "Context info"
+???+ info
 
-    This power type provides the following context parameter:
+    This type provides the following context parameter:
 
     Parameter | Description
     ----------|------------

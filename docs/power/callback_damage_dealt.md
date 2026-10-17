@@ -6,9 +6,9 @@ Invokes an action upon the player placing a block.
 Type ID: `neo-apoli:callback/block/place`
 
 
-!!! note "Context info"
+???+ info
     
-    This power type provides the following context parameters:
+    This type provides the following context parameters:
 
     Parameter | Description
     ----------|------------

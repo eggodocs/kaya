@@ -14,13 +14,13 @@ Field | Type | Default | Description
 
 [](){ #phase }
 
-???+ question "Phase"
+???+ info "Phase"
 
-    Modifiers are applied in the following two phases, listed in order:
+    Modifiers are applied in the following order:
 
     Phase | Description
     ------|------------
-    `base` | Determines that the base value will be modified.
+    `base` | Determines that the base value will be modified. This is the first phase where the total value is equal to the base value.
     `total` | Determines that the total value will be modified.
 
 

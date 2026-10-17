@@ -10,9 +10,9 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired color type.
 
 
-!!! question "Implicit type"
+???+ tip
 
-    When defining a color, if a [string][string] is specified, it will implicitly use the `rgba` color type.
+    Specifying a [string][string] will implicitly use the [`rgba`](rgba.md) color type.
 
   
 ### Hardcoded types

@@ -10,9 +10,9 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired entity provider type.
 
 
-???+ question "Implicit type"
+???+ tip
 
-    When defining a entity provider, if you specify a [string][string], it will implicitly use the `context` entity provider type.
+    Specifying a [string][string] will implicitly use the `context` entity provider type.
 
 
 ### Meta types

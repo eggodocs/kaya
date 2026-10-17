@@ -11,9 +11,9 @@ Field | Type | Default | Description
 `continuous` | [Boolean Provider][boolean_provider] | `false` | Determines whether the the referenced key binding is held.
 
 
-!!! question "Implicit formatting"
+???+ tip
 
-    When defining a key reference, if a string is specified, it will implicitly create a key reference which has its `continuous` field set to `false`.
+    This type can be inlined by specifying a [string][string].
 
 
 ### Example

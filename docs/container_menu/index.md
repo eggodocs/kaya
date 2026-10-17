@@ -15,9 +15,9 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired container menu type.
 
 
-???+ question "Implicit types"
+???+ tip
 
-    When defining a container menu, if a [string][string] is specified, it will implicitly use one of the following container menu types that match:
+    Specifying a [string][string] will implicitly use one of the following types that match:
 
     - [`generic_9x1`](generic_9x1.md)
     - [`generic_9x2`](generic_9x2.md)

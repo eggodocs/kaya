@@ -6,9 +6,9 @@ Modifies whether the entity holding the power can equip and item in the specifie
 Type ID: `neo-apoli:modify/item/wearable`
 
 
-!!! note "Context info"
+???+ info
 
-    This power type provides the following context parameters when an item is about to be equipped into an equipment slot:
+    This type provides the following context parameters when an item is about to be equipped into an equipment slot:
 
     Parameter | Description
     ----------|------------
@@ -19,17 +19,22 @@ Type ID: `neo-apoli:modify/item/wearable`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`slots` | Slots Map | | Determines which items to allow in which equipment slots.
+`slots` | [Slots Map](#slots_map) | | Determines which items to allow in which equipment slots.
 
 
 !!! warning
 
-    This power type does **not** support the `active_condition` field.
+    This type does **not** support the `active_condition` field.
 
 
-???+ "Slots Map"
+[](){ #slots_map }
 
-    The `slots` field has the following format:
+???+ info "Slots Map"
+
+    An object that contains key-value pairs where the keys are names of equipment slots and its values are [conditions][condition].
+
+
+    ### Format
 
     Field | Type | Default | Description
     ------|------|:-------:|------------

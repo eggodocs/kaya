@@ -6,7 +6,7 @@ Overlays a texture sprite on the screen of the player, with the alpha component 
 Type ID: `neo-apoli:overlay/nausea`
 
 
-!!! note
+!!! info
 
     This HUD element type blends the colors to the texture additively. It also treats black pixels in the texture as transparent.
 
