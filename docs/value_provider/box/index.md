@@ -24,14 +24,14 @@ Field | Type | Default | Description
 
 - [`conditional/composite`](../meta/conditional_composite.md)
 - [`conditional`](../meta/conditional.md)
-- `constant`
+- [`constant`](constant.md)
 - [`context`](../meta/conditional.md)
-- `dynamic`
-- `offset`
-- `translate`
+- [`dynamic`](dynamic.md)
+- [`inflate`](inflate.md)
+- [`resize`](resize.md)
 
 
 ### Types
 
-- `block/bounds`
-- `entity/bounds`
+- [`block/bounds`](block_bounds.md)
+- [`entity/bounds`](entity_bounds.md)
