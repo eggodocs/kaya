@@ -28,4 +28,4 @@ Field | Type | Default | Description
 
 ### Types
 
-- `world`
+- [`world`](world.md)
