@@ -31,7 +31,7 @@ Field | Type | Default | Description
 -   [`reference`](reference.md)
 -   [`sequence`](sequence.md)
 -   [`side`](side.md)
--   `weighted`
+-   [`weighted`](weighted.md)
 
 
 ### Types
