@@ -10,9 +10,14 @@ Field | Type | Default | Description
 `type`| [Identifier]({{ mc.identifier }}) |  | The identifier of the desired NBT provider type.
 
 
-???+ question "Implicit type"
+???+ question "Implicit types"
 
-    When defining an NBT provider, if you specify a [string][string] or NBT, it will implicitly use the `constant` NBT provider type.
+    When defining an NBT provider, specifying certain data types will implicitly use a specific type:
+
+    Data Type | NBT Provider Type
+    ----------|------------------
+    [String][string] | `context`
+    [NBT]({{ mc.nbt }}) | `constant`
 
 
 ### Meta types
@@ -20,6 +25,7 @@ Field | Type | Default | Description
 - `conditional/composite`
 - `conditional`
 - `constant`
+- `context`
 
 
 ### Types

@@ -10,9 +10,14 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired boolean provider.
 
 
-???+ question "Implict type"
+???+ question "Implict types"
 
-    When defining a boolean provider, if a boolean (`true`/`false`) is specified, it will implicitly use the `constant` boolean provider type.
+    When defining a boolean provider, specifying certain data types will implicitly use a specific type:
+
+    Data Type | Boolean Provider Type
+    ----------|----------------------
+    [String][string] | `context`
+    Boolean | `constant`
 
 
 ### Meta types
@@ -20,6 +25,7 @@ Field | Type | Default | Description
 - `conditional/composite`
 - `conditional`
 - `constant`
+- `context`
 
 
 ### Types

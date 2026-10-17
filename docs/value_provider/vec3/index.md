@@ -13,9 +13,14 @@ Field | Type | Default | Description
 ------|------|:-------:|------------
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired vec3 provider type. |
 
-???+ question "Implicit type"
+???+ question "Implicit types"
     
-    When defining a vec3 provider, if you specify an [array][array] of 3 [floats][float], it will implicitly use the `constant` vec3 provider type.
+    When defining a vec3 provider, specifying certain data types will implicitly use a specific type:
+
+    Data Type | Vec3 Provider
+    ----------|--------------
+    [String][string] | `context`
+    [Array][array] of 3 [floats][float] | `constant`
 
 
 ### Meta types
@@ -23,6 +28,7 @@ Field | Type | Default | Description
 - `conditional/composite`
 - `conditional`
 - `constant`
+- `context`
 - `dynamic`
 - `offset`
 

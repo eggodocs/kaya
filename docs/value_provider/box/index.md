@@ -10,9 +10,14 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired box provider.
 
 
-???+ question "Implicit type"
+???+ question "Implicit types"
 
-    When defining a box provider, if an [array][array] of 6 [floats][float] is specified, it will implicitly use the `constant` box provider type.
+    When defining a box provider, specifying certain data types will implicitly use a specific type:
+
+    Data Type | Box Provider Type
+    ----------|------------------
+    [String][string] | `context`
+    [Array][array] of 6 [floats][float] | `constant`
 
 
 ### Meta types
@@ -20,6 +25,7 @@ Field | Type | Default | Description
 - `conditional/composite`
 - `conditional`
 - `constant`
+- `context`
 - `dynamic`
 - `offset`
 - `translate`
