@@ -169,6 +169,10 @@
          <lastmod>2026-10-17</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/axis/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/block_use_phase/</loc>
          <lastmod>2026-10-17</lastmod>
     </url>
@@ -538,6 +542,18 @@
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/direction/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/direction/constant/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/direction/opposite/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/direction/rotate/</loc>
          <lastmod>2026-10-17</lastmod>
     </url>
     <url>
