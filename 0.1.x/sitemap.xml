@@ -125,6 +125,42 @@
          <lastmod>2026-10-17</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/dynamic/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/generic_3x3/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/generic_9x1/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/generic_9x2/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/generic_9x3/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/generic_9x4/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/generic_9x5/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/generic_9x6/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/hopper/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/array/</loc>
          <lastmod>2026-10-17</lastmod>
     </url>
@@ -194,6 +230,10 @@
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/string/</loc>
+         <lastmod>2026-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/text_alignment/</loc>
          <lastmod>2026-10-17</lastmod>
     </url>
     <url>

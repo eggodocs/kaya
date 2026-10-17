@@ -14,7 +14,7 @@
         <link rel="prev" href="../condition/reference/">
       
       
-        <link rel="next" href="../data/array/">
+        <link rel="next" href="dynamic/">
       
       
         
@@ -92,8 +92,8 @@
             
             
      This documentation is updated up to commit
-     <a href="https://github.com/eggomods/neo-apoli/commit/1b9578e">
-        <b><code>1b9578e</code></b>
+     <a href="https://github.com/eggomods/neo-apoli/commit/cc5ae8f">
+        <b><code>cc5ae8f</code></b>
      </a>
 
           </div>
@@ -1375,6 +1375,24 @@
           
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
     
     
@@ -1404,6 +1422,11 @@
 
             </a>
             
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
           </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
@@ -1417,6 +1440,258 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="dynamic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dynamic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="generic_3x3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Generic 3x3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="generic_9x1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Generic 9x1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="generic_9x2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Generic 9x2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="generic_9x3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Generic 9x3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="generic_9x4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Generic 9x4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="generic_9x5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Generic 9x5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="generic_9x6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Generic 9x6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hopper/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hopper
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
               
             
           </ul>
@@ -1434,6 +1709,8 @@
   
     
     
+      
+        
       
         
       
@@ -2004,6 +2281,34 @@
     
   
     String
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data/text_alignment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Text Alignment
   
 
     
@@ -4894,7 +5199,7 @@
 
 
 <h1 id="container_menu">Container Menu</h1>
-<p>Container menus are types that indicate how a GUI (graphical user interface) should be constructed for an inventory.</p>
+<p>Container menus are objects that defines the GUI (graphical user interface) and container of an inventory.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This type is mainly used by the <code>inventory</code> power type.</p>
@@ -4918,30 +5223,38 @@
 </tr>
 </tbody>
 </table>
+<details class="question" open="open">
+<summary>Implicit types</summary>
+<p>When defining a container menu, if a <a class="autorefs autorefs-internal" title="String" href="../data/string/#string">string</a> is specified, it will implicitly use one of the following container menu types that match:</p>
+<ul>
+<li><a href="generic_9x1/"><code>generic_9x1</code></a></li>
+<li><a href="generic_9x2/"><code>generic_9x2</code></a></li>
+<li><a href="generic_9x3/"><code>generic_9x3</code></a></li>
+<li><a href="generic_9x4/"><code>generic_9x4</code></a></li>
+<li><a href="generic_9x5/"><code>generic_9x5</code></a></li>
+<li><a href="generic_9x6/"><code>generic_9x6</code></a></li>
+<li><a href="generic_3x3/"><code>generic_3x3</code></a></li>
+<li><a href="hopper/"><code>hopper</code></a></li>
+</ul>
+</details>
 <h2 id="types">Types</h2>
 <div class="annotate">
 <ul>
-<li><code>generic_9x1</code>(1)</li>
-<li><code>generic_9x2</code>(2)</li>
-<li><code>generic_9x3</code>(3)</li>
-<li><code>generic_9x4</code>(4)</li>
-<li><code>generic_9x5</code>(5)</li>
-<li><code>generic_9x6</code>(6)</li>
-<li><code>generic_3x3</code>(7)</li>
-<li><code>hopper</code>(8)</li>
-<li><code>dynamic</code>(9)</li>
+<li><a href="generic_9x1/"><code>generic_9x1</code></a></li>
+<li><a href="generic_9x2/"><code>generic_9x2</code></a></li>
+<li><a href="generic_9x3/"><code>generic_9x3</code></a>(1)</li>
+<li><a href="generic_9x4/"><code>generic_9x4</code></a></li>
+<li><a href="generic_9x5/"><code>generic_9x5</code></a></li>
+<li><a href="generic_9x6/"><code>generic_9x6</code></a>(2)</li>
+<li><a href="generic_3x3/"><code>generic_3x3</code></a>(3)</li>
+<li><a href="hopper/"><code>hopper</code></a></li>
+<li><a href="dynamic/"><code>dynamic</code></a> (<span style="color:darkred"><b>Doesn't currently work</b></span>)</li>
 </ul>
 </div>
 <ol>
-<li>This type can be inlined. (e.g: <code>"menu": "generic_9x1"</code>)</li>
-<li>This type can be inlined (e.g: <code>"menu": "generic_9x2"</code>). Aliases: <code>chest</code></li>
-<li>This type can be inlined (e.g: <code>"menu": "generic_9x3"</code>). Aliases: <code>double_chest</code></li>
-<li>This type can be inlined (e.g: <code>"menu": "generic_9x4"</code>)</li>
-<li>This type can be inlined (e.g: <code>"menu": "generic_9x5"</code>)</li>
-<li>This type can be inlined (e.g: <code>"menu": "generic_9x6"</code>)</li>
-<li>This type can be inlined (e.g: <code>"menu": "generic_3x3"</code>) Aliases: <code>dropper</code>, <code>dispenser</code></li>
-<li>This type can be inlined (e.g: <code>"menu": "hopper"</code>)</li>
-<li>This type is currently <span style="color:darkred;"><b>not supported</b></span></li>
+<li>Aliases: <code>chest</code></li>
+<li>Aliases: <code>double_chest</code></li>
+<li>Aliases: <code>dispenser</code>, <code>dropper</code></li>
 </ol>
 
 
