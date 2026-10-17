@@ -24,14 +24,14 @@ Field | Type | Default | Description
 
 - [`conditional/composite`](../meta/conditional_composite.md)
 - [`conditional`](../meta/conditional.md)
-- `constant`
+- [`constant`](constant.md)
 - [`context`](../meta/conditional.md)
 
 
 ### Types
 
-- `block`
-- `entity`
-- `item`
-- `power`
-- `storage`
+- [`block`](block.md)
+- [`entity`](entity.md)
+- [`item`](item.md)
+- [`power`](power.md)
+- [`storage`](storage.md)
