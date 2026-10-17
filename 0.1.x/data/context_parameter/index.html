@@ -1981,6 +1981,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -5268,6 +5279,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -5289,7 +5311,7 @@
 
 
 <h1 id="context_parameter">Context Parameter</h1>
-<p>An object that determines the type of object will be stored in a context, which can then be queried for later use in objects that can utilize a context.</p>
+<p>An object that determines a parameter, which indicates what kind of object is stored in a context.</p>
 <h3 id="format">Format</h3>
 <table>
 <thead>
@@ -5303,20 +5325,19 @@
 <tbody>
 <tr>
 <td><code>type</code></td>
-<td><a href="https://minecraft.wiki/w/Identifier">Identifier</a></td>
+<td><a href="#types">Type</a></td>
 <td style="text-align: center;"></td>
 <td>The ID of the desired parameter type.</td>
 </tr>
 <tr>
-<td><code>value</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/#value_provider">Value Provider</a></td>
+<td><code>name</code></td>
+<td><a href="https://minecraft.wiki/w/Identifier">Identifier</a></td>
 <td style="text-align: center;"></td>
-<td>The value provider to provide the value of the parameter.</td>
+<td>The ID of the parameter.</td>
 </tr>
 </tbody>
 </table>
-<details class="info" open="open">
-<summary>Types</summary>
+<h3 id="types">Types</h3>
 <p>Most if not all parameter types have a corresponding value provider. Check the table below for the available parameter types and its corresponding value provider:</p>
 <table>
 <thead>
@@ -5388,7 +5409,6 @@
 </tr>
 </tbody>
 </table>
-</details>
 
 
 
