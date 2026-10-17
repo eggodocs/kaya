@@ -10,15 +10,18 @@ Type ID: `neo-apoli:conditional/composite`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`entries` | [Array][array] of [Entries](#conditional_entry) | | The pairs of action and condition to check and execute.
+`entries` | [Array][array] of [Entries](#entry) | | The pairs of action and condition to check and execute.
 `default` | [Action][action] | *optional* | If specified, this action will be executed if none of the specified entries were executed.
 
 
-[](){ #conditional_entry }
+[](){ #entry }
 
-???+ "Entry"
+???+ info "Entry"
 
-    The objects in the `entries` field has the following format:
+    An object that contains the [condition][condition] to check and the [action][action] to execute.
+
+
+    ### Format
 
     Field | Type | Default | Description
     ------|------|:-------:|------------
