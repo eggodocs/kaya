@@ -11,7 +11,7 @@
         <link rel="canonical" href="https://eggodocs.github.io/neo-apoli/0.1.x/data/context_parameter_map/">
       
       
-        <link rel="prev" href="../comparator/">
+        <link rel="prev" href="../context_parameter/">
       
       
         <link rel="next" href="../crafting_recipe_entry/">
@@ -1750,6 +1750,8 @@
       
         
       
+        
+      
     
     
     
@@ -1906,6 +1908,34 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../context_parameter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Context Parameter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -1970,17 +2000,6 @@
       
         <li class="md-nav__item">
   <a href="#format" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Format
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#format_1" class="md-nav__link">
     <span class="md-ellipsis">
       
         Format
@@ -5261,17 +5280,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#format_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Format
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -5317,116 +5325,12 @@
 <tbody>
 <tr>
 <td><code>&lt;name&gt;</code></td>
-<td><a href="#entry">Entry</a></td>
+<td><a class="autorefs autorefs-internal" href="../context_parameter/#context_parameter">Context Parameter</a></td>
 <td style="text-align: center;"></td>
-<td>The context parameter to provide. The <code>&lt;name&gt;</code> can be arbitrary as long as it follows the rules of <a href="https://minecraft.wiki/w/Identifier">identifiers</a>.</td>
+<td>The context parameter to provide. The <code>&lt;name&gt;</code> will be the ID of the context parameter and it can be arbitrary as long as it follows the rules of <a href="https://minecraft.wiki/w/Identifier">identifiers</a>.</td>
 </tr>
 </tbody>
 </table>
-<p><a href="" id="entry"></a></p>
-<details class="info" open="open">
-<summary>Entry</summary>
-<p>An object that defines a context parameter.</p>
-<h3 id="format_1">Format</h3>
-<table>
-<thead>
-<tr>
-<th>Field</th>
-<th>Type</th>
-<th style="text-align: center;">Default</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>type</code></td>
-<td>Parameter Type</td>
-<td style="text-align: center;"></td>
-<td>The type of the context parameter.</td>
-</tr>
-<tr>
-<td><code>value</code></td>
-<td>Value Provider</td>
-<td style="text-align: center;"></td>
-<td>The value provider to provide the value of the context parameter.</td>
-</tr>
-</tbody>
-</table>
-<details class="question">
-<summary>Parameter types and values</summary>
-<p>Defining a context parameter requires specifying its type. Refer to the table below for a collection of available context parameter types and its corresponding value provider:</p>
-<table>
-<thead>
-<tr>
-<th>Parameter Type</th>
-<th>Value Provider</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>neo-apoli:block</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/block/#block_provider">Block Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:boolean</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/boolean/#boolean_provider">Boolean Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:box</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/box/#box_provider">Box Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:command_source</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/command_source/#command_source_provider">Command Source Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:damage_source</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/damage_source/#damage_source_provider">Damage Source Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:direction</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/direction/#direction_provider">Direction Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:effect</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/effect/#effect_provider">Effect Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:entity</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/entity/#entity_provider">Entity Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:float</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/float/#float_provider">Float Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:int</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/int/#int_provider">Int Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:item</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/item/#item_provider">Item Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:nbt</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/nbt/#nbt_provider">NBT Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:slot</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/slot/#slot_provider">Slot Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:string</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/string/#string_provider">String Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:vec3</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/vec3/#vec3_provider">Vec3 Provider</a></td>
-</tr>
-</tbody>
-</table>
-</details>
-</details>
 <h3 id="example">Example</h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">{</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="nt">"example:random_int"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
