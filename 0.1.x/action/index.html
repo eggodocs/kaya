@@ -5235,9 +5235,27 @@
 </tr>
 </tbody>
 </table>
-<details class="question" open="open">
-<summary>Implicit type</summary>
-<p>When defining an action, if you specify an array instead of an object, it will implicitly use the <code>sequence</code> action type.</p>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>Specifying certain data types will implicitly use a specific type:</p>
+<table>
+<thead>
+<tr>
+<th>Data Type</th>
+<th>Action Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="autorefs autorefs-internal" href="../data/array/#array">Array</a> of <a class="autorefs autorefs-internal" href="#action">Actions</a></td>
+<td><a href="sequence/"><code>sequence</code></a></td>
+</tr>
+<tr>
+<td>Empty Object (<code>{}</code>)</td>
+<td><a href="nothing/"><code>nothing</code></a></td>
+</tr>
+</tbody>
+</table>
 </details>
 <h3 id="meta_types">Meta types</h3>
 <ul>

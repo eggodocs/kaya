@@ -5292,15 +5292,15 @@
 <h1 id="multiple">Multiple</h1>
 <p>Allows for defining powers in a single file.</p>
 <p>Type ID: <code>neo-apoli:multiple</code></p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
+<details class="tip" open="open">
+<summary>Tip</summary>
 <p>Sub-powers can be referenced by using the <code>@</code> character. (e.g: <code>namespace:path/to/power@sub_power</code>)</p>
-</div>
+</details>
 <h3 id="format">Format</h3>
-<p>Any fields except <code>type</code>, <code>name</code>, <code>description</code>, <code>hidden</code>, <code>fabric:load_conditions</code>, or fields that starts with <code>$</code> will be considered as a "sub-power."</p>
+<p><em>Any fields (except <code>type</code>, <code>name</code>, <code>description</code>, <code>hidden</code>, <code>fabric:load_conditions</code>, or fields that starts with <code>$</code>) will be considered as a "sub-power."</em></p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>This power type does <strong>not</strong> support the <code>active_condition</code> field.</p>
+<p>This type does <strong>not</strong> support the <code>active_condition</code> field.</p>
 </div>
 <h3 id="example">Example</h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">{</span>

@@ -3828,6 +3828,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#format_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Format
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -5248,6 +5259,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#format_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Format
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -5292,9 +5314,9 @@
 <h1 id="modify_item_wearable">Modify Item Wearable</h1>
 <p>Modifies whether the entity holding the power can equip and item in the specified equipment slots.</p>
 <p>Type ID: <code>neo-apoli:modify/item/wearable</code></p>
-<div class="admonition note">
-<p class="admonition-title">Context info</p>
-<p>This power type provides the following context parameters when an item is about to be equipped into an equipment slot:</p>
+<details class="info" open="open">
+<summary>Info</summary>
+<p>This type provides the following context parameters when an item is about to be equipped into an equipment slot:</p>
 <table>
 <thead>
 <tr>
@@ -5309,7 +5331,7 @@
 </tr>
 </tbody>
 </table>
-</div>
+</details>
 <h3 id="format">Format</h3>
 <table>
 <thead>
@@ -5323,7 +5345,7 @@
 <tbody>
 <tr>
 <td><code>slots</code></td>
-<td>Slots Map</td>
+<td><a href="#slots_map">Slots Map</a></td>
 <td style="text-align: center;"></td>
 <td>Determines which items to allow in which equipment slots.</td>
 </tr>
@@ -5331,11 +5353,13 @@
 </table>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>This power type does <strong>not</strong> support the <code>active_condition</code> field.</p>
+<p>This type does <strong>not</strong> support the <code>active_condition</code> field.</p>
 </div>
-<details open="open">
+<p><a href="" id="slots_map"></a></p>
+<details class="info" open="open">
 <summary>Slots Map</summary>
-<p>The <code>slots</code> field has the following format:</p>
+<p>An object that contains key-value pairs where the keys are names of equipment slots and its values are <a class="autorefs autorefs-internal" title="Condition" href="../../condition/#condition">conditions</a>.</p>
+<h3 id="format_1">Format</h3>
 <table>
 <thead>
 <tr>
