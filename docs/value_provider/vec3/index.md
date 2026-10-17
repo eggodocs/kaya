@@ -35,6 +35,7 @@ Field | Type | Default | Description
 
 ### Types
 
+- `block/position`
 - `direction`
 - `entity/position`
 - `entity/velocity`
