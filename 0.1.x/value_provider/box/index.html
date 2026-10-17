@@ -92,8 +92,8 @@
             
             
      This documentation is updated up to commit
-     <a href="https://github.com/eggomods/neo-apoli/commit/d7741cc">
-        <b><code>d7741cc</code></b>
+     <a href="https://github.com/eggomods/neo-apoli/commit/1b9578e">
+        <b><code>1b9578e</code></b>
      </a>
 
           </div>
@@ -4926,14 +4926,33 @@
 </tbody>
 </table>
 <details class="question" open="open">
-<summary>Implicit type</summary>
-<p>When defining a box provider, if an <a class="autorefs autorefs-internal" title="Array" href="../../data/array/#array">array</a> of 6 <a class="autorefs autorefs-internal" title="Float" href="../../data/float/#float">floats</a> is specified, it will implicitly use the <code>constant</code> box provider type.</p>
+<summary>Implicit types</summary>
+<p>When defining a box provider, specifying certain data types will implicitly use a specific type:</p>
+<table>
+<thead>
+<tr>
+<th>Data Type</th>
+<th>Box Provider Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="autorefs autorefs-internal" href="../../data/string/#string">String</a></td>
+<td><code>context</code></td>
+</tr>
+<tr>
+<td><a class="autorefs autorefs-internal" href="../../data/array/#array">Array</a> of 6 <a class="autorefs autorefs-internal" title="Float" href="../../data/float/#float">floats</a></td>
+<td><code>constant</code></td>
+</tr>
+</tbody>
+</table>
 </details>
 <h3 id="meta_types">Meta types</h3>
 <ul>
 <li><code>conditional/composite</code></li>
 <li><code>conditional</code></li>
 <li><code>constant</code></li>
+<li><code>context</code></li>
 <li><code>dynamic</code></li>
 <li><code>offset</code></li>
 <li><code>translate</code></li>
