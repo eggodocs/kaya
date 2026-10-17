@@ -20,23 +20,23 @@ Field | Type | Default | Description
     Data Type | Vec3 Provider
     ----------|--------------
     [String][string] | [`context`](../meta/conditional.md)
-    [Array][array] of 3 [Floats][float] | `constant`
+    [Array][array] of 3 [Floats][float] | [`constant`](constant.md)
 
 
 ### Meta types
 
 - [`conditional/composite`](../meta/conditional_composite.md)
 - [`conditional`](../meta/conditional.md)
-- `constant`
+- [`constant`](constant.md)
 - [`context`](../meta/conditional.md)
-- `dynamic`
-- `offset`
+- [`dynamic`](dynamic.md)
+- [`offset`](offset.md)
 
 
 ### Types
 
-- `block/position`
-- `direction`
-- `entity/position`
-- `entity/velocity`
-- `entity/view`
+- [`block/position`](block_position.md)
+- [`direction`](direction.md)
+- [`entity/position`](entity_position.md)
+- [`entity/velocity`](entity_velocity.md)
+- [`entity/view`](entity_view.md)
