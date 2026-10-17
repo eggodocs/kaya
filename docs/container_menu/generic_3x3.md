@@ -1,0 +1,49 @@
+#   Generic 3x3
+
+Provides a container that has 3 rows and 3 columns.
+
+
+Type ID: `neo-apoli:generic_3x3`
+
+
+### Format
+
+*No additional fields.*
+
+
+!!! tip
+
+    This container menu type can be inlined by providing a string that matches the type ID.
+
+
+### Example
+
+=== "Full"
+
+    ```json
+    {
+        "type": "neo-apoli:generic_3x3"
+    }
+    ```
+
+=== "Inlined"
+
+    ```json
+    "neo-apoli:generic_3x3"
+    ```
+
+
+### History
+
+<table>
+    <tr>
+        <td style="text-align: center; vertical-align: middle"><b>Minecraft</b></td>
+        <td style="text-align: center; vertical-align: middle"><b>Mod</b></td>
+        <td style="vertical-align: middle"><b>Changelog</b></td>
+    </tr>
+    <tr style="text-align: center; vertical-align: middle">
+        <td style="text-align: center; vertical-align: middle">1.21.5</td>
+        <td style="text-align: center; vertical-align: middle">0.1.0</td>
+        <td style="vertical-align: middle">Added the power type.</td>
+    </tr>
+</table>
