@@ -17,12 +17,12 @@ Field | Type | Default | Description
     Data Type | Effect Provider Type
     ----------|---------------------
     [String][string] | [`context`](../meta/conditional.md)
-    [Status Effect Instance][status_effect_instance] | `constant`
+    [Status Effect Instance][status_effect_instance] | [`constant`](constant.md)
 
 
 ### Types
 
 - [`conditional/composite`](../meta/conditional_composite.md)
 - [`conditional`](../meta/conditional.md)
-- `constant`
+- [`constant`](constant.md)
 - [`context`](../meta/conditional.md)
