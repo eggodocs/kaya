@@ -10,13 +10,19 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired effect provider type.
 
 
-???+ question "Implicit type"
+???+ question "Implicit types"
 
-    When defining a direction provider, if you specify a [string][string], it will implicitly use the `context` direction provider type.
+    When defining an effect provider, specifying certain data types will implicitly use a specific type:
+
+    Data Type | Effect Provider Type
+    ----------|---------------------
+    [String][string] | `context`
+    [Status Effect Instance][status_effect_instance] | `constant`
 
 
 ### Types
 
 - `conditional/composite`
 - `conditional`
+- `constant`
 - `context`
