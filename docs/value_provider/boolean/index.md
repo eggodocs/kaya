@@ -16,16 +16,16 @@ Field | Type | Default | Description
 
     Data Type | Boolean Provider Type
     ----------|----------------------
-    [String][string] | `context`
+    [String][string] | [`context`](../meta/conditional.md)
     Boolean | `constant`
 
 
 ### Meta types
 
-- `conditional/composite`
-- `conditional`
+- [`conditional/composite`](../meta/conditional_composite.md)
+- [`conditional`](../meta/conditional.md)
 - `constant`
-- `context`
+- [`context`](../meta/conditional.md)
 
 
 ### Types

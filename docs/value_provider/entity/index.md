@@ -12,14 +12,14 @@ Field | Type | Default | Description
 
 ???+ tip
 
-    Specifying a [string][string] will implicitly use the `context` entity provider type.
+    Specifying a [string][string] will implicitly use the [`context`](../meta/conditional.md) entity provider type.
 
 
 ### Meta types
 
-- `conditional/composite`
-- `conditional`
-- `context`
+- [`conditional/composite`](../meta/conditional_composite.md)
+- [`conditional`](../meta/conditional.md)
+- [`context`](../meta/conditional.md)
 
 
 ### Types

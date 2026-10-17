@@ -15,11 +15,11 @@ Field | Type | Default | Description
 
 ???+ tip
 
-    Specifying a [string][string] will implicitly use the `context` damage source provider type.
+    Specifying a [string][string] will implicitly use the [`context`](../meta/conditional.md) damage source provider type.
 
 
 ### Types
 
-- `conditional/composite`
-- `conditional`
-- `context`
+- [`conditional/composite`](../meta/conditional_composite.md)
+- [`conditional`](../meta/conditional.md)
+- [`context`](../meta/conditional.md)

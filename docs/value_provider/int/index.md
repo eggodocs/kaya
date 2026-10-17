@@ -16,7 +16,7 @@ Field | Type | Default | Description
 
     Data Type | Int Provider Type
     ----------|------------------
-    [String][string] | `context`
+    [String][string] | [`context`](../meta/conditional.md)
     [Integer][integer] | `constant`
 
 
@@ -26,10 +26,10 @@ Field | Type | Default | Description
 
 - `absolute`(1)
 - `clamped`
-- `conditional/composite`
-- `conditional`
+- [`conditional/composite`](../meta/conditional_composite.md)
+- [`conditional`](../meta/conditional.md)
 - `constant`
-- `context`
+- [`context`](../meta/conditional.md)
 - `difference` (2)
 - `from_float`
 - `max`

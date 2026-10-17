@@ -17,8 +17,8 @@ Field | Type | Default | Description
 
 ### Types
 
-- `conditional/composite`
-- `conditional`
+- [`conditional/composite`](../meta/conditional_composite.md)
+- [`conditional`](../meta/conditional.md)
 - `constant`
 - `opposite`
 - `rotate`

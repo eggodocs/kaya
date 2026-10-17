@@ -21,8 +21,8 @@ Field | Type | Default | Description
 
 ### Meta types
 
-- `conditional/composite`
-- `conditional`
+- [`conditional/composite`](../meta/conditional_composite.md)
+- [`conditional`](../meta/conditional.md)
 
 
 ### Types
