@@ -24,4 +24,4 @@ Field | Type | Default | Description
 
 ### Types
 
-- `selector`
+- [`selector`](selector.md)
