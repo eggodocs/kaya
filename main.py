@@ -33,3 +33,20 @@ def define_env(env):
     @env.macro
     def round_half_even(number, format="1."):
         return quantize(number, format, decimal.ROUND_HALF_EVEN)
+
+    @env.macro
+    def clamped_lerp(delta, start, end):
+
+        if delta < 0:
+            return start
+        
+        elif delta > 1:
+            return end
+        
+        else:
+            return lerp(delta, start, end)
+
+    @env.macro
+    def lerp(delta, start, end):
+        return start + delta * (end - start)
+
