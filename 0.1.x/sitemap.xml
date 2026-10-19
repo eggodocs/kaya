@@ -585,7 +585,31 @@
          <lastmod>2026-10-19</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/box_component/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/box_size/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/brightness/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/constant/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/distance_between_vectors/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/entity_attribute/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/entity_fluid_height/</loc>
          <lastmod>2026-10-19</lastmod>
     </url>
     <url>
@@ -593,7 +617,19 @@
          <lastmod>2026-10-19</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/item_attribute/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/linear_interpolated/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/nbt/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/player_saturation/</loc>
          <lastmod>2026-10-19</lastmod>
     </url>
     <url>
@@ -601,7 +637,19 @@
          <lastmod>2026-10-19</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/power_cooldown_progress/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/round/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/vector_component/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/vector_length/</loc>
          <lastmod>2026-10-19</lastmod>
     </url>
     <url>
