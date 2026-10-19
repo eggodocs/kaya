@@ -7482,7 +7482,7 @@
 <td><code>delta</code></td>
 <td><a class="autorefs autorefs-internal" href="../#float_provider">Float Provider</a></td>
 <td style="text-align: center;"></td>
-<td>A float value clamped within the range of 0.0 to 1.0 that indicates the percentage of the interpolation.</td>
+<td>A float value that indicates the percentage of the interpolation.</td>
 </tr>
 <tr>
 <td><code>start</code></td>
@@ -7500,7 +7500,7 @@
 </table>
 <details class="info" open="open">
 <summary>Info</summary>
-<p>If <code>delta</code> is $0$, it will provide the <code>start</code> value. If it's $1$, it will provide the <code>end</code> value.</p>
+<p>If <code>delta</code> is $0$, it will provide the <code>start</code> value. If it's $1$, it will provide the <code>end</code> value. Otherwise, it'll be clamped to be within the range of $0.0$ to $1.0$.</p>
 </details>
 <h3 id="example">Example</h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">{</span>
@@ -7518,7 +7518,8 @@
 <a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="nt">"end"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span>
 <a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="p">}</span>
 </code></pre></div>
-<p>This example will provide a float value ranging from 10.0 to 0.0 depending on the quotient of the value of the <code>minecraft:armor</code> attribute <em>(from the entity provided by the <code>neo-apoli:this</code> context parameter)</em> divided by 30.0.</p>
+<p>This example will provide a float value ranging from $10.0$ to $0.0$ depending on the quotient of the value of the <code>minecraft:armor</code> attribute <em>(from the entity provided by the <code>neo-apoli:this</code> context parameter)</em> divided by $30.0$.</p>
+<p>For example, if the attribute has a value of $20.0$, the provided value will be $3.333333333333334$ $(10.0 + 20.0 * (0.0 - 10.0) = 3.333333333333334)$</p>
 <h3 id="history">History</h3>
 <table>
     <tr>
@@ -7538,6 +7539,9 @@
 
 
 
+
+  
+  
 
 
 
