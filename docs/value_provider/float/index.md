@@ -17,7 +17,7 @@ Field | Type | Default | Description
     Data Type | Float Provider Type
     ----------|------------------
     [String][string] | [`context`](../meta/conditional.md)
-    [Float][float] | `constant`
+    [Float][float] | [`constant`](constant.md)
 
 
 ### Meta types
@@ -28,19 +28,19 @@ Field | Type | Default | Description
 - [`clamped`](../meta/number/clamped.md)
 - [`conditional/composite`](../meta/conditional_composite.md)
 - [`conditional`](../meta/conditional.md)
-- `constant`
+- [`constant`](constant.md)
 - [`context`](../meta/conditional.md)
 - [`difference`](../meta/number/difference.md)(2)
-- `from_int`
-- `linear_interpolated`(3)
+- [`from_int`](from_int.md)
+- [`linear_interpolated`](linear_interpolated.md)(3)
 - [`max`](../meta/number/max.md)
 - [`min`](../meta/number/min.md)
 - [`negate`](../meta/number/negate.md)
-- `power`
+- [`power`](power.md)
 - [`product`](../meta/number/product.md)(4)
 - [`quotient`](../meta/number/quotient.md)(5)
 - [`random/uniform`](../meta/number/random_uniform.md)(6)
-- `round`
+- [`round`](round.md)
 - [`sum`](../meta/number/sum.md)(7)
 - [`weighted`](../meta/weighted.md)
 
