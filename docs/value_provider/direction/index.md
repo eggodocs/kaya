@@ -22,3 +22,4 @@ Field | Type | Default | Description
 - [`constant`](constant.md)
 - [`opposite`](opposite.md)
 - [`rotate`](rotate.md)
+- [`weighted`](../meta/weighted.md)

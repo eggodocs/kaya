@@ -20,6 +20,7 @@ Field | Type | Default | Description
 - [`constant`](constant.md)
 - [`escape`](escape.md)
 - [`join`](join.md)
+- [`weighted`](../meta/weighted.md)
 
 
 ### Types

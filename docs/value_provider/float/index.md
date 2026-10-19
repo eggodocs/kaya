@@ -42,7 +42,7 @@ Field | Type | Default | Description
 - `random/uniform`(6)
 - `round`
 - `sum`(7)
-- `weighted`
+- [`weighted`](../meta/weighted.md)
 
 </div>
 

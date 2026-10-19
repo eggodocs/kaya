@@ -40,7 +40,7 @@ Field | Type | Default | Description
 - `random/binomial`
 - `random/uniform`(5)
 - `sum`(6)
-- `weighted`
+- [`weighted`](../meta/weighted.md)
 
 </div>
 

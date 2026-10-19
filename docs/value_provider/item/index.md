@@ -20,3 +20,4 @@ Field | Type | Default | Description
 - [`conditional/composite`](../meta/conditional_composite.md)
 - [`conditional`](../meta/conditional.md)
 - [`context`](../meta/conditional.md)
+- [`weighted`](../meta/weighted.md)

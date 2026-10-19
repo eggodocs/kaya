@@ -26,3 +26,4 @@ Field | Type | Default | Description
 - [`conditional`](../meta/conditional.md)
 - [`constant`](constant.md)
 - [`context`](../meta/conditional.md)
+- [`weighted`](../meta/weighted.md)

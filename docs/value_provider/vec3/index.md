@@ -31,6 +31,7 @@ Field | Type | Default | Description
 - [`context`](../meta/conditional.md)
 - [`dynamic`](dynamic.md)
 - [`offset`](offset.md)
+- [`weighted`](../meta/weighted.md)
 
 
 ### Types
