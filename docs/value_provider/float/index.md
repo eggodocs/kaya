@@ -24,24 +24,24 @@ Field | Type | Default | Description
 
 <div class="annotate" markdown>
 
-- `absolute`(1)
-- `clamped`
+- [`absolute`](../meta/number/absolute.md)(1)
+- [`clamped`](../meta/number/clamped.md)
 - [`conditional/composite`](../meta/conditional_composite.md)
 - [`conditional`](../meta/conditional.md)
 - `constant`
 - [`context`](../meta/conditional.md)
-- `difference`(2)
+- [`difference`](../meta/number/difference.md)(2)
 - `from_int`
 - `linear_interpolated`(3)
-- `max`
-- `min`
-- `negate`
+- [`max`](../meta/number/max.md)
+- [`min`](../meta/number/min.md)
+- [`negate`](../meta/number/negate.md)
 - `power`
-- `product`(4)
-- `quotient`(5)
-- `random/uniform`(6)
+- [`product`](../meta/number/product.md)(4)
+- [`quotient`](../meta/number/quotient.md)(5)
+- [`random/uniform`](../meta/number/random_uniform.md)(6)
 - `round`
-- `sum`(7)
+- [`sum`](../meta/number/sum.md)(7)
 - [`weighted`](../meta/weighted.md)
 
 </div>

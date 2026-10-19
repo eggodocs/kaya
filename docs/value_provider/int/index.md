@@ -24,22 +24,22 @@ Field | Type | Default | Description
 
 <div class="annotate" markdown>
 
-- `absolute`(1)
-- `clamped`
+- [`absolute`](../meta/number/absolute.md)(1)
+- [`clamped`](../meta/number/clamped.md)
 - [`conditional/composite`](../meta/conditional_composite.md)
 - [`conditional`](../meta/conditional.md)
 - `constant`
 - [`context`](../meta/conditional.md)
-- `difference` (2)
+- [`difference`](../meta/number/difference.md) (2)
 - `from_float`
-- `max`
-- `min`
-- `negate`
-- `product` (3)
-- `quotient`(4)
+- [`max`](../meta/number/max.md)
+- [`min`](../meta/number/min.md)
+- [`negate`](../meta/number/negate.md)
+- [`product`](../meta/number/product.md) (3)
+- [`quotient`](../meta/number/quotient.md)(4)
 - `random/binomial`
-- `random/uniform`(5)
-- `sum`(6)
+- [`random/uniform`](../meta/number/random_uniform.md)(5)
+- [`sum`](../meta/number/sum.md)(6)
 - [`weighted`](../meta/weighted.md)
 
 </div>

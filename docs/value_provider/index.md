@@ -3,7 +3,13 @@
 Value providers are data objects that operate on a given context and return an object value based on the parameters provided by the said context. These can be used for providing dynamic values for fields where a context is given.
 
 
-### Kinds
+### Number Providers
+
+- [Float][float_provider]
+- [Integer][int_provider]
+
+
+### Providers
 
 - [Block][block_provider]
 - [Boolean][boolean_provider]
@@ -13,8 +19,6 @@ Value providers are data objects that operate on a given context and return an o
 - [Direction][direction]
 - [Effect][effect_provider]
 - [Entity][entity_provider]
-- [Float][float_provider]
-- [Integer][int_provider]
 - [Item][item_provider]
 - [NBT][nbt_provider]
 - [Slot][slot_provider]
