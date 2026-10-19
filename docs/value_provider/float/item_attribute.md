@@ -1,4 +1,4 @@
-#   Entity Attribute
+#   Item Attribute
 
 Provides the value of an attribute from an item.
 
@@ -12,6 +12,7 @@ Field | Type | Default | Description
 ------|------|:-------:|------------
 `attribute` | [Identifier]({{ mc.identifier }}) | | The ID of the attribute.
 `item` | [Item Provider][item_provider] | | The item to get the attribute from.
+`entity` | [Entity Provider][entity_provider] | *optional* | If specified, the base value of the attribute will be queried from this entity. 
 
 
 ### Example
