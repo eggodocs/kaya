@@ -1,4 +1,4 @@
-#   Direction
+#   Direction { #direction_direction_provider_type}
 
 Provides the unit vec3 of a direction.
 
