@@ -81,3 +81,4 @@ extra:
     nbt: https://minecraft.wiki/w/NBT_format
     nbt_path: https://minecraft.wiki/w/NBT_path
     target_selector: https://minecraft.wiki/w/Target_selectors
+    fluid_tag: https://minecraft.wiki/w/Fluid_tag_(Java_Edition)

@@ -57,15 +57,15 @@ Field | Type | Default | Description
 
 ### Types
 
-- `box/component`
-- `box/size`
-- `brightness`
-- `distance_between_positions`
-- `entity/attribute`
-- `entity/fluid_height`
-- `item/attribute`
-- `nbt`
-- `player/saturation`
-- `power/cooldown/progress`
-- `vector/component`
-- `vector/length`
+- [`box/component`](box_component.md)
+- [`box/size`](box_size.md)
+- [`brightness`](brightness.md)
+- [`distance_between_vectors`](distance_between_vectors.md)
+- [`entity/attribute`](entity_attribute.md)
+- [`entity/fluid_height`](entity_fluid_height.md)
+- [`item/attribute`](item_attribute.md)
+- [`nbt`](nbt.md)
+- [`player/saturation`](player_saturation.md)
+- [`power/cooldown/progress`](power_cooldown_progress.md)
+- [`vector/component`](vector_component.md)
+- [`vector/length`](vector_length.md)
