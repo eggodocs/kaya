@@ -17,7 +17,7 @@ Field | Type | Default | Description
     Data Type | Int Provider Type
     ----------|------------------
     [String][string] | [`context`](../meta/conditional.md)
-    [Integer][integer] | `constant`
+    [Integer][integer] | [`constant`](constant.md)
 
 
 ### Meta types
@@ -28,16 +28,16 @@ Field | Type | Default | Description
 - [`clamped`](../meta/number/clamped.md)
 - [`conditional/composite`](../meta/conditional_composite.md)
 - [`conditional`](../meta/conditional.md)
-- `constant`
+- [`constant`](constant.md)
 - [`context`](../meta/conditional.md)
 - [`difference`](../meta/number/difference.md) (2)
-- `from_float`
+- [`from_float`](from_float.md)
 - [`max`](../meta/number/max.md)
 - [`min`](../meta/number/min.md)
 - [`negate`](../meta/number/negate.md)
 - [`product`](../meta/number/product.md) (3)
 - [`quotient`](../meta/number/quotient.md)(4)
-- `random/binomial`
+- [`random/binomial`](random_binomial.md)
 - [`random/uniform`](../meta/number/random_uniform.md)(5)
 - [`sum`](../meta/number/sum.md)(6)
 - [`weighted`](../meta/weighted.md)

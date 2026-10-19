@@ -50,3 +50,6 @@ def define_env(env):
     def lerp(delta, start, end):
         return start + delta * (end - start)
 
+    @env.macro
+    def sqrt(x):
+        return math.sqrt(x)
