@@ -10,7 +10,7 @@ Type ID: `neo-apoli:slot_id`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`slot` | [Slot]({{ mc.slot_identifier }}) | | The ID of the slot to get the integer ID of.
+`slot` | [Slot Range]({{ mc.slot_identifier }}) | | The ID of the slot to get the integer ID of.
 
 
 ### Example

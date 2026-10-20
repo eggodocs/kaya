@@ -43,6 +43,7 @@ plugins:
       module_name: main
       on_error_fail: false
       include_yaml:
+        - block_interactions: data/block_interactions.yml
         - equipment_slots: data/equipment_slots.yml
         - light_types: data/light_types.yml
         - shapes: data/shapes.yml
@@ -80,6 +81,7 @@ extra:
     provider: mike
   mc:
     identifier: https://minecraft.wiki/w/Identifier
+    tag: https://minecraft.wiki/w/Tag_(Java_Edition)
     text_component: https://minecraft.wiki/w/Text_component_format
     biome_identifier: https://minecraft.wiki/w/Biome#Biome_IDs
     structure_identifier: https://minecraft.wiki/w/Structure#ID
@@ -93,3 +95,7 @@ extra:
     effect_identifier: https://minecraft.wiki/w/Effect#List_of_effects
     enchantment_identifier: https://minecraft.wiki/w/Enchantment#List_of_enchantments
     slot_identifier: https://minecraft.wiki/w/Slot#Command_argument
+    damage_type_identifier: https://minecraft.wiki/w/Damage_type#List_of_damage_types
+    game_event_identifier: https://minecraft.wiki/w/Vibration#Vibration_frequency
+    sound_event: https://minecraft.wiki/w/Sounds.json#Server-side_sound_events
+    particle_type_identifier: https://minecraft.wiki/w/Particles#Types_of_particles

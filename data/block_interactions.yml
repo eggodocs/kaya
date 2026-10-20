@@ -1,0 +1,11 @@
+- name: "keep"
+  description: "Determines that the explosion will not destroy or trigger any of the affected blocks."
+
+- name: "destroy"
+  description: "Determines that the explosion will destroy the affected blocks."
+
+- name: "destroy_with_decay"
+  description: "Determines that the explosion will destroy the affected blocks with its radius passed as a parameter for loot tables."
+
+- name: "trigger_block"
+  description: "Determines that the explosion will trigger the affected blocks."
