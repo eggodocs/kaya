@@ -1,0 +1,31 @@
+-   name: "mainhand"
+    type: "hand"
+    description: "Refers to the entity's main hand slot."
+
+-   name: "offhand"
+    type: "hand"
+    description: "Refers to the entity's other hand slot."
+
+-   name: "feet"
+    type: "humanoid_armor"
+    description: "Refers to the entity's armor feet slot."
+
+-   name: "legs"
+    type: "humanoid_armor"
+    description: "Refers to the entity's armor legs slot."
+
+-   name: "chest"
+    type: "humanoid_armor"
+    description: "Refers to the entity's armor chest slot."
+
+-   name: "head"
+    type: "humanoid_armor"
+    description: "Refers to the entity's armor head slot."
+
+-   name: "body"
+    type: "animal_armor"
+    description: "Refers to an entity's armor body slot; usually used by animals that can have armor."
+
+-   name: "saddle"
+    type: "saddle"
+    description: "Refers to the entity's saddle slot; usually used by mobs that can have saddles."

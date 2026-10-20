@@ -64,3 +64,14 @@ def define_env(env):
 
         return values
 
+    @env.filter
+    def string_transform(elements=list, pattern=str):
+
+        result = []
+
+        for element in elements:
+            result.append(pattern.format(element))
+
+        return result
+
+

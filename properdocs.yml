@@ -28,6 +28,7 @@ theme:
   features:
     - content.code.annotate
     - content.tabs.link
+    - content.footnote.tooltips
     - navigation.expand
     - navigation.instant
     - navigation.indexes
@@ -41,6 +42,12 @@ plugins:
   - macros:
       module_name: main
       on_error_fail: false
+      include_yaml:
+        - equipment_slots: data/equipment_slots.yml
+        - light_types: data/light_types.yml
+        - shapes: data/shapes.yml
+      j2_extensions:
+        - jinja2.ext.do
 
 markdown_extensions:
   - toc:
@@ -57,6 +64,7 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.details
+  - footnotes
 
 extra_css:
   - stylesheets/extra.css
@@ -82,3 +90,6 @@ extra:
     nbt_path: https://minecraft.wiki/w/NBT_path
     target_selector: https://minecraft.wiki/w/Target_selectors
     fluid_tag: https://minecraft.wiki/w/Fluid_tag_(Java_Edition)
+    effect_identifier: https://minecraft.wiki/w/Effect#List_of_effects
+    enchantment_identifier: https://minecraft.wiki/w/Enchantment#List_of_enchantments
+    slot_identifier: https://minecraft.wiki/w/Slot#Command_argument

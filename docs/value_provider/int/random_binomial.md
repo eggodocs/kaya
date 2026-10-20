@@ -30,7 +30,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will loop for ${{ example.attempts }}$ of times and will provide the count of how many times a random float is less than ${{ example.probability }}$.
+This example will loop for ${{ example.attempts }}$ times and will provide the count of how many times a random float is less than ${{ example.probability }}$.
 
 
 ### History

@@ -1,0 +1,5 @@
+- name: "sky"
+  description: "The light level from the sky."
+
+- name: "block"
+  description: "The light level from a block."

@@ -1,0 +1,14 @@
+- name: "cube"
+  description: "Determines the area to be shaped like a cube."
+  aliases: 
+    - "chebyshev"
+
+- name: "star"
+  description: "Determines the area to be shaped like a diamond."
+  aliases:
+    - "manhattan"
+
+- name: "sphere"
+  description: "Determines the area to be shaped like a sphere."
+  aliases:
+    - "euclidean"
