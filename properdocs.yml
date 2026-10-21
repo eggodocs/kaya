@@ -99,3 +99,4 @@ extra:
     game_event_identifier: https://minecraft.wiki/w/Vibration#Vibration_frequency
     sound_event: https://minecraft.wiki/w/Sounds.json#Server-side_sound_events
     particle_type_identifier: https://minecraft.wiki/w/Particles#Types_of_particles
+    difficulty: https://minecraft.wiki/w/Difficulty

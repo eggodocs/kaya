@@ -17,16 +17,21 @@ Field | Type | Default | Description
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired condition type.
 
 
+???+ tip
+
+    Specifying a boolean will implicitly use the [`constant`](constant.md) condition type.
+
+
 ### Meta types
 
-- `all_of`
-- `any_of`
-- `compare`
-- `constant`
-- `difficulty`
-- `dynamic`
-- `inverted`
-- `parameter_exists`
+- [`all_of`](all_of.md)
+- [`any_of`](any_of.md)
+- [`compare`](compare.md)
+- [`constant`](constant.md)
+- [`difficulty`](difficulty.md)
+- [`dynamic`](dynamic.md)
+- [`inverted`](inverted.md)
+- [`parameter_exists`](parameter_exists.md)
 - [`reference`](reference.md)
 
 
