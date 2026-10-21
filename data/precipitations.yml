@@ -1,0 +1,8 @@
+- name: "none"
+  description: "Indicates that there's currently no precipitation."
+
+- name: "rain"
+  description: "Indicates that it's currently raining."
+
+- name: "snow"
+  description: "Indicates that it's currently snowing."

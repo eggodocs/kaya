@@ -46,6 +46,7 @@ plugins:
         - block_interactions: data/block_interactions.yml
         - equipment_slots: data/equipment_slots.yml
         - light_types: data/light_types.yml
+        - precipitations: data/precipitations.yml
         - shapes: data/shapes.yml
       j2_extensions:
         - jinja2.ext.do
@@ -100,3 +101,7 @@ extra:
     sound_event: https://minecraft.wiki/w/Sounds.json#Server-side_sound_events
     particle_type_identifier: https://minecraft.wiki/w/Particles#Types_of_particles
     difficulty: https://minecraft.wiki/w/Difficulty
+    block_tag: https://minecraft.wiki/w/Block_tag_(Java_Edition)
+    damage_type_tag: https://minecraft.wiki/w/Damage_type_tag_(Java_Edition)
+    entity_type_tag: https://minecraft.wiki/w/Entity_type_tag_(Java_Edition)
+    item_predicate_argument: https://minecraft.wiki/w/Argument_types#item_predicate
