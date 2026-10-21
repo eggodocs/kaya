@@ -10,7 +10,7 @@ Field | Type | Default | Description
 
 ???+ tip
     
-    Specifying a [string][string] will implicitly use the `constant` string provider type.
+    Specifying a [string][string] will implicitly use the [`constant`](constant.md) string provider type.
 
 
 ### Meta types

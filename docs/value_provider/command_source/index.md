@@ -23,7 +23,7 @@ Field | Type | Default | Description
 
     Specifying a [string][string] will implicitly use one of the following types that match:
 
-    - `server`
+    - [`server`](server.md)
 
 
 ### Meta types

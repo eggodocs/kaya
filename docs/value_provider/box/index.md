@@ -17,7 +17,7 @@ Field | Type | Default | Description
     Data Type | Box Provider Type
     ----------|------------------
     [String][string] | [`context`](../meta/conditional.md)
-    [Array][array] of 6 [Floats][float] | `constant`
+    [Array][array] of 6 [Floats][float] | [`constant`](constant.md)
 
 
 ### Meta types

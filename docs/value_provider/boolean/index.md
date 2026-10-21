@@ -17,7 +17,7 @@ Field | Type | Default | Description
     Data Type | Boolean Provider Type
     ----------|----------------------
     [String][string] | [`context`](../meta/conditional.md)
-    Boolean | `constant`
+    Boolean | [`constant`](constant.md)
 
 
 ### Meta types

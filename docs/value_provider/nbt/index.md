@@ -17,7 +17,7 @@ Field | Type | Default | Description
     Data Type | NBT Provider Type
     ----------|------------------
     [String][string] | [`context`](../meta/conditional.md)
-    [NBT]({{ mc.nbt }}) | `constant`
+    [NBT]({{ mc.nbt }}) | [`constant`](constant.md)
 
 
 ### Meta types
