@@ -1,17 +1,16 @@
-#   Entity Has Pressed Keys Simultaneously
+#   Entity Has Pressed Key
 
-Checks if a player has pressed multiple keybindings simultaneously.
+Checks if an entity has pressed a keybinding.
 
 
-Type ID: `neo-apoli:entity_has_pressed_keys_simultaneously`
+Type ID: `neo-apoli:entity_has_pressed_key`
 
 
 ### Format
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`keys` | [Array][array] of [String Providers][string_provider] | | The IDs of the keybindings to check.
-`offset` | [Int Provider][int_provider] | `3` | Determines the offset to apply to the time the keybindings were pressed when checked *(in ticks.)*
+`key` | [Array][array] of [Key Predicates][key_predicate] or single [Key Predicate][key_predicate] | | The key predicate to check.
 `entity` | [Entity Provider][entity_provider] | | The entity to get the state of the keybindings from.
 
 
@@ -20,7 +19,7 @@ Field | Type | Default | Description
 ```json
 {
     "type": "neo-apoli:entity_has_pressed_keys_simultaneously",
-    "keys": [
+    "key": [
         "key.hotbar.0",
         "key.hotbar.1"
     ],
