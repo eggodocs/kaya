@@ -44,6 +44,7 @@ plugins:
       on_error_fail: false
       include_yaml:
         - block_interactions: data/block_interactions.yml
+        - comparators: data/comparators.yml
         - equipment_slots: data/equipment_slots.yml
         - light_types: data/light_types.yml
         - precipitations: data/precipitations.yml

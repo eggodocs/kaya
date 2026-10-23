@@ -1,0 +1,17 @@
+- name: "=="
+  description: "Checks if the first object is equal to the second object."
+
+- name: "!="
+  description: "Checks if the first object is **not** equal to the second object."
+
+- name: ">"
+  description: "Checks if the first object is greater than the second object."
+
+- name: ">="
+  description: "Checks if the first object is greater or equal to the second object."
+
+- name: "<"
+  description: "Checks if the first object is less than the second object."
+
+- name: "<="
+  description: "Checks if the first object is less than or equal to the second object."
