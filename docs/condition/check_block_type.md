@@ -1,30 +1,36 @@
-#   Is Block In Tag
+#   Check Block Type
 
-Checks if a block is in a specified block tag.
+Check if a block is of a type or if it's included in a block tag.
 
 
-Type ID: `neo-apoli:is_block_in_tag`
+Type ID: `neo-apoli:check_block_type`
 
 
 ### Format
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`tag` | [Block Tag]({{ mc.block_tag }}) | | The block tag to match.
+`key` | [Identifier]({{ mc.identifier }}) | *optional* | If specified, checks if the block is of this specific type.
+`tag` | [Block Tag]({{ mc.block_tag }}) | *optional* | If specified, checks if the block is included in this block tag.
 `block` | [Block Provider][block_provider] | | The block to check.
+
+
+???+ warning
+
+    Both `key` and `tag` fields should **not** be present or absent at the same time! Otherwise an error will be thrown.
 
 
 ### Example
 
 ```json
 {
-    "type": "neo-apoli:is_block_in_tag",
-    "tag": "#minecraft:convertable_to_mud",
+    "type": "neo-apoli:check_block_type",
+    "tag": "#minecraft:planks",
     "block": "broken_block"
 }
 ```
 
-This example will check if the block provided by the `neo-apoli:broken_block` context parameter is included in the `#minecraft:convertable_to_mud` block tag.
+This example will check if the block provided by the `neo-apoli:broken_block` context parameter is included in the `#minecraft:planks` block tag.
 
 
 ### History

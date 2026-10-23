@@ -1,30 +1,36 @@
-#   Is Entity In Tag
+#   Check Entity Type
 
-Checks if the type of an entity is in a specified entity type tag.
+Check if an entity is of a type or if it's included in an entity type tag.
 
 
-Type ID: `neo-apoli:is_entity_in_tag`
+Type ID: `neo-apoli:check_effect_type`
 
 
 ### Format
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`tag` | [Entity Type Tag]({{ mc.entity_type_tag }}) | | The entity type tag to match.
+`key` | [Identifier]({{ mc.identifier }}) | *optional* | If specified, checks if the entity is of this specific type.
+`tag` | [Entity Type Tag]({{ mc.entity_type_tag }}) | *optional* | If specified, checks if the entity is included in this entity type tag.
 `entity` | [Entity Provider][entity_provider] | | The entity to check.
+
+
+???+ warning
+
+    Both `key` and `tag` fields should **not** be present or absent at the same time! Otherwise an error will be thrown.
 
 
 ### Example
 
 ```json
 {
-    "type": "neo-apoli:is_entity_in_tag",
+    "type": "neo-apoli:check_entity_type",
     "tag": "#minecraft:skeletons",
     "entity": "this"
 }
 ```
 
-This example will check if the type of the entity provided by the `neo-apoli:this_entity` context parameter is included in the `#minecraft:skeletons` entity type tag.
+This example will check if the entity provided by the `neo-apoli:applied_effect` context parameter is included in the `#minecraft:skeletons` entity type tag.
 
 
 ### History
