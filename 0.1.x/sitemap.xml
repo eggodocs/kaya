@@ -2,1218 +2,1218 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/add_velocity/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/apply_effects/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/area_of_effect/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/bone_meal/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/clear_powers/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/conditional/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/conditional_composite/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/consume_item/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/damage_entity/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/damage_item/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/dismount/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/emit_game_event/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/execute_command/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/exhaust/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/explode/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/extinguish_entity_fire/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/gain_air/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/give_items/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/grant_power/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/loop/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/modify_block_state_property/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/modify_item/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/mount/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/nothing/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/place_block/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/play_sound/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/random_chance/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/reference/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/remove_power/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/revoke_all_powers/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/revoke_power/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/sequence/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/set_entity_on_fire/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/shoot_entity/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/side/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/spawn_particles/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/swing_hand/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/tame/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/toggle_power/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/trigger_power_cooldown/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/weighted/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/color/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/color/argb/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/color/biome_foliage/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/color/biome_grass/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/color/biome_water/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/color/dynamic_argb/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/color/dynamic_hsv/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/color/dynamic_rgba/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/color/hsv/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/color/rgba/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/comparison/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/comparison/entity/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/comparison/float/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/comparison/int/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/comparison/nbt/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/comparison/string/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/all_of/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/any_of/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/block_state_property/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/compare/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/constant/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/difficulty/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/dynamic/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/entity_has_active_power/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/entity_has_correct_tool_for_block/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/entity_has_item_equipped/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/entity_has_power/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/entity_has_pressed_keys_simultaneously/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/inverted/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_block_entity/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_block_in_tag/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_block_of_type/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_block_replaceable/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_damage_source_in_tag/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_damage_source_of_type/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_effect_in_tag/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_effect_of_type/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_entity_climbing/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_entity_fall_flying/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_entity_horizontally_colliding/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_entity_in_tag/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_entity_of_type/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_entity_on_fire/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_entity_owned_by_other/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_entity_sneaking/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_entity_sprinting/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_entity_stepping_on_block/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_exposed_to_precipitation/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_exposed_to_sky/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/item_matches_ingredient/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/item_matches_predicate/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/matches_block_pattern/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/parameter_exists/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/reference/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/dynamic/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/generic_3x3/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/generic_9x1/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/generic_9x2/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/generic_9x3/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/generic_9x4/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/generic_9x5/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/generic_9x6/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/container_menu/hopper/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/array/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/attributed_modifier/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/axis/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/block_interaction/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/block_use_phase/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/comparator/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/context_parameter/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/context_parameter_map/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/crafting_recipe_entry/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/direction/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/equipment_slot/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/equipment_slot_group/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/float/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/hand/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/indexed_stack/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/ingredient/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/integer/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/interaction_result/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/item_stack/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/key_reference/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/particle_effect/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/power_identifier/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/precipitation/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/render_phase/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/rounding_mode/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/shape/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/shape_type/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/space/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/sprite/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/status_effect_instance/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/string/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/text_alignment/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/data/vec3/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/hud_element/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/hud_element/overlay_nausea/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/hud_element/overlay_texture/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/hud_element/resource_bar/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/modifier/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/callback_block_break/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/callback_block_place/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/callback_damage_dealt/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/callback_player_respawned/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/callback_player_wake_up/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/callback_power_added/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/callback_power_granted/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/callback_power_removed/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/callback_power_revoked/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/callback_power_tick/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/callback_projectile_land/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/cooldown/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/crafting_recipe/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/dummy/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/hud_render/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/inventory/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_air_speed/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_attribute/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_attribute_vanilla/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_block_harvestable/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_block_selectable/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_block_use/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_climbing/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_damage_dealt/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_damage_invulnerability/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_damage_taken/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_effect_duration/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_effect_immunity/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_elytra_flight/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_elytra_render/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_entity_type_tag/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_exhaustion/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_falling/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_glowing_other/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_glowing_self/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_invisibility/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_item_use/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_item_wearable/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_model_color_other/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_model_color_self/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_model_shaking/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_player_spawn/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/modify_recipe_crafting/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/multiple/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/nbt/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/replace_loot_table/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/toggle/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/block/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/block/world/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/boolean/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/boolean/condition_result/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/boolean/constant/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/boolean/nbt/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/box/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/box/block_bounds/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/box/constant/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/box/dynamic/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/box/entity_bounds/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/box/inflate/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/box/resize/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/command_source/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/command_source/block/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/command_source/entity/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/command_source/server/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/damage_source/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/direction/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/direction/constant/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/direction/opposite/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/direction/rotate/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/effect/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/effect/constant/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/entity/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/entity/selector/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/box_component/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/box_size/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/brightness/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/constant/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/distance_between_vectors/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/entity_attribute/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/entity_fluid_height/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/from_int/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/item_attribute/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/linear_interpolated/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/nbt/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/player_saturation/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/power/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/power_cooldown_progress/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/round/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/vector_component/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/vector_length/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/adjacent_blocks/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/blocks_colliding_box/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/blocks_in_radius/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/blocks_intersecting_box/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/constant/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/effect_amplifier/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/entities_in_radius/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/entity_active_effects/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/equipped_enchantment_level/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/from_float/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/item_count/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/item_count_max/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/item_fuel/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/key_pressed_ticks/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/key_pressed_time/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/light_level/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/nbt/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/player_food/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/power_cooldown_remaining_ticks/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/random_binomial/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/slot_id/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/time/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/item/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/meta/conditional/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/meta/conditional_composite/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/meta/context/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/meta/weighted/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/meta/number/absolute/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/meta/number/clamped/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/meta/number/difference/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/meta/number/max/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/meta/number/min/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/meta/number/negate/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/meta/number/product/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/meta/number/quotient/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/meta/number/random_uniform/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/meta/number/sum/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/nbt/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/nbt/block/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/nbt/constant/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/nbt/entity/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/nbt/item/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/nbt/power/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/nbt/storage/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/slot/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/slot/block/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/slot/entity/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/string/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/string/constant/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/string/entity_uuid/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/string/escape/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/string/from_float/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/string/from_int/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/string/join/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/string/nbt/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/block_position/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/constant/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/direction/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/dynamic/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/entity_position/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/entity_velocity/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/entity_view/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/vec3/offset/</loc>
-         <lastmod>2026-10-21</lastmod>
+         <lastmod>2026-10-23</lastmod>
     </url>
 </urlset>
