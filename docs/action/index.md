@@ -33,6 +33,7 @@ Field | Type | Default | Description
 - [`conditional`](conditional.md)
 - [`loop`](loop.md)
 - [`nothing`](nothing.md)
+- [`provide_context`](provide_context.md)
 - [`random_chance`](random_chance.md)
 - [`reference`](reference.md)
 - [`sequence`](sequence.md)
