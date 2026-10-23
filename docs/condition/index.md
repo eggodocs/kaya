@@ -38,6 +38,7 @@ Field | Type | Default | Description
 ### Types
 
 - [`block_state_property`](block_state_property.md)
+- [`check_precipitation`](check_precipitation.md)
 - [`entity_has_active_power`](entity_has_active_power.md)
 - [`entity_has_correct_tool_for_block`](entity_has_correct_tool_for_block.md)
 - [`entity_has_item_equipped`](entity_has_item_equipped.md)
@@ -61,7 +62,6 @@ Field | Type | Default | Description
 - [`is_entity_sneaking`](is_entity_sneaking.md)
 - [`is_entity_sprinting`](is_entity_sprinting.md)
 - [`is_entity_stepping_on_block`](is_entity_stepping_on_block.md)
-- [`is_exposed_to_precipitation`](is_exposed_to_precipitation.md)
 - [`is_exposed_to_sky`](is_exposed_to_sky.md)
 - [`item_matches_ingredient`](item_matches_ingredient.md)
 - [`item_matches_predicate`](item_matches_predicate.md)

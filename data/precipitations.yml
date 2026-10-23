@@ -1,8 +1,8 @@
 - name: "none"
-  description: "Indicates that there's currently no precipitation."
+  description: "Indicates the biome doesn't have any weather."
 
 - name: "rain"
-  description: "Indicates that it's currently raining."
+  description: "Indicates the biome's weather is rain."
 
 - name: "snow"
-  description: "Indicates that it's currently snowing."
+  description: "Indicates the biome's weather is snow."
