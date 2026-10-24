@@ -1,24 +1,24 @@
-#   Is Exposed to Precipitation
+#   Check Precipitation
 
-Checks if a position is exposed to a type of precipitation.
+Checks the precipitation of a biome at the specified position.
 
 
-Type ID: `neo-apoli:is_exposed_to_precipitation`
+Type ID: `neo-apoli:check_precipitation`
 
 
 ### Format
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`precipitation` | [Precipitation][precipitation] | | The type of precipitation to match.
-`position` | [Vec3 Provider][vec3_provider] | | The position to check.
+`precipitation` | [Precipitation][precipitation] | | The precipitation to match.
+`position` | [Vec3 Provider][vec3_provider] | | The position of the biome to check the precipitation of.
 
 
 ### Example
 
 ```json
 {
-    "type": "neo-apoli:is_exposed_to_precipitation",
+    "type": "neo-apoli:check_precipitation",
     "precipitation": "rain",
     "position": {
         "type": "neo-apoli:block/position",
@@ -27,7 +27,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will check if the position of the block provided by the `neo-apoli:broken_block` context parameter is exposed to rain.
+This example will check if the precipitation of the biome at the position of the block provided by the `neo-apoli:broken_block` context parameter is rain.
 
 
 ### History
