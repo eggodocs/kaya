@@ -1,9 +1,14 @@
 #   Is Exposed to Sky
 
-Checks if a position is exposed to the sky.
+Checks if the sky is visible at the specified position and if there are no blocks between the sky and the specified position.
 
 
 Type ID: `neo-apoli:is_exposed_to_sky`
+
+
+???+ note
+
+    Not to be confused with [Is Sky Visible](is_sky_visible.md), which only checks if the sky is visible at the specified position.
 
 
 ### Format

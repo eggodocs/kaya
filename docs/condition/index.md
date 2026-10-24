@@ -63,3 +63,4 @@ Field | Type | Default | Description
 - [`item_matches_ingredient`](item_matches_ingredient.md)
 - [`item_matches_predicate`](item_matches_predicate.md)
 - [`matches_block_pattern`](matches_block_pattern.md)
+- [`is_sky_visible`](is_sky_visible.md)
