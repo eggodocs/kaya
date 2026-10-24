@@ -257,6 +257,22 @@
          <lastmod>2026-10-24</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/check_block_type/</loc>
+         <lastmod>2026-10-24</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/check_damage_type/</loc>
+         <lastmod>2026-10-24</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/check_effect_type/</loc>
+         <lastmod>2026-10-24</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/check_entity_type/</loc>
+         <lastmod>2026-10-24</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/check_precipitation/</loc>
          <lastmod>2026-10-24</lastmod>
     </url>
@@ -305,31 +321,7 @@
          <lastmod>2026-10-24</lastmod>
     </url>
     <url>
-         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_block_in_tag/</loc>
-         <lastmod>2026-10-24</lastmod>
-    </url>
-    <url>
-         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_block_of_type/</loc>
-         <lastmod>2026-10-24</lastmod>
-    </url>
-    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_block_replaceable/</loc>
-         <lastmod>2026-10-24</lastmod>
-    </url>
-    <url>
-         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_damage_source_in_tag/</loc>
-         <lastmod>2026-10-24</lastmod>
-    </url>
-    <url>
-         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_damage_source_of_type/</loc>
-         <lastmod>2026-10-24</lastmod>
-    </url>
-    <url>
-         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_effect_in_tag/</loc>
-         <lastmod>2026-10-24</lastmod>
-    </url>
-    <url>
-         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_effect_of_type/</loc>
          <lastmod>2026-10-24</lastmod>
     </url>
     <url>
@@ -342,14 +334,6 @@
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_entity_horizontally_colliding/</loc>
-         <lastmod>2026-10-24</lastmod>
-    </url>
-    <url>
-         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_entity_in_tag/</loc>
-         <lastmod>2026-10-24</lastmod>
-    </url>
-    <url>
-         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_entity_of_type/</loc>
          <lastmod>2026-10-24</lastmod>
     </url>
     <url>
