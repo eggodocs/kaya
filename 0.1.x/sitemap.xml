@@ -113,6 +113,10 @@
          <lastmod>2026-10-24</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/provide_context/</loc>
+         <lastmod>2026-10-24</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/action/random_chance/</loc>
          <lastmod>2026-10-24</lastmod>
     </url>
@@ -253,6 +257,10 @@
          <lastmod>2026-10-24</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/check_precipitation/</loc>
+         <lastmod>2026-10-24</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/compare/</loc>
          <lastmod>2026-10-24</lastmod>
     </url>
@@ -365,10 +373,6 @@
          <lastmod>2026-10-24</lastmod>
     </url>
     <url>
-         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_exposed_to_precipitation/</loc>
-         <lastmod>2026-10-24</lastmod>
-    </url>
-    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/is_exposed_to_sky/</loc>
          <lastmod>2026-10-24</lastmod>
     </url>
@@ -386,6 +390,10 @@
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/parameter_exists/</loc>
+         <lastmod>2026-10-24</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/condition/provide_context/</loc>
          <lastmod>2026-10-24</lastmod>
     </url>
     <url>
