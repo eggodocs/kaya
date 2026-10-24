@@ -32,6 +32,7 @@ Field | Type | Default | Description
 - [`dynamic`](dynamic.md)
 - [`inverted`](inverted.md)
 - [`parameter_exists`](parameter_exists.md)
+- [`provide_context`](provide_context.md)
 - [`reference`](reference.md)
 
 
