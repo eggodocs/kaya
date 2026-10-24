@@ -67,5 +67,7 @@ Field | Type | Default | Description
 - [`nbt`](nbt.md)
 - [`player/saturation`](player_saturation.md)
 - [`power/cooldown/progress`](power_cooldown_progress.md)
+- [`rain_level`](rain_level.md)
+- [`thunder_level`](thunder_level.md)
 - [`vector/component`](vector_component.md)
 - [`vector/length`](vector_length.md)
