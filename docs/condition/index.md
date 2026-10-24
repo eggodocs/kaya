@@ -42,7 +42,7 @@ Field | Type | Default | Description
 - [`entity_has_correct_tool_for_block`](entity_has_correct_tool_for_block.md)
 - [`entity_has_item_equipped`](entity_has_item_equipped.md)
 - [`entity_has_power`](entity_has_power.md)
-- [`entity_has_pressed_keys_simultaneously`](entity_has_pressed_keys_simultaneously.md)
+- [`entity_has_pressed_key`](entity_has_pressed_key.md)
 - [`is_block_entity`](is_block_entity.md)
 - [`is_block_in_tag`](is_block_in_tag.md)
 - [`is_block_of_type`](is_block_of_type.md)
