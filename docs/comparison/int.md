@@ -22,24 +22,28 @@ Field | Type | Default | Description
     "type": "neo-apoli:int",
     "comparator": ">=",
     "first": {
-        "type": "neo-apoli:entities_in_radius",
+        "type": "neo-apoli:count_in_area",
+        "area": {
+            "type": "neo-apoli:radius",
+            "target": "entity",
+            "shape": "cube",
+            "position": {
+                "type": "neo-apoli:entity/position",
+                "entity": "this"
+            },
+            "radius": 16.0
+        },
         "condition": {
-            "type": "neo-apoli:is_entity_of_type",
-            "entity_type": "minecraft:creeper",
-            "entity": "target"
-        },
-        "position": {
-            "type": "neo-apoli:entity/position",
-            "entity": "this"
-        },
-        "shape": "cube",
-        "radius": 16.0
+            "type": "neo-apoli:check_entity_type",
+            "key": "minecraft:creeper",
+            "entity": "entity_in_area"
+        }
     },
     "second": 8
 }
 ```
 
-This example checks if the count of Creepers within a 16 block cubical radius is greater or equal to 8.
+This example checks if the count of Creepers within a 16 block cubical radius relative to the entity provided by the `neo-apoli:this_entity` context parameter is greater or equal to 8.
 
 
 ### History

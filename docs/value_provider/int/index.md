@@ -56,10 +56,9 @@ Field | Type | Default | Description
 
 - [`adjacent_blocks`](adjacent_blocks.md)
 - [`blocks_colliding_box`](blocks_colliding_box.md)
-- [`blocks_in_radius`](blocks_in_radius.md)
 - [`blocks_intersecting_box`](blocks_intersecting_box.md)
+- [`count_in_area`](count_in_area.md)
 - [`effect/amplifier`](effect_amplifier.md)
-- [`entities_in_radius`](entities_in_radius.md)
 - [`entity/active_effects`](entity_active_effects.md)
 - [`equipped_enchantment_level`](equipped_enchantment_level.md)
 - [`item/count/max`](item_count_max.md)
