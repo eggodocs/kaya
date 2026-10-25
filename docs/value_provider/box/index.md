@@ -29,6 +29,7 @@ Field | Type | Default | Description
 - [`dynamic`](dynamic.md)
 - [`inflate`](inflate.md)
 - [`resize`](resize.md)
+- [`translate`](translate.md)
 - [`weighted`](../meta/weighted.md)
 
 
