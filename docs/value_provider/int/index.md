@@ -70,5 +70,6 @@ Field | Type | Default | Description
 - [`nbt`](nbt.md)
 - [`player/food`](player_food.md)
 - [`power/cooldown/remaining_ticks`](power_cooldown_remaining_ticks.md)
+- [`resource`](resource.md)
 - [`slot_id`](slot_id.md)
 - [`time`](time.md)
