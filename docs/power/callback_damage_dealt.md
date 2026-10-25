@@ -1,9 +1,9 @@
 #   Callback Damage Dealt
 
-Invokes an action upon the player placing a block.
+Invokes an action upon the entity holding the power dealing damage to another entity.
 
 
-Type ID: `neo-apoli:callback/block/place`
+Type ID: `neo-apoli:callback/damage/dealt`
 
 
 ???+ info
