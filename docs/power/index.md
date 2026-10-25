@@ -31,6 +31,7 @@ Field | Type | Default | Description
 - [`callback/block/break`](callback_block_break.md)
 - [`callback/block/place`](callback_block_place.md)
 - [`callback/damage/dealt`](callback_damage_dealt.md)
+- [`callback/damage/taken`](callback_damage_taken.md)
 - [`callback/player/respawned`](callback_player_respawned.md)
 - [`callback/player/wake_up`](callback_player_wake_up.md)
 - [`callback/power/added`](callback_power_added.md)
