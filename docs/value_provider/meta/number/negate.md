@@ -15,7 +15,7 @@ Type ID: `neo-apoli:negate`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`value` | [Number Provider][number_providers] | | The number to get its negation from.
+`value` | Number Provider | | The number to get its negation from.
 
 
 ### Example

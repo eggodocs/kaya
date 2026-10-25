@@ -15,7 +15,7 @@ Type ID: `neo-apoli:difference`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`values` | [Array][array] of [Number Providers][number_providers] | | The numbers to get the difference from.
+`values` | [Array][array] of Number Providers | | The numbers to get the difference from.
 
 
 ### Example

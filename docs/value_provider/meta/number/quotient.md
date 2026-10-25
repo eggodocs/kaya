@@ -15,8 +15,8 @@ Type ID: `neo-apoli:quotient`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`dividend` | [Number Provider][number_providers] | | The number to divide.
-`divisor` | [Number Provider][number_providers] | | The number used to divide the dividend.
+`dividend` | Number Provider | | The number to divide.
+`divisor` | Number Provider | | The number used to divide the dividend.
 
 
 ### Example

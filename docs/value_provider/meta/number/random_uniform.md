@@ -15,8 +15,8 @@ Type ID: `neo-apoli:random/uniform`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`min` | [Number Provider][number_providers] | | The minimum bounds of the number.
-`max` | [Number Provider][number_providers] | | The maximum bounds of the number.
+`min` | Number Provider | | The minimum bounds of the number.
+`max` | Number Provider | | The maximum bounds of the number.
 
 
 ### Example

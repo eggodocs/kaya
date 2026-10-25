@@ -7,27 +7,7 @@ An object that contains a key-value pair where the keys are the names of the con
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`<name>` | [Entry](#entry) | | The context parameter to provide. The `<name>` will be the ID of the context parameter and it can be arbitrary as long as it follows the rules of [identifiers]({{ mc.identifier }}).
-
-
-[](){ #entry }
-
-???+ info "Entry"
-
-    An object that defines a context parameter and its value.
-
-
-    ### Format
-
-    Field | Type | Default | Description
-    ------|------|:-------:|------------
-    `type` | [Context Parameter Type](../data/context_parameter.md#types) | | The ID of the desired parameter type.
-    `value` | [Value Provider][value_provider] | | The value provider that'd provide the value for the parameter.
-
-
-    ???+ tip
-
-        Make sure to click on the hyperlink for context parameter types to see the corresponding value provider to use for your desired type.
+`<name>` | [Value Provider][value_provider] | | The context parameter and its value provider. The `<name>` will be the ID of the context parameter and it can be arbitrary as long as it follows the rules of [identifiers]({{ mc.identifier }}).
 
 
 ### Example
@@ -49,4 +29,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example provides a context parameter map that has two context parameters: `example:random_int` which refers to a random integer from 1 to 64, and `example:held_entity` which refers to the entity from the `neo-apoli:this_entity` context parameter.
+This example provides a context parameter map that has two context parameters with certain value providers:
+
+- `example:random_int`, which has an [int provider][int_provider] that refers to a random integer with the range of 1 to 64.
+- `example:held_entity`, which has an [entity provider][entity_provider] that refers to the entity provided by the `neo-apoli:this_entity` context parameter.

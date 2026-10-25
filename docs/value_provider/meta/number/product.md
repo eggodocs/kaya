@@ -15,7 +15,7 @@ Type ID: `neo-apoli:product`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`values` | [Array][array] of [Number Providers][number_providers] | | The numbers to get the product of.
+`values` | [Array][array] of Number Providers | | The numbers to get the product of.
 
 
 ### Example

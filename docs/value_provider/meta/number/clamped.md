@@ -15,9 +15,9 @@ Type ID: `neo-apoli:clamped`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`value` | [Number Provider][number_providers] | | The number value to provide and clamp.
-`min` | [Number Provider][number_providers] | | The minimum number value for the provided number value.
-`max` | [Number Provider][number_providers] | | The maximum number value for the provided number value.
+`value` | Number Provider | | The number value to provide and clamp.
+`min` | Number Provider | | The minimum number value for the provided number value.
+`max` | Number Provider | | The maximum number value for the provided number value.
 
 
 ### Example

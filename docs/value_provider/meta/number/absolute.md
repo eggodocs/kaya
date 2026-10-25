@@ -15,7 +15,7 @@ Type ID: `neo-apoli:absolute`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`value` | [Number Provider][number_providers] | | The number to get its absolute value of.
+`value` | Number Provider | | The number to get its absolute value of.
 
 
 ### Example
