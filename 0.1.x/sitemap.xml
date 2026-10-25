@@ -229,6 +229,10 @@
          <lastmod>2026-10-25</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/command/resource/</loc>
+         <lastmod>2026-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/comparison/</loc>
          <lastmod>2026-10-25</lastmod>
     </url>
@@ -789,6 +793,14 @@
          <lastmod>2026-10-25</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/resource_float/</loc>
+         <lastmod>2026-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/resource_int/</loc>
+         <lastmod>2026-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/power/toggle/</loc>
          <lastmod>2026-10-25</lastmod>
     </url>
@@ -969,6 +981,10 @@
          <lastmod>2026-10-25</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/resource/</loc>
+         <lastmod>2026-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/float/round/</loc>
          <lastmod>2026-10-25</lastmod>
     </url>
@@ -1062,6 +1078,10 @@
     </url>
     <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/random_binomial/</loc>
+         <lastmod>2026-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/resource/</loc>
          <lastmod>2026-10-25</lastmod>
     </url>
     <url>
