@@ -6,6 +6,24 @@ Counts how many entities/blocks are within the specified area.
 Type ID: `neo-apoli:count_in_area`
 
 
+???+ info
+
+    This type will provide the following context parameters to the `condition` field when counting targets depending on the area's specified target:
+
+    === "`entity`"
+
+        Parameter | Description
+        ----------|------------
+        `neo-apoli:entity_in_area` | The affected entity in the specified area.
+
+    
+    === "`block`"
+
+        Parameter | Description
+        ----------|------------
+        `neo-apoli:block_in_area` | The affected block in the specified area.
+
+
 ### Format
 
 Field | Type | Default | Description

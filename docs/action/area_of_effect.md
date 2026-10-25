@@ -8,7 +8,7 @@ Type ID: `neo-apoli:area_of_effect`
 
 ???+ info
 
-    This type will provide the following context parameters to the `area_condition` and `area_action` fields when checking for targets and executing if fulfilled depending on the specified `area_target`:
+    This type will provide the following context parameters to the `action` and `condition` fields when checking for targets and executing if fulfilled depending on the area's specified target:
 
     === "`entity`"
 
@@ -28,27 +28,10 @@ Type ID: `neo-apoli:area_of_effect`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`area_target` | [Area Target](#area_target) | | Determines what kind of target is affected by the area.
-`area_action` | [Action][action] | | The action to execute on the targets.
-`area_condition` | [Condition][condition] | *optional* | If specified, this condition is checked on each target before executing the `area_action`.
-`position` | [Vec3 Provider][vec3_provider] | | The position of the area.
-`shape` | [Shape][shape] | `"cube"` | The shape of the area.
-`radius` | [Float Provider][float_provider] | | The radius of the area.
-
-
-[](){ #area_target }
-
-???+ info "Area target"
-
-    A [string][string] that determines what kind of target is affected by an area.
-
-
-    ### Values
-
-    Value | Description
-    ------|------------
-    `entity` | The area will affect entities within it.
-    `block` | The area will affect blocks within it.
+`area` | [Area][area] | | The area to get the targets from.
+`action` | [Action][action] | | The action to execute to the targets.
+`condition` | [Condition][condition] | *optional* | If specified, only targets that fulfill this condition will have the action executed on them.
+`limit` | [Int Provider][int_provider] | *optional* | If specified, the iteration will be ended early if this amount of targets have been processed, unless it's 0 or a negative value.
 
 
 ### Example
@@ -56,26 +39,30 @@ Field | Type | Default | Description
 ```json
 {
     "type": "neo-apoli:area_of_effect",
-    "area_target": "entity",
-    "area_action": {
+    "area": {
+        "type": "neo-apoli:radius",
+        "target": "entity",
+        "shape": "cube",
+        "position": {
+            "type": "neo-apoli:entity/position",
+            "entity": "this"
+        },
+        "radius": 16.0
+    },
+    "action": {
         "type": "neo-apoli:set_entity_on_fire",
         "ticks": 200,
         "entity": "entity_in_area"
     },
-    "area_condition": {
-        "type": "neo-apoli:is_entity_of_type",
-        "entity_type": "minecraft:creeper",
+    "condition": {
+        "type": "neo-apoli:check_entity_type",
+        "key": "minecraft:creeper",
         "entity": "entity_in_area"
-    },
-    "position": {
-        "type": "neo-apoli:entity/position",
-        "entity": "this"
-    },
-    "radius": 16.0
+    }
 }
 ```
 
-This example will set entities within a 16.0 blocks cubical area on fire relative to the entity provided by the `neo-apoli:this_entity` context parameter.
+This example will set creeprs on fire within a 16.0 blocks cubical area relative to the position of the entity provided by the `neo-apoli:this_entity` context parameter.
 
 
 ### History
