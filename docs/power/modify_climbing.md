@@ -27,8 +27,8 @@ Field | Type | Default | Description
             "first": {
                 "type": "neo-apoli:blocks_intersecting_box",
                 "condition": {
-                    "type": "neo-apoli:is_block_of_type",
-                    "block_type": "minecraft:sugar_cane",
+                    "type": "neo-apoli:check_block_type",
+                    "key": "minecraft:sugar_cane",
                     "block": "block_intersecting_box"
                 },
                 "box": {

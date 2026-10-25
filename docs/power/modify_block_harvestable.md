@@ -35,8 +35,8 @@ Field | Type | Default | Description
     "type": "neo-apoli:modify/block/harvestable",
     "allow": true,
     "active_condition": {
-        "type": "neo-apoli:is_block_of_type",
-        "block_type": "minecraft:gold_block",
+        "type": "neo-apoli:check_block_type",
+        "key": "minecraft:gold_block",
         "block": "mining_block"
     }
 }

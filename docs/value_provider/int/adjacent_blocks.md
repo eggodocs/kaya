@@ -29,8 +29,8 @@ Field | Type | Default | Description
 {
     "type": "neo-apoli:adjacent_blocks",
     "condition": {
-        "type": "neo-apoli:is_block_of_type",
-        "block_type": "minecraft:dirt",
+        "type": "neo-apoli:check_block_type",
+        "key": "minecraft:dirt",
         "block": "adjacent_block"
     },
     "position": {

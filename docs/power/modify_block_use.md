@@ -57,7 +57,7 @@ Field | Type | Default | Description
     "result": "fail",
     "priority": 1,
     "active_condition": {
-        "type": "neo-apoli:is_block_in_tag",
+        "type": "neo-apoli:check_block_type",
         "tag": "#minecraft:copper_chests",
         "block": "used_block"
     }

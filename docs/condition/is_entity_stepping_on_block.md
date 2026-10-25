@@ -29,7 +29,7 @@ Field | Type | Default | Description
 {
     "type": "neo-apoli:is_entity_stepped_on_block",
     "stepped_on_condition": {
-        "type": "neo-apoli:is_block_in_tag",
+        "type": "neo-apoli:check_block_type",
         "tag": "#minecraft:carpets",
         "block": "stepped_on_block"
     },

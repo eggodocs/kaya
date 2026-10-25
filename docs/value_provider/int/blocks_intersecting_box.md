@@ -29,8 +29,8 @@ Field | Type | Default | Description
 {
     "type": "neo-apoli:blocks_intersecting_box",
     "condition": {
-        "type": "neo-apoli:is_block_of_type",
-        "block_type": "minecraft:grass_block",
+        "type": "neo-apoli:check_block_type",
+        "key": "minecraft:grass_block",
         "block": "block_intersecting_box"
     },
     "box": {

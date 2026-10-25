@@ -62,13 +62,13 @@ Field | Type | Default | Description
 	],
 	"where": {
 		"#": {
-			"type": "neo-apoli:is_block_in_tag",
+			"type": "neo-apoli:check_block_type",
 			"tag": "#minecraft:planks",
 			"block": "matching_block"
 		},
 		"~": {
-			"type": "neo-apoli:is_block_of_type",
-			"block_type": "minecraft:water",
+			"type": "neo-apoli:check_block_type",
+			"key": "minecraft:water",
 			"block": "matching_block"
 		}
 	},

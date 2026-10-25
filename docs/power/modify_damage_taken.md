@@ -41,7 +41,7 @@ Field | Type | Default | Description
         }
     ],
     "active_condition": {
-        "type": "neo-apoli:is_entity_in_tag",
+        "type": "neo-apoli:check_entity_type",
         "tag": "#minecraft:skeletons",
         "entity": "actor"
     }

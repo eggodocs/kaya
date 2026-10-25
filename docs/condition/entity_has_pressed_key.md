@@ -18,7 +18,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity_has_pressed_keys_simultaneously",
+    "type": "neo-apoli:entity_has_pressed_key",
     "key": [
         "key.hotbar.0",
         "key.hotbar.1"

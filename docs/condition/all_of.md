@@ -24,8 +24,8 @@ Field | Type | Default | Description
             "entity": "this"
         },
         {
-            "type": "neo-apoli:is_block_of_type",
-            "block_type": "minecraft:oak_log",
+            "type": "neo-apoli:check_block_type",
+            "key": "minecraft:oak_log",
             "block": "broken_block"
         }
     ]

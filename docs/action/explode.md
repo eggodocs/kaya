@@ -61,8 +61,8 @@ Field | Type | Default | Description
 {
     "type": "neo-apoli:explode",
     "damageable_condition": {
-        "type": "neo-apoli:is_entity_of_type",
-        "entity_type": "minecraft:creeper",
+        "type": "neo-apoli:check_entity_type",
+        "key": "minecraft:creeper",
         "entity": "exploded_entity"
     },
     "block_interaction": "keep",

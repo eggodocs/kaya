@@ -41,8 +41,8 @@ Field | Type | Default | Description
         "entity": "this"
     },
     "active_condition": {
-        "type": "neo-apoli:is_block_of_type",
-        "block_type": "minecraft:magma_block",
+        "type": "neo-apoli:check_block_type",
+        "key": "minecraft:magma_block",
         "block": "broken_block"
 	}
  }

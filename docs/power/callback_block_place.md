@@ -57,8 +57,8 @@ Field | Type | Default | Description
 		}
 	],
 	"active_condition": {
-		"type": "neo-apoli:is_block_in_tag",
-		"block_tag": "#minecraft:flowers",
+		"type": "neo-apoli:check_block_type",
+		"tag": "#minecraft:flowers",
 		"block": "placed_to_block"
 	}
 }
