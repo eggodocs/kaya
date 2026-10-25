@@ -11066,10 +11066,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#number_providers" class="md-nav__link">
+  <a href="#format" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Number Providers
+        Format
       
     </span>
   </a>
@@ -11077,10 +11077,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#providers" class="md-nav__link">
+  <a href="#kinds" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Providers
+        Kinds
       
     </span>
   </a>
@@ -11109,27 +11109,106 @@
 
 <h1 id="value_provider">Value Provider</h1>
 <p>Value providers are data objects that operate on a given context and return an object value based on the parameters provided by the said context. These can be used for providing dynamic values for fields where a context is given.</p>
-<h3 id="number_providers">Number Providers</h3>
-<ul>
-<li><a class="autorefs autorefs-internal" title="Float Provider" href="float/#float_provider">Float</a></li>
-<li><a class="autorefs autorefs-internal" title="Int Provider" href="int/#int_provider">Integer</a></li>
-</ul>
-<h3 id="providers">Providers</h3>
-<ul>
-<li><a class="autorefs autorefs-internal" title="Block Provider" href="block/#block_provider">Block</a></li>
-<li><a class="autorefs autorefs-internal" title="Boolean Provider" href="boolean/#boolean_provider">Boolean</a></li>
-<li><a class="autorefs autorefs-internal" title="Box Provider" href="box/#box_provider">Box</a></li>
-<li><a class="autorefs autorefs-internal" title="Command Source Provider" href="command_source/#command_source_provider">Command Source</a></li>
-<li><a class="autorefs autorefs-internal" title="Damage Source Provider" href="damage_source/#damage_source_provider">Damage Source</a></li>
-<li><a class="autorefs autorefs-internal" href="../data/direction/#direction">Direction</a></li>
-<li><a class="autorefs autorefs-internal" title="Effect Provider" href="effect/#effect_provider">Effect</a></li>
-<li><a class="autorefs autorefs-internal" title="Entity Provider" href="entity/#entity_provider">Entity</a></li>
-<li><a class="autorefs autorefs-internal" title="Item Provider" href="item/#item_provider">Item</a></li>
-<li><a class="autorefs autorefs-internal" title="NBT Provider" href="nbt/#nbt_provider">NBT</a></li>
-<li><a class="autorefs autorefs-internal" title="Slot Provider" href="slot/#slot_provider">Slot</a></li>
-<li><a class="autorefs autorefs-internal" title="String Provider" href="string/#string_provider">String</a></li>
-<li><a class="autorefs autorefs-internal" title="Vec3 Provider" href="vec3/#vec3_provider">Vec3</a></li>
-</ul>
+<h3 id="format">Format</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Type</th>
+<th style="text-align: center;">Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>type</code></td>
+<td><a href="#kinds">Kind</a></td>
+<td style="text-align: center;"></td>
+<td>The ID of the desired kind of value provider.</td>
+</tr>
+<tr>
+<td><code>value</code></td>
+<td>Provider</td>
+<td style="text-align: center;"></td>
+<td>The value to provide.</td>
+</tr>
+</tbody>
+</table>
+<details class="info" open="open">
+<summary>Kind</summary>
+<p>A value provider has a "kind" which determines what type of object it will provide and what type of context parameter it can create. This allows for creation of value providers in fields or codecs without restriction on the type. (See: <a class="autorefs autorefs-internal" href="../data/context_parameter_map/#context_parameter_map">Context Parameter Map</a>)</p>
+<h3 id="kinds">Kinds</h3>
+<table>
+<thead>
+<tr>
+<th>Kind and Parameter Type</th>
+<th>Provider</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>neo-apoli:block</code></td>
+<td><a class="autorefs autorefs-internal" href="block/#block_provider">Block Provider</a></td>
+</tr>
+<tr>
+<td><code>neo-apoli:boolean</code></td>
+<td><a class="autorefs autorefs-internal" href="boolean/#boolean_provider">Boolean Provider</a></td>
+</tr>
+<tr>
+<td><code>neo-apoli:box</code></td>
+<td><a class="autorefs autorefs-internal" href="box/#box_provider">Box Provider</a></td>
+</tr>
+<tr>
+<td><code>neo-apoli:command_source</code></td>
+<td><a class="autorefs autorefs-internal" href="command_source/#command_source_provider">Command Source Provider</a></td>
+</tr>
+<tr>
+<td><code>neo-apoli:damage_source</code></td>
+<td><a class="autorefs autorefs-internal" href="damage_source/#damage_source_provider">Damage Source Provider</a></td>
+</tr>
+<tr>
+<td><code>neo-apoli:direction</code></td>
+<td><a class="autorefs autorefs-internal" href="direction/#direction_provider">Direction Provider</a></td>
+</tr>
+<tr>
+<td><code>neo-apoli:effect</code></td>
+<td><a class="autorefs autorefs-internal" href="effect/#effect_provider">Effect Provider</a></td>
+</tr>
+<tr>
+<td><code>neo-apoli:entity</code></td>
+<td><a class="autorefs autorefs-internal" href="entity/#entity_provider">Entity Provider</a></td>
+</tr>
+<tr>
+<td><code>neo-apoli:float</code></td>
+<td><a class="autorefs autorefs-internal" href="float/#float_provider">Float Provider</a></td>
+</tr>
+<tr>
+<td><code>neo-apoli:int</code></td>
+<td><a class="autorefs autorefs-internal" href="int/#int_provider">Int Provider</a></td>
+</tr>
+<tr>
+<td><code>neo-apoli:item</code></td>
+<td><a class="autorefs autorefs-internal" href="item/#item_provider">Item Provider</a></td>
+</tr>
+<tr>
+<td><code>neo-apoli:nbt</code></td>
+<td><a class="autorefs autorefs-internal" href="nbt/#nbt_provider">NBT Provider</a></td>
+</tr>
+<tr>
+<td><code>neo-apoli:slot</code></td>
+<td><a class="autorefs autorefs-internal" href="slot/#slot_provider">Slot Provider</a></td>
+</tr>
+<tr>
+<td><code>neo-apoli:string</code></td>
+<td><a class="autorefs autorefs-internal" href="string/#string_provider">String Provider</a></td>
+</tr>
+<tr>
+<td><code>neo-apoli:vec3</code></td>
+<td><a class="autorefs autorefs-internal" href="vec3/#vec3_provider">Vec3 Provider</a></td>
+</tr>
+</tbody>
+</table>
+</details>
 
 
 

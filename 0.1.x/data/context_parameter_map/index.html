@@ -4323,17 +4323,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#format_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Format
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11157,17 +11146,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#format_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Format
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11213,46 +11191,12 @@
 <tbody>
 <tr>
 <td><code>&lt;name&gt;</code></td>
-<td><a href="#entry">Entry</a></td>
-<td style="text-align: center;"></td>
-<td>The context parameter to provide. The <code>&lt;name&gt;</code> will be the ID of the context parameter and it can be arbitrary as long as it follows the rules of <a href="https://minecraft.wiki/w/Identifier">identifiers</a>.</td>
-</tr>
-</tbody>
-</table>
-<p><a href="" id="entry"></a></p>
-<details class="info" open="open">
-<summary>Entry</summary>
-<p>An object that defines a context parameter and its value.</p>
-<h3 id="format_1">Format</h3>
-<table>
-<thead>
-<tr>
-<th>Field</th>
-<th>Type</th>
-<th style="text-align: center;">Default</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>type</code></td>
-<td><a href="../context_parameter/#types">Context Parameter Type</a></td>
-<td style="text-align: center;"></td>
-<td>The ID of the desired parameter type.</td>
-</tr>
-<tr>
-<td><code>value</code></td>
 <td><a class="autorefs autorefs-internal" href="../../value_provider/#value_provider">Value Provider</a></td>
 <td style="text-align: center;"></td>
-<td>The value provider that'd provide the value for the parameter.</td>
+<td>The context parameter and its value provider. The <code>&lt;name&gt;</code> will be the ID of the context parameter and it can be arbitrary as long as it follows the rules of <a href="https://minecraft.wiki/w/Identifier">identifiers</a>.</td>
 </tr>
 </tbody>
 </table>
-<details class="tip" open="open">
-<summary>Tip</summary>
-<p>Make sure to click on the hyperlink for context parameter types to see the corresponding value provider to use for your desired type.</p>
-</details>
-</details>
 <h3 id="example">Example</h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">{</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="nt">"example:random_int"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
@@ -11269,7 +11213,11 @@
 <a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="p">}</span>
 </code></pre></div>
-<p>This example provides a context parameter map that has two context parameters: <code>example:random_int</code> which refers to a random integer from 1 to 64, and <code>example:held_entity</code> which refers to the entity from the <code>neo-apoli:this_entity</code> context parameter.</p>
+<p>This example provides a context parameter map that has two context parameters with certain value providers:</p>
+<ul>
+<li><code>example:random_int</code>, which has an <a class="autorefs autorefs-internal" title="Int Provider" href="../../value_provider/int/#int_provider">int provider</a> that refers to a random integer with the range of 1 to 64.</li>
+<li><code>example:held_entity</code>, which has an <a class="autorefs autorefs-internal" title="Entity Provider" href="../../value_provider/entity/#entity_provider">entity provider</a> that refers to the entity provided by the <code>neo-apoli:this_entity</code> context parameter.</li>
+</ul>
 
 
 

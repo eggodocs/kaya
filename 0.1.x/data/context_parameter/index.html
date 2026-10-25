@@ -4305,17 +4305,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#pre-defined_parameters" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Pre-defined Parameters
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -11167,17 +11156,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#pre-defined_parameters" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Pre-defined Parameters
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -11200,104 +11178,8 @@
 
 <h1 id="context_parameter">Context Parameter</h1>
 <p>An object that determines a parameter, which indicates what kind of object is stored in a context.</p>
-<h3 id="format">Format</h3>
-<table>
-<thead>
-<tr>
-<th>Field</th>
-<th>Type</th>
-<th style="text-align: center;">Default</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>type</code></td>
-<td><a href="#types">Type</a></td>
-<td style="text-align: center;"></td>
-<td>The ID of the desired parameter type.</td>
-</tr>
-<tr>
-<td><code>name</code></td>
-<td><a href="https://minecraft.wiki/w/Identifier">Identifier</a></td>
-<td style="text-align: center;"></td>
-<td>The ID of the parameter.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="types">Types</h3>
-<p>Most if not all parameter types have a corresponding value provider. Check the table below for the available parameter types and its corresponding value provider:</p>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Value Provider</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>neo-apoli:block</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/block/#block_provider">Block Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:boolean</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/boolean/#boolean_provider">Boolean Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:box</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/box/#box_provider">Box Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:command_source</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/command_source/#command_source_provider">Command Source Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:damage_source</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/damage_source/#damage_source_provider">Damage Source Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:direction</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/direction/#direction_provider">Direction Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:effect</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/effect/#effect_provider">Effect Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:entity</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/entity/#entity_provider">Entity Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:float</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/float/#float_provider">Float Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:int</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/int/#int_provider">Int Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:item</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/item/#item_provider">Item Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:nbt</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/nbt/#nbt_provider">NBT Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:slot</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/slot/#slot_provider">Slot Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:string</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/string/#string_provider">String Provider</a></td>
-</tr>
-<tr>
-<td><code>neo-apoli:vec3</code></td>
-<td><a class="autorefs autorefs-internal" href="../../value_provider/vec3/#vec3_provider">Vec3 Provider</a></td>
-</tr>
-</tbody>
-</table>
-<h3 id="pre-defined_parameters">Pre-defined Parameters</h3>
+<details class="tip">
+<summary>Pre-defined parameters</summary>
 <p>In neo-apoli, there are pre-defined context parameters that are used/shared by certain types:</p>
 <table>
 <thead>
@@ -11339,14 +11221,24 @@
 <td>Usually refers to the entity holding a power.</td>
 </tr>
 <tr>
-<td><code>neo-apoli:dealt_damage_source</code></td>
+<td><code>neo-apoli:dealt_damage/source</code></td>
 <td><code>neo-apoli:damage_source</code></td>
 <td>The damage source dealt by an entity.</td>
 </tr>
 <tr>
-<td><code>neo-apoli:taken_damage_source</code></td>
+<td><code>neo-apoli:taken_damage/source</code></td>
 <td><code>neo-apoli:damage_source</code></td>
 <td>The damage source taken by an entity.</td>
+</tr>
+<tr>
+<td><code>neo-apoli:dealt_damage/amount</code></td>
+<td><code>neo-apoli:float</code></td>
+<td>The amount of damage dealt to an entity.</td>
+</tr>
+<tr>
+<td><code>neo-apoli:taken_damage/amount</code></td>
+<td><code>neo-apoli:float</code></td>
+<td>The amount of damage taken by an entity.</td>
 </tr>
 <tr>
 <td><code>neo-apoli:damaging_entity</code></td>
@@ -11405,6 +11297,50 @@
 </tr>
 </tbody>
 </table>
+</details>
+<h3 id="format">Format</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Type</th>
+<th style="text-align: center;">Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>type</code></td>
+<td><a href="#types">Type</a></td>
+<td style="text-align: center;"></td>
+<td>The ID of the desired parameter type.</td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td><a href="https://minecraft.wiki/w/Identifier">Identifier</a></td>
+<td style="text-align: center;"></td>
+<td>The ID of the parameter.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="types">Types</h3>
+<ul>
+<li><code>neo-apoli:block</code></li>
+<li><code>neo-apoli:boolean</code></li>
+<li><code>neo-apoli:box</code></li>
+<li><code>neo-apoli:command_source</code></li>
+<li><code>neo-apoli:damage_source</code></li>
+<li><code>neo-apoli:direction</code></li>
+<li><code>neo-apoli:effect</code></li>
+<li><code>neo-apoli:entity</code></li>
+<li><code>neo-apoli:float</code></li>
+<li><code>neo-apoli:int</code></li>
+<li><code>neo-apoli:item</code></li>
+<li><code>neo-apoli:nbt</code></li>
+<li><code>neo-apoli:slot</code></li>
+<li><code>neo-apoli:string</code></li>
+<li><code>neo-apoli:vec3</code></li>
+</ul>
 
 
 
