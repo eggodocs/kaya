@@ -177,6 +177,18 @@
          <lastmod>2026-10-25</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/area/</loc>
+         <lastmod>2026-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/area/box/</loc>
+         <lastmod>2026-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/area/radius/</loc>
+         <lastmod>2026-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/color/</loc>
          <lastmod>2026-10-25</lastmod>
     </url>
@@ -985,10 +997,6 @@
          <lastmod>2026-10-25</lastmod>
     </url>
     <url>
-         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/blocks_in_radius/</loc>
-         <lastmod>2026-10-25</lastmod>
-    </url>
-    <url>
          <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/blocks_intersecting_box/</loc>
          <lastmod>2026-10-25</lastmod>
     </url>
@@ -997,11 +1005,11 @@
          <lastmod>2026-10-25</lastmod>
     </url>
     <url>
-         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/effect_amplifier/</loc>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/count_in_area/</loc>
          <lastmod>2026-10-25</lastmod>
     </url>
     <url>
-         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/entities_in_radius/</loc>
+         <loc>https://eggodocs.github.io/neo-apoli/0.1.x/value_provider/int/effect_amplifier/</loc>
          <lastmod>2026-10-25</lastmod>
     </url>
     <url>
