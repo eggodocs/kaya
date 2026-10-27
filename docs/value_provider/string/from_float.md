@@ -3,7 +3,7 @@
 Stringifies a float and uses it as the provided value.
 
 
-Type ID: `neo-apoli:from_float`
+Type ID: `kaya:from_float`
 
 
 ### Format
@@ -17,15 +17,15 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:from_float",
+    "type": "kaya:from_float",
     "value": {
-        "type": "neo-apoli:player/saturation",
+        "type": "kaya:player/saturation",
         "entity": "this"
     }
 }
 ```
 
-This example stringifies the food saturation value of the player provided by the `neo-apoli:this_entity` context parameter.
+This example stringifies the food saturation value of the player provided by the `kaya:this_entity` context parameter.
 
 
 ### History

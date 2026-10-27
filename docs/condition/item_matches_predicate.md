@@ -3,7 +3,7 @@
 Checks if an item matches an item predicate argument.
 
 
-Type ID: `neo-apoli:item_matches_predicate`
+Type ID: `kaya:item_matches_predicate`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:item_matches_predicate",
+    "type": "kaya:item_matches_predicate",
     "predicate": "*[minecraft:food]",
     "item": "item_in_container"
 }
 ```
 
-This example will check if the item provided by the `neo-apoli:item_in_container` context parameter has the `minecraft:food` item component.
+This example will check if the item provided by the `kaya:item_in_container` context parameter has the `minecraft:food` item component.
 
 
 ### History

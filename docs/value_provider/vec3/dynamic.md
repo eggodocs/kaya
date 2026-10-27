@@ -3,7 +3,7 @@
 Provides a vec3 with dynamic coordinates.
 
 
-Type ID: `neo-apoli:dynamic`
+Type ID: `kaya:dynamic`
 
 
 ### Format
@@ -19,27 +19,27 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:dynamic",
+    "type": "kaya:dynamic",
     "x": {
-        "type": "neo-apoli:vector/component",
+        "type": "kaya:vector/component",
         "vector": {
-            "type": "neo-apoli:entity/position",
+            "type": "kaya:entity/position",
             "entity": "this"
         },
         "axis": "x"
     },
     "y": {
-        "type": "neo-apoli:vector/component",
+        "type": "kaya:vector/component",
         "vector": {
-            "type": "neo-apoli:block/position",
+            "type": "kaya:block/position",
             "block": "broken_block"
         },
         "axis": "y"
     },
     "z": {
-        "type": "neo-apoli:vector/component",
+        "type": "kaya:vector/component",
         "vector": {
-            "type": "neo-apoli:entity/position",
+            "type": "kaya:entity/position",
             "entity": "this"
         },
         "axis": "z"
@@ -48,7 +48,7 @@ Field | Type | Default | Description
 ```
 
 
-This example provides a vec3 where the X and Z coordinates are from the entity provided by the `neo-apoli:this_entity` context parameter, and the Y coordinate is from the block provided by the `neo-apoli:broken_block` context parameter.
+This example provides a vec3 where the X and Z coordinates are from the entity provided by the `kaya:this_entity` context parameter, and the Y coordinate is from the block provided by the `kaya:broken_block` context parameter.
 
 
 ### History

@@ -3,7 +3,7 @@
 Provides an integer variable with customizable minimum, maximum, and start values.
 
 
-Type ID: `neo-apoli:resource/int`
+Type ID: `kaya:resource/int`
 
 
 ### Format
@@ -22,7 +22,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:resource/int",
+    "type": "kaya:resource/int",
     "min": -20,
     "max": 80
 }

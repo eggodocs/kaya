@@ -3,7 +3,7 @@
 Provides how many items are in an item stack.
 
 
-Type ID: `neo-apoli:item/count`
+Type ID: `kaya:item/count`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:item/count",
+    "type": "kaya:item/count",
     "item": "item_in_container"
 }
 ```
 
-This example provides the amount of items of the item stack provided by the `neo-apoli:item_in_container` context parameter.
+This example provides the amount of items of the item stack provided by the `kaya:item_in_container` context parameter.
 
 
 ### History

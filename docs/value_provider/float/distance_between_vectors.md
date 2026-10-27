@@ -3,7 +3,7 @@
 Provides the distance between two vectors.
 
 
-Type ID: `neo-apoli:distance_between_vectors`
+Type ID: `kaya:distance_between_vectors`
 
 
 ### Format
@@ -18,19 +18,19 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:distance_between_vectors",
+    "type": "kaya:distance_between_vectors",
     "first": {
-        "type": "neo-apoli:entity/position",
+        "type": "kaya:entity/position",
         "entity": "this"
     },
     "second": {
-        "type": "neo-apoli:block/position",
+        "type": "kaya:block/position",
         "block": "broken_block"
     }
 }
 ```
 
-This example provides the distance between an entity *(provided by the `neo-apoli:this_entity` context parameter)* and a block *(provided by the `neo-apoli:broken_block` context parameter.)*
+This example provides the distance between an entity *(provided by the `kaya:this_entity` context parameter)* and a block *(provided by the `kaya:broken_block` context parameter.)*
 
 
 ### History

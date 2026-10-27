@@ -6,7 +6,7 @@ Invokes an action upon "adding" the power (1) to the entity.
 1. "Adding"/"added" in this context means that the power is granted for the first time, or granted with a different source.
 
 
-Type ID: `neo-apoli:callback/power/added`
+Type ID: `kaya:callback/power/added`
 
 
 ### Format
@@ -20,11 +20,11 @@ Field | Type | Default | Description
 
 ```json
 {
-	"type": "neo-apoli:callback/power/added",
+	"type": "kaya:callback/power/added",
 	"action": {
-		"type": "neo-apoli:execute_command",
+		"type": "kaya:execute_command",
 		"source": {
-			"type": "neo-apoli:entity",
+			"type": "kaya:entity",
 			"entity": "this"
 		},
 		"command": "scoreboard players add @s somethingCoolAndFun 1"

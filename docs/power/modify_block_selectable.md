@@ -3,7 +3,7 @@
 Modifies whether the player holding the power or not should be able to break or interact with the block being looked at.
 
 
-Type ID: `neo-apoli:modify/block/selectable`
+Type ID: `kaya:modify/block/selectable`
 
 
 ???+ info
@@ -12,7 +12,7 @@ Type ID: `neo-apoli:modify/block/selectable`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:selected_block` | The block the player is looking at.
+    `kaya:selected_block` | The block the player is looking at.
 
 
 ### Format
@@ -32,13 +32,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/block/selectable",
+    "type": "kaya:modify/block/selectable",
     "allow": {
-        "type": "neo-apoli:is_entity_sneaking",
+        "type": "kaya:is_entity_sneaking",
         "entity": "this"
     },
     "active_condition": {
-        "type": "neo-apoli:check_block_type",
+        "type": "kaya:check_block_type",
         "key": "minecraft:cobweb",
         "block": "selected_block"
     }

@@ -3,7 +3,7 @@
 Does nothing. Mainly serves as a placeholder for implementations that are implemented via Java code or by other data-driven powers.
 
 
-Type ID: `neo-apoli:dummy`
+Type ID: `kaya:dummy`
 
 
 ### Format
@@ -15,9 +15,9 @@ Type ID: `neo-apoli:dummy`
 
 ```json
 {
-    "type": "neo-apoli:dummy",
+    "type": "kaya:dummy",
     "active_condition": {
-        "type": "neo-apoli:is_entity_sneaking",
+        "type": "kaya:is_entity_sneaking",
         "entity": "this"
     }
 }

@@ -3,7 +3,7 @@
 Invokes an action when a projectile hits a block or an entity.
 
 
-Type ID: `neo-apoli:callback/projectile/land`
+Type ID: `kaya:callback/projectile/land`
 
 
 ???+ info
@@ -14,18 +14,18 @@ Type ID: `neo-apoli:callback/projectile/land`
 
         Parameter | Description
         ----------|------------
-        `neo-apoli:projectile_entity` | The projectile entity itself.
-        `neo-apoli:actor_entity` | The owner of the projectile or nothing if the projectile doesn't have an owner.
-        `neo-apoli:target_entity` | The entity that was hit by the projectile.
+        `kaya:projectile_entity` | The projectile entity itself.
+        `kaya:actor_entity` | The owner of the projectile or nothing if the projectile doesn't have an owner.
+        `kaya:target_entity` | The entity that was hit by the projectile.
 
     === "A block was hit"
 
         Parameter | Description
         ----------|------------
-        `neo-apoli:landed_on_block` | The block that was hit by the projectile.
-        `neo-apoli:landed_on_side` | The side of the block the projectile hit.
-        `neo-apoli:projectile_entity` | The projectile entity itself.
-        `neo-apoli:actor_entity` | The owner of the projectile or nothing if the projectile doesn't have an owner.
+        `kaya:landed_on_block` | The block that was hit by the projectile.
+        `kaya:landed_on_side` | The side of the block the projectile hit.
+        `kaya:projectile_entity` | The projectile entity itself.
+        `kaya:actor_entity` | The owner of the projectile or nothing if the projectile doesn't have an owner.
 
 
 ### Format
@@ -39,16 +39,16 @@ Field | Type | Default | Description
 
 ```json
 {
-	"type": "neo-apoli:callback/projectile/land",
+	"type": "kaya:callback/projectile/land",
 	"action": {
-		"type": "neo-apoli:place_block",
+		"type": "kaya:place_block",
 		"block": "minecraft:slime_block",
 		"position": {
-			"type": "neo-apoli:entity/position",
+			"type": "kaya:entity/position",
 			"entity": "projectile"
 		},
 		"offset_direction": {
-			"type": "neo-apoli:context",
+			"type": "kaya:context",
 			"parameter": "landed_on_side"
 		}
 	}

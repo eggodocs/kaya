@@ -3,7 +3,7 @@
 Provides the NBT of a data storage.
 
 
-Type ID: `neo-apoli:storage`
+Type ID: `kaya:storage`
 
 
 ### Format
@@ -17,7 +17,7 @@ id | [Identifier]({{ mc.identifier }}) | | The ID of the data storage.
 
 ```json
 {
-    "type": "neo-apoli:storage",
+    "type": "kaya:storage",
     "id": "example:data"// (1)!
 }
 ```

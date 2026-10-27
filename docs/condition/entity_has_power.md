@@ -3,7 +3,7 @@
 Checks if an entity has a specified power, and optionally, if it's from a specific source.
 
 
-Type ID: `neo-apoli:entity_has_power`
+Type ID: `kaya:entity_has_power`
 
 
 ### Format
@@ -19,13 +19,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity_has_power",
+    "type": "kaya:entity_has_power",
     "power": "thing:really_cool",
     "entity": "this"
 }
 ```
 
-This example will check if the entity provided by the `neo-apoli:this_entity` context parameter has the `thing:really_cool` power.
+This example will check if the entity provided by the `kaya:this_entity` context parameter has the `thing:really_cool` power.
 
 
 ### History

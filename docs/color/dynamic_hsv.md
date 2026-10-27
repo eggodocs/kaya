@@ -3,7 +3,7 @@
 Provides an HSV (hue, saturation, value/brightness/lightness) color (which is then converted to ARGB) with [float providers][float_provider].
 
 
-Type ID: `neo-apoli:dynamic/hsv`
+Type ID: `kaya:dynamic/hsv`
 
 
 ### Format
@@ -20,11 +20,11 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:dynamic/hsv",
+    "type": "kaya:dynamic/hsv",
     "hue": {
-        "type": "neo-apoli:quotient",
+        "type": "kaya:quotient",
         "dividend": {
-            "type": "neo-apoli:time",
+            "type": "kaya:time",
             "period": 200
         },
         "divisor": 200

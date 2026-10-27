@@ -3,7 +3,7 @@
 Provides the position of a block.
 
 
-Type ID: `neo-apoli:block/position`
+Type ID: `kaya:block/position`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:block/position",
+    "type": "kaya:block/position",
     "block": "used_block"
 }
 ```
 
-This example provides the position of the block provided by the `neo-apoli:used_block` context parameter.
+This example provides the position of the block provided by the `kaya:used_block` context parameter.
 
 
 ### History

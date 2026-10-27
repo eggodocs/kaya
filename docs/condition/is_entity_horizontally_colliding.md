@@ -3,7 +3,7 @@
 Checks if an entity is moving and colliding with a block in the horizontal axis.
 
 
-Type ID: `neo-apoli:is_entity_horizontally_colliding`
+Type ID: `kaya:is_entity_horizontally_colliding`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:is_entity_horizontally_colliding",
+    "type": "kaya:is_entity_horizontally_colliding",
     "entity": "this"
 }
 ```
 
-This example will check if the entity provided by the `neo-apoli:this_entity` context parameter is moving and colliding with a block.
+This example will check if the entity provided by the `kaya:this_entity` context parameter is moving and colliding with a block.
 
 
 ### History

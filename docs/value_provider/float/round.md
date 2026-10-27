@@ -3,7 +3,7 @@
 Provides a rounded off float value.
 
 
-Type ID: `neo-apoli:round`
+Type ID: `kaya:round`
 
 
 ### Format
@@ -19,9 +19,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:round",
+    "type": "kaya:round",
     "value": {
-        "type": "neo-apoli:entity/attribute",
+        "type": "kaya:entity/attribute",
         "attribute": "minecraft:step_height",
         "entity": "this"
     },
@@ -29,7 +29,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will provide the value of the `minecraft:step_height` attribute from the entity provided by the `neo-apoli:this_entity` context parameter rounded off to 1 digit.
+This example will provide the value of the `minecraft:step_height` attribute from the entity provided by the `kaya:this_entity` context parameter rounded off to 1 digit.
 
 For example, let's say the attribute has a value of $0.6$. The value will be rounded off to ${{ round_half_up(0.6) }}$.
 

@@ -3,7 +3,7 @@
 Executes an action when it's invoked on a specific logical side of the game.
 
 
-Type ID: `neo-apoli:side`
+Type ID: `kaya:side`
 
 
 ### Format
@@ -30,10 +30,10 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:side",
+    "type": "kaya:side",
     "side": "server",
     "action": {
-        "type": "neo-apoli:add_velocity",
+        "type": "kaya:add_velocity",
         "method": "single",
         "space": "local",
         "entity": "this",
@@ -46,7 +46,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will only add velocity to the entity from the `neo-apoli:this_entity` context parameter on the server side.
+This example will only add velocity to the entity from the `kaya:this_entity` context parameter on the server side.
 
 
 ### History

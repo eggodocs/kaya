@@ -3,7 +3,7 @@
 Provides the foliage color of the biome from the specified position.
 
 
-Type ID: `neo-apoli:biome/foliage`
+Type ID: `kaya:biome/foliage`
 
 
 ### Format
@@ -19,16 +19,16 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:biome/foliage",
+    "type": "kaya:biome/foliage",
     "position": {
-        "type": "neo-apoli:entity/position",
+        "type": "kaya:entity/position",
         "entity": "this"
     },
     "alpha": 1.0,
     "dry": {
-        "type": "neo-apoli:condition_result",
+        "type": "kaya:condition_result",
         "condition": {
-            "type": "neo-apoli:is_entity_sneaking",
+            "type": "kaya:is_entity_sneaking",
             "entity": "this"
         }
     }

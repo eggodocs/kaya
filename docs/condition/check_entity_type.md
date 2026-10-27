@@ -3,7 +3,7 @@
 Check if an entity is of a type or if it's included in an entity type tag.
 
 
-Type ID: `neo-apoli:check_effect_type`
+Type ID: `kaya:check_effect_type`
 
 
 ### Format
@@ -24,13 +24,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:check_entity_type",
+    "type": "kaya:check_entity_type",
     "tag": "#minecraft:skeletons",
     "entity": "this"
 }
 ```
 
-This example will check if the entity provided by the `neo-apoli:applied_effect` context parameter is included in the `#minecraft:skeletons` entity type tag.
+This example will check if the entity provided by the `kaya:applied_effect` context parameter is included in the `#minecraft:skeletons` entity type tag.
 
 
 ### History

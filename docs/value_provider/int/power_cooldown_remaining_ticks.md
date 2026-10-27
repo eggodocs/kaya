@@ -3,7 +3,7 @@
 Provides the remaining ticks of a power that has a cooldown.
 
 
-Type ID: `neo-apoli:power/cooldown/remaining_ticks`
+Type ID: `kaya:power/cooldown/remaining_ticks`
 
 
 ### Format
@@ -18,14 +18,14 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:power/cooldown/remaining_ticks",
+    "type": "kaya:power/cooldown/remaining_ticks",
     "power": "example:lightning_strike"/*(1)!*/,
     "entity": "this"
 }
 ```
 
 
-1. The location of the file is `data/example/neo-apoli/lightning_strike.json`
+1. The location of the file is `data/example/kaya/lightning_strike.json`
 
 
 This example will provide the remaining ticks of the cooldown for the `example:lightning_strike` power.

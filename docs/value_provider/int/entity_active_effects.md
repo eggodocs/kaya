@@ -3,7 +3,7 @@
 Provides the count of active status effects of an entity.
 
 
-Type ID: `neo-apoli:entity/active_effects`
+Type ID: `kaya:entity/active_effects`
 
 
 ???+ info
@@ -12,7 +12,7 @@ Type ID: `neo-apoli:entity/active_effects`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:active_effect` | The active status effect instance of an entity.
+    `kaya:active_effect` | The active status effect instance of an entity.
 
 
 ### Format
@@ -27,9 +27,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity/active_effects",
+    "type": "kaya:entity/active_effects",
     "condition": {
-        "type": "neo-apoli:is_effect_in_tag",
+        "type": "kaya:is_effect_in_tag",
         "tag": "#example:is_harmful"/*(1)!*/,
         "effect": "active_effect"
     },
@@ -41,7 +41,7 @@ Field | Type | Default | Description
 1. The location of the file is `data/example/tags/mob_effect/is_harmful.json`
 
 
-This example will provide the count of status effects that are included in the `#example:is_harmful` status effect tag from the entity provided by the `neo-apoli:this_entity` context parameter.
+This example will provide the count of status effects that are included in the `#example:is_harmful` status effect tag from the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

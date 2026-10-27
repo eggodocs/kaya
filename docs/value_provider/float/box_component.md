@@ -3,7 +3,7 @@
 Provides the component (min/max values) of a box from a specific side.
 
 
-Type ID: `neo-apoli:box/component`
+Type ID: `kaya:box/component`
 
 
 ??? info "Box components and sides"
@@ -32,16 +32,16 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:box/component",
+    "type": "kaya:box/component",
     "box": {
-        "type": "neo-apoli:entity/bounds",
+        "type": "kaya:entity/bounds",
         "entity": "this"
     },
     "side": "up"
 }
 ```
 
-This example provides the maximum Y component of the bounding box of the entity *(provided by the `neo-apoli:this_entity` context parameter.)*
+This example provides the maximum Y component of the bounding box of the entity *(provided by the `kaya:this_entity` context parameter.)*
 
 
 ### History

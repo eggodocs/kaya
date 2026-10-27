@@ -3,7 +3,7 @@
 Modifies whether to allow the entity holding the power to glide.
 
 
-Type ID: `neo-apoli:modify/elytra/flight`
+Type ID: `kaya:modify/elytra/flight`
 
 
 ### Format
@@ -23,11 +23,11 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/elytra/flight",
+    "type": "kaya:modify/elytra/flight",
     "allow": {
-        "type": "neo-apoli:entity_has_item_equipped",
+        "type": "kaya:entity_has_item_equipped",
         "equipped_condition": {
-            "type": "neo-apoli:item_matches_ingredient",
+            "type": "kaya:item_matches_ingredient",
             "ingredient": "#example:leather_caps",
             "item": "equipped_item"
         },

@@ -3,7 +3,7 @@
 Modifies whether other entities seen by the entity holding the power should glow and what color should the glowing effect have.
 
 
-Type ID: `neo-apoli:modify/glowing/other`
+Type ID: `kaya:modify/glowing/other`
 
 
 ???+ info
@@ -12,8 +12,8 @@ Type ID: `neo-apoli:modify/glowing/other`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:actor_entity` | The entity holding the power.
-    `neo-apoli:target_entity` | The entity being rendered.
+    `kaya:actor_entity` | The entity holding the power.
+    `kaya:target_entity` | The entity being rendered.
 
 
 ###  Format
@@ -28,11 +28,11 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/glowing/other",
+    "type": "kaya:modify/glowing/other",
     "use_team_color": false,
     "color": "#fcb127d9",
     "active_condition": {
-        "type": "neo-apoli:is_entity_on_fire",
+        "type": "kaya:is_entity_on_fire",
         "entity": "target"
     }
 }

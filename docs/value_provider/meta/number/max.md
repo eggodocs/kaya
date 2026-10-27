@@ -3,7 +3,7 @@
 Gets the highest number from all the number values and uses it as the provided number value.
 
 
-Type ID: `neo-apoli:max`
+Type ID: `kaya:max`
 
 
 !!! note
@@ -22,10 +22,10 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:max",
+    "type": "kaya:max",
     "values": [
         {
-            "type": "neo-apoli:player/food",
+            "type": "kaya:player/food",
             "entity": "this"
         },
         1
@@ -33,7 +33,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example is an int provider that will get the highest integer between the food level of the player provided by the `neo-apoli:this_entity` context parameter and $1$.
+This example is an int provider that will get the highest integer between the food level of the player provided by the `kaya:this_entity` context parameter and $1$.
 
 
 ### History

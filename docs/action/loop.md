@@ -3,7 +3,7 @@
 Executes an action at the specified amount of times in a single tick.
 
 
-Type ID: `neo-apoli:loop`
+Type ID: `kaya:loop`
 
 
 ### Format
@@ -20,16 +20,16 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:loop",
+    "type": "kaya:loop",
     "iterations": {
-        "type": "neo-apoli:random/uniform",
+        "type": "kaya:random/uniform",
         "min": 0,
         "max": 10
     },
     "action": {
-        "type": "neo-apoli:execute_command",
+        "type": "kaya:execute_command",
         "source": {
-            "type": "neo-apoli:entity",
+            "type": "kaya:entity",
             "entity": "this"
         },
         "command": "say Hello!"

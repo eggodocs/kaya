@@ -3,7 +3,7 @@
 Generates a random number between 0.0 and 1.0, and executes an action if it's less than a specified chance.
 
 
-Type ID: `neo-apoli:random_chance`
+Type ID: `kaya:random_chance`
 
 
 ### Format
@@ -24,9 +24,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:random_chance",
+    "type": "kaya:random_chance",
     "success_action": {
-        "type": "neo-apoli:set_entity_on_fire",
+        "type": "kaya:set_entity_on_fire",
         "ticks": 200,
         "entity": "this"
     },
@@ -34,7 +34,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will set the entity provided by the `neo-apoli:this_entity` context parameter on fire for 10 seconds at a 50% chance.
+This example will set the entity provided by the `kaya:this_entity` context parameter on fire for 10 seconds at a 50% chance.
 
 
 ### History

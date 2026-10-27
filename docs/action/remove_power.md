@@ -3,7 +3,7 @@
 Removes a power or a collection of powers from an entity.
 
 
-Type ID: `neo-apoli:remove_power`
+Type ID: `kaya:remove_power`
 
 
 ### Format
@@ -18,17 +18,17 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:remove_power",
+    "type": "kaya:remove_power",
     "power": "#example:bad_stuff"/*(1)!*/,
     "entity": "this"
 }
 ```
 
 
-1. The location of the file is `data/example/tags/neo-apoli/power/bad_stuff.json`
+1. The location of the file is `data/example/tags/kaya/power/bad_stuff.json`
 
 
-This example will remove all the powers included in the `#example:bad_stuff` power tag from the entity provided by the `neo-apoli:this_entity` context parameter.
+This example will remove all the powers included in the `#example:bad_stuff` power tag from the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

@@ -3,7 +3,7 @@
 Provides the current game time *(in ticks.)*
 
 
-Type ID: `neo-apoli:time`
+Type ID: `kaya:time`
 
 
 ### Format
@@ -17,7 +17,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:time",
+    "type": "kaya:time",
     "period": 12000
 }
 ```

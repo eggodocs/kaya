@@ -3,7 +3,7 @@
 Execute multiple actions from top to bottom.
 
 
-Type ID: `neo-apoli:sequence`
+Type ID: `kaya:sequence`
 
 
 ### Format
@@ -24,15 +24,15 @@ Field | Type | Default | Description
 
     ```json
     {
-        "type": "neo-apoli:sequence",
+        "type": "kaya:sequence",
         "actions": [
             {
-                "type": "neo-apoli:set_entity_on_fire",
+                "type": "kaya:set_entity_on_fire",
                 "ticks": 80,
                 "entity": "this"
             },
             {
-                "type": "neo-apoli:add_velocity",
+                "type": "kaya:add_velocity",
                 "method": "single",
                 "space": "world",
                 "entity": "this",
@@ -51,12 +51,12 @@ Field | Type | Default | Description
     ```json
     [
         {
-            "type": "neo-apoli:set_entity_on_fire",
+            "type": "kaya:set_entity_on_fire",
             "ticks": 80,
             "entity": "this"
         },
         {
-            "type": "neo-apoli:add_velocity",
+            "type": "kaya:add_velocity",
             "method": "single",
             "space": "world",
             "entity": "this",
@@ -69,7 +69,7 @@ Field | Type | Default | Description
     ]
     ```
 
-This example will set the entity from the `neo-apoli:this_entity` context parameter on fire for 4 seconds and launch them up into the sky.
+This example will set the entity from the `kaya:this_entity` context parameter on fire for 4 seconds and launch them up into the sky.
 
 
 ### History

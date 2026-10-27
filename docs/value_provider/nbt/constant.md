@@ -3,7 +3,7 @@
 Provides a constant NBT value.
 
 
-Type ID: `neo-apoli:constant`
+Type ID: `kaya:constant`
 
 
 ### Format
@@ -24,7 +24,7 @@ Field | Type | Default | Description
 
     ```json
     {
-        "type": "neo-apoli:constant",
+        "type": "kaya:constant",
         "value": {
             "Items": [
                 {

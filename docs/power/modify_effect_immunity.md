@@ -3,7 +3,7 @@
 Modifies whether the entity holding the power should be immune to the afflicted status effect or not.
 
 
-Type ID: `neo-apoli:modify/effect/immunity`
+Type ID: `kaya:modify/effect/immunity`
 
 
 ???+ info
@@ -12,9 +12,9 @@ Type ID: `neo-apoli:modify/effect/immunity`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:actor_entity` | The entity that inflicted the status effect.
-    `neo-apoli:target_entity` | The entity holding the power.
-    `neo-apoli:applied_effect` | The inflicted status effect.
+    `kaya:actor_entity` | The entity that inflicted the status effect.
+    `kaya:target_entity` | The entity holding the power.
+    `kaya:applied_effect` | The inflicted status effect.
 
 
 ### Format
@@ -26,9 +26,9 @@ Type ID: `neo-apoli:modify/effect/immunity`
 
 ```json
 {
-    "type": "neo-apoli:modify/effect/immunity",
+    "type": "kaya:modify/effect/immunity",
     "active_condition": {
-        "type": "neo-apoli:is_effect_in_tag",
+        "type": "kaya:is_effect_in_tag",
         "tag": "#example:effects_immune_to",
         "effect": "applied_effect"
     }

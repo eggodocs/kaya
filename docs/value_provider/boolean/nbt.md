@@ -3,7 +3,7 @@
 Provides the value of the NBT if it's a boolean, or check if the count of the NBT is greater than 1 if it's not a boolean.
 
 
-Type ID: `neo-apoli:nbt`
+Type ID: `kaya:nbt`
 
 
 ### Format
@@ -18,9 +18,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:nbt",
+    "type": "kaya:nbt",
     "source": {
-        "type": "neo-apoli:storage",
+        "type": "kaya:storage",
         "id": "example:data"// (1)!
     },
     "path": "value"

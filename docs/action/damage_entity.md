@@ -3,7 +3,7 @@
 Deals damage to an entity.
 
 
-Type ID: `neo-apoli:damage_entity`
+Type ID: `kaya:damage_entity`
 
 
 ### Format
@@ -20,10 +20,10 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:damage_entity",
+    "type": "kaya:damage_entity",
     "damage_type": "minecraft:magic",
     "amount": {
-        "type": "neo-apoli:random/uniform",
+        "type": "kaya:random/uniform",
         "min": 1.0,
         "max": 8.0
     },
@@ -32,7 +32,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will deal a random amount (ranging from $1.0$ to $8.0$) of damage to the entity provided by the `neo-apoli:target_entity` context parameter, making the entity provided by the `neo-apoli:actor_entity` context parameter as the source of the damage.
+This example will deal a random amount (ranging from $1.0$ to $8.0$) of damage to the entity provided by the `kaya:target_entity` context parameter, making the entity provided by the `kaya:actor_entity` context parameter as the source of the damage.
 
 
 ### History

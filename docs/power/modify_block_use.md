@@ -3,7 +3,7 @@
 Modifies the interaction of a block.
 
 
-Type ID: `neo-apoli:modify/block/use`
+Type ID: `kaya:modify/block/use`
 
 
 ???+ info
@@ -12,10 +12,10 @@ Type ID: `neo-apoli:modify/block/use`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:used_block` | The block which the player interacted with.
-    `neo-apoli:used_side` | The side of the block the player interacted with.
-    `neo-apoli:used_item_slot` | The item slot used for interacting with the player.
-    `neo-apoli:used_item` | The item stack used for interacting with the player.
+    `kaya:used_block` | The block which the player interacted with.
+    `kaya:used_side` | The side of the block the player interacted with.
+    `kaya:used_item_slot` | The item slot used for interacting with the player.
+    `kaya:used_item` | The item stack used for interacting with the player.
 
 
 ### Format
@@ -45,11 +45,11 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/block/use",
+    "type": "kaya:modify/block/use",
     "action": {
-        "type": "neo-apoli:execute_command",
+        "type": "kaya:execute_command",
         "source": {
-            "type": "neo-apoli:entity",
+            "type": "kaya:entity",
             "entity": "this"
         },
         "command": "tellraw @s {\"text\": \"You cannot open chests made of copper!\", \"color\": \"red\"}"
@@ -57,7 +57,7 @@ Field | Type | Default | Description
     "result": "fail",
     "priority": 1,
     "active_condition": {
-        "type": "neo-apoli:check_block_type",
+        "type": "kaya:check_block_type",
         "tag": "#minecraft:copper_chests",
         "block": "used_block"
     }

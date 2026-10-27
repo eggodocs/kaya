@@ -3,7 +3,7 @@
 Modifies whether a block should be harvestable by the player holding the power or not.
 
 
-Type ID: `neo-apoli:modify/block/harvestable`
+Type ID: `kaya:modify/block/harvestable`
 
 
 ???+ info
@@ -12,7 +12,7 @@ Type ID: `neo-apoli:modify/block/harvestable`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:mining_block` | The block being mined by the player.
+    `kaya:mining_block` | The block being mined by the player.
 
 
 ### Format
@@ -32,10 +32,10 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/block/harvestable",
+    "type": "kaya:modify/block/harvestable",
     "allow": true,
     "active_condition": {
-        "type": "neo-apoli:check_block_type",
+        "type": "kaya:check_block_type",
         "key": "minecraft:gold_block",
         "block": "mining_block"
     }

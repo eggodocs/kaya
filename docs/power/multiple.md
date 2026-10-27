@@ -3,7 +3,7 @@
 Allows for defining powers in a single file.
 
 
-Type ID: `neo-apoli:multiple`
+Type ID: `kaya:multiple`
 
 
 ???+ tip
@@ -25,38 +25,38 @@ Type ID: `neo-apoli:multiple`
 
 ```json
 {
-    "type": "neo-apoli:multiple",
+    "type": "kaya:multiple",
     "cooldown": {
-        "type": "neo-apoli:cooldown",
+        "type": "kaya:cooldown",
         "hud_element": {
-            "type": "neo-apoli:resource_bar"
+            "type": "kaya:resource_bar"
         },
         "cooldown": 200
     },
     "trigger": {
-        "type": "neo-apoli:callback/damage/dealt",
+        "type": "kaya:callback/damage/dealt",
         "on_hit_action": {
-            "type": "neo-apoli:trigger_power_cooldown",
+            "type": "kaya:trigger_power_cooldown",
             "power": "*:*@cooldown",
             "entity": "this"
         }
     },
     "epic_damage": {
-        "type": "neo-apoli:modify/damage/dealt",
+        "type": "kaya:modify/damage/dealt",
         "modifiers": [
             {
-                "type": "neo-apoli:multiply_multiplicative",
+                "type": "kaya:multiply_multiplicative",
                 "phase": "total",
                 "amount": 0.5
             }
         ],
         "active_condition": {
-            "type": "neo-apoli:compare",
+            "type": "kaya:compare",
             "comparison": {
-                "type": "neo-apoli:float",
+                "type": "kaya:float",
                 "comparator": "==",
                 "first": {
-                    "type": "neo-apoli:power/cooldown/progress",
+                    "type": "kaya:power/cooldown/progress",
                     "power": "*:*@cooldown",
                     "entity": "this"
                 },
@@ -67,7 +67,7 @@ Type ID: `neo-apoli:multiple`
 }
 ```
 
-This example defines three sub-powers: `cooldown` which uses the `neo-apoli:cooldown` power type, `trigger` which uses the `neo-apoli:callback/damage/dealt` power type to trigger the `cooldown` sub-power when damage is dealt, and `epic_damage` which uses the `modify/damage/dealt` power type to deal 50% more damage when the cooldown of `cooldown` is not in progress. 
+This example defines three sub-powers: `cooldown` which uses the `kaya:cooldown` power type, `trigger` which uses the `kaya:callback/damage/dealt` power type to trigger the `cooldown` sub-power when damage is dealt, and `epic_damage` which uses the `modify/damage/dealt` power type to deal 50% more damage when the cooldown of `cooldown` is not in progress. 
 
 
 ### History

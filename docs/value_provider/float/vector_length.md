@@ -10,7 +10,7 @@ z: 242.0
 Provides the length of a vector.
 
 
-Type ID: `neo-apoli:vector/length`
+Type ID: `kaya:vector/length`
 
 
 ???+ info
@@ -29,9 +29,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:vector/length",
+    "type": "kaya:vector/length",
     "vector": {
-        "type": "neo-apoli:entity/position",
+        "type": "kaya:entity/position",
         "entity": "this"
     }
 }
@@ -39,7 +39,7 @@ Field | Type | Default | Description
 
 {% set result = sqrt(x * x + y * y + z * z) %}
 
-This example will provide the length of the position vector of an entity *(provided by the `neo-apoli:this_entity` context parameter.)* For example, let's say the entity's position is X: ${{ x }}$, Y: ${{ y }}$, Z: ${{ z }}$. The length of the position vector will be ${{ result }}$.
+This example will provide the length of the position vector of an entity *(provided by the `kaya:this_entity` context parameter.)* For example, let's say the entity's position is X: ${{ x }}$, Y: ${{ y }}$, Z: ${{ z }}$. The length of the position vector will be ${{ result }}$.
 
 
 ### History

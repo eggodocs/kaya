@@ -3,7 +3,7 @@
 Provides the grass color of the biome from the specified position.
 
 
-Type ID: `neo-apoli:biome/grass`
+Type ID: `kaya:biome/grass`
 
 
 ### Format
@@ -18,9 +18,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:biome/grass",
+    "type": "kaya:biome/grass",
     "position": {
-        "type": "neo-apoli:entity/position",
+        "type": "kaya:entity/position",
         "entity": "this",
         "anchor": "eyes"
     },

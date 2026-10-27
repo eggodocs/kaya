@@ -3,7 +3,7 @@
 Compares the IDs of the first and second entities.
 
 
-Type ID: `neo-apoli:entity`
+Type ID: `kaya:entity`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity",
+    "type": "kaya:entity",
     "first": "actor",
     "second": "target"
 }
 ```
 
-This example compares the IDs of the entities from the `neo-apoli:actor_entity` and `neo-apoli:target_entity` context parameters.
+This example compares the IDs of the entities from the `kaya:actor_entity` and `kaya:target_entity` context parameters.
 
 
 ### History

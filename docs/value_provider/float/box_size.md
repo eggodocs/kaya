@@ -3,7 +3,7 @@
 Provides the size of a box.
 
 
-Type ID: `neo-apoli:box/size`
+Type ID: `kaya:box/size`
 
 
 ???+ info
@@ -22,15 +22,15 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:box/size",
+    "type": "kaya:box/size",
     "box": {
-        "type": "neo-apoli:entity/bounds",
+        "type": "kaya:entity/bounds",
         "entity": "projectile"
     }
 }
 ```
 
-This example provides the size of the bounding box from the entity *(provided by the `neo-apoli:projectile_entity` context parameter.)*
+This example provides the size of the bounding box from the entity *(provided by the `kaya:projectile_entity` context parameter.)*
 
 
 ### History

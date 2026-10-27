@@ -3,7 +3,7 @@
 Increases/decreases the entity's air supply.
 
 
-Type ID: `neo-apoli:gain_air`
+Type ID: `kaya:gain_air`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:gain_air",
+    "type": "kaya:gain_air",
     "value": 5,
     "entity": "this"
 }
 ```
 
-This example increases the air supply of the entity provided by the `neo-apoli:this_entity` context parameter by $5$.
+This example increases the air supply of the entity provided by the `kaya:this_entity` context parameter by $5$.
 
 
 ### History

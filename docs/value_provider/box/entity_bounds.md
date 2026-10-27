@@ -3,7 +3,7 @@
 Provides the bounding box of an entity.
 
 
-Type ID: `neo-apoli:entity/bounds`
+Type ID: `kaya:entity/bounds`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity/bounds",
+    "type": "kaya:entity/bounds",
     "entity": "this"
 }
 ```
 
-This example provides bounding box of the entity provided by the `neo-apoli:this_entity` context parameter.
+This example provides bounding box of the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

@@ -3,7 +3,7 @@
 Escapes certain characters from a string by prepending the character with the `\` character.
 
 
-Type ID: `neo-apoli:escape`
+Type ID: `kaya:escape`
 
 
 ???+ info
@@ -33,11 +33,11 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:escape",
+    "type": "kaya:escape",
     "string": {
-        "type": "neo-apoli:nbt",
+        "type": "kaya:nbt",
         "source": {
-            "type": "neo-apoli:block",
+            "type": "kaya:block",
             "block": "used_block"
         },
         "path": "{}"
@@ -45,7 +45,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example escapes the stringified NBT of the block provided by the `neo-apoli:used_block` context parameter.
+This example escapes the stringified NBT of the block provided by the `kaya:used_block` context parameter.
 
 
 ### History

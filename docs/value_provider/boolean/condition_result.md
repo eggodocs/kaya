@@ -3,7 +3,7 @@
 Provides the result of the specified condition.
 
 
-Type ID: `neo-apoli:condition_result`
+Type ID: `kaya:condition_result`
 
 
 ### Format
@@ -17,15 +17,15 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:condition_result",
+    "type": "kaya:condition_result",
     "condition": {
-        "type": "neo-apoli:is_entity_sneaking",
+        "type": "kaya:is_entity_sneaking",
         "entity": "this"
     }
 }
 ```
 
-This example provides the result of a condition that checks if the entity provided by the `neo-apoli:this_entity` context parameter is sneaking.
+This example provides the result of a condition that checks if the entity provided by the `kaya:this_entity` context parameter is sneaking.
 
 
 ### History

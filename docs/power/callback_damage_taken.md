@@ -3,7 +3,7 @@
 Invokes an action upon the entity holding the power taking damage.
 
 
-Type ID: `neo-apoli:callback/damage/taken`
+Type ID: `kaya:callback/damage/taken`
 
 
 ???+ info
@@ -12,12 +12,12 @@ Type ID: `neo-apoli:callback/damage/taken`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:taken_damage/source` | The damage source taken by the entity holding the power.
-    `neo-apoli:taken_damage/amount` | The damage amount taken by the entity holding the power.
-    `neo-apoli:actor_entity` | The attacker entity (the entity holding the power.)
-    `neo-apoli:target_entity` | The entity that was attacked.
-    `neo-apoli:damaging_entity` | The projectile used for the attack (or the attacker if no projectiles are used.)
-    `neo-apoli:direct_damaging_entity` | The owner of the projectile used for the attack (or the attacker if no projectiles are used.)
+    `kaya:taken_damage/source` | The damage source taken by the entity holding the power.
+    `kaya:taken_damage/amount` | The damage amount taken by the entity holding the power.
+    `kaya:actor_entity` | The attacker entity (the entity holding the power.)
+    `kaya:target_entity` | The entity that was attacked.
+    `kaya:damaging_entity` | The projectile used for the attack (or the attacker if no projectiles are used.)
+    `kaya:direct_damaging_entity` | The owner of the projectile used for the attack (or the attacker if no projectiles are used.)
 
 
 ### Format
@@ -37,24 +37,24 @@ Field | Type | Default | Description
 
 ```json
 {
-	"type": "neo-apoli:callback/damage/taken",
+	"type": "kaya:callback/damage/taken",
 	"on_hit_action": {
-        "type": "neo-apoli:conditional",
+        "type": "kaya:conditional",
         "condition": {
-            "type": "neo-apoli:parameter_exists",
+            "type": "kaya:parameter_exists",
             "parameter": {
-                "type": "neo-apoli:entity",
+                "type": "kaya:entity",
                 "name": "actor"
             }
         },
         "on_true": {
-            "type": "neo-apoli:set_entity_on_fire",
+            "type": "kaya:set_entity_on_fire",
             "ticks": 200,
             "entity": "actor"
         }
 	},
     "active_condition": {
-        "type": "neo-apoli:check_damage_type",
+        "type": "kaya:check_damage_type",
         "key": "minecraft:magic",
         "damage_source": "taken_damage/source"
     }

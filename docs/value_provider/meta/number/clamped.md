@@ -3,7 +3,7 @@
 Provides the number value clamped to a specific minimum and maximum range.
 
 
-Type ID: `neo-apoli:clamped`
+Type ID: `kaya:clamped`
 
 
 !!! note
@@ -24,9 +24,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:clamped",
+    "type": "kaya:clamped",
     "value": {
-        "type": "neo-apoli:entity/attribute",
+        "type": "kaya:entity/attribute",
         "attribute": "minecraft:max_health",
         "entity": "this"
     },
@@ -35,7 +35,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example is a float provider that provides the value of the `minecraft:max_health` attribute of the entity provided by the `neo-apoli:this_entity` context parameter. The float value is then clamped where its value will be within the range of $1.0$ to $20.0$.
+This example is a float provider that provides the value of the `minecraft:max_health` attribute of the entity provided by the `kaya:this_entity` context parameter. The float value is then clamped where its value will be within the range of $1.0$ to $20.0$.
 
 
 ### History

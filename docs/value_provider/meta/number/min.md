@@ -3,7 +3,7 @@
 Gets the lowest number from all the number values and uses it as the provided number value.
 
 
-Type ID: `neo-apoli:min`
+Type ID: `kaya:min`
 
 
 !!! note
@@ -22,10 +22,10 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:max",
+    "type": "kaya:max",
     "values": [
         {
-            "type": "neo-apoli:entity/attribute",
+            "type": "kaya:entity/attribute",
             "attribute": "minecraft:armor",
             "entity": "this"
         },
@@ -34,7 +34,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example is an float provider that will get the lowest float between the value of the `minecraft:armor` attribute of the entity provided by the `neo-apoli:this_entity` context parameter and $4$.
+This example is an float provider that will get the lowest float between the value of the `minecraft:armor` attribute of the entity provided by the `kaya:this_entity` context parameter and $4$.
 
 
 ### History

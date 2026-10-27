@@ -3,7 +3,7 @@
 Modifies the color of the base model texture of the entity holding the power for other entities.
 
 
-Type ID: `neo-apoli:modify/model/color/self`
+Type ID: `kaya:modify/model/color/self`
 
 
 ???+ info
@@ -12,8 +12,8 @@ Type ID: `neo-apoli:modify/model/color/self`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:actor_entity` | The entity seeing the entity holding the power.
-    `neo-apoli:target_entity` | The entity holding the power.
+    `kaya:actor_entity` | The entity seeing the entity holding the power.
+    `kaya:target_entity` | The entity holding the power.
 
 
 ### Format
@@ -27,18 +27,18 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/model/color/self",
+    "type": "kaya:modify/model/color/self",
     "color": {
-        "type": "neo-apoli:dynamic/argb",
+        "type": "kaya:dynamic/argb",
         "alpha": {
-            "type": "neo-apoli:linear_interpolated",
+            "type": "kaya:linear_interpolated",
             "delta": {
-                "type": "neo-apoli:product",
+                "type": "kaya:product",
                 "values": [
                     {
-                        "type": "neo-apoli:vector/length",
+                        "type": "kaya:vector/length",
                         "vector": {
-                            "type": "neo-apoli:entity/velocity",
+                            "type": "kaya:entity/velocity",
                             "entity": "this"
                         }
                     },

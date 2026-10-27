@@ -3,7 +3,7 @@
 Provides the shape of a block as a box.
 
 
-Type ID: `neo-apoli:block/bounds`
+Type ID: `kaya:block/bounds`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:block/bounds",
+    "type": "kaya:block/bounds",
     "shape_type": "outline",
     "block": "used_block"
 }
 ```
 
-This example provides the shape transformed into a box of the block provided by the `neo-apoli:used_block` context parameter.
+This example provides the shape transformed into a box of the block provided by the `kaya:used_block` context parameter.
 
 
 ### History

@@ -1,9 +1,21 @@
-#   Welcome to neo-apoli's documentation!
-This page contains the surface level information regarding the mod, how it works, and what it provides for users to make data packs with.
+#   Welcome to Kaya's documentation!
 
-neo-apoli is a rewrite of the Apoli mod by Apace, which provides an API for providing "powers" to entities via data packs.
+This page contains the surface level information regarding this library, how it works, and what it provides for users to make data packs with. 
+
+Kaya is a library that allows attaching "powers" to entities via data packs. This is a rewrite of the Apoli project by Apace.
 
 
 ##  General information
-- neo-apoli provides a context-based system to allow certain types, such as actions and conditions, to interconnect with powers in a dynamic manner. This also allows for features like "value providers," which are types that can provide a dynamic value (e.g: an entity's health as a value for a field).
-- Apoli and neo-apoli aren't compatible with each other due to how different their codebases are, so make sure that you create a new world/server.
+
+This library provides the following:
+
+
+- A vanilla-esque context system which allows for certain types to interconnect with each other.
+- Data-driven powers which gives an entity a certain "ability" when granted. These provide the context needed by other types to function.
+- Actions and conditions that uses the context system to affect and check the state of the objects of a world respectively.
+- Value providers of various types that uses the context system to provide a dynamic value, like providing the attribute value of an entity for a field.
+
+
+!!! warning
+
+    Kaya is **not** compatible with Apoli, nor does it have a translation layer for migrating old Apoli data, as it's a rewrite from the ground up.

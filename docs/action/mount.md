@@ -3,7 +3,7 @@
 Mounts an entity to another entity.
 
 
-Type ID: `neo-apoli:mount`
+Type ID: `kaya:mount`
 
 
 ### Format
@@ -19,13 +19,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:mount",
+    "type": "kaya:mount",
     "vehicle": "actor",
     "passenger": "target"
 }
 ```
 
-This example will make the entity provided by the `neo-apoli:target_entity` context parameter ride the entity provided by the `neo-apoli:actor_entity`.
+This example will make the entity provided by the `kaya:target_entity` context parameter ride the entity provided by the `kaya:actor_entity`.
 
 
 ### History

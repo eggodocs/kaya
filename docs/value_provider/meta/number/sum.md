@@ -3,7 +3,7 @@
 Adds all the number values and uses the sum as the provided number value.
 
 
-Type ID: `neo-apoli:sum`
+Type ID: `kaya:sum`
 
 
 !!! note
@@ -22,10 +22,10 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:sum",
+    "type": "kaya:sum",
     "values": [
         {
-            "type": "neo-apoli:equipped_enchantment_level",
+            "type": "kaya:equipped_enchantment_level",
             "enchantment": "minecraft:fortune",
             "slot_group": "any",
             "entity": "this"
@@ -35,7 +35,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example is an int provider that will provide the highest level of the `minecraft:fortune` enchantment of the equipped items from the entity provided by the `neo-apoli:this_entity` context parameter + $1$. 
+This example is an int provider that will provide the highest level of the `minecraft:fortune` enchantment of the equipped items from the entity provided by the `kaya:this_entity` context parameter + $1$. 
 
 $(Value = EnchantmentLevel + 1)$
 

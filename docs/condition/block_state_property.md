@@ -3,7 +3,7 @@
 Checks if a state property of a block matches a specified value.
 
 
-Type ID: `neo-apoli:block_state_property`
+Type ID: `kaya:block_state_property`
 
 
 ### Format
@@ -19,14 +19,14 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:block_state_property",
+    "type": "kaya:block_state_property",
     "property": "axis",
     "block": "broken_block",
     "value": "y"
 }
 ```
 
-This example will check if the `axis` state property of the block provided by the `neo-apoli:broken_block` context parameter is equal to `"y"`.
+This example will check if the `axis` state property of the block provided by the `kaya:broken_block` context parameter is equal to `"y"`.
 
 
 ### History

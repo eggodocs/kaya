@@ -3,7 +3,7 @@
 Invokes an action upon the player placing a block.
 
 
-Type ID: `neo-apoli:callback/block/place`
+Type ID: `kaya:callback/block/place`
 
 
 ???+ info
@@ -12,9 +12,9 @@ Type ID: `neo-apoli:callback/block/place`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:placed_on_block` | The block the player placed a block on.
-    `neo-apoli:placed_to_block` | The block the player placed.
-    `neo-apoli:placed_side` | The side of the block the player placed on.
+    `kaya:placed_on_block` | The block the player placed a block on.
+    `kaya:placed_to_block` | The block the player placed.
+    `kaya:placed_side` | The side of the block the player placed on.
 
 
 ### Format
@@ -36,17 +36,17 @@ Field | Type | Default | Description
 
 ```json
 {
-	"type": "neo-apoli:callback/block/place",
+	"type": "kaya:callback/block/place",
 	"on_place_action": [
 		{
-			"type": "neo-apoli:bone_meal",
+			"type": "kaya:bone_meal",
 			"position": {
-				"type": "neo-apoli:block/position",
-				"block": "neo-apoli:placed_to_block"
+				"type": "kaya:block/position",
+				"block": "kaya:placed_to_block"
 			}
 		},
 		{
-			"type": "neo-apoli:apply_effects",
+			"type": "kaya:apply_effects",
 			"effects": [
 				{
 					"id": "minecraft:regeneration",
@@ -57,7 +57,7 @@ Field | Type | Default | Description
 		}
 	],
 	"active_condition": {
-		"type": "neo-apoli:check_block_type",
+		"type": "kaya:check_block_type",
 		"tag": "#minecraft:flowers",
 		"block": "placed_to_block"
 	}

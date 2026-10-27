@@ -3,7 +3,7 @@
 Checks if an entity is sprinting.
 
 
-Type ID: `neo-apoli:is_entity_sprinting`
+Type ID: `kaya:is_entity_sprinting`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:is_entity_sprinting",
+    "type": "kaya:is_entity_sprinting",
     "entity": "this"
 }
 ```
 
-This example will check if the entity provided by the `neo-apoli:this_entity` context parameter is sprinting.
+This example will check if the entity provided by the `kaya:this_entity` context parameter is sprinting.
 
 
 ### History

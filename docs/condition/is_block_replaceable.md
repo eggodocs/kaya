@@ -3,7 +3,7 @@
 Checks if a block can be replaced by another block.
 
 
-Type ID: `neo-apoli:is_block_replaceable`
+Type ID: `kaya:is_block_replaceable`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:is_block_replaceable",
+    "type": "kaya:is_block_replaceable",
     "block": "used_block"
 }
 ```
 
-This example will check if the block provided by the `neo-apoli:used_block` context parameter can be replaced.
+This example will check if the block provided by the `kaya:used_block` context parameter can be replaced.
 
 
 ### History

@@ -3,7 +3,7 @@
 Provides the fuel value of an item stack *(in ticks.)*
 
 
-Type ID: `neo-apoli:item/fuel`
+Type ID: `kaya:item/fuel`
 
 
 ???+ tip
@@ -22,12 +22,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:item/fuel",
+    "type": "kaya:item/fuel",
     "item": "used_item"
 }
 ```
 
-This example provides the fuel value of the item stack provided by the `neo-apoli:used_item` context parameter. For example, if the item is a coal, the provided value will be $1600$.
+This example provides the fuel value of the item stack provided by the `kaya:used_item` context parameter. For example, if the item is a coal, the provided value will be $1600$.
 
 
 ### History

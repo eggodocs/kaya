@@ -3,7 +3,7 @@
 Multiplies all the number values and uses the product as the provided number value.
 
 
-Type ID: `neo-apoli:product`
+Type ID: `kaya:product`
 
 
 !!! note
@@ -22,10 +22,10 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:difference",
+    "type": "kaya:difference",
     "values": [
         {
-            "type": "neo-apoli:entity/attribute",
+            "type": "kaya:entity/attribute",
             "attribute": "minecraft:armor",
             "entity": "this"
         },
@@ -34,7 +34,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example is a float provider that would multiply the value of the `minecraft:armor` attribute of the entity provided by the `neo-apoli:this_entity` context parameter by $0.1$.
+This example is a float provider that would multiply the value of the `minecraft:armor` attribute of the entity provided by the `kaya:this_entity` context parameter by $0.1$.
 
 $(Value = AttributeValue * 0.1)$
 

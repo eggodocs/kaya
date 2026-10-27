@@ -3,7 +3,7 @@
 Checks if an item matches an ingredient.
 
 
-Type ID: `neo-apoli:item_matches_ingredient`
+Type ID: `kaya:item_matches_ingredient`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:item_matches_ingredient",
+    "type": "kaya:item_matches_ingredient",
     "ingredient": "#minecraft:planks",
     "item": "used_item"
 }
 ```
 
-This example will check if the item provided by the `neo-apoli:used_item` context parameter is included in the `#minecraft:planks` item tag.
+This example will check if the item provided by the `kaya:used_item` context parameter is included in the `#minecraft:planks` item tag.
 
 
 ### History

@@ -3,7 +3,7 @@
 Invokes an action every time the power ticks.
 
 
-Type ID: `neo-apoli:callback/power/tick`
+Type ID: `kaya:callback/power/tick`
 
 
 ### Format
@@ -20,9 +20,9 @@ Field | Type | Default | Description
 
 ```json
 {
-	"type": "neo-apoli:callback/power/tick",
+	"type": "kaya:callback/power/tick",
 	"action": {
-		"type": "neo-apoli:set_entity_on_fire",
+		"type": "kaya:set_entity_on_fire",
 		"ticks": 40,
 		"entity": "this"
 	},

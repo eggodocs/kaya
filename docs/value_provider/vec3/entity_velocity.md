@@ -3,7 +3,7 @@
 Provides the velocity of the entity.
 
 
-Type ID: `neo-apoli:entity/velocity`
+Type ID: `kaya:entity/velocity`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity/velocity",
+    "type": "kaya:entity/velocity",
     "entity": "actor"
 }
 ```
 
-This example provides the velocity of the entity provided by the `neo-apoli:actor_entity` context parameter.
+This example provides the velocity of the entity provided by the `kaya:actor_entity` context parameter.
 
 
 ### History

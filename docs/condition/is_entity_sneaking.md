@@ -3,7 +3,7 @@
 Checks if an entity is sneaking.
 
 
-Type ID: `neo-apoli:is_entity_sneaking`
+Type ID: `kaya:is_entity_sneaking`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:is_entity_sneaking",
+    "type": "kaya:is_entity_sneaking",
     "entity": "this"
 }
 ```
 
-This example will check if the entity provided by the `neo-apoli:this_entity` context parameter is sneaking.
+This example will check if the entity provided by the `kaya:this_entity` context parameter is sneaking.
 
 
 ### History

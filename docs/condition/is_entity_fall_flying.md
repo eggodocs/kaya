@@ -3,7 +3,7 @@
 Checks if an entity is fall flying.
 
 
-Type: `neo-apoli:is_entity_fall_flying`
+Type: `kaya:is_entity_fall_flying`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:is_entity_fall_flying",
+    "type": "kaya:is_entity_fall_flying",
     "entity": "actor"
 }
 ```
 
-This example will check if the entity provided by the `neo-apoli:actor_entity` context parameter is fall flying.
+This example will check if the entity provided by the `kaya:actor_entity` context parameter is fall flying.
 
 
 ### History

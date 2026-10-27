@@ -3,7 +3,7 @@
 Provides the water color of the biome from the specified position.
 
 
-Type ID: `neo-apoli:biome/water`
+Type ID: `kaya:biome/water`
 
 
 ### Format
@@ -18,9 +18,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:biome/water",
+    "type": "kaya:biome/water",
     "position": {
-        "type": "neo-apoli:entity/position",
+        "type": "kaya:entity/position",
         "entity": "this",
         "anchor": "eyes"
     },

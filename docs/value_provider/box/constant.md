@@ -3,7 +3,7 @@
 Provides a constant box value.
 
 
-Type ID: `neo-apoli:constant`
+Type ID: `kaya:constant`
 
 
 ### Format
@@ -25,7 +25,7 @@ Field | Type | Default | Description
 
     ```json
     {
-        "type": "neo-apoli:constant",
+        "type": "kaya:constant",
         "min": {
             "x": 0.0,
             "y": 0.0,

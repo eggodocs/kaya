@@ -3,7 +3,7 @@
 Reduces the count of an item.
 
 
-Type ID: `neo-apoli:consume_item`
+Type ID: `kaya:consume_item`
 
 
 ### Format
@@ -18,19 +18,19 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:consume_item",
+    "type": "kaya:consume_item",
     "slot": {
-        "type": "neo-apoli:entity",
+        "type": "kaya:entity",
         "entity": "this",
         "slot": {
-            "type": "neo-apoli:slot_id",
+            "type": "kaya:slot_id",
             "slot": "hotbar.0"
         }
     }
 }
 ```
 
-This example will consume the item from the first hotbar slot of the entity provided by the `neo-apoli:this_entity` context parameter.
+This example will consume the item from the first hotbar slot of the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

@@ -3,7 +3,7 @@
 Modifies the state property of a block.
 
 
-Type ID: `neo-apoli:modify_block_state_property`
+Type ID: `kaya:modify_block_state_property`
 
 
 ### Format
@@ -25,14 +25,14 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify_block_state_property",
+    "type": "kaya:modify_block_state_property",
     "property": "axis",
     "block": "used_block",
     "cycle": true
 }
 ```
 
-This example will cycle the `axis` state property of the block provided by the `neo-apoli:used_block` context parameter, essentially rotating the block.
+This example will cycle the `axis` state property of the block provided by the `kaya:used_block` context parameter, essentially rotating the block.
 
 
 ### History

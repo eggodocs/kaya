@@ -3,7 +3,7 @@
 Provides the value of the NBT if it's a float, or the count of the NBT it's not a float.
 
 
-Type ID: `neo-apoli:nbt`
+Type ID: `kaya:nbt`
 
 
 ### Format
@@ -18,9 +18,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:nbt",
+    "type": "kaya:nbt",
     "source": {
-        "type": "neo-apoli:storage",
+        "type": "kaya:storage",
         "id": "example:data"// (1)!
     },
     "path": "stuff"

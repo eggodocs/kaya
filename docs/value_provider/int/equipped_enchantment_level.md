@@ -3,7 +3,7 @@
 Provides the level of an enchantment from items equipped by an entity.
 
 
-Type ID: `neo-apoli:equipped_enchantment_level`
+Type ID: `kaya:equipped_enchantment_level`
 
 
 ### Format
@@ -35,13 +35,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:equipped_enchantment_level",
+    "type": "kaya:equipped_enchantment_level",
     "enchantment": "minecraft:protection",
     "entity": "this"
 }
 ```
 
-This example provides the highest level of the `minecraft:protection` enchantment from all the items equipped by the entity provided by the `neo-apoli:this_entity` context parameter.
+This example provides the highest level of the `minecraft:protection` enchantment from all the items equipped by the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

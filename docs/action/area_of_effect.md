@@ -3,7 +3,7 @@
 Executes an action on targets within the radius of an area.
 
 
-Type ID: `neo-apoli:area_of_effect`
+Type ID: `kaya:area_of_effect`
 
 
 ???+ info
@@ -14,14 +14,14 @@ Type ID: `neo-apoli:area_of_effect`
 
         Parameter | Description
         ----------|------------
-        `neo-apoli:entity_in_area` | The affected entity in the specified area.
+        `kaya:entity_in_area` | The affected entity in the specified area.
 
     
     === "`block`"
 
         Parameter | Description
         ----------|------------
-        `neo-apoli:block_in_area` | The affected block in the specified area.
+        `kaya:block_in_area` | The affected block in the specified area.
 
 
 ### Format
@@ -38,31 +38,31 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:area_of_effect",
+    "type": "kaya:area_of_effect",
     "area": {
-        "type": "neo-apoli:radius",
+        "type": "kaya:radius",
         "target": "entity",
         "shape": "cube",
         "position": {
-            "type": "neo-apoli:entity/position",
+            "type": "kaya:entity/position",
             "entity": "this"
         },
         "radius": 16.0
     },
     "action": {
-        "type": "neo-apoli:set_entity_on_fire",
+        "type": "kaya:set_entity_on_fire",
         "ticks": 200,
         "entity": "entity_in_area"
     },
     "condition": {
-        "type": "neo-apoli:check_entity_type",
+        "type": "kaya:check_entity_type",
         "key": "minecraft:creeper",
         "entity": "entity_in_area"
     }
 }
 ```
 
-This example will set creeprs on fire within a 16.0 blocks cubical area relative to the position of the entity provided by the `neo-apoli:this_entity` context parameter.
+This example will set creeprs on fire within a 16.0 blocks cubical area relative to the position of the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

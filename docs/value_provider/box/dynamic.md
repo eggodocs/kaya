@@ -3,7 +3,7 @@
 Provides a box with dynamic bounds.
 
 
-Type ID: `neo-apoli:dynamic`
+Type ID: `kaya:dynamic`
 
 
 ### Format
@@ -18,34 +18,34 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:dynamic",
+    "type": "kaya:dynamic",
     "min": {
         "x": 0.0,
         "y": 0.0,
         "z": 0.0
     },
     "max": {
-        "type": "neo-apoli:dynamic",
+        "type": "kaya:dynamic",
         "x": {
-            "type": "neo-apoli:nbt",
+            "type": "kaya:nbt",
             "source": {
-                "type": "neo-apoli:storage",
+                "type": "kaya:storage",
                 "id": "example:data"// (1)!
             },
             "path": "stuff[0]"
         },
         "y": {
-            "type": "neo-apoli:nbt",
+            "type": "kaya:nbt",
             "source": {
-                "type": "neo-apoli:storage",
+                "type": "kaya:storage",
                 "id": "example:data"// (2)!
             },
             "path": "stuff[1]"
         },
         "z": {
-            "type": "neo-apoli:nbt",
+            "type": "kaya:nbt",
             "source": {
-                "type": "neo-apoli:storage",
+                "type": "kaya:storage",
                 "id": "example:data"// (3)!
             },
             "path": "stuff[2]"

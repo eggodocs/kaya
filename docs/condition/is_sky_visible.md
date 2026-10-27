@@ -3,7 +3,7 @@
 Checks if the sky is visible at the specified position.
 
 
-Type ID: `neo-apoli:is_sky_visible`
+Type ID: `kaya:is_sky_visible`
 
 
 ???+ note
@@ -22,15 +22,15 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:is_sky_visible",
+    "type": "kaya:is_sky_visible",
     "position": {
-        "type": "neo-apoli:entity/position",
+        "type": "kaya:entity/position",
         "entity": "this"
     }
 }
 ```
 
-This example checks if the position of the entity provided by the `neo-apoli:this_entity` context parameter is exposed to the sky.
+This example checks if the position of the entity provided by the `kaya:this_entity` context parameter is exposed to the sky.
 
 
 ### History

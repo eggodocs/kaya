@@ -3,7 +3,7 @@
 Provides how long a keybinding has been pressed/held *(in ticks.)*
 
 
-Type ID: `neo-apoli:key/pressed/ticks`
+Type ID: `kaya:key/pressed/ticks`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:key/pressed/ticks",
+    "type": "kaya:key/pressed/ticks",
     "id": "key.use",
     "entity": "this"
 }
 ```
 
-This example will provide how long the `key.use` keybinding has been pressed/held for by the entity provided by the `neo-apoli:this_entity` context parameter.
+This example will provide how long the `key.use` keybinding has been pressed/held for by the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

@@ -3,7 +3,7 @@
 Provides the light level at a position.
 
 
-Type ID: `neo-apoli:light_level`
+Type ID: `kaya:light_level`
 
 
 ### Format
@@ -44,12 +44,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:light_level",
+    "type": "kaya:light_level",
     "light_type": "sky",
     "position": {
-        "type": "neo-apoli:offset",
+        "type": "kaya:offset",
         "vector": {
-            "type": "neo-apoli:block/position",
+            "type": "kaya:block/position",
             "block": "used_block"
         },
         "offset": [
@@ -61,7 +61,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will provide the sky light level relative to the position of the block provided by the `neo-apoli:used_block` context parameter, offset by 1 block up.
+This example will provide the sky light level relative to the position of the block provided by the `kaya:used_block` context parameter, offset by 1 block up.
 
 
 ### History

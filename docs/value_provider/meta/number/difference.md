@@ -3,7 +3,7 @@
 Subtracts all the number values and uses the difference as the provided number value.
 
 
-Type ID: `neo-apoli:difference`
+Type ID: `kaya:difference`
 
 
 !!! note
@@ -22,12 +22,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:difference",
+    "type": "kaya:difference",
     "values": [
         {
-            "type": "neo-apoli:light_level",
+            "type": "kaya:light_level",
             "position": {
-                "type": "neo-apoli:entity/position",
+                "type": "kaya:entity/position",
                 "entity": "this"
             }
         },
@@ -36,7 +36,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example is an int provider that will subtract the light level relative at the feet of the entity provided by the `neo-apoli:this_entity` context parameter by $4$ and provide it.
+This example is an int provider that will subtract the light level relative at the feet of the entity provided by the `kaya:this_entity` context parameter by $4$ and provide it.
 
 $(Value = LightLevel + 4)$
 

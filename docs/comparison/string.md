@@ -7,7 +7,7 @@ Compares the first and second strings lexicographically(1).
 1. Lexicographical comparison means comparing two strings based on the order of their characters, similar to how words are arranged in a dictionary.
 
 
-Type ID: `neo-apoli:string`
+Type ID: `kaya:string`
 
 
 ### Format
@@ -24,7 +24,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:int",
+    "type": "kaya:int",
     "comparator": "<",
     "first": "abc",
     "second": "def"

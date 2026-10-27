@@ -3,7 +3,7 @@
 Invokes an action upon the entity holding the power dealing damage to another entity.
 
 
-Type ID: `neo-apoli:callback/damage/dealt`
+Type ID: `kaya:callback/damage/dealt`
 
 
 ???+ info
@@ -12,12 +12,12 @@ Type ID: `neo-apoli:callback/damage/dealt`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:dealt_damage_source` | The damage source dealt by the entity holding the power.
-    `neo-apoli:dealt_damage_amount` | The damage amount dealt by the entity holding the power.
-    `neo-apoli:actor_entity` | The attacker entity (the entity holding the power.)
-    `neo-apoli:target_entity` | The entity that was attacked.
-    `neo-apoli:damaging_entity` | The projectile used for the attack (or the attacker if no projectiles are used.)
-    `neo-apoli:direct_damaging_entity` | The owner of the projectile used for the attack (or the attacker if no projectiles are used.)
+    `kaya:dealt_damage/source` | The damage source dealt by the entity holding the power.
+    `kaya:dealt_damage/amount` | The damage amount dealt by the entity holding the power.
+    `kaya:actor_entity` | The attacker entity (the entity holding the power.)
+    `kaya:target_entity` | The entity that was attacked.
+    `kaya:damaging_entity` | The projectile used for the attack (or the attacker if no projectiles are used.)
+    `kaya:direct_damaging_entity` | The owner of the projectile used for the attack (or the attacker if no projectiles are used.)
 
 
 ### Format
@@ -37,19 +37,19 @@ Field | Type | Default | Description
 
 ```json
 {
-	"type": "neo-apoli:callback/damage/dealt",
+	"type": "kaya:callback/damage/dealt",
 	"on_hit_action": {
-		"type": "neo-apoli:execute_command",
+		"type": "kaya:execute_command",
 		"source": {
-			"type": "neo-apoli:entity",
+			"type": "kaya:entity",
 			"entity": "this"
 		},
 		"command": {
-			"type": "neo-apoli:join",
+			"type": "kaya:join",
 			"strings": [
 				"tp @s",
 				{
-					"type": "neo-apoli:entity/uuid",
+					"type": "kaya:entity/uuid",
 					"entity": "target"
 				}
 			],

@@ -3,7 +3,7 @@
 Provides a command source based from a block, where the position and name of the command source is the position and name of the block.
 
 
-Type ID: `neo-apoli:block`
+Type ID: `kaya:block`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:block",
+    "type": "kaya:block",
     "block": "mined_block"
 }
 ```
 
-This example provides a command source where its position and name used in the command source is the position and name of the block provided by the `neo-apoli:mined_block` context parameter.
+This example provides a command source where its position and name used in the command source is the position and name of the block provided by the `kaya:mined_block` context parameter.
 
 
 ### History

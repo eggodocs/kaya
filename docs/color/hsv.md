@@ -3,7 +3,7 @@
 Provides an HSV (hue, saturation, value/brightness/lightness) color (which is then converted to ARGB.)
 
 
-Type ID: `neo-apoli:hsv`
+Type ID: `kaya:hsv`
 
 
 ### Format
@@ -20,7 +20,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:hsv",
+    "type": "kaya:hsv",
     "hue": 0.32394366197183,
     "saturation": 1.0,
     "value": 0.90,

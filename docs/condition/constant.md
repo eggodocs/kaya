@@ -3,7 +3,7 @@
 Returns a constant boolean as its result.
 
 
-Type ID: `neo-apoli:constant`
+Type ID: `kaya:constant`
 
 
 ### Format
@@ -24,7 +24,7 @@ Field | Type | Default | Description
 
     ```json
     {
-        "type": "neo-apoli:constant",
+        "type": "kaya:constant",
         "value": true
     }
     ```

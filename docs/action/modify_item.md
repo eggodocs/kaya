@@ -3,7 +3,7 @@
 Applies an item modifier to an item stack.
 
 
-Type ID: `neo-apoli:modify_item`
+Type ID: `kaya:modify_item`
 
 
 ### Format
@@ -20,7 +20,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify_item",
+    "type": "kaya:modify_item",
     "modifier": "example:smelt_item"/*(1)!*/,
     "slot": "used_item_slot"
 }
@@ -36,7 +36,7 @@ Field | Type | Default | Description
     ```
 
 
-This example will essentially smelt the item provided by the `neo-apoli:used_item_slot` context parameter.
+This example will essentially smelt the item provided by the `kaya:used_item_slot` context parameter.
 
 
 ### History

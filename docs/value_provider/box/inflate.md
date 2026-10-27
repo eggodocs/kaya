@@ -3,7 +3,7 @@
 Expands the bounds of the box towards all directions of the specified axes.
 
 
-Type ID: `neo-apoli:inflate`
+Type ID: `kaya:inflate`
 
 
 ### Format
@@ -18,9 +18,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:offset",
+    "type": "kaya:offset",
     "box": {
-        "type": "neo-apoli:entity/bounds",
+        "type": "kaya:entity/bounds",
         "entity": "this"
     },
     "vector": [
@@ -31,7 +31,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example provides the bounding box of the entity provided by the `neo-apoli:this_entity` context parameter and inflates it by 1 block.
+This example provides the bounding box of the entity provided by the `kaya:this_entity` context parameter and inflates it by 1 block.
 
 
 ### History

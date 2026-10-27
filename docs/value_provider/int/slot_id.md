@@ -3,7 +3,7 @@
 Provides the integer ID of a slot range that refers to a single slot.
 
 
-Type ID: `neo-apoli:slot_id`
+Type ID: `kaya:slot_id`
 
 
 ### Format
@@ -17,7 +17,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:slot_id",
+    "type": "kaya:slot_id",
     "slot": "player.crafting.0"
 }
 ```

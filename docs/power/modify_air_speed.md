@@ -3,7 +3,7 @@
 Modifies the entity's air horizontal speed.
 
 
-Type ID: `neo-apoli:modify/air/speed`
+Type ID: `kaya:modify/air/speed`
 
 
 ### Format
@@ -17,10 +17,10 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/air/speed",
+    "type": "kaya:modify/air/speed",
     "modifiers": [
         {
-            "type": "neo-apoli:multiply_multiplicative",
+            "type": "kaya:multiply_multiplicative",
             "phase": "base",
             "amount": 0.5
         }

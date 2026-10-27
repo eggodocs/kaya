@@ -3,7 +3,7 @@
 Invokes an action upon the player waking up.
 
 
-Type ID: `neo-apoli:callback/player/wake_up`
+Type ID: `kaya:callback/player/wake_up`
 
 
 ### Format
@@ -17,10 +17,10 @@ Field | Type | Default | Description
 
 ```json
 {
-	"type": "neo-apoli:callback/player/wake_up",
+	"type": "kaya:callback/player/wake_up",
 	"action": [
 		{
-			"type": "neo-apoli:give_items",
+			"type": "kaya:give_items",
 			"stacks": [
 				{
 					"id": "minecraft:egg"
@@ -29,9 +29,9 @@ Field | Type | Default | Description
 			"entity": "this"
 		},
 		{
-			"type": "neo-apoli:execute_command",
+			"type": "kaya:execute_command",
 			"source": {
-				"type": "neo-apoli:entity",
+				"type": "kaya:entity",
 				"entity": "this"
 			},
 			"command": "/playsound minecraft:entity.chicken.egg"

@@ -3,7 +3,7 @@
 Provides an RGBA color (which is then converted to ARGB) using [float providers][float_provider].
 
 
-Type ID: `neo-apoli:dynamic/rgba`
+Type ID: `kaya:dynamic/rgba`
 
 
 ### Format
@@ -20,16 +20,16 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:dynamic/rgba",
+    "type": "kaya:dynamic/rgba",
     "red": {
-        "type": "neo-apoli:linear_interpolated",
+        "type": "kaya:linear_interpolated",
         "delta": {
-            "type": "neo-apoli:product",
+            "type": "kaya:product",
             "values": [
                 {
-                    "type": "neo-apoli:vector/length",
+                    "type": "kaya:vector/length",
                     "vector": {
-                        "type": "neo-apoli:entity/velocity",
+                        "type": "kaya:entity/velocity",
                         "entity": "this"
                     }
                 },

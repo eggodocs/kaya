@@ -3,7 +3,7 @@
 Deals damage to an item.
 
 
-Type ID: `neo-apoli:damage_item`
+Type ID: `kaya:damage_item`
 
 
 ### Format
@@ -28,14 +28,14 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:damage_item",
+    "type": "kaya:damage_item",
     "amount": 4,
     "slot": "used_item_slot",
     "item_holder": "this"
 }
 ```
 
-This example will deal 4 damage to the item provided by the `neo-apoli:used_item_slot` context parameter.
+This example will deal 4 damage to the item provided by the `kaya:used_item_slot` context parameter.
 
 
 ### History

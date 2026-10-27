@@ -3,7 +3,7 @@
 Calculates a pseudo-random number from the specified number range.
 
 
-Type ID: `neo-apoli:random/uniform`
+Type ID: `kaya:random/uniform`
 
 
 !!! note
@@ -23,7 +23,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:random/uniform",
+    "type": "kaya:random/uniform",
     "min": 1,
     "max": 64
 }

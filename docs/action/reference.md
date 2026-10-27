@@ -3,7 +3,7 @@
 Invokes an action file.
 
 
-Type ID: `neo-apoli:reference`
+Type ID: `kaya:reference`
 
 
 ### Format
@@ -17,16 +17,16 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:reference",
+    "type": "kaya:reference",
     "value": "example:entity/set_on_fire_for_5_secs"//(1)!
 }
 ```
 
-1. The location of the file is `data/example/neo-apoli/action/entity/set_on_fire_for_5_secs.json` with this as its contents:
+1. The location of the file is `data/example/kaya/action/entity/set_on_fire_for_5_secs.json` with this as its contents:
 
     ```json
     {
-        "type": "neo-apoli:set_entity_on_fire",
+        "type": "kaya:set_entity_on_fire",
         "ticks": 200,
         "entity": "this"
     }

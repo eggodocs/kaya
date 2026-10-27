@@ -3,7 +3,7 @@
 Modifies how an elytra wings is rendered on the entity holding the power.
 
 
-Type ID: `neo-apoli:modify/elytra/render`
+Type ID: `kaya:modify/elytra/render`
 
 
 ???+ info
@@ -30,12 +30,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/elytra/render",
+    "type": "kaya:modify/elytra/render",
     "asset_id": "example:dyeable_elytra", // (1)!
     "color": {
-        "type": "neo-apoli:biome/foliage",
+        "type": "kaya:biome/foliage",
         "position": {
-            "type": "neo-apoli:entity/position",
+            "type": "kaya:entity/position",
             "entity": "this"
         },
         "alpha": 1.0,

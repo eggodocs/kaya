@@ -3,7 +3,7 @@
 Provides a container that has 6 rows and 9 columns.
 
 
-Type ID: `neo-apoli:generic_9x6`
+Type ID: `kaya:generic_9x6`
 
 
 ### Format
@@ -22,14 +22,14 @@ Type ID: `neo-apoli:generic_9x6`
 
     ```json
     {
-        "type": "neo-apoli:generic_9x6"
+        "type": "kaya:generic_9x6"
     }
     ```
 
 === "Inlined"
 
     ```json
-    "neo-apoli:generic_9x6"
+    "kaya:generic_9x6"
     ```
 
 

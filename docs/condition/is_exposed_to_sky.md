@@ -3,7 +3,7 @@
 Checks if the sky is visible at the specified position and if there are no blocks between the sky and the specified position.
 
 
-Type ID: `neo-apoli:is_exposed_to_sky`
+Type ID: `kaya:is_exposed_to_sky`
 
 
 ???+ note
@@ -22,15 +22,15 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:is_exposed_to_sky",
+    "type": "kaya:is_exposed_to_sky",
     "position": {
-        "type": "neo-apoli:entity/position",
+        "type": "kaya:entity/position",
         "entity": "this"
     }
 }
 ```
 
-This example checks if the position of the entity provided by the `neo-apoli:this_entity` context parameter is exposed to the sky.
+This example checks if the position of the entity provided by the `kaya:this_entity` context parameter is exposed to the sky.
 
 
 ### History

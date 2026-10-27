@@ -3,7 +3,7 @@
 Invokes a condition with the provided context parameters.
 
 
-Type ID: `neo-apoli:provide_context`
+Type ID: `kaya:provide_context`
 
 
 ### Format
@@ -18,31 +18,31 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:reference",
+    "type": "kaya:reference",
     "value": "example:item/is_armor_higher_than_threshold"/*(1)!*/,
     "parameters": {
         "example:item": {
-            "type": "neo-apoli:item",
+            "type": "kaya:item",
             "value": "worn_item"
         },
         "example:threshold": {
-            "type": "neo-apoli:float",
+            "type": "kaya:float",
             "value": 2.0
         }
     }
 }
 ```
 
-1. The location of the file is `data/example/neo-apoli/condition/item/is_armor_higher_than_threshold.json` with this as its contents:
+1. The location of the file is `data/example/kaya/condition/item/is_armor_higher_than_threshold.json` with this as its contents:
    
     ```json
     {
-        "type": "neo-apoli:compare",
+        "type": "kaya:compare",
         "comparison": {
-            "type": "neo-apoli:float",
+            "type": "kaya:float",
             "comparator": ">",
             "first": {
-                "type": "neo-apoli:item/attribute",
+                "type": "kaya:item/attribute",
                 "attribute": "minecraft:armor",
                 "item": "example:item"
             },

@@ -3,7 +3,7 @@
 Triggers the cooldown of a power from an entity.
 
 
-Type ID: `neo-apoli:trigger_power_cooldown`
+Type ID: `kaya:trigger_power_cooldown`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:trigger_power_cooldown",
+    "type": "kaya:trigger_power_cooldown",
     "power": "example:cooldown",
     "entity": "actor"
 }
 ```
 
-This example will trigger the cooldown of the `example:cooldown` power from the entity provided by the `neo-apoli:actor_entity` context parameter.
+This example will trigger the cooldown of the `example:cooldown` power from the entity provided by the `kaya:actor_entity` context parameter.
 
 
 ### History

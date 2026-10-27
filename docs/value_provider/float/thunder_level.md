@@ -3,7 +3,7 @@
 Provides the thunder level of the current dimension.
 
 
-Type ID: `neo-apoli:thunder_level`
+Type ID: `kaya:thunder_level`
 
 
 ???+ note  
@@ -27,7 +27,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:thunder_level"
+    "type": "kaya:thunder_level"
 }
 ```
 

@@ -3,7 +3,7 @@
 Applies bone meal to blocks on a position.
 
 
-Type ID: `neo-apoli:bone_meal`
+Type ID: `kaya:bone_meal`
 
 
 ### Format
@@ -19,19 +19,19 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:bone_meal",
+    "type": "kaya:bone_meal",
     "position": {
-        "type": "neo-apoli:block/position",
+        "type": "kaya:block/position",
         "block": "used_block"
     },
     "offset_direction": {
-        "type": "neo-apoli:context",
+        "type": "kaya:context",
         "parameter": "used_side"
     }
 }
 ```
 
-This example will attempt to apply bone meal to the block provided by the `neo-apoli:used_block` context parameter. If it fails, it will apply the bone meal at the block offset by the direction provided by the `neo-apoli:used_side` context parameter instead.
+This example will attempt to apply bone meal to the block provided by the `kaya:used_block` context parameter. If it fails, it will apply the bone meal at the block offset by the direction provided by the `kaya:used_side` context parameter instead.
 
 
 ### History

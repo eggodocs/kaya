@@ -3,7 +3,7 @@
 Tames an entity with another entity as its owner.
 
 
-Type ID: `neo-apoli:tame`
+Type ID: `kaya:tame`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:tame",
+    "type": "kaya:tame",
     "tameable": "target",
     "owner": "actor"
 }
 ```
 
-This example will tame the entity provided by the `neo-apoli:target_entity` context parameter, where the entity provided by the `neo-apoli:actor_entity` context parameter will be its owner.
+This example will tame the entity provided by the `kaya:target_entity` context parameter, where the entity provided by the `kaya:actor_entity` context parameter will be its owner.
 
 
 ### History

@@ -3,7 +3,7 @@
 Checks if a specified context parameter exists on the context. Useful for checking if a provided optional context parameter exists. 
 
 
-Type ID: `neo-apoli:parameter_exists`
+Type ID: `kaya:parameter_exists`
 
 
 ### Format
@@ -17,15 +17,15 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:parameter_exists",
+    "type": "kaya:parameter_exists",
     "parameter": {
-        "type": "neo-apoli:block",
+        "type": "kaya:block",
         "block": "crafting_block"
     }
 }
 ```
 
-This example checks if the `neo-apoli:crafting_block` context parameter exists on the context.
+This example checks if the `kaya:crafting_block` context parameter exists on the context.
 
 
 ### History

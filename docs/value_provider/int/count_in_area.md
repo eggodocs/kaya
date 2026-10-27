@@ -3,7 +3,7 @@
 Counts how many entities/blocks are within the specified area.
 
 
-Type ID: `neo-apoli:count_in_area`
+Type ID: `kaya:count_in_area`
 
 
 ???+ info
@@ -14,14 +14,14 @@ Type ID: `neo-apoli:count_in_area`
 
         Parameter | Description
         ----------|------------
-        `neo-apoli:entity_in_area` | The affected entity in the specified area.
+        `kaya:entity_in_area` | The affected entity in the specified area.
 
     
     === "`block`"
 
         Parameter | Description
         ----------|------------
-        `neo-apoli:block_in_area` | The affected block in the specified area.
+        `kaya:block_in_area` | The affected block in the specified area.
 
 
 ### Format
@@ -37,15 +37,15 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:count_in_area",
+    "type": "kaya:count_in_area",
     "area": {
-        "type": "neo-apoli:box",
+        "type": "kaya:box",
         "target": "entity",
         "shape": "star",
         "box": {
-            "type": "neo-apoli:inflate",
+            "type": "kaya:inflate",
             "box": {
-                "type": "neo-apoli:entity/bounds",
+                "type": "kaya:entity/bounds",
                 "entity": "this"
             },
             "vector": [
@@ -56,14 +56,14 @@ Field | Type | Default | Description
         }
     },
     "condition": {
-        "type": "neo-apoli:check_entity_type",
+        "type": "kaya:check_entity_type",
         "key": "minecraft:creeper",
         "entity": "this"
     }
 }
 ```
 
-This example will count how many creepers are within the bounding box of the entity provided by the `neo-apoli:this_entity` context parameter, inflated by 2 blocks in the horizontal directions.
+This example will count how many creepers are within the bounding box of the entity provided by the `kaya:this_entity` context parameter, inflated by 2 blocks in the horizontal directions.
 
 
 ### History

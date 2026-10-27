@@ -3,7 +3,7 @@
 Provides an ARGB color using [float providers][float_provider].
 
 
-Type ID: `neo-apoli:dynamic/argb`
+Type ID: `kaya:dynamic/argb`
 
 
 ### Format
@@ -20,15 +20,15 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:dynamic/argb",
+    "type": "kaya:dynamic/argb",
     "alpha": {
-        "type": "neo-apoli:linear_interpolated",
+        "type": "kaya:linear_interpolated",
         "delta": {
-            "type": "neo-apoli:quotient",
+            "type": "kaya:quotient",
             "dividend": {
-                "type": "neo-apoli:from_int",
+                "type": "kaya:from_int",
                 "value": {
-                    "type": "neo-apoli:time",
+                    "type": "kaya:time",
                     "period": 200
                 }
             },

@@ -3,7 +3,7 @@
 Modifies the exhaustion received by the entity holding the power.
 
 
-Type ID: `neo-apoli:modify/exhaustion`
+Type ID: `kaya:modify/exhaustion`
 
 
 ### Format
@@ -17,10 +17,10 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/exhaustion",
+    "type": "kaya:modify/exhaustion",
     "modifiers": [
         {
-            "type": "neo-apoli:multiply_multiplicative",
+            "type": "kaya:multiply_multiplicative",
             "phase": "total",
             "amount": 0.6
         }

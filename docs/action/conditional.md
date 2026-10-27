@@ -3,7 +3,7 @@
 Executes the respective action if the specified condition is fulfilled or not.
 
 
-Type ID: `neo-apoli:conditional`
+Type ID: `kaya:conditional`
 
 
 ### Format
@@ -19,16 +19,16 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:conditional",
+    "type": "kaya:conditional",
     "condition": {
-        "type": "neo-apoli:check_entity_type",
+        "type": "kaya:check_entity_type",
         "key": "minecraft:creeper",
         "entity": "target"
     },
     "on_true": {
-        "type": "neo-apoli:execute_command",
+        "type": "kaya:execute_command",
         "source": {
-            "type": "neo-apoli:entity",
+            "type": "kaya:entity",
             "entity": "target"
         },
         "command": "summon lightning_bolt"
@@ -36,7 +36,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will summon a lightning bolt at the entity referenced by the `neo-apoli:target_entity` context parameter if it's a creeper.
+This example will summon a lightning bolt at the entity referenced by the `kaya:target_entity` context parameter if it's a creeper.
 
 
 ### History

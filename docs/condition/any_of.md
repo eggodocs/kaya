@@ -3,7 +3,7 @@
 Checks if any of the conditions are fulfilled.
 
 
-Type ID: `neo-apoli:any_of`
+Type ID: `kaya:any_of`
 
 
 ### Format
@@ -17,21 +17,21 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:any_of",
+    "type": "kaya:any_of",
     "conditions": [
         {
-            "type": "neo-apoli:is_entity_on_fire",
+            "type": "kaya:is_entity_on_fire",
             "entity": "actor"
         },
         {
-            "type": "neo-apoli:is_entity_invisible",
+            "type": "kaya:is_entity_invisible",
             "entity": "target"
         }
     ]
 }
 ```
 
-This example will check if the entity provided by the `neo-apoli:actor_entity` context parameter is on fire **or** if the entity provided by the `neo-apoli:target_entity` context parameter is invisible.
+This example will check if the entity provided by the `kaya:actor_entity` context parameter is on fire **or** if the entity provided by the `kaya:target_entity` context parameter is invisible.
 
 
 ### History

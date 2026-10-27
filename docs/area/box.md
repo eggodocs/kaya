@@ -3,7 +3,7 @@
 Defines an area that's based from the provided box.
 
 
-Type: `neo-apoli:box`
+Type: `kaya:box`
 
 
 ### Format
@@ -17,13 +17,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:box",
+    "type": "kaya:box",
     "target": "block",
     "shape": "sphere",
     "box": {
-        "type": "neo-apoli:inflate",
+        "type": "kaya:inflate",
         "box": {
-            "type": "neo-apoli:entity/bounds",
+            "type": "kaya:entity/bounds",
             "entity": "this"
         },
         "vector": [
@@ -35,7 +35,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will provide an area based on the bounding box of the entity provided by the `neo-apoli:this_entity` context parameter (inflated by 4 blocks in all directions) that will only target blocks.
+This example will provide an area based on the bounding box of the entity provided by the `kaya:this_entity` context parameter (inflated by 4 blocks in all directions) that will only target blocks.
 
 
 ### History

@@ -10,7 +10,7 @@ example:
 Provides an integer value randomly calculated with [binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution).
 
 
-Type ID: `neo-apoli:random/binomial`
+Type ID: `kaya:random/binomial`
 
 
 ### Format
@@ -24,7 +24,7 @@ Field | Type | Default | Description
 ### Example
 ```json
 {
-    "type": "neo-apoli:random_binomial",
+    "type": "kaya:random_binomial",
     "attempts": {{ example.attempts }},
     "probability": {{ example.probability }}
 }

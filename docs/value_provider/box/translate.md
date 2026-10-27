@@ -3,7 +3,7 @@
 Moves the position of a box with a vector.
 
 
-Type ID: `neo-apoli:translate`
+Type ID: `kaya:translate`
 
 
 ### Format
@@ -18,7 +18,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:translate",
+    "type": "kaya:translate",
     "box": [
         -4.0,
         -4.0,
@@ -28,13 +28,13 @@ Field | Type | Default | Description
         4.0
     ],
     "vector": {
-        "type": "neo-apoli:entity/position",
+        "type": "kaya:entity/position",
         "entity": "this"
     }
 }
 ```
 
-This example creates a bounding box with a size of 8.0 (4 blocks wide/high in every direction) and re-positions it to be relative to the position of the entity provided by the `neo-apoli:this_entity` context parameter.
+This example creates a bounding box with a size of 8.0 (4 blocks wide/high in every direction) and re-positions it to be relative to the position of the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

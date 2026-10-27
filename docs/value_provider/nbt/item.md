@@ -3,7 +3,7 @@
 Encodes the item as NBT and uses it as the provided value.
 
 
-Type ID: `neo-apoli:item`
+Type ID: `kaya:item`
 
 
 ???+ info
@@ -22,12 +22,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:item",
+    "type": "kaya:item",
     "item": "used_item"
 }
 ```
 
-This example encodes the item provided by the `neo-apoli:used_item` context parameter and uses it as the provided value.
+This example encodes the item provided by the `kaya:used_item` context parameter and uses it as the provided value.
 
 
 ### History

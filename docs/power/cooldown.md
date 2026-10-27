@@ -3,7 +3,7 @@
 Provides a timer to be used for powers that normally do not have a built-in cooldown, or just as a simple timer.
 
 
-Type ID: `neo-apoli:cooldown`
+Type ID: `kaya:cooldown`
 
 
 ???+ info
@@ -29,23 +29,23 @@ Field | Type | Default | Description
 
 ```json
 {
-	"type": "neo-apoli:cooldown",
+	"type": "kaya:cooldown",
 	"hud_element": {
-		"type": "neo-apoli:overlay/texture",
+		"type": "kaya:overlay/texture",
 		"sprite": {
 			"atlas": "minecraft:textures/atlas/blocks.png",
 			"id": "minecraft:block/water_still"
 		},
 		"color": {
-			"type": "neo-apoli:biome/water",
+			"type": "kaya:biome/water",
 			"position": {
-				"type": "neo-apoli:entity/position",
+				"type": "kaya:entity/position",
 				"entity": "this"
 			},
 			"alpha": {
-				"type": "neo-apoli:clamped",
+				"type": "kaya:clamped",
 				"value": {
-					"type": "neo-apoli:quotient",
+					"type": "kaya:quotient",
 					"dividend": "hud/value",
 					"divisor": "hud/max_value"
 				},

@@ -3,7 +3,7 @@
 Provides the maximum amount of items of an item stack.
 
 
-Type ID: `neo-apoli:item/count/max`
+Type ID: `kaya:item/count/max`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:item/count/max",
+    "type": "kaya:item/count/max",
     "item": "used_item"
 }
 ```
 
-This example provides the max stack size of the item provided by the `neo-apoli:used_item` context parameter.
+This example provides the max stack size of the item provided by the `kaya:used_item` context parameter.
 
 
 ### History

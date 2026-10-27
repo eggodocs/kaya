@@ -3,7 +3,7 @@
 Check if the damage type of a damage source is of a type or if it's included in a damage type tag.
 
 
-Type ID: `neo-apoli:check_damage_type`
+Type ID: `kaya:check_damage_type`
 
 
 ### Format
@@ -24,13 +24,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:check_damage_type",
+    "type": "kaya:check_damage_type",
     "tag": "#minecraft:is_fall",
     "damage_source": "taken_damage/source"
 }
 ```
 
-This example will check if the damage type of the damage source provided by the `neo-apoli:taken_damage/source` context parameter is included in the `#minecraft:is_fall` damage type tag.
+This example will check if the damage type of the damage source provided by the `kaya:taken_damage/source` context parameter is included in the `#minecraft:is_fall` damage type tag.
 
 
 ### History

@@ -3,7 +3,7 @@
 Checks if an entity is on fire.
 
 
-Type ID: `neo-apoli:is_entity_on_fire`
+Type ID: `kaya:is_entity_on_fire`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:is_entity_on_fire",
+    "type": "kaya:is_entity_on_fire",
     "entity": "this"
 }
 ```
 
-This example will check if the entity provided by the `neo-apoli:this_entity` context parameter is on fire.
+This example will check if the entity provided by the `kaya:this_entity` context parameter is on fire.
 
 
 ### History

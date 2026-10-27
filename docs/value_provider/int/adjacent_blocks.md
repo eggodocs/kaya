@@ -3,7 +3,7 @@
 Provides the count of blocks adjacent to a block at a specific position that fulfill a condition.
 
 
-Type ID: `neo-apoli:adjacent_blocks`
+Type ID: `kaya:adjacent_blocks`
 
 
 ???+ info
@@ -12,7 +12,7 @@ Type ID: `neo-apoli:adjacent_blocks`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:adjacent_block` | The block adjacent to the block at a position.
+    `kaya:adjacent_block` | The block adjacent to the block at a position.
 
 
 ### Format
@@ -27,20 +27,20 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:adjacent_blocks",
+    "type": "kaya:adjacent_blocks",
     "condition": {
-        "type": "neo-apoli:check_block_type",
+        "type": "kaya:check_block_type",
         "key": "minecraft:dirt",
         "block": "adjacent_block"
     },
     "position": {
-        "type": "neo-apoli:block/position",
+        "type": "kaya:block/position",
         "block": "used_block"
     }
 }
 ```
 
-This example counts how many blocks adjacent to a block *(provided by the `neo-apoli:used_block` context parameter)* is a Dirt block.
+This example counts how many blocks adjacent to a block *(provided by the `kaya:used_block` context parameter)* is a Dirt block.
 
 
 ### History

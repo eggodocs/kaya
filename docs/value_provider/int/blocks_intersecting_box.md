@@ -3,7 +3,7 @@
 Provides the count of blocks which fulfills a condition intersecting with a box.
 
 
-Type ID: `neo-apoli:blocks_intersecting_box`
+Type ID: `kaya:blocks_intersecting_box`
 
 
 ???+ info
@@ -12,7 +12,7 @@ Type ID: `neo-apoli:blocks_intersecting_box`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:block_intersecting_block` | The block intersecting with the box.
+    `kaya:block_intersecting_block` | The block intersecting with the box.
 
 
 ### Format
@@ -27,16 +27,16 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:blocks_intersecting_box",
+    "type": "kaya:blocks_intersecting_box",
     "condition": {
-        "type": "neo-apoli:check_block_type",
+        "type": "kaya:check_block_type",
         "key": "minecraft:grass_block",
         "block": "block_intersecting_box"
     },
     "box": {
-        "type": "neo-apoli:inflate",
+        "type": "kaya:inflate",
         "box": {
-            "type": "neo-apoli:entity/bounds",
+            "type": "kaya:entity/bounds",
             "entity": "this"
         },
         "vector": [
@@ -48,7 +48,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example provides the count of grass blocks intersecting with the bounding box *(inflated by 1 block)* of an entity *(provided by the `neo-apoli:this_entity` context parameter.)*
+This example provides the count of grass blocks intersecting with the bounding box *(inflated by 1 block)* of an entity *(provided by the `kaya:this_entity` context parameter.)*
 
 
 ### History

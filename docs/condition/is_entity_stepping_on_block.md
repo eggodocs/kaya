@@ -3,7 +3,7 @@
 Checks if an entity is stepping on a block.
 
 
-Type ID: `neo-apoli:is_entity_stepping_on_block`
+Type ID: `kaya:is_entity_stepping_on_block`
 
 
 ???+ info
@@ -12,7 +12,7 @@ Type ID: `neo-apoli:is_entity_stepping_on_block`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:stepped_on_block` | The block being stepped on by an entity.
+    `kaya:stepped_on_block` | The block being stepped on by an entity.
 
 
 ### Format
@@ -27,9 +27,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:is_entity_stepped_on_block",
+    "type": "kaya:is_entity_stepped_on_block",
     "stepped_on_condition": {
-        "type": "neo-apoli:check_block_type",
+        "type": "kaya:check_block_type",
         "tag": "#minecraft:carpets",
         "block": "stepped_on_block"
     },
@@ -37,7 +37,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will check if the entity provided by the `neo-apoli:this_entity` context parameter is stepping on a block included in the `#minecraft:carpets` block tag.
+This example will check if the entity provided by the `kaya:this_entity` context parameter is stepping on a block included in the `#minecraft:carpets` block tag.
 
 
 ### History

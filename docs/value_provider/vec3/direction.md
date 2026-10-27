@@ -3,7 +3,7 @@
 Provides the unit vec3 of a direction.
 
 
-Type ID: `neo-apoli:direction`
+Type ID: `kaya:direction`
 
 
 ### Format
@@ -17,7 +17,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:direction",
+    "type": "kaya:direction",
     "direction": "up"
 }
 ```

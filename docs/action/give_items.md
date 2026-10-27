@@ -3,7 +3,7 @@
 Gives item stacks to an entity.
 
 
-Type ID: `neo-apoli:give_items`
+Type ID: `kaya:give_items`
 
 
 ???+ info
@@ -12,8 +12,8 @@ Type ID: `neo-apoli:give_items`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:given_slot` | The slot for the given item stack.
-    `neo-apoli:given_item` | The item stack given to the entity.
+    `kaya:given_slot` | The slot for the given item stack.
+    `kaya:given_item` | The item stack given to the entity.
 
 
 ??? note "Logic for giving items"
@@ -34,7 +34,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:give_items",
+    "type": "kaya:give_items",
     "stacks": [
         {
             "slot": "hotbar.0",
@@ -52,7 +52,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will give the following items to the entity provided by the `neo-apoli:this_entity` context parameter:
+This example will give the following items to the entity provided by the `kaya:this_entity` context parameter:
 
 - A wooden sword placed into the entity's first hotbar slot.
 - A wooden pickaxe placed into the entity's second hotbar slot.

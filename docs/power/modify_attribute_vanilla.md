@@ -3,7 +3,7 @@
 Modifies the specified attributes with vanilla modifiers.
 
 
-Type ID: `neo-apoli:modify/attribute/vanilla`
+Type ID: `kaya:modify/attribute/vanilla`
 
 
 ### Format
@@ -17,7 +17,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/attribute/vanilla",
+    "type": "kaya:modify/attribute/vanilla",
     "modifiers": [
         {
             "id": "example:extra_armor",

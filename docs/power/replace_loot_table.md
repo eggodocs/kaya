@@ -3,7 +3,7 @@
 Replaces a loot table with another loot table.
 
 
-Type ID: `neo-apoli:replace_loot_table`
+Type ID: `kaya:replace_loot_table`
 
 
 ???+ info
@@ -14,41 +14,41 @@ Type ID: `neo-apoli:replace_loot_table`
 
         Parameter | Description
         ----------|------------
-        `neo-apoli:actor_entity` | The entity holding the power.
-        `neo-apoli:target_entity` | The Piglin that was bartered with.
+        `kaya:actor_entity` | The entity holding the power.
+        `kaya:target_entity` | The Piglin that was bartered with.
 
     === "Block"
 
         Parameter | Description
         ----------|------------
-        `neo-apoli:actor_entity` | The entity holding the power.
-        `neo-apoli:block` | The block broken by the player.
-        `neo-apoli:tool_item` | The item used by the player for breaking a block.
+        `kaya:actor_entity` | The entity holding the power.
+        `kaya:block` | The block broken by the player.
+        `kaya:tool_item` | The item used by the player for breaking a block.
 
     === "Chest"
 
         Parameter | Description
         ----------|------------
-        `neo-apoli:actor_entity` | The entity holding the power.
-        `neo-apoli:target_entity` | The player that opened a chest block.
-        `neo-apoli:block` | The chest block opened by the player.
+        `kaya:actor_entity` | The entity holding the power.
+        `kaya:target_entity` | The player that opened a chest block.
+        `kaya:block` | The chest block opened by the player.
 
     === "Entity"
 
         Parameter | Description
         ----------|------------
-        `neo-apoli:actor_entity` | The entity holding the power
-        `neo-apoli:target_entity` | The entity that died.
-        `neo-apoli:block` | The block at the position of the entity that died.
+        `kaya:actor_entity` | The entity holding the power
+        `kaya:target_entity` | The entity that died.
+        `kaya:block` | The block at the position of the entity that died.
 
     === "Fishing"
 
         Parameter | Description
         ----------|------------
-        `neo-apoli:actor_entity` | The entity holding the power.
-        `neo-apoli:target_entity` | The fishing bobber of the entity holding the power.
-        `neo-apoli:block` | The block at the position of the fishing bobber.
-        `neo-apoli:tool_item` | The rod item used for fishing.
+        `kaya:actor_entity` | The entity holding the power.
+        `kaya:target_entity` | The fishing bobber of the entity holding the power.
+        `kaya:block` | The block at the position of the fishing bobber.
+        `kaya:tool_item` | The rod item used for fishing.
 
 
 ### Format
@@ -85,7 +85,7 @@ Field | Type | Default | Description
 
     ```json
     {
-        "type": "neo-apoli:replace_loot_table",
+        "type": "kaya:replace_loot_table",
         "replacements": {
             "([a-z0-9\\-_]+):blocks/([a-z0-9\\-_/]+)": "example:blocks/$1/$2"
         }

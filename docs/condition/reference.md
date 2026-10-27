@@ -3,7 +3,7 @@
 Invokes a condition file and returns its value.
 
 
-Type ID: `neo-apoli:reference`
+Type ID: `kaya:reference`
 
 
 ### Format
@@ -17,21 +17,21 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:reference",
+    "type": "kaya:reference",
     "value": "example:entity/is_in_water"//(1)!
 }
 ```
 
-1. The location of the file is `data/example/neo-apoli/condition/entity/is_in_water.json` with this as its contents:
+1. The location of the file is `data/example/kaya/condition/entity/is_in_water.json` with this as its contents:
 
     ```json
     {
-        "type": "neo-apoli:compare",
+        "type": "kaya:compare",
         "comparison": {
-            "type": "neo-apoli:float",
+            "type": "kaya:float",
             "comparator": ">",
             "first": {
-                "type": "neo-apoli:entity/fluid_height",
+                "type": "kaya:entity/fluid_height",
                 "fluid_tag": "#minecraft:water",
                 "entity": "this"
             },

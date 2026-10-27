@@ -3,7 +3,7 @@
 Modifies the color of the base model texture of other entities that can be seen by the entity holding the power.
 
 
-Type ID: `neo-apoli:modify/model/color/other`
+Type ID: `kaya:modify/model/color/other`
 
 
 ???+ info
@@ -12,8 +12,8 @@ Type ID: `neo-apoli:modify/model/color/other`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:actor_entity` | The entity being rendered.
-    `neo-apoli:target_entity` | The entity holding the power.
+    `kaya:actor_entity` | The entity being rendered.
+    `kaya:target_entity` | The entity holding the power.
 
 
 ### Format
@@ -27,24 +27,24 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/model/color/other",
+    "type": "kaya:modify/model/color/other",
     "color": {
-        "type": "neo-apoli:dynamic/argb",
+        "type": "kaya:dynamic/argb",
         "alpha": {
-            "type": "neo-apoli:linear_interpolated",
+            "type": "kaya:linear_interpolated",
             "delta": {
-                "type": "neo-apoli:quotient",
+                "type": "kaya:quotient",
                 "dividend": {
-                    "type": "neo-apoli:min",
+                    "type": "kaya:min",
                     "values": [
                         {
-                            "type": "neo-apoli:distance_between_positions",
+                            "type": "kaya:distance_between_positions",
                             "first": {
-                                "type": "neo-apoli:entity/position",
+                                "type": "kaya:entity/position",
                                 "entity": "actor"
                             },
                              "second": {
-                                "type": "neo-apoli:entity/position",
+                                "type": "kaya:entity/position",
                                 "entity": "target"
                              }
                         },

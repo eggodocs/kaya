@@ -3,7 +3,7 @@
 Inverts the result of another condition.
 
 
-Type ID: `neo-apoli:inverted`
+Type ID: `kaya:inverted`
 
 
 ### Format
@@ -17,15 +17,15 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:inverted",
+    "type": "kaya:inverted",
     "condition": {
-        "type": "neo-apoli:is_entity_on_fire",
+        "type": "kaya:is_entity_on_fire",
         "entity": "this"
     }
 }
 ```
 
-This example will check if the entity provided by the `neo-apoli:this_entity` context parameter is **not** on fire.
+This example will check if the entity provided by the `kaya:this_entity` context parameter is **not** on fire.
 
 
 ### History

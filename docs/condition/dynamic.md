@@ -3,7 +3,7 @@
 Returns the boolean value of a boolean provider as the result.
 
 
-Type ID: `neo-apoli:dynamic`
+Type ID: `kaya:dynamic`
 
 
 ### Format
@@ -17,9 +17,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:dynamic",
+    "type": "kaya:dynamic",
     "value": {
-        "type": "neo-apoli:weighted",
+        "type": "kaya:weighted",
         "entries": [
             {
                 "value": true,

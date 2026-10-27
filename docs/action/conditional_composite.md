@@ -3,7 +3,7 @@
 Executes the action of an entry whose condition is fulfilled, or executes the specified default action if no entries matched.
 
 
-Type ID: `neo-apoli:conditional/composite`
+Type ID: `kaya:conditional/composite`
 
 
 ### Format
@@ -33,37 +33,37 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:conditional/composite",
+    "type": "kaya:conditional/composite",
     "entries": [
         {
             "condition": {
-                "type": "neo-apoli:is_entity_sneaking",
+                "type": "kaya:is_entity_sneaking",
                 "entity": "this"
             },
             "action": {
-                "type": "neo-apoli:set_entity_on_fire",
+                "type": "kaya:set_entity_on_fire",
                 "entity": "this",
                 "ticks": 200
             }
         },
         {
             "condition": {
-                "type": "neo-apoli:is_entity_climbing",
+                "type": "kaya:is_entity_climbing",
                 "entity": "this"
             },
             "action": {
-                "type": "neo-apoli:explode",
+                "type": "kaya:explode",
                 "block_interaction": "destroy",
                 "power": 8.0,
                 "position": {
-                    "type": "neo-apoli:entity/position",
+                    "type": "kaya:entity/position",
                     "entity": "this"
                 }
             }
         }
     ],
     "default": {
-        "type": "neo-apoli:execute_command",
+        "type": "kaya:execute_command",
         "source": "server",
         "command": "tellraw @a {\"text\": \"None of the entries matched!\", \"color\": \"gray\", \"italic\": true}"
     }

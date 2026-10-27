@@ -3,7 +3,7 @@
 Checks if a pattern of blocks is matched.
 
 
-Type ID: `neo-apoli:matches_block_pattern`
+Type ID: `kaya:matches_block_pattern`
 
 
 ### Format
@@ -36,7 +36,7 @@ Field | Type | Default | Description
 
 ```json
 {
-	"type": "neo-apoli:matches_block_pattern",
+	"type": "kaya:matches_block_pattern",
 	"pattern": [
 		[
 			"###",
@@ -62,20 +62,20 @@ Field | Type | Default | Description
 	],
 	"where": {
 		"#": {
-			"type": "neo-apoli:check_block_type",
+			"type": "kaya:check_block_type",
 			"tag": "#minecraft:planks",
 			"block": "matching_block"
 		},
 		"~": {
-			"type": "neo-apoli:check_block_type",
+			"type": "kaya:check_block_type",
 			"key": "minecraft:water",
 			"block": "matching_block"
 		}
 	},
 	"front_top_left": {
-		"type": "neo-apoli:offset",
+		"type": "kaya:offset",
 		"vector": {
-			"type": "neo-apoli:entity/position",
+			"type": "kaya:entity/position",
 			"entity": "this"
 		},
 		"offset": [
@@ -89,7 +89,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will check if the entity provided by the `neo-apoli:this_entity` context parameter is standing on top center of a tank-like structure made up of any wood planks filled with water.
+This example will check if the entity provided by the `kaya:this_entity` context parameter is standing on top center of a tank-like structure made up of any wood planks filled with water.
 
 
 ### History

@@ -3,7 +3,7 @@
 Modifies the falling velocity of the entity holding the power and optionally whether it should take fall damage or not.
 
 
-Type ID: `neo-apoli:modify/falling`
+Type ID: `kaya:modify/falling`
 
 
 ### Format
@@ -18,19 +18,19 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/falling",
+    "type": "kaya:modify/falling",
     "modifiers": [
         {
-            "type": "neo-apoli:set",
+            "type": "kaya:set",
             "phase": "base",
             "amount": 0.01
         }
     ],
     "take_fall_damage": false,
     "active_condition": {
-        "type": "neo-apoli:inverted",
+        "type": "kaya:inverted",
         "condition": {
-            "type": "neo-apoli:is_entity_sneaking",
+            "type": "kaya:is_entity_sneaking",
             "entity": "this"
         }
     }

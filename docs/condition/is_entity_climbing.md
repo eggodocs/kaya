@@ -3,7 +3,7 @@
 Checks if an entity is actively climbing a block.
 
 
-Type ID: `neo-apoli:is_entity_climbing`
+Type ID: `kaya:is_entity_climbing`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:is_entity_climbing",
+    "type": "kaya:is_entity_climbing",
     "entity": "this"
 }
 ```
 
-This example will check if the entity provided by the `neo-apoli:this_entity` context parameter is actively climbing a block.
+This example will check if the entity provided by the `kaya:this_entity` context parameter is actively climbing a block.
 
 
 ### History

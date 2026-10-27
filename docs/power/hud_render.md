@@ -3,7 +3,7 @@
 Renders the specified HUD elements.
 
 
-Type ID : `neo-apoli:hud_render`
+Type ID : `kaya:hud_render`
 
 
 ### Format
@@ -22,10 +22,10 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:hud_render",
+    "type": "kaya:hud_render",
     "hud_elements": [
         {
-            "type": "neo-apoli:overlay/texture",
+            "type": "kaya:overlay/texture",
             "sprite": {
                 "atlas": "minecraft:textures/atlas/blocks.png",
                 "id": "minecraft:block/dirt"

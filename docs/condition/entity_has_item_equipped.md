@@ -3,7 +3,7 @@
 Checks if an entity has an item equipped to a specific slot.
 
 
-Type ID: `neo-apoli:entity_has_item_equipped`
+Type ID: `kaya:entity_has_item_equipped`
 
 
 ???+ info
@@ -12,7 +12,7 @@ Type ID: `neo-apoli:entity_has_item_equipped`
 
     Parameters | Description
     -----------|------------
-    `neo-apoli:equipped_item` | The item stack equipped on the slot.
+    `kaya:equipped_item` | The item stack equipped on the slot.
 
 
 ### Format
@@ -28,9 +28,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity_has_item_equipped",
+    "type": "kaya:entity_has_item_equipped",
     "equipped_condition": {
-        "type": "neo-apoli:item_matches_predicate",
+        "type": "kaya:item_matches_predicate",
         "predicate": "*[minecraft:food]",
         "item": "equipped_item"
     },
@@ -39,7 +39,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will check if items that has the `minecraft:food` item component is in any of the hands of the entity provided by the `neo-apoli:this_entity` context parameter.
+This example will check if items that has the `minecraft:food` item component is in any of the hands of the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

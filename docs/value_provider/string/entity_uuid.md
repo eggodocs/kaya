@@ -3,7 +3,7 @@
 Provides the string form of an entity's UUID.
 
 
-Type ID: `neo-apoli:entity/uuid`
+Type ID: `kaya:entity/uuid`
 
 
 ### Format
@@ -17,9 +17,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity/uuid",
+    "type": "kaya:entity/uuid",
     "entity": {
-        "type": "neo-apoli:selector",
+        "type": "kaya:selector",
         "selector": "@e[sort = random, limit = 1]"
     }
 }

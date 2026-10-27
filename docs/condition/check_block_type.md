@@ -3,7 +3,7 @@
 Check if a block is of a type or if it's included in a block tag.
 
 
-Type ID: `neo-apoli:check_block_type`
+Type ID: `kaya:check_block_type`
 
 
 ### Format
@@ -24,13 +24,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:check_block_type",
+    "type": "kaya:check_block_type",
     "tag": "#minecraft:planks",
     "block": "broken_block"
 }
 ```
 
-This example will check if the block provided by the `neo-apoli:broken_block` context parameter is included in the `#minecraft:planks` block tag.
+This example will check if the block provided by the `kaya:broken_block` context parameter is included in the `#minecraft:planks` block tag.
 
 
 ### History

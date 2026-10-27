@@ -3,7 +3,7 @@
 Provides the saturation value of a player.
 
 
-Type ID: `neo-apoli:player/saturation`
+Type ID: `kaya:player/saturation`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:player/saturation",
+    "type": "kaya:player/saturation",
     "entity": "damaging_entity"
 }
 ```
 
-This example will provide the saturation level of a player *(provided by the `neo-apoli:damaging_entity` context parameter.)*
+This example will provide the saturation level of a player *(provided by the `kaya:damaging_entity` context parameter.)*
 
 
 ### History

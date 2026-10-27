@@ -3,7 +3,7 @@
 Modifies whether the entity holding the power can equip and item in the specified equipment slots.
 
 
-Type ID: `neo-apoli:modify/item/wearable`
+Type ID: `kaya:modify/item/wearable`
 
 
 ???+ info
@@ -12,7 +12,7 @@ Type ID: `neo-apoli:modify/item/wearable`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:worn_item` | The item that will be put into an equipment slot.
+    `kaya:worn_item` | The item that will be put into an equipment slot.
 
 
 ### Format
@@ -51,17 +51,17 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/item/wearable",
+    "type": "kaya:modify/item/wearable",
     "head": {
-        "type": "neo-apoli:any_of",
+        "type": "kaya:any_of",
         "conditions": [
             {
-                "type": "neo-apoli:item_matches_ingredient",
+                "type": "kaya:item_matches_ingredient",
                 "ingredient": "#minecraft:head_armor",
                 "item": "worn_item"
             },
             {
-                "type": "neo-apoli:item_matches_ingredient",
+                "type": "kaya:item_matches_ingredient",
                 "ingredient": "#c:glass_blocks",
                 "item": "worn_item"
             }

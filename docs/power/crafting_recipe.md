@@ -3,7 +3,7 @@
 Provides a crafting recipe that can only be crafted by the player holding the power.
 
 
-Type ID: `neo-apoli:crafting_recipe`
+Type ID: `kaya:crafting_recipe`
 
 
 ### Format
@@ -23,7 +23,7 @@ Field | Type | Default | Description
 
 ```json
 {
-	"type": "neo-apoli:crafting_recipe",
+	"type": "kaya:crafting_recipe",
 	"recipe": {
 		"id": "example:epic_cookie",
 		"type": "minecraft:crafting_shapeless",

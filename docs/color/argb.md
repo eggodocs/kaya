@@ -3,7 +3,7 @@
 Provides an ARGB color.
 
 
-Type ID: `neo-apoli:argb`
+Type ID: `kaya:argb`
 
 
 ??? tip
@@ -25,7 +25,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:argb",
+    "type": "kaya:argb",
     "alpha": 0.25,
     "red": 1.0,
     "green": 0.0,

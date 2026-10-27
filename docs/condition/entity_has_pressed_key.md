@@ -3,7 +3,7 @@
 Checks if an entity has pressed a keybinding.
 
 
-Type ID: `neo-apoli:entity_has_pressed_key`
+Type ID: `kaya:entity_has_pressed_key`
 
 
 ### Format
@@ -18,7 +18,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity_has_pressed_key",
+    "type": "kaya:entity_has_pressed_key",
     "key": [
         "key.hotbar.0",
         "key.hotbar.1"
@@ -27,7 +27,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will check if the entity provided by the `neo-apoli:this_entity` context parameter has pressed the `key.hotbar.0` and `key.hotbar.1` keybindings simultaneously.
+This example will check if the entity provided by the `kaya:this_entity` context parameter has pressed the `key.hotbar.0` and `key.hotbar.1` keybindings simultaneously.
 
 
 ### History

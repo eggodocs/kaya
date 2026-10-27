@@ -3,7 +3,7 @@
 Compares two objects, where the result will depend on the specified comparison.
 
 
-Type ID: `neo-apoli:compare`
+Type ID: `kaya:compare`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:compare",
+    "type": "kaya:compare",
     "comparison": {
-        "type": "neo-apoli:int",
+        "type": "kaya:int",
         "comparator": ">=",
         "first": {
-            "type": "neo-apoli:player/food",
+            "type": "kaya:player/food",
             "entity": "this"
         },
         "second": 5
@@ -30,7 +30,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will check if the food level of the player provided by the `neo-apoli:this_entity` context parameter is greater than or equal to 5.
+This example will check if the food level of the player provided by the `kaya:this_entity` context parameter is greater than or equal to 5.
 
 
 ### History

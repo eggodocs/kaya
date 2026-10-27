@@ -3,7 +3,7 @@
 Does nothing.
 
 
-Type ID: `neo-apoli:nothing`
+Type ID: `kaya:nothing`
 
 
 ### Format
@@ -22,7 +22,7 @@ Type ID: `neo-apoli:nothing`
 
     ```json
     {
-        "type": "neo-apoli:nothing"
+        "type": "kaya:nothing"
     }
     ```
 

@@ -3,7 +3,7 @@
 Applies exhaustion to a player.
 
 
-Type ID: `neo-apoli:exhaust`
+Type ID: `kaya:exhaust`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:exhaust",
+    "type": "kaya:exhaust",
     "amount": 4.5,
     "entity": "this"
 }
 ```
 
-This example will apply exhaustion with the amount of $4.5$ to the player provided by the `neo-apoli:this_entity` context parameter.
+This example will apply exhaustion with the amount of $4.5$ to the player provided by the `kaya:this_entity` context parameter.
 
 
 ### History

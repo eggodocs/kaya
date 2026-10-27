@@ -3,7 +3,7 @@
 Provides the absolute value of a number value. If the number is negative, the negation of the number is provided.
 
 
-Type ID: `neo-apoli:absolute`
+Type ID: `kaya:absolute`
 
 
 !!! note
@@ -22,7 +22,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:absolute",
+    "type": "kaya:absolute",
     "value": -25
 }
 ```

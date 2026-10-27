@@ -3,7 +3,7 @@
 Modifies a recipe and executes an action upon the recipe being modified.
 
 
-Type ID: `neo-apoli:modify/recipe/crafting`
+Type ID: `kaya:modify/recipe/crafting`
 
 
 ???+ info
@@ -14,16 +14,16 @@ Type ID: `neo-apoli:modify/recipe/crafting`
 
         Parameter | Description
         ----------|------------
-        `neo-apoli:crafted_item` | The result item stack of the crafted recipe.
-        `neo-apoli:crafted_item_slot` | The slot of the result item stack.
+        `kaya:crafted_item` | The result item stack of the crafted recipe.
+        `kaya:crafted_item_slot` | The slot of the result item stack.
 
     === "From a crafting block"
 
         Parameter | Description
         ----------|------------
-        `neo-apoli:crafting_block` | The block used for crafting the item. (e.g: crafting table)
-        `neo-apoli:crafted_item` | The result item stack of the crafted recipe.
-        `neo-apoli:crafted_item_slot` | The slot of the result item stack.
+        `kaya:crafting_block` | The block used for crafting the item. (e.g: crafting table)
+        `kaya:crafted_item` | The result item stack of the crafted recipe.
+        `kaya:crafted_item_slot` | The slot of the result item stack.
 
 
 ### Format
@@ -45,29 +45,29 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/recipe/crafting",
+    "type": "kaya:modify/recipe/crafting",
     "on_take_action": {
-        "type": "neo-apoli:conditional",
+        "type": "kaya:conditional",
         "condition": {
-            "type": "neo-apoli:parameter_exists",
+            "type": "kaya:parameter_exists",
             "parameter": {
-                "type": "neo-apoli:block",
+                "type": "kaya:block",
                 "name": "crafting_block"
             }
         },
         "on_true": [
             {
-                "type": "neo-apoli:execute_command",
+                "type": "kaya:execute_command",
                 "source": {
-                    "type": "neo-apoli:entity",
+                    "type": "kaya:entity",
                     "entity": "this"
                 },
                 "command": "tellraw @s {\"text\": \"The used crafting block has been turned into planks!\", \"color\": \"gray\", \"italic\": true}"
             },
             {
-                "type": "neo-apoli:place_block",
+                "type": "kaya:place_block",
                 "position": {
-                    "type": "neo-apoli:block/position",
+                    "type": "kaya:block/position",
                     "block": "crafting_block"
                 },
                 "block": "minecraft:oak_planks",
@@ -76,7 +76,7 @@ Field | Type | Default | Description
         ]
     },
     "active_condition": {
-        "type": "neo-apoli:item_matches_ingredient",
+        "type": "kaya:item_matches_ingredient",
         "ingredient": "minecraft:wooden_sword",
         "item": "crafted_item"
     }

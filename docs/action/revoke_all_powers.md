@@ -3,7 +3,7 @@
 Revokes all powers from a specified source.
 
 
-Type ID: `neo-apoli:revoke_all_powers`
+Type ID: `kaya:revoke_all_powers`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:revoke_all_powers",
+    "type": "kaya:revoke_all_powers",
     "source": "example:epic_stuff",
     "entity": "this"
 }
 ```
 
-This example will revoke all the powers granted with the `example:epic_stuff` source from the entity provided by the `neo-apoli:this_entity` context parameter.
+This example will revoke all the powers granted with the `example:epic_stuff` source from the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

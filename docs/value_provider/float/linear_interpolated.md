@@ -11,7 +11,7 @@ example:
 Interpolates a float value.
 
 
-Type ID: `neo-apoli:linear_interpolated`
+Type ID: `kaya:linear_interpolated`
 
 
 ### Format
@@ -32,11 +32,11 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:linear_interpolated",
+    "type": "kaya:linear_interpolated",
     "delta": {
-        "type": "neo-apoli:quotient",
+        "type": "kaya:quotient",
         "dividend": {
-            "type": "neo-apoli:entity/attribute",
+            "type": "kaya:entity/attribute",
             "attribute": "minecraft:armor",
             "entity": "this"
         },
@@ -47,7 +47,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will provide a float value ranging from ${{ example.start }}$ to ${{ example.end }}$ depending on the quotient of the value of the `minecraft:armor` attribute *(from the entity provided by the `neo-apoli:this` context parameter)* divided by ${{ example.divisor }}$.
+This example will provide a float value ranging from ${{ example.start }}$ to ${{ example.end }}$ depending on the quotient of the value of the `minecraft:armor` attribute *(from the entity provided by the `kaya:this` context parameter)* divided by ${{ example.divisor }}$.
 
 {% set result = clamped_lerp(example.delta / example.divisor, example.start, example.end) %}
 

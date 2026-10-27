@@ -3,7 +3,7 @@
 Modifies the damage dealt by the entity holding the power to another entity.
 
 
-Type ID: `neo-apoli:modify/damage/dealt`
+Type ID: `kaya:modify/damage/dealt`
 
 
 ???+ info
@@ -12,12 +12,12 @@ Type ID: `neo-apoli:modify/damage/dealt`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:actor_entity` | The attacker entity (the entity holding the power.)
-    `neo-apoli:target_entity` | The entity that was attacked.
-    `neo-apoli:dealt_damage/source` | The damage source dealt to the attacked entity.
-    `neo-apoli:dealt_damage/amount` | The amount of damage dealt to the attacked entity.
-    `neo-apoli:damaging_entity` | The projectile used for the attack (or the attacker if no projectiles are used.)
-    `neo-apoli:direct_damaging_entity` | The owner of the projectile used for the attack (or the attacker if no projectiles are used.)
+    `kaya:actor_entity` | The attacker entity (the entity holding the power.)
+    `kaya:target_entity` | The entity that was attacked.
+    `kaya:dealt_damage/source` | The damage source dealt to the attacked entity.
+    `kaya:dealt_damage/amount` | The amount of damage dealt to the attacked entity.
+    `kaya:damaging_entity` | The projectile used for the attack (or the attacker if no projectiles are used.)
+    `kaya:direct_damaging_entity` | The owner of the projectile used for the attack (or the attacker if no projectiles are used.)
 
 
 ### Format
@@ -32,10 +32,10 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/damage/dealt",
+    "type": "kaya:modify/damage/dealt",
     "modifiers": [
         {
-            "type": "neo-apoli:multiply_multiplicative",
+            "type": "kaya:multiply_multiplicative",
             "phase": "total",
             "amount": -0.5
         }

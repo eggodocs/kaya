@@ -3,7 +3,7 @@
 Toggles the state of a power that uses the [Toggle](../power/toggle.md) power type from an entity.
 
 
-Type ID: `neo-apoli:toggle_power`
+Type ID: `kaya:toggle_power`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:toggle_power",
+    "type": "kaya:toggle_power",
     "power": "example:toggleable_climbing@toggle",
     "entity": "this"
 }
 ```
 
-This example will toggle the state of the `example:toggleable_climbing@toggle` sub-power from the entity provided by the `neo-apoli:this_entity` context parameter.
+This example will toggle the state of the `example:toggleable_climbing@toggle` sub-power from the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

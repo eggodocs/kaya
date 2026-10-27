@@ -3,7 +3,7 @@
 Provides an float variable with customizable minimum, maximum, and start values.
 
 
-Type ID: `neo-apoli:resource/float`
+Type ID: `kaya:resource/float`
 
 
 ### Format
@@ -22,7 +22,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:resource/float",
+    "type": "kaya:resource/float",
     "min": 0.1,
     "max": 6.7
 }

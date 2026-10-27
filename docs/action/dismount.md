@@ -3,7 +3,7 @@
 Dismounts an entity.
 
 
-Type ID: `neo-apoli:dismount`
+Type ID: `kaya:dismount`
 
 
 ### Format
@@ -17,9 +17,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:dismount",
+    "type": "kaya:dismount",
     "entity": {
-        "type": "neo-apoli:selector",
+        "type": "kaya:selector",
         "selector": "@e[sort = random, limit = 1]"
     }
 }

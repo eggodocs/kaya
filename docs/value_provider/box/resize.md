@@ -3,7 +3,7 @@
 Resizes a box by adding the minimum and maximum bounds of another box.
 
 
-Type ID: `neo-apoli:resize`
+Type ID: `kaya:resize`
 
 
 ### Format
@@ -18,9 +18,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:offset",
+    "type": "kaya:offset",
     "box": {
-        "type": "neo-apoli:entity/bounds",
+        "type": "kaya:entity/bounds",
         "entity": "this"
     },
     "offset": [
@@ -34,7 +34,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example provides the bounding box of the entity provided by the `neo-apoli:this_entity` context parameter and expands it towards the positive X, Y, and Z axes by 1 block.
+This example provides the bounding box of the entity provided by the `kaya:this_entity` context parameter and expands it towards the positive X, Y, and Z axes by 1 block.
 
 
 ### History

@@ -3,7 +3,7 @@
 Provides the value of an attribute from an entity.
 
 
-Type ID: `neo-apoli:entity/attribute`
+Type ID: `kaya:entity/attribute`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity/attribute",
+    "type": "kaya:entity/attribute",
     "attribute": "minecraft:max_health",
     "entity": "actor"
 }
 ```
 
-This example will provide the value of the `minecraft:max_health` attribute from an entity *(provided by the `neo-apoli:actor_entity` context parameter.)*
+This example will provide the value of the `minecraft:max_health` attribute from an entity *(provided by the `kaya:actor_entity` context parameter.)*
 
 
 ### History

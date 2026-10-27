@@ -3,7 +3,7 @@
 Summons an entity and applies the specified velocity to it, as if the entity is a thrown projectile.
 
 
-Type ID: `neo-apoli:shoot_entity`
+Type ID: `kaya:shoot_entity`
 
 
 ### Format
@@ -24,21 +24,21 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:shoot_entity",
+    "type": "kaya:shoot_entity",
     "entity_type": "minecraft:small_fireball",
     "position": {
-        "type": "neo-apoli:entity/position",
+        "type": "kaya:entity/position",
         "entity": "this",
         "anchor": "eyes"
     },
     "direction": {
-        "type": "neo-apoli:entity/view",
+        "type": "kaya:entity/view",
         "enttiy": "this"
     }
 }
 ```
 
-This example will shoot out a small fireball relative at the eyes and towards the direction of where the entity provided by the `neo-apoli:this_entity` context parameter is looking.
+This example will shoot out a small fireball relative at the eyes and towards the direction of where the entity provided by the `kaya:this_entity` context parameter is looking.
 
 
 ### History

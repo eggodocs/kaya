@@ -3,7 +3,7 @@
 Provides the slot from a block.
 
 
-Type ID: `neo-apoli:block`
+Type ID: `kaya:block`
 
 
 ### Format
@@ -18,16 +18,16 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:block",
+    "type": "kaya:block",
     "block": "used_block",
     "slot": {
-        "type": "neo-apoli:slot_id",
+        "type": "kaya:slot_id",
         "slot": "container.0"
     }
 }
 ```
 
-This example provides the first slot of the block provided by the `neo-apoli:used_block` context parameter.
+This example provides the first slot of the block provided by the `kaya:used_block` context parameter.
 
 
 ### History

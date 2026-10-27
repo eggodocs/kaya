@@ -2,7 +2,7 @@
 
 Provides a command source from the server, where the position and name of the command source is the spawn position of the Overworld and "Server".
 
-Type ID: `neo-apoli:server`
+Type ID: `kaya:server`
 
 
 ### Format
@@ -21,14 +21,14 @@ Type ID: `neo-apoli:server`
 
     ```json
     {
-        "type": "neo-apoli:server"
+        "type": "kaya:server"
     }
     ```
 
 === "Inlined"
 
     ```json
-    "neo-apoli:server"
+    "kaya:server"
     ```
 
 

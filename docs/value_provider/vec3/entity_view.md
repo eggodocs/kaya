@@ -3,7 +3,7 @@
 Provides the view vec3 of the entity.
 
 
-Type ID: `neo-apoli:entity/view`
+Type ID: `kaya:entity/view`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity/view",
+    "type": "kaya:entity/view",
     "entity": "target"
 }
 ```
 
-This example provides the view vec3 of the entity provided by the `neo-apoli:target_entity` context parameter.
+This example provides the view vec3 of the entity provided by the `kaya:target_entity` context parameter.
 
 
 ### History

@@ -3,7 +3,7 @@
 Provides the amplifier of a [status effect instance][status_effect_instance] from an entity.
 
 
-Type ID: `neo-apoli:effect/amplifier`
+Type ID: `kaya:effect/amplifier`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:effect/amplifier",
+    "type": "kaya:effect/amplifier",
     "effect": "minecraft:poison",
     "entity": "this"
 }
 ```
 
-This example provides the amplifier of the Poison status effect from an entity *(provided by the `neo-apoli:this_entity` context parameter.)*
+This example provides the amplifier of the Poison status effect from an entity *(provided by the `kaya:this_entity` context parameter.)*
 
 
 ### History

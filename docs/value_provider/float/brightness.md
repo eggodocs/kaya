@@ -3,7 +3,7 @@
 Provides the brightness level at a specific position.
 
 
-Type ID: `neo-apoli:brightness`
+Type ID: `kaya:brightness`
 
 
 {% set entries = {"minecraft:overworld": 0.0, "minecraft:the_nether": 0.1, "minecraft:the_end": 0.0} %}
@@ -40,9 +40,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:brightness",
+    "type": "kaya:brightness",
     "position": {
-        "type": "neo-apoli:entity/position",
+        "type": "kaya:entity/position",
         "entity": "this",
         "anchor": "eyes"
     }

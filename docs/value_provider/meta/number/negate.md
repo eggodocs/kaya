@@ -3,7 +3,7 @@
 Provides the negation of a number value.
 
 
-Type ID: `neo-apoli:negate`
+Type ID: `kaya:negate`
 
 
 !!! note
@@ -22,7 +22,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:negate",
+    "type": "kaya:negate",
     "value": 100
 }
 ```

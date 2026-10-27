@@ -3,7 +3,7 @@
 Provides an integer converted as a float.
 
 
-Type ID: `neo-apoli:from_int`
+Type ID: `kaya:from_int`
 
 
 ### Format
@@ -17,15 +17,15 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:from_int",
+    "type": "kaya:from_int",
     "value": {
-        "type": "neo-apoli:item/count",
+        "type": "kaya:item/count",
         "item": "used_item"
     }
 }
 ```
 
-This example will get the count of the item provided by the `neo-apoli:used_item` context parameter and converts it as a float.
+This example will get the count of the item provided by the `kaya:used_item` context parameter and converts it as a float.
 
 
 ### History

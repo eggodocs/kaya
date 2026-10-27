@@ -3,7 +3,7 @@
 Picks an entry at random and provides its value.
 
 
-Type ID: `neo-apoli:weighted`
+Type ID: `kaya:weighted`
 
 
 !!! note
@@ -42,11 +42,11 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:weighted",
+    "type": "kaya:weighted",
     "entries": [
         {
             "value": {
-                "type": "neo-apoli:item/attribute",
+                "type": "kaya:item/attribute",
                 "attribute": "minecraft:armor",
                 "item": "used_item"
             },
@@ -54,7 +54,7 @@ Field | Type | Default | Description
         },
         {
             "value": {
-                "type": "neo-apoli:entity/attribute",
+                "type": "kaya:entity/attribute",
                 "attribute": "minecraft:armor",
                 "entity": "this"
             },
@@ -62,7 +62,7 @@ Field | Type | Default | Description
         },
         {
             "value": {
-                "type": "neo-apoli:entity/fluid_height",
+                "type": "kaya:entity/fluid_height",
                 "fluid_tag": "#minecraft:water",
                 "entity": "this"
             },
@@ -74,9 +74,9 @@ Field | Type | Default | Description
 
 This example is a float provider that has three entries to pick from:
 
-- an entry that has 45% chance $(5 \div 11 = 0.45...)$ of providing the value of the `minecraft:armor` attribute from the item stack provided by the `neo-apoli:used_item` context parameter.
-- an entry that has a 45% chance $(5 \div 11 = 0.45...)$ of providing the value of the `minecraft:armor` attribute from the entity provided by the `neo-apoli:this_entity` context parameter.
-- an entry that has a 9% chance $(1 \div 11 = 0.09...)$ of providing the height of the water fluid from the entity provided by the `neo-apoli:this_entity` context parameter.
+- an entry that has 45% chance $(5 \div 11 = 0.45...)$ of providing the value of the `minecraft:armor` attribute from the item stack provided by the `kaya:used_item` context parameter.
+- an entry that has a 45% chance $(5 \div 11 = 0.45...)$ of providing the value of the `minecraft:armor` attribute from the entity provided by the `kaya:this_entity` context parameter.
+- an entry that has a 9% chance $(1 \div 11 = 0.09...)$ of providing the height of the water fluid from the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

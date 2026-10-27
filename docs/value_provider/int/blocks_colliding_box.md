@@ -3,7 +3,7 @@
 Provides the count of blocks which fulfills a condition colliding with a box.
 
 
-Type ID: `neo-apoli:blocks_colliding_box`
+Type ID: `kaya:blocks_colliding_box`
 
 
 ???+ info
@@ -12,7 +12,7 @@ Type ID: `neo-apoli:blocks_colliding_box`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:block_colliding_box` | The block colliding to the box.
+    `kaya:block_colliding_box` | The block colliding to the box.
 
 
 ### Format
@@ -27,12 +27,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:blocks_colliding_box",
+    "type": "kaya:blocks_colliding_box",
     "condition": true,
     "box": {
-        "type": "neo-apoli:inflate",
+        "type": "kaya:inflate",
         "box": {
-            "type": "neo-apoli:entity/bounds",
+            "type": "kaya:entity/bounds",
             "entity": "this"
         },
         "vector": [
@@ -44,7 +44,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example provides the count of blocks colliding with the bounding box *(inflated by 1 block)* of an entity *(provided by the `neo-apoli:this_entity` context parameter.)*
+This example provides the count of blocks colliding with the bounding box *(inflated by 1 block)* of an entity *(provided by the `kaya:this_entity` context parameter.)*
 
 
 ### History

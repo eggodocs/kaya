@@ -3,7 +3,7 @@
 Extinguishes an entity that's on fire.
 
 
-Type ID: `neo-apoli:extinguish_entity_fire`
+Type ID: `kaya:extinguish_entity_fire`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:extinguish_entity_fire",
+    "type": "kaya:extinguish_entity_fire",
     "entity": "actor"
 }
 ```
 
-This example will extinguish the entity provided by the `neo-apoli:actor_entity` context parameter.
+This example will extinguish the entity provided by the `kaya:actor_entity` context parameter.
 
 
 ### History

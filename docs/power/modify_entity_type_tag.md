@@ -3,7 +3,7 @@
 Modifies whether the entity holding the power is considered included in an entity type tag without modifying the entity type tag directly.
 
 
-Type ID: `neo-apoli:modify/entity/type_tag`
+Type ID: `kaya:modify/entity/type_tag`
 
 
 ### Format
@@ -17,10 +17,10 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/entity/type_tag",
+    "type": "kaya:modify/entity/type_tag",
     "tag": "#minecraft:powder_snow_walkable_mobs",
     "active_condition": {
-        "type": "neo-apoli:is_entity_sneaking",
+        "type": "kaya:is_entity_sneaking",
         "entity": "this"
     }
 }

@@ -3,7 +3,7 @@
 Offsets a vec3 by adding another vec3.
 
 
-Type ID: `neo-apoli:offset`
+Type ID: `kaya:offset`
 
 
 ### Format
@@ -18,9 +18,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:offset",
+    "type": "kaya:offset",
     "vector": {
-        "type": "neo-apoli:entity/position",
+        "type": "kaya:entity/position",
         "entity": "this"
     },
     "offset": [
@@ -31,7 +31,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example provides the position of the entity provided by the `neo-apoli:this_entity` context parameter, offset by 1 block under.
+This example provides the position of the entity provided by the `kaya:this_entity` context parameter, offset by 1 block under.
 
 
 ### History

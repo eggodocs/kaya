@@ -3,7 +3,7 @@
 Provides the value of the context parameter from a context.
 
 
-Type ID: `neo-apoli:context`
+Type ID: `kaya:context`
 
 
 !!! note
@@ -29,18 +29,18 @@ Field | Type | Default | Description
 
     ```json
     {
-        "type": "neo-apoli:context",
-        "parameter": "neo-apoli:this"
+        "type": "kaya:context",
+        "parameter": "kaya:this"
     }
     ```
 
 === "Inlined"
 
     ```json
-    "neo-apoli:this"
+    "kaya:this"
     ```
 
-This example is an entity provider that provides the entity provided by the `neo-apoli:this_entity` context parameter.
+This example is an entity provider that provides the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

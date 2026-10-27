@@ -3,7 +3,7 @@
 Compares the elements (and its contents, if it's a list) of the first and second NBTs.
 
 
-Type ID: `neo-apoli:nbt`
+Type ID: `kaya:nbt`
 
 
 ### Format
@@ -18,7 +18,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:nbt",
+    "type": "kaya:nbt",
     "first": {
         "Item": {
             "components": {
@@ -31,13 +31,13 @@ Field | Type | Default | Description
         }
     },
     "second": {
-        "type": "neo-apoli:entity",
+        "type": "kaya:entity",
         "entity": "projectile"
     }
 }
 ```
 
-This example compares the NBT of the entity from the `neo-apoli:projectile_entity` context parameter to the first NBT, essentially checking if the entity has an item that has the `minecraft:custom_data` item component that contains an `example:data` NBT compound with `striker: 1b`.
+This example compares the NBT of the entity from the `kaya:projectile_entity` context parameter to the first NBT, essentially checking if the entity has an item that has the `minecraft:custom_data` item component that contains an `example:data` NBT compound with `striker: 1b`.
 
 
 ### History

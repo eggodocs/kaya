@@ -12,7 +12,7 @@ example:
 Provides a float converted as an integer.
 
 
-Type ID: `neo-apoli:from_Float`
+Type ID: `kaya:from_Float`
 
 
 ### Format
@@ -26,13 +26,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:from_float",
+    "type": "kaya:from_float",
     "value": {
-        "type": "neo-apoli:round",
+        "type": "kaya:round",
         "value": {
-            "type": "neo-apoli:vector/length",
+            "type": "kaya:vector/length",
             "vector": {
-                "type": "neo-apoli:entity/velocity",
+                "type": "kaya:entity/velocity",
                 "entity": "this"
             }
         },
@@ -41,7 +41,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will round off the length of the velocity of an entity *(provided by the `neo-apoli:this_entity` context parameter)* and convert it into an integer.
+This example will round off the length of the velocity of an entity *(provided by the `kaya:this_entity` context parameter)* and convert it into an integer.
 
 {% set result = sqrt(example.velocity.x * example.velocity.x + example.velocity.y * example.velocity.y + example.velocity.z * example.velocity.z) %}
 

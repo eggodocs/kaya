@@ -3,7 +3,7 @@
 Provides the slot from an entity.
 
 
-Type ID: `neo-apoli:entity`
+Type ID: `kaya:entity`
 
 
 ### Format
@@ -18,16 +18,16 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity",
+    "type": "kaya:entity",
     "block": "this",
     "slot": {
-        "type": "neo-apoli:slot_id",
+        "type": "kaya:slot_id",
         "slot": "hotbar.9"
     }
 }
 ```
 
-This example provides the 9th hotbar slot of the entity provided by the `neo-apoli:this_entity` context parameter.
+This example provides the 9th hotbar slot of the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

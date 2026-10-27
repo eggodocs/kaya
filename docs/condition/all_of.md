@@ -3,7 +3,7 @@
 Checks if all of the conditions are fulfilled.
 
 
-Type ID: `neo-apoli:all_of`
+Type ID: `kaya:all_of`
 
 
 ### Format
@@ -17,14 +17,14 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:all_of",
+    "type": "kaya:all_of",
     "conditions": [
         {
-            "type": "neo-apoli:is_entity_sneaking",
+            "type": "kaya:is_entity_sneaking",
             "entity": "this"
         },
         {
-            "type": "neo-apoli:check_block_type",
+            "type": "kaya:check_block_type",
             "key": "minecraft:oak_log",
             "block": "broken_block"
         }
@@ -32,7 +32,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will check if the entity provided by the `neo-apoli:this_entity` context parameter is sneaking **and** if the block provided by the `neo-apoli:broken_block` context parameter is an Oak log.
+This example will check if the entity provided by the `kaya:this_entity` context parameter is sneaking **and** if the block provided by the `kaya:broken_block` context parameter is an Oak log.
 
 
 ### History

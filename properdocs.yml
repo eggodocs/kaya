@@ -1,26 +1,31 @@
-site_name: neo-apoli Documentation
-site_url: https://eggodocs.github.io/neo-apoli/
+site_name: Kaya Documentation
+site_url: https://eggodocs.github.io/kaya/
 
-repo_url: https://github.com/eggohito/neo-apoli
-repo_name: eggohito/neo-apoli
+repo_url: https://github.com/eggomods/kaya
+repo_name: eggomods/kaya
 
 theme:
   name: material
   custom_dir: overrides
+  favicon: img/icon.png
+  logo: img/icon.png
   font:
     text: Inter
     code: JetBrains Mono
   palette:
     - media: "(prefers-color-scheme)"
+      primary: deep purple
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
+      primary: deep purple
       scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
+      primary: deep purple
       scheme: slate
       toggle:
         icon: material/brightness-4

@@ -3,7 +3,7 @@
 Provides the opposite of a direction.
 
 
-Type ID: `neo-apoli:opposite`
+Type ID: `kaya:opposite`
 
 
 ### Format
@@ -17,7 +17,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:opposite",
+    "type": "kaya:opposite",
     "direction": "north"
 }
 ```

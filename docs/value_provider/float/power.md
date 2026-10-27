@@ -3,7 +3,7 @@
 Provides a float value raised to the power of another float.
 
 
-Type ID: `neo-apoli:power`
+Type ID: `kaya:power`
 
 
 ### Format
@@ -18,7 +18,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:power",
+    "type": "kaya:power",
     "base": 2.5,
     "exponent": 4.0
 }

@@ -3,7 +3,7 @@
 Apply status effects to an entity.
 
 
-Type ID: `neo-apoli:apply_effects`
+Type ID: `kaya:apply_effects`
 
 
 ### Format
@@ -18,7 +18,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:apply_effects",
+    "type": "kaya:apply_effects",
     "effects": [
         {
             "id": "minecraft:regeneration",
@@ -30,7 +30,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will apply the Regeneration II (00:05) status effect to the entity from the `neo-apoli:this_entity` context parameter.
+This example will apply the Regeneration II (00:05) status effect to the entity from the `kaya:this_entity` context parameter.
 
 
 ### History

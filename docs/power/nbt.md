@@ -3,7 +3,7 @@
 Provides a storage for storing arbitrary NBT data.
 
 
-Type ID: `neo-apoli:nbt`
+Type ID: `kaya:nbt`
 
 
 ???+ tip
@@ -12,8 +12,8 @@ Type ID: `neo-apoli:nbt`
 
     Type | Details
     -----|--------
-    `/data ... neo-apoli:power` command | This can query/modify the contents of the power.
-    `neo-apoli:power` [NBT provider][nbt_provider] | This can query the contents of the power and provide it as an NBT value.
+    `/data ... kaya:power` command | This can query/modify the contents of the power.
+    `kaya:power` [NBT provider][nbt_provider] | This can query the contents of the power and provide it as an NBT value.
 
 
 ### Format
@@ -32,7 +32,7 @@ Type ID: `neo-apoli:nbt`
 
     ```json
     {
-        "type": "neo-apoli:nbt"
+        "type": "kaya:nbt"
     }
     ```
 
@@ -40,10 +40,10 @@ Type ID: `neo-apoli:nbt`
 
     ```mcfunction
     #   Set the contents of the 'example:data' power
-    data merge neo-apoli:power @s example:data {value: "Hello world!", cool_items: [{id: "minecraft:egg", count: 1}, {id: "minecraft:diamond", count: 1}]}
+    data merge kaya:power @s example:data {value: "Hello world!", cool_items: [{id: "minecraft:egg", count: 1}, {id: "minecraft:diamond", count: 1}]}
 
     #   Count how many elements are in the 'cool_items' NBT of the 'example:data' power
-    execute store result score #stacks example if data neo-apoli:power @s example:data cool_items[]
+    execute store result score #stacks example if data kaya:power @s example:data cool_items[]
 
     #   Display how many item stacks are in the 'cool_items' NBT of the 'example:data' power
     tellraw @a ["There are ", {"score": {"name": "#stacks", "objective": "example"}}, " cool item stack(s)!"]

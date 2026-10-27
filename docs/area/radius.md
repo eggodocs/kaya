@@ -3,7 +3,7 @@
 Defines an area that's based on a position (as its center) and a radius.
 
 
-Type: `neo-apoli:radius`
+Type: `kaya:radius`
 
 
 ### Format
@@ -18,18 +18,18 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:radius",
+    "type": "kaya:radius",
     "target": "entity",
     "shape": "star",
     "position": {
-        "type": "neo-apoli:block/position",
+        "type": "kaya:block/position",
         "block": "broken_block"
     },
     "radius": 8.0
 }
 ```
 
-This example will provide an area with a radius of 8.0 blocks relative to the position of the block provided by the `neo-apoli:broken_block` context parameter that will target entities.
+This example will provide an area with a radius of 8.0 blocks relative to the position of the block provided by the `kaya:broken_block` context parameter that will target entities.
 
 
 ### History

@@ -3,7 +3,7 @@
 Provides the component of a vector from a specific axis.
 
 
-Type ID: `neo-apoli:vector/component`
+Type ID: `kaya:vector/component`
 
 
 ### Format
@@ -18,16 +18,16 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:vector/component",
+    "type": "kaya:vector/component",
     "vector": {
-        "type": "neo-apoli:block/position",
+        "type": "kaya:block/position",
         "block": "used_block"
     },
     "axis": "y"
 }
 ```
 
-This example provides the Y axis component of a block *(provided by the `neo-apoli:used_block` context parameter.)*
+This example provides the Y axis component of a block *(provided by the `kaya:used_block` context parameter.)*
 
 
 ### History

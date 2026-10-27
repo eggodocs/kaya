@@ -3,7 +3,7 @@
 Compares the first and second integers.
 
 
-Type ID: `neo-apoli:int`
+Type ID: `kaya:int`
 
 
 ### Format
@@ -19,22 +19,22 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:int",
+    "type": "kaya:int",
     "comparator": ">=",
     "first": {
-        "type": "neo-apoli:count_in_area",
+        "type": "kaya:count_in_area",
         "area": {
-            "type": "neo-apoli:radius",
+            "type": "kaya:radius",
             "target": "entity",
             "shape": "cube",
             "position": {
-                "type": "neo-apoli:entity/position",
+                "type": "kaya:entity/position",
                 "entity": "this"
             },
             "radius": 16.0
         },
         "condition": {
-            "type": "neo-apoli:check_entity_type",
+            "type": "kaya:check_entity_type",
             "key": "minecraft:creeper",
             "entity": "entity_in_area"
         }
@@ -43,7 +43,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example checks if the count of Creepers within a 16 block cubical radius relative to the entity provided by the `neo-apoli:this_entity` context parameter is greater or equal to 8.
+This example checks if the count of Creepers within a 16 block cubical radius relative to the entity provided by the `kaya:this_entity` context parameter is greater or equal to 8.
 
 
 ### History

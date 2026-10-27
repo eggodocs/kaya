@@ -3,7 +3,7 @@
 Picks an entry at random and executes its action.
 
 
-Type ID: `neo-apoli:weighted`
+Type ID: `kaya:weighted`
 
 
 !!! note
@@ -37,11 +37,11 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:weighted",
+    "type": "kaya:weighted",
     "entries": [
         {
             "action": {
-                "type": "neo-apoli:set_entity_on_fire",
+                "type": "kaya:set_entity_on_fire",
                 "ticks": 200,
                 "entity": "this"
             },
@@ -49,7 +49,7 @@ Field | Type | Default | Description
         },
         {
             "action": {
-                "type": "neo-apoli:apply_effects",
+                "type": "kaya:apply_effects",
                 "effects": [
                     {
                         "id": "minecraft:poison",
@@ -62,7 +62,7 @@ Field | Type | Default | Description
         },
         {
             "action": {
-                "type": "neo-apoli:apply_effects",
+                "type": "kaya:apply_effects",
                 "effects": [
                     {
                         "id": "minecraft:regeneration",
@@ -77,7 +77,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example has three entries to pick from: an entry that has a 55% chance $(5 \div 9 = 0.55...)$ of setting the entity from the `neo-apoli:this_entity` context parameter on fire for 5 seconds, an entry that has a 33% chance $(3 \div 9 = 0.33...)$ of applying a Poison I (00:10) status effect, and an entry that has an 11% chance $(1 \div 9 = 0.11...)$ of applying Regeneration I (00:10) status effect.
+This example has three entries to pick from: an entry that has a 55% chance $(5 \div 9 = 0.55...)$ of setting the entity from the `kaya:this_entity` context parameter on fire for 5 seconds, an entry that has a 33% chance $(3 \div 9 = 0.33...)$ of applying a Poison I (00:10) status effect, and an entry that has an 11% chance $(1 \div 9 = 0.11...)$ of applying Regeneration I (00:10) status effect.
 
 
 ### History

@@ -3,7 +3,7 @@
 Plays a sound event at a position.
 
 
-Type ID: `neo-apoli:play_sound`
+Type ID: `kaya:play_sound`
 
 
 ### Format
@@ -23,23 +23,23 @@ Field | Type | Default | Description
 
 ```json
 {
-	"type": "neo-apoli:play_sound",
+	"type": "kaya:play_sound",
 	"sound": "minecraft:entity.bat.takeoff",
 	"category": "neutral",
 	"position": {
-		"type": "neo-apoli:entity/position",
+		"type": "kaya:entity/position",
 		"entity": "this"
 	},
 	"volume": 0.5,
 	"pitch": {
-		"type": "neo-apoli:random/uniform",
+		"type": "kaya:random/uniform",
 		"min": 0.0,
 		"max": 1.0
 	}
 }
 ```
 
-This example will play the `minecraft:entity.bat.takeoff` sound event at the position of the entity provided by the `neo-apoli:this_entity` context parameter with a volume of 0.5 and a random pitch (with the range of 0.0 to 1.0.)
+This example will play the `minecraft:entity.bat.takeoff` sound event at the position of the entity provided by the `kaya:this_entity` context parameter with a volume of 0.5 and a random pitch (with the range of 0.0 to 1.0.)
 
 
 ### History

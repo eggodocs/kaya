@@ -3,7 +3,7 @@
 Encodes the entity as NBT and uses it as the provided value.
 
 
-Type ID: `neo-apoli:entity`
+Type ID: `kaya:entity`
 
 
 ???+ info
@@ -22,12 +22,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity",
+    "type": "kaya:entity",
     "entity": "this"
 }
 ```
 
-This example encodes the entity provided by the `neo-apoli:this_entity` context parameter and provides it as the NBT value.
+This example encodes the entity provided by the `kaya:this_entity` context parameter and provides it as the NBT value.
 
 
 ### History

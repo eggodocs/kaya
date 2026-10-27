@@ -3,7 +3,7 @@
 Modifies the specified attribute with modifiers.
 
 
-Type ID: `neo-apoli:modify/attribute`
+Type ID: `kaya:modify/attribute`
 
 
 ### Format
@@ -18,19 +18,19 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/attribute",
+    "type": "kaya:modify/attribute",
     "attribute": "minecraft:burning_time",
     "modifiers": [
         {
-            "type": "neo-apoli:add",
+            "type": "kaya:add",
             "phase": "base",
             "amount": {
-                "type": "neo-apoli:product",
+                "type": "kaya:product",
                 "values": [
                     {
-                        "type": "neo-apoli:quotient",
+                        "type": "kaya:quotient",
                         "dividend": {
-                           "type": "neo-apoli:entity/attribute",
+                           "type": "kaya:entity/attribute",
                            "attribute": "minecraft:max_health",
                             "entity": "this"
                         },

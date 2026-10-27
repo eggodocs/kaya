@@ -3,7 +3,7 @@
 Executes a command.
 
 
-Type ID: `neo-apoli:execute_command`
+Type ID: `kaya:execute_command`
 
 
 !!! warning
@@ -23,10 +23,10 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:execute_command",
+    "type": "kaya:execute_command",
     "source": "server",
     "command": {
-        "type": "neo-apoli:weighted",
+        "type": "kaya:weighted",
         "entries": [
             {
                 "value": "say Hello world!",

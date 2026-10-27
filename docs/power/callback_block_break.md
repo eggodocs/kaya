@@ -3,7 +3,7 @@
 Invokes an action upon the player breaking a block.
 
 
-Type ID: `neo-apoli:callback/block/break`
+Type ID: `kaya:callback/block/break`
 
 
 ???+ info
@@ -12,8 +12,8 @@ Type ID: `neo-apoli:callback/block/break`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:broken_block` | The block broken by the player.
-    `neo-apoli:broken_side` | The side at which the player broke the block.
+    `kaya:broken_block` | The block broken by the player.
+    `kaya:broken_side` | The side at which the player broke the block.
 
 
 ### Format
@@ -34,14 +34,14 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:callback/block/break",
+    "type": "kaya:callback/block/break",
     "on_break_action": {
-        "type": "neo-apoli:set_entity_on_fire",
+        "type": "kaya:set_entity_on_fire",
         "ticks": 20,
         "entity": "this"
     },
     "active_condition": {
-        "type": "neo-apoli:check_block_type",
+        "type": "kaya:check_block_type",
         "key": "minecraft:magma_block",
         "block": "broken_block"
 	}

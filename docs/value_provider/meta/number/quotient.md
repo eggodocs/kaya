@@ -3,7 +3,7 @@
 Divides a number and uses the quotient as the provided number value.
 
 
-Type ID: `neo-apoli:quotient`
+Type ID: `kaya:quotient`
 
 
 !!! note
@@ -23,11 +23,11 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:quotient",
+    "type": "kaya:quotient",
     "dividend": {
-        "type": "neo-apoli:from_int",
+        "type": "kaya:from_int",
         "value": {
-            "type": "neo-apoli:player/food",
+            "type": "kaya:player/food",
             "entity": "this"
         }
     },
@@ -35,7 +35,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example is a float provider that will divide the food level of the player provided by the `neo-apoli:this_entity` context parameter by $20$ and provides it as the value.
+This example is a float provider that will divide the food level of the player provided by the `kaya:this_entity` context parameter by $20$ and provides it as the value.
 
 $(Value = FoodLevel \div 20)$
 

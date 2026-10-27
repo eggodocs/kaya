@@ -3,7 +3,7 @@
 Check if the effect of a status effect instance is of a type or if it's included in an effect type tag.
 
 
-Type ID: `neo-apoli:check_effect_type`
+Type ID: `kaya:check_effect_type`
 
 
 ### Format
@@ -24,13 +24,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:check_effect_type",
+    "type": "kaya:check_effect_type",
     "key": "minecraft:poison",
     "effect": "applied_effect"
 }
 ```
 
-This example will check if the effect of the status effect instance provided by the `neo-apoli:applied_effect` context parameter is of a `minecraft:poison` effect type.
+This example will check if the effect of the status effect instance provided by the `kaya:applied_effect` context parameter is of a `minecraft:poison` effect type.
 
 
 ### History

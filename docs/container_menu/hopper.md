@@ -3,7 +3,7 @@
 Provides a container that has 1 row and 5 columns.
 
 
-Type ID: `neo-apoli:hopper`
+Type ID: `kaya:hopper`
 
 
 ### Format
@@ -22,14 +22,14 @@ Type ID: `neo-apoli:hopper`
 
     ```json
     {
-        "type": "neo-apoli:hopper"
+        "type": "kaya:hopper"
     }
     ```
 
 === "Inlined"
 
     ```json
-    "neo-apoli:hopper"
+    "kaya:hopper"
     ```
 
 

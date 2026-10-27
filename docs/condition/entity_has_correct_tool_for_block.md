@@ -3,7 +3,7 @@
 Checks if an entity has the correct tool for a block.
 
 
-Type ID: `neo-apoli:entity_has_correct_tool_for_block`
+Type ID: `kaya:entity_has_correct_tool_for_block`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity_has_correct_tool_for_block",
+    "type": "kaya:entity_has_correct_tool_for_block",
     "entity": "this",
     "block": "mining_block"
 }
 ```
 
-This example will check if the entity provided by the `neo-apoli:this_entity` context parameter has the correct tool for the block provided by the `neo-apoli:mining_block` context parameter.
+This example will check if the entity provided by the `kaya:this_entity` context parameter has the correct tool for the block provided by the `kaya:mining_block` context parameter.
 
 
 ### History

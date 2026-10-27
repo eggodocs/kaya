@@ -3,7 +3,7 @@
 Modifies whether the model of the entity holding the power should shake as if it was freezing.
 
 
-Type ID: `neo-apoli:modify/model/shaking`
+Type ID: `kaya:modify/model/shaking`
 
 
 ### Format
@@ -15,16 +15,16 @@ Type ID: `neo-apoli:modify/model/shaking`
 
 ```json
 {
-    "type": "neo-apoli:modify/model/shaking",
+    "type": "kaya:modify/model/shaking",
     "active_condition": {
-        "type": "neo-apoli:compare",
+        "type": "kaya:compare",
         "comparison": {
-            "type": "neo-apoli:float",
+            "type": "kaya:float",
             "comparator": ">",
             "first": {
-                "type": "neo-apoli:round",
+                "type": "kaya:round",
                 "value": {
-                    "type": "neo-apoli:entity/fluid_height",
+                    "type": "kaya:entity/fluid_height",
                     "fluid_tag": "#minecraft:water",
                     "entity": "this"
                 },

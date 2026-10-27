@@ -3,12 +3,12 @@
 Renders a bar above the hunger status bar on the HUD.
 
 
-Type ID: `neo-apoli:resource_bar`
+Type ID: `kaya:resource_bar`
 
 
 !!! tip
 
-    Custom resource bar textures must be placed in the `assets/<namespace>/textures/gui/sprites` directory of a resource pack to be recognized and used properly. [See here](https://github.com/eggomods/neo-apoli/tree/1.21.5/src/client/resources/assets/neo-apoli/textures/gui/sprites/resource_bar) for a collection of resource bar sprites included in the mod.
+    Custom resource bar textures must be placed in the `assets/<namespace>/textures/gui/sprites` directory of a resource pack to be recognized and used properly. [See here](https://github.com/eggomods/kaya/tree/1.21.5/src/client/resources/assets/kaya/textures/gui/sprites/resource_bar) for a collection of resource bar sprites included in the mod.
 
 
 ???+ info
@@ -17,9 +17,9 @@ Type ID: `neo-apoli:resource_bar`
 
     Parameter | Field
     ----------|------
-    `neo-apoli:hud/value` | `value`
-    `neo-apoli:hud/max_value` | `max`
-    `neo-apoli:hud/min_value` | `min`
+    `kaya:hud/value` | `value`
+    `kaya:hud/max_value` | `max`
+    `kaya:hud/min_value` | `min`
 
 
 ### Format
@@ -44,20 +44,20 @@ Field | Type | Default | Description
 
     Field | Type | Default | Description
     ------|------|:-------:|------------
-    `background` | [Identifier]({{ mc.identifier }}) | `"neo-apoli:resource_bar/1/background"` | The ID of bar's background texture.
-    `fill` | [Identifier]({{ mc.identifier }}) | `"neo-apoli:resource_bar/1/fill"` | The ID of the bar's "fill" portion texture.
-    `icon` | [Identifier]({{ mc.identifier }}) | `"neo-apoli:resource_bar/1/icon"` | The ID of the bar's icon, rendered on the left side of the bar.
+    `background` | [Identifier]({{ mc.identifier }}) | `"kaya:resource_bar/1/background"` | The ID of bar's background texture.
+    `fill` | [Identifier]({{ mc.identifier }}) | `"kaya:resource_bar/1/fill"` | The ID of the bar's "fill" portion texture.
+    `icon` | [Identifier]({{ mc.identifier }}) | `"kaya:resource_bar/1/icon"` | The ID of the bar's icon, rendered on the left side of the bar.
 
 
 ### Example
 
 ```json
 {
-    "type": "neo-apoli:resource_bar",
+    "type": "kaya:resource_bar",
     "sprite_location": {
-        "background": "neo-apoli:resource_bar/1/background"/*(1)!*/,
-        "fill": "neo-apoli:resource_bar/9/fill"/*(2)!*/,
-        "icon": "neo-apoli:resource_bar/2/icon"/*(3)!*/
+        "background": "kaya:resource_bar/1/background"/*(1)!*/,
+        "fill": "kaya:resource_bar/9/fill"/*(2)!*/,
+        "icon": "kaya:resource_bar/2/icon"/*(3)!*/
     },
     "render_phase": "below_hud"
 }
@@ -66,9 +66,9 @@ Field | Type | Default | Description
 This example renders a resource bar differing textures; where it uses the background sprite of the 1st resource bar, the fill sprite of the 9th resource bar, and the icon sprite of the 2nd resource bar. (All referenced resource bars in the example are included in the mod.)
 
 
-1. The image: ![Image](https://raw.githubusercontent.com/eggomods/neo-apoli/refs/heads/1.21.5/src/client/resources/assets/neo-apoli/textures/gui/sprites/resource_bar/1/background.png)
-2. The image: ![Image](https://raw.githubusercontent.com/eggomods/neo-apoli/refs/heads/1.21.5/src/client/resources/assets/neo-apoli/textures/gui/sprites/resource_bar/9/fill.png)
-3. The image: ![Image](https://raw.githubusercontent.com/eggomods/neo-apoli/refs/heads/1.21.5/src/client/resources/assets/neo-apoli/textures/gui/sprites/resource_bar/2/icon.png)
+1. The image: ![Image](https://raw.githubusercontent.com/eggomods/kaya/refs/heads/1.21.5/src/client/resources/assets/kaya/textures/gui/sprites/resource_bar/1/background.png)
+2. The image: ![Image](https://raw.githubusercontent.com/eggomods/kaya/refs/heads/1.21.5/src/client/resources/assets/kaya/textures/gui/sprites/resource_bar/9/fill.png)
+3. The image: ![Image](https://raw.githubusercontent.com/eggomods/kaya/refs/heads/1.21.5/src/client/resources/assets/kaya/textures/gui/sprites/resource_bar/2/icon.png)
 
 
 ### History

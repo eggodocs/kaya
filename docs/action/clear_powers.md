@@ -3,7 +3,7 @@
 Clears the powers of an entity.
 
 
-Type ID: `neo-apoli:clear_powers`
+Type ID: `kaya:clear_powers`
 
 
 ### Format
@@ -17,9 +17,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:clear_powers",
+    "type": "kaya:clear_powers",
     "entity": {
-        "type": "neo-apoli:weighted",
+        "type": "kaya:weighted",
         "entries": [
             {
                 "value": "actor",
@@ -36,8 +36,8 @@ Field | Type | Default | Description
 
 This example will clear the powers of one out of two entities picked at random with $50\%$ chance each:
 
-- the entity provided by the `neo-apoli:actor_entity` context parameter.
-- the entity provided by the `neo-apoli:target_entity` context parameter.
+- the entity provided by the `kaya:actor_entity` context parameter.
+- the entity provided by the `kaya:target_entity` context parameter.
 
 
 ### History

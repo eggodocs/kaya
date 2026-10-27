@@ -3,7 +3,7 @@
 Provides a command source from an entity, where the position, name, and rotation of the command source is the position, name, and rotation of the entity.
 
 
-Type ID: `neo-apoli:entity`
+Type ID: `kaya:entity`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity",
+    "type": "kaya:entity",
     "entity": "actor"
 }
 ```
 
-This example provides a command source where its position, name, and rotation used in the command source is the position, name, and rotation of the entity provided by the `neo-apoli:actor_entity` context parameter.
+This example provides a command source where its position, name, and rotation used in the command source is the position, name, and rotation of the entity provided by the `kaya:actor_entity` context parameter.
 
 
 ### History

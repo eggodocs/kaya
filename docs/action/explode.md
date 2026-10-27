@@ -3,7 +3,7 @@
 Emits an explosion at a position.
 
 
-Type ID: `neo-apoli:explode`
+Type ID: `kaya:explode`
 
 
 ???+ info
@@ -14,23 +14,23 @@ Type ID: `neo-apoli:explode`
 
         Parameter | Description
         ----------|------------
-        `neo-apoli:exploded_block` | The block affected by the explosion.
+        `kaya:exploded_block` | The block affected by the explosion.
 
 
     === "`damageable_condition`"
 
         Parameter | Description
         ----------|------------
-        `neo-apoli:emitter_entity` | The entity that emitted the explosion, or none if the `emitter` field is not present.
-        `neo-apoli:exploded_entity` | The entity affected by the explosion.
+        `kaya:emitter_entity` | The entity that emitted the explosion, or none if the `emitter` field is not present.
+        `kaya:exploded_entity` | The entity affected by the explosion.
 
     
     === "`knockback_multiplier`"
 
         Parameter | Description
         ----------|------------
-        `neo-apoli:emitter_entity` | The entity that emitted the explosion, or none if the `emitter` field is not present.
-        `neo-apoli:exploded_entity` | The entity affected by the explosion.
+        `kaya:emitter_entity` | The entity that emitted the explosion, or none if the `emitter` field is not present.
+        `kaya:exploded_entity` | The entity affected by the explosion.
 
 
 ### Format
@@ -59,23 +59,23 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:explode",
+    "type": "kaya:explode",
     "damageable_condition": {
-        "type": "neo-apoli:check_entity_type",
+        "type": "kaya:check_entity_type",
         "key": "minecraft:creeper",
         "entity": "exploded_entity"
     },
     "block_interaction": "keep",
     "power": 16.0,
     "position": {
-        "type": "neo-apoli:block/position",
+        "type": "kaya:block/position",
         "block": "broken_block"
     },
     "emitter": "this"
 }
 ```
 
-This example will emit an explosion with a power/radius of $16.0$ which only damages creepers at the position of the block provided by the `neo-apoli:broken_block` context parameter, with the entity provided by the `neo-apoli:this_entity` context parameter being the entity that emitted the explosion.
+This example will emit an explosion with a power/radius of $16.0$ which only damages creepers at the position of the block provided by the `kaya:broken_block` context parameter, with the entity provided by the `kaya:this_entity` context parameter being the entity that emitted the explosion.
 
 
 ### History

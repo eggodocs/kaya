@@ -3,7 +3,7 @@
 Provides a boolean state that can be cycled with either a [key][key_reference] or the `toggle_power` action type.
 
 
-Type ID: `neo-apoli:toggle`
+Type ID: `kaya:toggle`
 
 
 ### Format
@@ -20,11 +20,11 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:toggle",
+    "type": "kaya:toggle",
     "action": {
-        "type": "neo-apoli:execute_command",
+        "type": "kaya:execute_command",
         "source": {
-            "type": "neo-apoli:entity",
+            "type": "kaya:entity",
             "entity": "this"
         },
         "command": "me toggled a power!"

@@ -3,7 +3,7 @@
 Checks if an entity is owned by another entity.
 
 
-Type ID: `neo-apoli:is_entity_owned_by_other`
+Type ID: `kaya:is_entity_owned_by_other`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:is_entity_owned_by_other",
+    "type": "kaya:is_entity_owned_by_other",
     "first": "target",
     "second": "actor"
 }
 ```
 
-This example will check if the entity provided by the `neo-apoli:target_entity` context parameter is owned by the entity provided by the `neo-apoli:actor_entity` context parameter.
+This example will check if the entity provided by the `kaya:target_entity` context parameter is owned by the entity provided by the `kaya:actor_entity` context parameter.
 
 
 ### History

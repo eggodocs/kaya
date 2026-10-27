@@ -3,7 +3,7 @@
 Checks the difficulty of the world.
 
 
-Type ID: `neo-apoli:difficulty`
+Type ID: `kaya:difficulty`
 
 
 ### Format
@@ -17,7 +17,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:difficulty",
+    "type": "kaya:difficulty",
     "difficulty": "normal"
 }
 ```

@@ -3,7 +3,7 @@
 Adds velocity to an entity.
 
 
-Type ID: `neo-apoli:add_velocity`
+Type ID: `kaya:add_velocity`
 
 
 ### Format
@@ -57,7 +57,7 @@ Field | Type | Default | Description
 
     ```json
     {
-        "type": "neo-apoli:add_velocity",
+        "type": "kaya:add_velocity",
         "method": "single",
         "space": "world",
         "entity": "this",
@@ -69,13 +69,13 @@ Field | Type | Default | Description
     }
     ```
 
-    This example will launch the entity from the `neo-apoli:this_entity` context parameter high in the air.
+    This example will launch the entity from the `kaya:this_entity` context parameter high in the air.
 
 === "Pair"
 
     ```json
     {
-        "type": "neo-apoli:add_velocity",
+        "type": "kaya:add_velocity",
         "method": "pair",
         "reference": "rotation",
         "first": "actor",
@@ -88,7 +88,7 @@ Field | Type | Default | Description
     }
     ```
 
-    This example will essentially pull the entity from the `neo-apoli:target_entity` context parameter to the entity from the `neo-apoli:actor_entity` context parameter.
+    This example will essentially pull the entity from the `kaya:target_entity` context parameter to the entity from the `kaya:actor_entity` context parameter.
 
 
 ### History

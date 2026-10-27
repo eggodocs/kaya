@@ -3,7 +3,7 @@
 Provides the position of the entity.
 
 
-Type ID: `neo-apoli:entity/position`
+Type ID: `kaya:entity/position`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity/position",
+    "type": "kaya:entity/position",
     "entity": "this"
 }
 ```
 
-This example provides the position of the entity provided by the `neo-apoli:this_entity` context parameter.
+This example provides the position of the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

@@ -3,7 +3,7 @@
 Sets an entity on fire for a specified amount of ticks.
 
 
-Type ID: `neo-apoli:set_entity_on_fire`
+Type ID: `kaya:set_entity_on_fire`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:set_entity_on_fire",
+    "type": "kaya:set_entity_on_fire",
     "ticks": 100,
     "entity": "damaging_entity"
 }
 ```
 
-This example will set the entity provided by the `neo-apoli:damaging_entity` context parameter on fire for 5 seconds.
+This example will set the entity provided by the `kaya:damaging_entity` context parameter on fire for 5 seconds.
 
 
 ### History

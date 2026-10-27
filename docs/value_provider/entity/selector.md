@@ -3,7 +3,7 @@
 Provides an entity from a target selector.
 
 
-Type ID: `neo-apoli:selector`
+Type ID: `kaya:selector`
 
 
 ???+ warning
@@ -22,7 +22,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:selector",
+    "type": "kaya:selector",
     "selector": "@e[sort = random, limit = 1]"
 }
 ```

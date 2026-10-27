@@ -3,7 +3,7 @@
 Modifies the interaction of an item.
 
 
-Type ID: `neo-apoli:modify/item/use`
+Type ID: `kaya:modify/item/use`
 
 
 ???+ info
@@ -12,8 +12,8 @@ Type ID: `neo-apoli:modify/item/use`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:used_item_slot` | The slot of the item used by the player.
-    `neo-apoli:used_item` | The item used by the player.
+    `kaya:used_item_slot` | The slot of the item used by the player.
+    `kaya:used_item` | The item used by the player.
 
 
 ### Format
@@ -48,9 +48,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/item/use",
+    "type": "kaya:modify/item/use",
     "on_use_action": {
-        "type": "neo-apoli:apply_effects",
+        "type": "kaya:apply_effects",
         "effects": [
             {
                 "id": "minecraft:regeneration",
@@ -63,7 +63,7 @@ Field | Type | Default | Description
     },
     "trigger_type": "finish",
     "active_condition": {
-        "type": "neo-apoli:item_matches_predicate",
+        "type": "kaya:item_matches_predicate",
         "predicate": "*[minecraft:food]",
         "item": "used_item"
     }

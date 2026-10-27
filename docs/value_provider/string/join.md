@@ -3,7 +3,7 @@
 Joins all the specified strings into a single string and uses it as the provided value.
 
 
-Type ID: `neo-apoli:join`
+Type ID: `kaya:join`
 
 
 ### Format
@@ -18,15 +18,15 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:join",
+    "type": "kaya:join",
     "strings": [
         "tellraw @a {\"text\": \"",
         {
-            "type": "neo-apoli:escape",
+            "type": "kaya:escape",
             "string": {
-                "type": "neo-apoli:nbt",
+                "type": "kaya:nbt",
                 "source": {
-                    "type": "neo-apoli:block",
+                    "type": "kaya:block",
                     "block": "used_block"
                 },
                 "path": "{}"
@@ -41,7 +41,7 @@ Field | Type | Default | Description
 This example joins three strings:
 
 1. A constant *'`tellraw @a {"text": "`'* string.
-2. An escaped stringified NBT of the block provided by the `neo-apoli:used_block` context parameter.
+2. An escaped stringified NBT of the block provided by the `kaya:used_block` context parameter.
 3. A constant *'`", "color": "gray", "italic": true}`'* string.
 
 

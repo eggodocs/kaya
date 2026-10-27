@@ -3,7 +3,7 @@
 Invokes an action upon granting the power to the entity.
 
 
-Type ID: `neo-apoli:callback/power/granted`
+Type ID: `kaya:callback/power/granted`
 
 
 ### Format
@@ -17,11 +17,11 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:callback/power/granted",
+    "type": "kaya:callback/power/granted",
     "action": {
-        "type": "neo-apoli:execute_command",
+        "type": "kaya:execute_command",
         "source": {
-            "type": "neo-apoli:entity",
+            "type": "kaya:entity",
             "entity": "this"
         },
         "command": "tag @s add init"

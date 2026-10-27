@@ -6,7 +6,7 @@ Invokes an action upon "removing" the power (1) from the entity.
 1. "Removing"/"removed" in this context means that the power is revoked for the Nth or last time.
 
 
-Type ID: `neo-apoli:callback/power/removed`
+Type ID: `kaya:callback/power/removed`
 
 
 ### Format
@@ -20,11 +20,11 @@ Field | Type | Default | Description
 
 ```json
 {
-	"type": "neo-apoli:callback/power/removed",
+	"type": "kaya:callback/power/removed",
 	"action": {
-		"type": "neo-apoli:execute_command",
+		"type": "kaya:execute_command",
 		"source": {
-			"type": "neo-apoli:entity",
+			"type": "kaya:entity",
 			"entity": "this"
 		},
 		"command": "scoreboard players remove @s somethingCoolAndFun 1"

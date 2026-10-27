@@ -3,7 +3,7 @@
 Provides the height of the specified fluid relative to an entity.
 
 
-Type ID: `neo-apoli:entity/fluid_height`
+Type ID: `kaya:entity/fluid_height`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity/fluid_height",
+    "type": "kaya:entity/fluid_height",
     "fluid_tag": "#minecraft:water",
     "entity": "this"
 }
 ```
 
-This example will provide the height of the water fluid relative to an entity *(provided by the `neo-apoli:this_entity` context parameter.)*
+This example will provide the height of the water fluid relative to an entity *(provided by the `kaya:this_entity` context parameter.)*
 
 
 ### History

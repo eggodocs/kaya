@@ -15,15 +15,15 @@ Field | Type | Default | Description
 ```json
 {
     "example:random_int": {
-        "type": "neo-apoli:int",
+        "type": "kaya:int",
         "value": {
-            "type": "neo-apoli:random/uniform",
+            "type": "kaya:random/uniform",
             "min": 1,
             "max": 64
         }
     },
     "example:held_entity": {
-        "type": "neo-apoli:entity",
+        "type": "kaya:entity",
         "value": "this"
     }
 }
@@ -32,4 +32,4 @@ Field | Type | Default | Description
 This example provides a context parameter map that has two context parameters with certain value providers:
 
 - `example:random_int`, which has an [int provider][int_provider] that refers to a random integer with the range of 1 to 64.
-- `example:held_entity`, which has an [entity provider][entity_provider] that refers to the entity provided by the `neo-apoli:this_entity` context parameter.
+- `example:held_entity`, which has an [entity provider][entity_provider] that refers to the entity provided by the `kaya:this_entity` context parameter.

@@ -3,7 +3,7 @@
 Provides the time the key was pressed *(in ticks.)*
 
 
-Type ID: `neo-apoli:key/pressed/time`
+Type ID: `kaya:key/pressed/time`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:key/pressed/time",
+    "type": "kaya:key/pressed/time",
     "id": "key.forward",
     "entity": "this"
 }
 ```
 
-This example will provide the game ticks the `key.forward` keybinding was pressed by the entity provided by the `neo-apoli:this_entity` context parameter.
+This example will provide the game ticks the `key.forward` keybinding was pressed by the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

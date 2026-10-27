@@ -3,14 +3,14 @@
 Modifies whether an entity is considered climbing.
 
 
-Type ID: `neo-apoli:modify/climbing`
+Type ID: `kaya:modify/climbing`
 
 
 ### Format
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`holding_condition` | [Condition][condition] | `{"type": "neo-apoli:is_entity_sneaking", "entity": "this"}` | Determines when an entity is considered holding onto a block.
+`holding_condition` | [Condition][condition] | `{"type": "kaya:is_entity_sneaking", "entity": "this"}` | Determines when an entity is considered holding onto a block.
 `allow_holding` | [Boolean Provider][boolean_provider] | `true` | Determines whether "holding" onto a block is allowed.
 
 
@@ -18,21 +18,21 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/climbing",
+    "type": "kaya:modify/climbing",
     "active_condition": {
-        "type": "neo-apoli:compare",
+        "type": "kaya:compare",
         "comparison": {
-            "type": "neo-apoli:int",
+            "type": "kaya:int",
             "comparator": ">=",
             "first": {
-                "type": "neo-apoli:blocks_intersecting_box",
+                "type": "kaya:blocks_intersecting_box",
                 "condition": {
-                    "type": "neo-apoli:check_block_type",
+                    "type": "kaya:check_block_type",
                     "key": "minecraft:sugar_cane",
                     "block": "block_intersecting_box"
                 },
                 "box": {
-                    "type": "neo-apoli:entity/bounds",
+                    "type": "kaya:entity/bounds",
                     "entity": "this"
                 }
             },

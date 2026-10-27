@@ -3,7 +3,7 @@
 Encodes the block as NBT and uses it as the provided value.
 
 
-Type ID: `neo-apoli:block`
+Type ID: `kaya:block`
 
 
 ???+ info
@@ -27,12 +27,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:block",
+    "type": "kaya:block",
     "block": "selected_block"
 }
 ```
 
-This example encodes the block provided by the `neo-apoli:selected_block` context parameter and provides it as the NBT value.
+This example encodes the block provided by the `kaya:selected_block` context parameter and provides it as the NBT value.
 
 
 ### History

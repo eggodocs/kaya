@@ -3,7 +3,7 @@
 Invokes an action with the provided context parameters.
 
 
-Type ID: `neo-apoli:provide_context`
+Type ID: `kaya:provide_context`
 
 
 ### Format
@@ -18,18 +18,18 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:provide_context",
+    "type": "kaya:provide_context",
     "action": {
-        "type": "neo-apoli:reference",
+        "type": "kaya:reference",
         "value": "example:entity/add_local_velocity"// (1)!
     },
     "parameters": {
         "example:entity_to_launch": {
-            "type": "neo-apoli:entity",
+            "type": "kaya:entity",
             "entity": "this"
         },
         "example:velocity": {
-            "type": "neo-apoli:vec3",
+            "type": "kaya:vec3",
             "value": [
                 0.0,
                 4.0,
@@ -40,16 +40,16 @@ Field | Type | Default | Description
 }
 ```
 
-1. The location of the file is `data/example/neo-apoli/action/entity/add_local_velocity.json` with this as its contents:
+1. The location of the file is `data/example/kaya/action/entity/add_local_velocity.json` with this as its contents:
    
     ```json
     {
-        "type": "neo-apoli:add_velocity",
+        "type": "kaya:add_velocity",
         "method": "single",
         "space": "local",
         "entity": "example:entity_to_launch",
         "velocity": {
-            "type": "neo-apoli:context",
+            "type": "kaya:context",
             "parameter": "example:velocity"
         }
     }

@@ -3,7 +3,7 @@
 Provides the value of an attribute from an item.
 
 
-Type ID: `neo-apoli:item/attribute`
+Type ID: `kaya:item/attribute`
 
 
 ### Format
@@ -19,13 +19,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity/attribute",
+    "type": "kaya:entity/attribute",
     "attribute": "minecraft:armor",
     "item": "item_in_container"
 }
 ```
 
-This example will provide the value of the `minecraft:armor` attribute from an item *(provided by the `neo-apoli:item_in_container` context parameter.)*
+This example will provide the value of the `minecraft:armor` attribute from an item *(provided by the `kaya:item_in_container` context parameter.)*
 
 
 ### History

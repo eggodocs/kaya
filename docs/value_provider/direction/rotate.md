@@ -3,7 +3,7 @@
 Provides a direction rotated on the specified orientation.
 
 
-Type ID: `neo-apoli:rotate`
+Type ID: `kaya:rotate`
 
 
 ### Format
@@ -109,7 +109,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:rotate",
+    "type": "kaya:rotate",
     "orientation": "clockwise",
     "direction": "north",
     "axis": "x"

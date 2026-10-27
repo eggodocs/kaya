@@ -3,7 +3,7 @@
 Stringifies an integer and uses it as the provided value.
 
 
-Type ID: `neo-apoli:from_int`
+Type ID: `kaya:from_int`
 
 
 ### Format
@@ -17,15 +17,15 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:from_int",
+    "type": "kaya:from_int",
     "value": {
-        "type": "neo-apoli:item/fuel",
+        "type": "kaya:item/fuel",
         "item": "used_item"
     }
 }
 ```
 
-This example stringifies the fuel value of the item provided by the `neo-apoli:used_item` context parameter.
+This example stringifies the fuel value of the item provided by the `kaya:used_item` context parameter.
 
 
 ### History

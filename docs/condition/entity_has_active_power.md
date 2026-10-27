@@ -3,7 +3,7 @@
 Checks if a specified power from an entity is considered active.
 
 
-Type ID: `neo-apoli:entity_has_active_power`
+Type ID: `kaya:entity_has_active_power`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:entity_has_active_power",
+    "type": "kaya:entity_has_active_power",
     "power": "example:powder_snow_runner",
     "entity": "this" 
 }
 ```
 
-This example will check if the `example:powder_snow_runner` power from the entity provided by the `neo-apoli:this_entity` context parameter is considered active.
+This example will check if the `example:powder_snow_runner` power from the entity provided by the `kaya:this_entity` context parameter is considered active.
 
 
 ### History

@@ -3,7 +3,7 @@
 Provides the block at the specified position.
 
 
-Type ID: `neo-apoli:world`
+Type ID: `kaya:world`
 
 
 ### Format
@@ -17,15 +17,15 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:world",
+    "type": "kaya:world",
     "position": {
-        "type": "neo-apoli:block/position",
+        "type": "kaya:block/position",
         "block": "mined_block"
     }
 }
 ```
 
-This example provides the block provided by the `neo-apoli:mined_block` context parameter.
+This example provides the block provided by the `kaya:mined_block` context parameter.
 
 
 ### History

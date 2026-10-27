@@ -3,7 +3,7 @@
 Places a block at a position.
 
 
-Type ID: `neo-apoli:place_block`
+Type ID: `kaya:place_block`
 
 
 ### Format
@@ -38,22 +38,22 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:place_block",
+    "type": "kaya:place_block",
     "block": "minecraft:cobweb",
     "position": {
-        "type": "neo-apoli:entity/position",
+        "type": "kaya:entity/position",
         "entity": "projectile"
     },
     "offset_direction": {
-        "type": "neo-apoli:context",
+        "type": "kaya:context",
         "parameter": "landed_on_side"
     }
 }
 ```
 
-This example will attempt to place a cobweb block at the position of the entity provided by the `neo-apoli:projectile_entity` context parameter.
+This example will attempt to place a cobweb block at the position of the entity provided by the `kaya:projectile_entity` context parameter.
 
-If the block couldn't be placed, it will attempt to place the cobweb at the side of the block offset by the direction provided by the `neo-apoli:landed_on_side` context parameter.
+If the block couldn't be placed, it will attempt to place the cobweb at the side of the block offset by the direction provided by the `kaya:landed_on_side` context parameter.
 
 
 ### History

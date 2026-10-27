@@ -3,7 +3,7 @@
 Overlays a texture sprite on the screen of the player, with the alpha component of the color being the intensity of the color and stretch factor of the texture.
 
 
-Type ID: `neo-apoli:overlay/nausea`
+Type ID: `kaya:overlay/nausea`
 
 
 !!! info
@@ -20,7 +20,7 @@ Type ID: `neo-apoli:overlay/nausea`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`sprite` | [Sprite][sprite] or [Identifier]({{ mc.identifier }}) | | The sprite definition or ID of the overlay to render. If an ID is specified, it will implicitly use the `neo-apoli:textures/atlas/overlay.png` atlas.
+`sprite` | [Sprite][sprite] or [Identifier]({{ mc.identifier }}) | | The sprite definition or ID of the overlay to render. If an ID is specified, it will implicitly use the `kaya:textures/atlas/overlay.png` atlas.
 `color` | [Color][color] | *optional* | The color to blend to the colors of the texture sprite. 
 `render_phase` | [Render Phase][render_phase] | | Determines when the overlay should be rendered.
 `should_render` | [Boolean Provider][boolean_provider] | `true` | Determines whether the overlay should render.
@@ -32,7 +32,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:overlay/nausea",
+    "type": "kaya:overlay/nausea",
     "sprite": "example:nausea_overlay"/*(1)!*/,
     "color": "#32c5ff9d",
     "render_phase": "below_hud",

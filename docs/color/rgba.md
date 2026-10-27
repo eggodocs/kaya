@@ -3,7 +3,7 @@
 Provides an RGBA color (which is then converted to ARGB.)
 
 
-Type ID: `neo-apoli:rgba`
+Type ID: `kaya:rgba`
 
 
 ### Format
@@ -27,7 +27,7 @@ Field | Type | Default | Description
 
     ```json
     {
-        "type": "neo-apoli:rgba",
+        "type": "kaya:rgba",
         "red": 1.0,
         "green": 1.0,
         "blue": 0.0,

@@ -3,7 +3,7 @@
 Checks if a block is a block entity.
 
 
-Type ID: `neo-apoli:is_block_entity`
+Type ID: `kaya:is_block_entity`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:is_block_entity",
+    "type": "kaya:is_block_entity",
     "block": "used_block"
 }
 ```
 
-This example will check if the block provided by the `neo-apoli:used_block` context parameter is a block entity.
+This example will check if the block provided by the `kaya:used_block` context parameter is a block entity.
 
 
 ### History

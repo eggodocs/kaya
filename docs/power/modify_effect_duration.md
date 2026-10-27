@@ -3,7 +3,7 @@
 Modifies the duration of a status effect inflicted on the entity holding the power.
 
 
-Type ID: `neo-apoli:modify/effect/duration`
+Type ID: `kaya:modify/effect/duration`
 
 
 ???+ info
@@ -12,9 +12,9 @@ Type ID: `neo-apoli:modify/effect/duration`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:actor_entity` | The entity that inflicted the status effect.
-    `neo-apoli:target_entity` | The entity holding the power.
-    `neo-apoli:applied_effect` | The inflicted status effect.
+    `kaya:actor_entity` | The entity that inflicted the status effect.
+    `kaya:target_entity` | The entity holding the power.
+    `kaya:applied_effect` | The inflicted status effect.
 
 
 ### Format
@@ -28,16 +28,16 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/effect/duration",
+    "type": "kaya:modify/effect/duration",
     "modifiers": [
         {
-            "type": "neo-apoli:multiply_additive",
+            "type": "kaya:multiply_additive",
             "phase": "total",
             "amount": 1.0
         }
     ],
     "active_condition": {
-        "type": "neo-apoli:is_effect_of_type",
+        "type": "kaya:is_effect_of_type",
         "effect_type": "minecraft:poison",
         "effect": "applied_effect"
     }

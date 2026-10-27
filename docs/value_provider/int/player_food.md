@@ -3,7 +3,7 @@
 Provides the food level value of a player.
 
 
-Type ID: `neo-apoli:player/food`
+Type ID: `kaya:player/food`
 
 
 ### Format
@@ -17,12 +17,12 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:player/food",
+    "type": "kaya:player/food",
     "entity": "actor"
 }
 ```
 
-This example will provide the food level of the player provided by the `neo-apoli:actor_entity` context parameter.
+This example will provide the food level of the player provided by the `kaya:actor_entity` context parameter.
 
 
 ### History

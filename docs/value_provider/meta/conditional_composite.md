@@ -3,7 +3,7 @@
 Invokes and returns the value provided by an entry whose condition is fulfilled, or the specified default if no entries matched.
 
 
-Type ID: `neo-apoli:conditional/composite`
+Type ID: `kaya:conditional/composite`
 
 
 !!! note
@@ -38,32 +38,32 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:conditional/composite",
+    "type": "kaya:conditional/composite",
     "entries": [
         {
             "condition": {
-                "type": "neo-apoli:is_entity_on_fire",
+                "type": "kaya:is_entity_on_fire",
                 "entity": "actor"
             },
             "value": {
-                "type": "neo-apoli:world",
+                "type": "kaya:world",
                 "position": {
-                    "type": "neo-apoli:entity/position",
+                    "type": "kaya:entity/position",
                     "entity": "actor"
                 }
             }
         },
         {
             "condition": {
-                "type": "neo-apoli:is_entity_sneaking",
+                "type": "kaya:is_entity_sneaking",
                 "entity": "target"
             },
             "value": {
-                "type": "neo-apoli:world",
+                "type": "kaya:world",
                 "position": {
-                    "type": "neo-apoli:offset",
+                    "type": "kaya:offset",
                     "vector": {
-                        "type": "neo-apoli:entity/position",
+                        "type": "kaya:entity/position",
                         "entity": "this"
                     },
                     "offset": [
@@ -81,8 +81,8 @@ Field | Type | Default | Description
 
 This example is a block provider which has two entries:
 
-- the first one provides the block at the feet of the entity provided by the `neo-apoli:actor_entity` context parameter if they're on fire
-- the second one provides the block below the entity provided by the `neo-apoli:target_entity` context parameter if they're sneaking. 
+- the first one provides the block at the feet of the entity provided by the `kaya:actor_entity` context parameter if they're on fire
+- the second one provides the block below the entity provided by the `kaya:target_entity` context parameter if they're sneaking. 
 
 
 If none of these entries fulfilled their condition, the block provided by the `example:fallback_block` context parameter will be provided instead.

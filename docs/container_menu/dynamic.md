@@ -3,7 +3,7 @@
 Provides a container with customizable texture, columns, rows, etc.
 
 
-Type ID: `neo-apoli:dynamic`
+Type ID: `kaya:dynamic`
 
 
 !!! warning
@@ -25,7 +25,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:dynamic",
+    "type": "kaya:dynamic",
     "texture": "example:awesome_inventory",
     "columns": 16,
     "rows": 16

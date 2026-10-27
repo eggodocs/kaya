@@ -3,7 +3,7 @@
 Modifies whether the entity holding the power should be invisible and whether they should be invisible to a specific entity.
 
 
-Type ID: `neo-apoli:modify/invisibility`
+Type ID: `kaya:modify/invisibility`
 
 
 ???+ info
@@ -12,8 +12,8 @@ Type ID: `neo-apoli:modify/invisibility`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:actor_entity` | The entity seeing the entity holding the power.
-    `neo-apoli:target_entity` | The entity holding the power.
+    `kaya:actor_entity` | The entity seeing the entity holding the power.
+    `kaya:target_entity` | The entity holding the power.
 
 
 ### Format
@@ -29,21 +29,21 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/invisibility",
+    "type": "kaya:modify/invisibility",
     "invisible_to_condition": {
-        "type": "neo-apoli:inverted",
+        "type": "kaya:inverted",
         "condition": {
-            "type": "neo-apoli:entity_has_power",
+            "type": "kaya:entity_has_power",
             "power": "*:*",
             "entity": "target"
         }
     },
     "render_armor": {
-        "type": "neo-apoli:condition_result",
+        "type": "kaya:condition_result",
         "condition": {
-            "type": "neo-apoli:inverted",
+            "type": "kaya:inverted",
             "condition": {
-                "type": "neo-apoli:is_entity_sneaking",
+                "type": "kaya:is_entity_sneaking",
                 "entity": "this"
             }
         }

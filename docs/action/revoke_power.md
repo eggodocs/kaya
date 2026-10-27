@@ -3,7 +3,7 @@
 Revokes a power or a collection of powers from an entity.
 
 
-Type ID: `neo-apoli:revoke_power`
+Type ID: `kaya:revoke_power`
 
 
 ### Format
@@ -19,7 +19,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:grant_power",
+    "type": "kaya:grant_power",
     "power": "#example:all_the_good_stuff"/*(1)!*/,
     "source": "example:epic_stuff",
     "entity": "this"
@@ -27,10 +27,10 @@ Field | Type | Default | Description
 ```
 
 
-1. The location of the file is `data/example/tags/neo-apoli/power/all_the_good_stuff.json`
+1. The location of the file is `data/example/tags/kaya/power/all_the_good_stuff.json`
 
 
-This example will revoke all the powers included in the `#example:all_the_good_stuff` power tag from the entity provided by the `neo-apoli:this_entity` context parameter granted with the source `example:epic_stuff`.
+This example will revoke all the powers included in the `#example:all_the_good_stuff` power tag from the entity provided by the `kaya:this_entity` context parameter granted with the source `example:epic_stuff`.
 
 
 ### History

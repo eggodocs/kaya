@@ -3,7 +3,7 @@
 Invokes an action upon the player respawning.
 
 
-Type ID: `neo-apoli:callback/player/respawned`
+Type ID: `kaya:callback/player/respawned`
 
 
 ### Format
@@ -17,9 +17,9 @@ Field | Type | Default | Description
 
 ```json
 {
-	"type": "neo-apoli:callback/player/respawned",
+	"type": "kaya:callback/player/respawned",
 	"action": {
-		"type": "neo-apoli:apply_effects",
+		"type": "kaya:apply_effects",
 		"effects": [
 			{
 				"id": "minecraft:resistance",

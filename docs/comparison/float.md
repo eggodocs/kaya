@@ -3,7 +3,7 @@
 Compares the first and second floats.
 
 
-Type ID: `neo-apoli:float`
+Type ID: `kaya:float`
 
 
 ### Format
@@ -19,10 +19,10 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:float",
+    "type": "kaya:float",
     "comparator": "==",
     "first": {
-        "type": "neo-apoli:power/cooldown/progress",
+        "type": "kaya:power/cooldown/progress",
         "power": "example:cooldown",
         "entity": "this"
     },

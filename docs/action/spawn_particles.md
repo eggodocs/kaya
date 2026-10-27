@@ -3,7 +3,7 @@
 Spawns particles at a position.
 
 
-Type ID: `neo-apoli:spawn_particles`
+Type ID: `kaya:spawn_particles`
 
 
 ???+ info
@@ -12,7 +12,7 @@ Type ID: `neo-apoli:spawn_particles`
 
     Parameter | Description
     ----------|------------
-    `neo-apoli:viewer_entity` | The player that would see the spawned particle.
+    `kaya:viewer_entity` | The player that would see the spawned particle.
 
 
 ### Format
@@ -32,17 +32,17 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:spawn_particles",
+    "type": "kaya:spawn_particles",
     "particle": "minecraft:portal",
     "position": {
-        "type": "neo-apoli:block/position",
+        "type": "kaya:block/position",
         "block": "broken_block"
     },
     "count": 8
 }
 ```
 
-This example will spawn 8 `minecraft:portal` particles at the position of the block provided by the `neo-apoli:broken_block` context parameter.
+This example will spawn 8 `minecraft:portal` particles at the position of the block provided by the `kaya:broken_block` context parameter.
 
 
 ### History

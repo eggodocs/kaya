@@ -3,7 +3,7 @@
 Emits a game event at a position.
 
 
-Type ID: `neo-apoli:emit_game_event`
+Type ID: `kaya:emit_game_event`
 
 
 ### Format
@@ -20,10 +20,10 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:emit_game_event",
+    "type": "kaya:emit_game_event",
     "game_event": "minecraft:projectile_land",
     "position": {
-        "type": "neo-apoli:block/position",
+        "type": "kaya:block/position",
         "block": "used_block"
     },
     "entity_source": "this",
@@ -31,7 +31,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will emit a `minecraft:projectile_land` game event *(which has a frequency of $2$)* at the position of the block provided by the `neo-apoli:used_block` context parameter, making the same block and the entity provided by the `neo-apoli:this_entity` context parameter as the block and entity *(respectively)* that emitted the game event.
+This example will emit a `minecraft:projectile_land` game event *(which has a frequency of $2$)* at the position of the block provided by the `kaya:used_block` context parameter, making the same block and the entity provided by the `kaya:this_entity` context parameter as the block and entity *(respectively)* that emitted the game event.
 
 
 ### History

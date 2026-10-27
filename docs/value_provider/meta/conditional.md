@@ -3,7 +3,7 @@
 Provides the respective value if the specified condition is fulfilled or not.
 
 
-Type ID: `neo-apoli:conditional`
+Type ID: `kaya:conditional`
 
 
 !!! note
@@ -24,9 +24,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:conditional",
+    "type": "kaya:conditional",
     "condition": {
-        "type": "neo-apoli:check_entity_type",
+        "type": "kaya:check_entity_type",
         "key": "minecraft:creeper",
         "entity": "target"
     },
@@ -35,7 +35,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example is an int provider that provides $100$ if the entity provided by the `neo-apoli:target_entity` context parameter is a Creeper, or $0$ if they're not.
+This example is an int provider that provides $100$ if the entity provided by the `kaya:target_entity` context parameter is a Creeper, or $0$ if they're not.
 
 
 ### History

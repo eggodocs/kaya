@@ -3,7 +3,7 @@
 Swings a specified hand of an entity.
 
 
-Type ID: `neo-apoli:swing_hand`
+Type ID: `kaya:swing_hand`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:swing_hand",
+    "type": "kaya:swing_hand",
     "hand": "mainhand",
     "entity": "this"
 }
 ```
 
-This example will swing the main hand of the entity provided by the `neo-apoli:this_entity` context parameter.
+This example will swing the main hand of the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

@@ -3,7 +3,7 @@
 Modifies the spawn point of the player holding the power.
 
 
-Type ID: `neo-apoli:modify/player/spawn`
+Type ID: `kaya:modify/player/spawn`
 
 
 ### Format
@@ -25,7 +25,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:modify/player/spawn",
+    "type": "kaya:modify/player/spawn",
     "dimension": "minecraft:overworld",
     "biome": "#c:is_aquatic"
 }

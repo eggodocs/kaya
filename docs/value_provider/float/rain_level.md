@@ -3,7 +3,7 @@
 Provides the rain level of the current dimension.
 
 
-Type ID: `neo-apoli:rain_level`
+Type ID: `kaya:rain_level`
 
 
 ???+ note  
@@ -27,7 +27,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:rain_level"
+    "type": "kaya:rain_level"
 }
 ```
 

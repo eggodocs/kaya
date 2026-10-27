@@ -3,7 +3,7 @@
 Checks the precipitation of a biome at the specified position.
 
 
-Type ID: `neo-apoli:check_precipitation`
+Type ID: `kaya:check_precipitation`
 
 
 ### Format
@@ -18,16 +18,16 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:check_precipitation",
+    "type": "kaya:check_precipitation",
     "precipitation": "rain",
     "position": {
-        "type": "neo-apoli:block/position",
+        "type": "kaya:block/position",
         "block": "broken_block"
     }
 }
 ```
 
-This example will check if the precipitation of the biome at the position of the block provided by the `neo-apoli:broken_block` context parameter is rain.
+This example will check if the precipitation of the biome at the position of the block provided by the `kaya:broken_block` context parameter is rain.
 
 
 ### History

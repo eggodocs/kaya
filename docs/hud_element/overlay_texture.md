@@ -3,7 +3,7 @@
 Overlays a texture sprite on the screen of the player.
 
 
-Type ID: `neo-apoli:overlay/texture`
+Type ID: `kaya:overlay/texture`
 
 
 !!! tip
@@ -15,7 +15,7 @@ Type ID: `neo-apoli:overlay/texture`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`sprite` | [Sprite][sprite] or [Identifier]({{ mc.identifier }}) | | The sprite definition or ID of the overlay to render. If an ID is specified, it will implicitly use the `neo-apoli:textures/atlas/overlay.png` atlas.
+`sprite` | [Sprite][sprite] or [Identifier]({{ mc.identifier }}) | | The sprite definition or ID of the overlay to render. If an ID is specified, it will implicitly use the `kaya:textures/atlas/overlay.png` atlas.
 `color` | [Color][color] | *optional* | The color to blend to the colors of the texture sprite. 
 `render_phase` | [Render Phase][render_phase] | | Determines when the overlay should be rendered.
 `should_render` | [Boolean Provider][boolean_provider] | `true` | Determines whether the overlay should render.
@@ -27,15 +27,15 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:overlay/texture",
+    "type": "kaya:overlay/texture",
     "sprite": {
         "atlas": "minecraft:textures/atlas/blocks.png",
         "id": "minecraft:block/water_still"
     },
     "color": {
-        "type": "neo-apoli:biome/water",
+        "type": "kaya:biome/water",
         "position": {
-            "type": "neo-apoli:entity/position",
+            "type": "kaya:entity/position",
             "entity": "this"
         },
         "alpha": 0.50

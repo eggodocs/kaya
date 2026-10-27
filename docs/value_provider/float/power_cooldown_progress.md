@@ -3,7 +3,7 @@
 Provides the progress of the cooldown of a power from an entity.
 
 
-Type ID: `neo-apoli:power/cooldown/progress`
+Type ID: `kaya:power/cooldown/progress`
 
 
 ???+ tip
@@ -23,17 +23,17 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:power/cooldown/progress",
+    "type": "kaya:power/cooldown/progress",
     "power": "example:fire_ball@cooldown",//(1)!
     "entity": "this"
 }
 ```
 
 
-1. This is referring to the sub-power, `cooldown`, defined in a super-power with the ID `example:fire_ball` and a location of `data/example/neo-apoli/powers/fire_ball.json`
+1. This is referring to the sub-power, `cooldown`, defined in a super-power with the ID `example:fire_ball` and a location of `data/example/kaya/powers/fire_ball.json`
 
 
-This example will provide the cooldown progress of the `example:fire_ball@cooldown` sub-power from an entity *(provided by the `neo-apoli:this_entity` context parameter.)*
+This example will provide the cooldown progress of the `example:fire_ball@cooldown` sub-power from an entity *(provided by the `kaya:this_entity` context parameter.)*
 
 
 ### History

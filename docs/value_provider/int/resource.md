@@ -3,7 +3,7 @@
 Provides the value of a power that uses the [Resource Int](../../power/resource_int.md) power type.
 
 
-Type ID: `neo-apoli:resource`
+Type ID: `kaya:resource`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:resource",
+    "type": "kaya:resource",
     "power": "example:resource_awesome_sauce",
     "entity": "this"
 }
 ```
 
-This example will provide the integer value of the `example:resource_awesome_sauce` power from the entity provided by the `neo-apoli:this_entity` context parameter.
+This example will provide the integer value of the `example:resource_awesome_sauce` power from the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

@@ -3,7 +3,7 @@
 Encodes the data of the referenced power as NBT and uses it as the provided value.
 
 
-Type ID: `neo-apoli:power`
+Type ID: `kaya:power`
 
 
 ### Format
@@ -18,13 +18,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "neo-apoli:power",
+    "type": "kaya:power",
     "power": "example:power",
     "entity": "this"
 }
 ```
 
-This example encodes the data of the `example:power` power from the entity provided by the `neo-apoli:this_entity` context parameter.
+This example encodes the data of the `example:power` power from the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History
