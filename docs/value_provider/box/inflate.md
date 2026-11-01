@@ -18,7 +18,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "kaya:offset",
+    "type": "kaya:inflate",
     "box": {
         "type": "kaya:entity/bounds",
         "entity": "this"
