@@ -82,6 +82,7 @@ Field | Type | Default | Description
 - [`inventory`](inventory.md)
 - [`multiple`](multiple.md)
 - [`nbt`](nbt.md)
+- [`phasing`](phasing.md)
 - [`replace_loot_table`](replace_loot_table.md)
 - [`resource/float`](resource_float.md)
 - [`resource/int`](resource_int.md)
