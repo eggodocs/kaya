@@ -69,6 +69,8 @@ Field | Type | Default | Description
 - [`revoke_all_powers`](revoke_all_powers.md)
 - [`revoke_power`](revoke_power.md)
 - [`set_entity_on_fire`](set_entity_on_fire.md)
+- [`set_resource/float`](set_resource_float.md)
+- [`set_resource/int`](set_resource_int.md)
 - [`shoot_entity`](shoot_entity.md)
 - [`spawn_particles`](spawn_particles.md)
 - [`swing_hand`](swing_hand.md)
