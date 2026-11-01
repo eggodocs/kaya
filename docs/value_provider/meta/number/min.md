@@ -22,7 +22,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "kaya:max",
+    "type": "kaya:min",
     "values": [
         {
             "type": "kaya:entity/attribute",
