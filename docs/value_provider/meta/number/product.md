@@ -22,7 +22,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "kaya:difference",
+    "type": "kaya:product",
     "values": [
         {
             "type": "kaya:entity/attribute",
