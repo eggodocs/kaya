@@ -22,7 +22,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will provide the saturation level of a player *(provided by the `kaya:damaging_entity` context parameter.)*
+This example will provide the saturation level of the player provided by the `kaya:damaging_entity` context parameter.
 
 
 ### History

@@ -52,7 +52,8 @@ Field | Type | Default | Description
 				"min": 0.0,
 				"max": 0.75
 			}
-		}
+		},
+		"render_phase": "below_hud"
 	},
 	"cooldown": 400
 }

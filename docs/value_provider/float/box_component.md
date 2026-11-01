@@ -41,7 +41,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example provides the maximum Y component of the bounding box of the entity *(provided by the `kaya:this_entity` context parameter.)*
+This example provides the maximum Y component of the bounding box of the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

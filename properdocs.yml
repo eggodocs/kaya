@@ -50,6 +50,7 @@ plugins:
       include_yaml:
         - block_interactions: data/block_interactions.yml
         - comparators: data/comparators.yml
+        - dimension_ambient_lights: data/dimension_ambient_lights.yml
         - equipment_slots: data/equipment_slots.yml
         - light_types: data/light_types.yml
         - precipitations: data/precipitations.yml

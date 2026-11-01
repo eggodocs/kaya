@@ -12,12 +12,12 @@ Field | Type | Default | Description
 
 ???+ tip
 
-    Specifying a [string][string] will implicitly use the [`context`](../meta/conditional.md) item provider type.
+    Specifying a [string][string] will implicitly use the [`context`](../meta/context.md) item provider type.
 
 
 ### Types
 
 - [`conditional/composite`](../meta/conditional_composite.md)
 - [`conditional`](../meta/conditional.md)
-- [`context`](../meta/conditional.md)
+- [`context`](../meta/context.md)
 - [`weighted`](../meta/weighted.md)

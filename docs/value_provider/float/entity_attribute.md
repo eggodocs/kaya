@@ -24,7 +24,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will provide the value of the `minecraft:max_health` attribute from an entity *(provided by the `kaya:actor_entity` context parameter.)*
+This example will provide the value of the `minecraft:max_health` attribute from the entity provided by the `kaya:actor_entity` context parameter.
 
 
 ### History

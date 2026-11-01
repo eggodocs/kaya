@@ -16,7 +16,7 @@ Field | Type | Default | Description
 
     Data Type | Box Provider Type
     ----------|------------------
-    [String][string] | [`context`](../meta/conditional.md)
+    [String][string] | [`context`](../meta/context.md)
     [Array][array] of 6 [Floats][float] | [`constant`](constant.md)
 
 
@@ -25,7 +25,7 @@ Field | Type | Default | Description
 - [`conditional/composite`](../meta/conditional_composite.md)
 - [`conditional`](../meta/conditional.md)
 - [`constant`](constant.md)
-- [`context`](../meta/conditional.md)
+- [`context`](../meta/context.md)
 - [`dynamic`](dynamic.md)
 - [`inflate`](inflate.md)
 - [`resize`](resize.md)

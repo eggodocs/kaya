@@ -30,7 +30,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example provides the size of the bounding box from the entity *(provided by the `kaya:projectile_entity` context parameter.)*
+This example provides the size of the bounding box from the entity provided by the `kaya:projectile_entity` context parameter.
 
 
 ### History

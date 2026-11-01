@@ -16,7 +16,7 @@ Field | Type | Default | Description
 
     Data Type | Float Provider Type
     ----------|------------------
-    [String][string] | [`context`](../meta/conditional.md)
+    [String][string] | [`context`](../meta/context.md)
     [Float][float] | [`constant`](constant.md)
 
 
@@ -29,7 +29,7 @@ Field | Type | Default | Description
 - [`conditional/composite`](../meta/conditional_composite.md)
 - [`conditional`](../meta/conditional.md)
 - [`constant`](constant.md)
-- [`context`](../meta/conditional.md)
+- [`context`](../meta/context.md)
 - [`difference`](../meta/number/difference.md)(2)
 - [`from_int`](from_int.md)
 - [`linear_interpolated`](linear_interpolated.md)(3)

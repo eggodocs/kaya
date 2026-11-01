@@ -19,7 +19,7 @@ Field | Type | Default | Description
 
     Data Type | Vec3 Provider
     ----------|--------------
-    [String][string] | [`context`](../meta/conditional.md)
+    [String][string] | [`context`](../meta/context.md)
     [Array][array] of 3 [Floats][float] | [`constant`](constant.md)
 
 
@@ -28,7 +28,7 @@ Field | Type | Default | Description
 - [`conditional/composite`](../meta/conditional_composite.md)
 - [`conditional`](../meta/conditional.md)
 - [`constant`](constant.md)
-- [`context`](../meta/conditional.md)
+- [`context`](../meta/context.md)
 - [`dynamic`](dynamic.md)
 - [`offset`](offset.md)
 - [`weighted`](../meta/weighted.md)

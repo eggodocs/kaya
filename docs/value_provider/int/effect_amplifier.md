@@ -24,7 +24,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example provides the amplifier of the Poison status effect from an entity *(provided by the `kaya:this_entity` context parameter.)*
+This example provides the amplifier of the Poison status effect from the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

@@ -40,7 +40,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example counts how many blocks adjacent to a block *(provided by the `kaya:used_block` context parameter)* is a Dirt block.
+This example counts how many blocks adjacent to the block provided by the `kaya:used_block` context parameter is a Dirt block.
 
 
 ### History

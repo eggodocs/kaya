@@ -25,7 +25,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will provide the value of the `minecraft:armor` attribute from an item *(provided by the `kaya:item_in_container` context parameter.)*
+This example will provide the value of the `minecraft:armor` attribute from the item provided by the `kaya:item_in_container` context parameter.
 
 
 ### History

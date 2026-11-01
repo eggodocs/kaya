@@ -41,7 +41,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will round off the length of the velocity of an entity *(provided by the `kaya:this_entity` context parameter)* and convert it into an integer.
+This example will round off the length of the velocity of the entity provided by the `kaya:this_entity` context parameter and convert it into an integer.
 
 {% set result = sqrt(example.velocity.x * example.velocity.x + example.velocity.y * example.velocity.y + example.velocity.z * example.velocity.z) %}
 

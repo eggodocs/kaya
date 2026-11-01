@@ -47,7 +47,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will provide a float value ranging from ${{ example.start }}$ to ${{ example.end }}$ depending on the quotient of the value of the `minecraft:armor` attribute *(from the entity provided by the `kaya:this` context parameter)* divided by ${{ example.divisor }}$.
+This example will provide a float value ranging from ${{ example.start }}$ to ${{ example.end }}$ depending on the quotient of the value of the `minecraft:armor` attribute from the entity provided by the `kaya:this` context parameter divided by ${{ example.divisor }}$.
 
 {% set result = clamped_lerp(example.delta / example.divisor, example.start, example.end) %}
 

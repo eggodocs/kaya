@@ -30,7 +30,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example provides the distance between an entity *(provided by the `kaya:this_entity` context parameter)* and a block *(provided by the `kaya:broken_block` context parameter.)*
+This example provides the distance between the entity provided by the `kaya:this_entity` context parameter and the block provided by the `kaya:broken_block` context parameter.
 
 
 ### History

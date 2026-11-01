@@ -24,7 +24,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will provide the height of the water fluid relative to an entity *(provided by the `kaya:this_entity` context parameter.)*
+This example will provide the height of the water fluid relative to the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

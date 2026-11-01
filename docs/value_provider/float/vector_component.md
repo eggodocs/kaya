@@ -27,7 +27,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example provides the Y axis component of a block *(provided by the `kaya:used_block` context parameter.)*
+This example provides the Y axis component of the block provided by the `kaya:used_block` context parameter.
 
 
 ### History

@@ -48,7 +48,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example provides the count of grass blocks intersecting with the bounding box *(inflated by 1 block)* of an entity *(provided by the `kaya:this_entity` context parameter.)*
+This example provides the count of grass blocks intersecting with the bounding box *(inflated by 1 block)* of the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

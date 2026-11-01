@@ -30,10 +30,10 @@ Field | Type | Default | Description
 ```
 
 
-1. This is referring to the sub-power, `cooldown`, defined in a super-power with the ID `example:fire_ball` and a location of `data/example/kaya/powers/fire_ball.json`
+1. This is referring to the sub-power, `cooldown`, defined in a super-power with the ID `example:fire_ball`, located in `data/example/kaya/power/fire_ball.json`
 
 
-This example will provide the cooldown progress of the `example:fire_ball@cooldown` sub-power from an entity *(provided by the `kaya:this_entity` context parameter.)*
+This example will provide the cooldown progress of the `example:fire_ball@cooldown` sub-power from the entity provided by the `kaya:this_entity` context parameter.
 
 
 ### History

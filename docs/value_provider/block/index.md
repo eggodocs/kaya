@@ -16,14 +16,14 @@ Field | Type | Default | Description
 
 ???+ tip
 
-    Specifying a [string][string] will implicitly use the [`context`](../meta/conditional.md) block provider type.
+    Specifying a [string][string] will implicitly use the [`context`](../meta/context.md) block provider type.
 
 
 ### Meta types
 
 - [`conditional/composite`](../meta/conditional_composite.md)
 - [`conditional`](../meta/conditional.md)
-- [`context`](../meta/conditional.md)
+- [`context`](../meta/context.md)
 - [`weighted`](../meta/weighted.md)
 
 
