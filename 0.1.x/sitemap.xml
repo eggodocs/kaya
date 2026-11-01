@@ -145,6 +145,14 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/kaya/0.1.x/action/set_resource_float/</loc>
+         <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.1.x/action/set_resource_int/</loc>
+         <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/kaya/0.1.x/action/shoot_entity/</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
