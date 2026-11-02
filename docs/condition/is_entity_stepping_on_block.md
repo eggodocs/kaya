@@ -27,7 +27,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "kaya:is_entity_stepped_on_block",
+    "type": "kaya:is_entity_stepping_on_block",
     "stepped_on_condition": {
         "type": "kaya:check_block_type",
         "tag": "#minecraft:carpets",
