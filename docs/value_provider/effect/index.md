@@ -1,6 +1,6 @@
 #   Effect Provider
 
-Effect providers are data objects that operate on the given context, and return an effect instance based on the provided information.
+Effect providers are data objects that operate on the given context, and return a status effect instance based on the provided information.
 
 
 ### Format

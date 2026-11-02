@@ -1,6 +1,6 @@
 #   Box Provider
 
-Box providers are data objects that operate on the given context, and return an `AABB` (axis-aligned bounding box) based on the provided information.
+Box providers are data objects that operate on the given context, and return an axis-aligned bounding box based on the provided information.
 
 
 ### Format

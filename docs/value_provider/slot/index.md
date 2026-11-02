@@ -1,10 +1,6 @@
 # Slot Provider
 
-Slot providers are data objects that operate on the given context, and return a `SlotAccess`(1) based on the provided information.
-{ .annotate }
-
-
-1. `SlotAccess` is a functional interface that essentially references an item from an entity or an inventory.
+Slot providers are data objects that operate on the given context, and return a slot based on the provided information.
 
 
 ### Format

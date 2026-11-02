@@ -1,10 +1,6 @@
 # Vec3 Provider
 
-Vec3 providers are data objects that operate on the given context, and return a `Vec3`(1) based on the provided information.
-{ .annotate }
-
-
-1. A vector that contains 3 doubles.
+Vec3 providers are data objects that operate on the given context, and return a 3D vector based on the provided information.
 
 
 ### Format

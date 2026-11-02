@@ -1,6 +1,6 @@
 #   Float Provider
 
-Float providers are data objects that operate on the given context, and return a float based on the provided information.
+Float providers are data objects that operate on the given context, and return a [float][float] based on the provided information.
 
 
 ### Format
