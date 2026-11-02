@@ -49,6 +49,8 @@ theme:
 nav:
   - Home:
     - index.md
+    - Getting started: guide/getting_started.md
+    - Making a power: guide/making_a_power.md
     - Commands:
       - command/resource.md
   - Action:
