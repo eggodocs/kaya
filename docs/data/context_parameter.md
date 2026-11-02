@@ -3,6 +3,9 @@
 An object that determines a parameter, which indicates what kind of object is stored in a context.
 
 
+[](){ #pre_defined_parameters }
+
+
 ??? tip "Pre-defined parameters"
 
     In kaya, there are pre-defined context parameters that are used/shared by certain types:

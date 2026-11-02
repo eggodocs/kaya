@@ -1,6 +1,6 @@
 #   Float { #float_comparison }
 
-Compares the first and second floats.
+Compares two floats.
 
 
 Type ID: `kaya:float`

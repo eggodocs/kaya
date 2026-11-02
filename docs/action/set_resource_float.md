@@ -1,4 +1,4 @@
-#   Set Resource Float
+#   Set Resource (Float)
 
 Sets the value of a power that uses the [Resource Float](../power/resource_float.md) power type.
 

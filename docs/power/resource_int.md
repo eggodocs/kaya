@@ -1,4 +1,4 @@
-#   Resource Int
+#   Resource (Integer)
 
 Provides an integer variable with customizable minimum, maximum, and start values.
 

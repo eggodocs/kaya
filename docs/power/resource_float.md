@@ -1,4 +1,4 @@
-#   Resource Float
+#   Resource (Float)
 
 Provides an float variable with customizable minimum, maximum, and start values.
 

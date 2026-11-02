@@ -1,10 +1,6 @@
 #   Command Source Provider
 
-Command source providers are data objects that operate on the given context, and return a `CommandSourceStack`(1) based on the provided information.
-{ .annotate }
-
-
-1. `CommandSourceStack` is vanilla's object used for executing commands.
+Command source providers are data objects that operate on the given context, and return an object that Minecraft uses for evaluating commands based on the provided information.
 
 
 ???+ warning

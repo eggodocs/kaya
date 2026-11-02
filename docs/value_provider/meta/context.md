@@ -15,7 +15,7 @@ Type ID: `kaya:context`
 
 Field | Type | Default | Description
 ------|------|:-------:|------------
-`parameter` | [Identifier]({{ mc.identifier }}) | | The ID of the context parameter. [See here](../../data/context_parameter.md#pre-defined_parameters) for a collection of pre-defined context parameters and their correspondng type.
+`parameter` | [Identifier]({{ mc.identifier }}) | | The ID of the context parameter. [See here](../../data/context_parameter.md#pre_defined_parameters) for a collection of pre-defined context parameters and their correspondng type.
 
 
 ???+ tip

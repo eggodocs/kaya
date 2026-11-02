@@ -4,12 +4,14 @@ Powers give a certain "ability" to the entity it's granted to. The functionality
 
 Custom powers can be defined as JSON/JSON5/JSONC files in the `data/<namespace>/kaya/power` directory of a data pack. Data packs that load later with a power file with the same name and directory will replace the existing power.
 
-???+ note annotate "Powers providing context"
+???+ note
 
-    Power types provide the context used by other context-based data objects, such as actions and conditions, for flexibility.(1) Some power types may provide more context parameters, so make sure to check the corresponding pages for your desired power type.
+    Power types provide the context used by other context-based data objects, such as actions and conditions, for flexibility. Some power types may provide more context parameters, so make sure to check the corresponding pages for your desired power type.
 
 
-1. The `kaya:this_entity` context parameter is also automatically provided, which refers to the entity holding the power.
+???+ tip
+
+    Most if not all power types automatically provides the `kaya:this_entity` context parameter, which would refer to the entity holding the power.
 
 
 ### Format
@@ -17,8 +19,8 @@ Custom powers can be defined as JSON/JSON5/JSONC files in the `data/<namespace>/
 Field | Type | Default | Description
 ------|------|:-------:|------------
 `type` | [Identifier]({{ mc.identifier }}) | | The identifier of the desired power type.
-`name` | [Text Component]({{ mc.text_component }}) | *optional* | The display name of the power, prioritizing translations from resource packs. <br><br>If unspecified, a translatable name with the key `power.<namespace>.<path>.name` is provided.
-`description` | [Text Component]({{ mc.text_component }}) | *optional* | The display description of the power, prioritizing translations from resource packs. <br><br>If unspecified, a translatable name with the key `power.<namespace>.<path>.description` is provided.
+`name` | [Text Component]({{ mc.text_component }}) | *optional* | The display name of the power, prioritizing translations from resource packs.<br><br>If unspecified, a translatable name with the key `power.<namespace>.<path>.name` is provided.
+`description` | [Text Component]({{ mc.text_component }}) | *optional* | The display description of the power, prioritizing translations from resource packs.<br><br>If unspecified, a translatable name with the key `power.<namespace>.<path>.description` is provided.
 `hidden` | Boolean | `false` | Determines whether the power should be hidden.
     
 

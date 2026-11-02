@@ -1,6 +1,6 @@
 #   Int { #int_comparison }
 
-Compares the first and second integers.
+Compares two integers.
 
 
 Type ID: `kaya:int`

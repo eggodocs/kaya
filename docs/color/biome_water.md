@@ -1,4 +1,4 @@
-#   Biome water
+#   Biome Water
 
 Provides the water color of the biome from the specified position.
 

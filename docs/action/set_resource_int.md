@@ -1,4 +1,4 @@
-#   Set Resource Int
+#   Set Resource (Integer)
 
 Sets the value of a power that uses the [Resource Int](../power/resource_int.md) power type.
 

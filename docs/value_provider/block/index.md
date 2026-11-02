@@ -1,10 +1,6 @@
 #   Block Provider
 
-Block providers are data objects that operate on the given context, and return a `CachedBlock`(1) based on the provided information.
-{ .annotate }
-
-
-1. `CachedBlock` is a record that contains the provided block's position, state, and entity.
+Block providers are data objects that operate on the given context, and return an object that contains the position, state, and entity of a block based on the provided information.
 
 
 ### Format

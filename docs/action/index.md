@@ -10,7 +10,7 @@ Custom actions can be defined as JSON/JSON5/JSONC files in the `data/<namespace>
     Some actions require certain context parameters to function properly. Make sure to check the page for the desired action type for more information.
 
 
-### Format
+## Format
 
 Field | Type | Default | Description
 ------|------|:-------:|------------

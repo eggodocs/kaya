@@ -1,6 +1,6 @@
 #   NBT { #nbt_comparison }
 
-Compares the elements (and its contents, if it's a list) of the first and second NBTs.
+Compares two NBT elements and its contents if it's a list.
 
 
 Type ID: `kaya:nbt`

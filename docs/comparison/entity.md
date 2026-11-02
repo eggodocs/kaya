@@ -1,6 +1,6 @@
 #   Entity { #entity_comparison }
 
-Compares the IDs of the first and second entities.
+Compares the IDs of two entities.
 
 
 Type ID: `kaya:entity`

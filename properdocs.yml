@@ -10,7 +10,7 @@ theme:
   favicon: img/icon.png
   logo: img/icon.png
   font:
-    text: Inter
+    text: Roboto Slab
     code: JetBrains Mono
   palette:
     - media: "(prefers-color-scheme)"
@@ -32,13 +32,473 @@ theme:
         name: Switch to system preference
   features:
     - content.code.annotate
-    - content.tabs.link
     - content.footnote.tooltips
+    - content.tabs.link
     - navigation.expand
-    - navigation.instant
     - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.preview
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
     - navigation.top
     - search.share
+
+nav:
+  - Home:
+    - index.md
+    - Commands:
+      - command/resource.md
+  - Action:
+    - action/index.md
+    - Meta Types:
+      - action/conditional_composite.md
+      - action/conditional.md
+      - action/loop.md
+      - action/nothing.md
+      - action/provide_context.md
+      - action/random_chance.md
+      - action/reference.md
+      - action/sequence.md
+      - action/side.md
+      - action/weighted.md
+    - General Types:
+      - action/add_velocity.md
+      - action/apply_effects.md
+      - action/area_of_effect.md
+      - action/bone_meal.md
+      - action/clear_powers.md
+      - action/consume_item.md
+      - action/damage_entity.md
+      - action/damage_item.md
+      - action/dismount.md
+      - action/emit_game_event.md
+      - action/execute_command.md
+      - action/exhaust.md
+      - action/explode.md
+      - action/extinguish_entity_fire.md
+      - action/gain_air.md
+      - action/give_items.md
+      - action/grant_power.md
+      - action/modify_block_state_property.md
+      - action/modify_item.md
+      - action/mount.md
+      - action/place_block.md
+      - action/play_sound.md
+      - action/remove_power.md
+      - action/revoke_all_powers.md
+      - action/revoke_power.md
+      - action/set_entity_on_fire.md
+      - action/set_resource_float.md
+      - action/set_resource_int.md
+      - action/shoot_entity.md
+      - action/spawn_particles.md
+      - action/swing_hand.md
+      - action/tame.md
+      - action/toggle_power.md
+      - action/trigger_power_cooldown.md
+  - Area:
+    - area/index.md
+    - Types:
+      - area/box.md
+      - area/radius.md
+  - Color:
+    - color/index.md
+    - Constant Types:
+      - color/argb.md
+      - color/hsv.md
+      - color/rgba.md
+    - Dynamic Types:
+      - color/biome_foliage.md
+      - color/biome_grass.md
+      - color/biome_water.md
+      - color/dynamic_argb.md
+      - color/dynamic_hsv.md
+      - color/dynamic_rgba.md
+  - Comparison:
+    - comparison/index.md
+    - Types:
+      - comparison/entity.md
+      - comparison/float.md
+      - comparison/int.md
+      - comparison/nbt.md
+      - comparison/string.md
+  - Condition:
+    - condition/index.md
+    - Meta Types:
+      - condition/all_of.md
+      - condition/any_of.md
+      - condition/compare.md
+      - condition/constant.md
+      - condition/difficulty.md
+      - condition/dynamic.md
+      - condition/inverted.md
+      - condition/parameter_exists.md
+      - condition/provide_context.md
+      - condition/reference.md
+    - General Types:
+      - condition/block_state_property.md
+      - condition/check_block_type.md
+      - condition/check_damage_type.md
+      - condition/check_effect_type.md
+      - condition/check_entity_type.md
+      - condition/check_precipitation.md
+      - condition/entity_has_active_power.md
+      - condition/entity_has_correct_tool_for_block.md
+      - condition/entity_has_item_equipped.md
+      - condition/entity_has_power.md
+      - condition/entity_has_pressed_key.md
+      - condition/is_block_entity.md
+      - condition/is_block_replaceable.md
+      - condition/is_entity_climbing.md
+      - condition/is_entity_fall_flying.md
+      - condition/is_entity_horizontally_colliding.md
+      - condition/is_entity_on_fire.md
+      - condition/is_entity_owned_by_other.md
+      - condition/is_entity_sneaking.md
+      - condition/is_entity_sprinting.md
+      - condition/is_entity_stepping_on_block.md
+      - condition/is_exposed_to_sky.md
+      - condition/item_matches_ingredient.md
+      - condition/item_matches_predicate.md
+      - condition/matches_block_pattern.md
+      - condition/is_sky_visible.md
+  - Container Menu:
+    - container_menu/index.md
+    - Types:
+      - container_menu/dynamic.md
+      - container_menu/generic_3x3.md
+      - container_menu/generic_9x1.md
+      - container_menu/generic_9x2.md
+      - container_menu/generic_9x3.md
+      - container_menu/generic_9x4.md
+      - container_menu/generic_9x5.md
+      - container_menu/generic_9x6.md
+      - container_menu/hopper.md
+  - Data:
+    - data/index.md
+    - data/array.md
+    - data/attributed_modifier.md
+    - data/axis.md
+    - data/block_interaction.md
+    - data/block_use_phase.md
+    - data/boolean.md
+    - data/comparator.md
+    - data/context_parameter_map.md
+    - data/context_parameter.md
+    - data/crafting_recipe_entry.md
+    - data/direction.md
+    - data/equipment_slot_group.md
+    - data/equipment_slot.md
+    - data/float.md
+    - data/hand.md
+    - data/indexed_stack.md
+    - data/ingredient.md
+    - data/integer.md
+    - data/interaction_result.md
+    - data/item_stack.md
+    - data/key_predicate.md
+    - data/key_reference.md
+    - data/object.md
+    - data/particle_effect.md
+    - data/power_identifier.md
+    - data/precipitation.md
+    - data/render_phase.md
+    - data/rounding_mode.md
+    - data/shape_type.md
+    - data/shape.md
+    - data/space.md
+    - data/sprite.md
+    - data/status_effect_instance.md
+    - data/string.md
+    - data/text_alignment.md
+    - data/vec3.md
+  - HUD Element:
+    - hud_element/index.md
+    - Types:
+      - hud_element/overlay_nausea.md
+      - hud_element/overlay_texture.md
+      - hud_element/resource_bar.md
+  - Modifier: modifier/index.md
+  - Power:
+    - power/index.md
+    - Callback Types:
+      - power/callback_block_break.md
+      - power/callback_block_place.md
+      - power/callback_damage_dealt.md
+      - power/callback_damage_taken.md
+      - power/callback_player_respawned.md
+      - power/callback_player_wake_up.md
+      - power/callback_power_added.md
+      - power/callback_power_granted.md
+      - power/callback_power_removed.md
+      - power/callback_power_revoked.md
+      - power/callback_power_tick.md
+      - power/callback_projectile_land.md
+    - Modifying Types:
+      - power/modify_air_speed.md
+      - power/modify_attribute_vanilla.md
+      - power/modify_attribute.md
+      - power/modify_block_harvestable.md
+      - power/modify_block_selectable.md
+      - power/modify_block_use.md
+      - power/modify_climbing.md
+      - power/modify_damage_dealt.md
+      - power/modify_damage_invulnerability.md
+      - power/modify_damage_taken.md
+      - power/modify_effect_duration.md
+      - power/modify_effect_immunity.md
+      - power/modify_elytra_flight.md
+      - power/modify_elytra_render.md
+      - power/modify_entity_type_tag.md
+      - power/modify_exhaustion.md
+      - power/modify_falling.md
+      - power/modify_glowing_other.md
+      - power/modify_glowing_self.md
+      - power/modify_invisibility.md
+      - power/modify_item_use.md
+      - power/modify_item_wearable.md
+      - power/modify_model_color_other.md
+      - power/modify_model_color_self.md
+      - power/modify_model_shaking.md
+      - power/modify_player_spawn.md
+      - power/modify_recipe_crafting.md
+    - General Types:
+      - power/cooldown.md
+      - power/crafting_recipe.md
+      - power/dummy.md
+      - power/hud_render.md
+      - power/inventory.md
+      - power/multiple.md
+      - power/nbt.md
+      - power/phasing.md
+      - power/replace_loot_table.md
+      - power/resource_float.md
+      - power/resource_int.md
+      - power/toggle.md
+  - Value Provider:
+    - value_provider/index.md
+    - Kinds:
+      - Block Provider: 
+        - value_provider/block/index.md
+        - Meta Types:
+          - value_provider/meta/conditional_composite.md
+          - value_provider/meta/conditional.md
+          - value_provider/meta/context.md
+          - value_provider/meta/weighted.md
+        - General Types:
+          - value_provider/block/world.md
+      - Boolean Provider:
+        - value_provider/boolean/index.md
+        - Meta Types:
+          - value_provider/meta/conditional_composite.md
+          - value_provider/meta/conditional.md
+          - value_provider/boolean/constant.md
+          - value_provider/meta/context.md
+          - value_provider/meta/weighted.md
+        - General Types:
+          - value_provider/boolean/condition_result.md
+          - value_provider/boolean/nbt.md
+      - Box Provider:
+        - value_provider/box/index.md
+        - Meta Types:
+          - value_provider/meta/conditional_composite.md
+          - value_provider/meta/conditional.md
+          - value_provider/box/constant.md
+          - value_provider/meta/context.md
+          - value_provider/box/dynamic.md
+          - value_provider/box/inflate.md
+          - value_provider/box/resize.md
+          - value_provider/box/translate.md
+          - value_provider/meta/weighted.md
+        - General Types:
+          - value_provider/box/block_bounds.md
+          - value_provider/box/entity_bounds.md
+      - Command Source Provider:
+        - value_provider/command_source/index.md
+        - Meta Types:
+          - value_provider/meta/conditional_composite.md
+          - value_provider/meta/conditional.md
+          - value_provider/meta/weighted.md
+        - General Types:
+          - value_provider/command_source/block.md
+          - value_provider/command_source/entity.md
+          - value_provider/command_source/server.md
+      - Damage Source Provider:
+        - value_provider/damage_source/index.md
+        - Types:
+          - value_provider/meta/conditional_composite.md
+          - value_provider/meta/conditional.md
+          - value_provider/meta/context.md
+          - value_provider/meta/weighted.md
+      - Direction Provider:
+        - value_provider/direction/index.md
+        - Types:
+          - value_provider/meta/conditional_composite.md
+          - value_provider/meta/conditional.md
+          - value_provider/direction/constant.md
+          - value_provider/direction/opposite.md
+          - value_provider/direction/rotate.md
+          - value_provider/meta/weighted.md
+      - Effect Provider:
+        - value_provider/effect/index.md
+        - Types:
+          - value_provider/meta/conditional_composite.md
+          - value_provider/meta/conditional.md
+          - value_provider/effect/constant.md
+          - value_provider/meta/context.md
+          - value_provider/meta/weighted.md
+      - Entity Provider:
+        - value_provider/entity/index.md
+        - Meta Types:
+          - value_provider/meta/conditional_composite.md
+          - value_provider/meta/conditional.md
+          - value_provider/meta/context.md
+          - value_provider/meta/weighted.md
+        - General Types:
+          - value_provider/entity/selector.md
+      - Float Provider:
+        - value_provider/float/index.md
+        - Meta Types:
+          - value_provider/meta/number/absolute.md
+          - value_provider/meta/number/clamped.md
+          - value_provider/meta/conditional_composite.md
+          - value_provider/meta/conditional.md
+          - value_provider/float/constant.md
+          - value_provider/meta/context.md
+          - value_provider/meta/number/difference.md
+          - value_provider/float/from_int.md
+          - value_provider/float/linear_interpolated.md
+          - value_provider/meta/number/max.md
+          - value_provider/meta/number/min.md
+          - value_provider/meta/number/negate.md
+          - value_provider/float/power.md
+          - value_provider/meta/number/product.md
+          - value_provider/meta/number/quotient.md
+          - value_provider/meta/number/random_uniform.md
+          - value_provider/float/round.md
+          - value_provider/meta/number/sum.md
+          - value_provider/meta/weighted.md
+        - General Types:
+          - value_provider/float/box_component.md
+          - value_provider/float/box_size.md
+          - value_provider/float/brightness.md
+          - value_provider/float/distance_between_vectors.md
+          - value_provider/float/entity_attribute.md
+          - value_provider/float/entity_fluid_height.md
+          - value_provider/float/item_attribute.md
+          - value_provider/float/nbt.md
+          - value_provider/float/player_saturation.md
+          - value_provider/float/power_cooldown_progress.md
+          - value_provider/float/rain_level.md
+          - value_provider/float/resource.md
+          - value_provider/float/thunder_level.md
+          - value_provider/float/vector_component.md
+          - value_provider/float/vector_length.md
+      - Int Provider:
+        - value_provider/int/index.md
+        - Meta Types:
+          - value_provider/meta/number/absolute.md
+          - value_provider/meta/number/clamped.md
+          - value_provider/meta/conditional_composite.md
+          - value_provider/meta/conditional.md
+          - value_provider/int/constant.md
+          - value_provider/meta/context.md
+          - value_provider/meta/number/difference.md
+          - value_provider/int/from_float.md
+          - value_provider/meta/number/max.md
+          - value_provider/meta/number/min.md
+          - value_provider/meta/number/negate.md
+          - value_provider/meta/number/product.md
+          - value_provider/meta/number/quotient.md
+          - value_provider/int/random_binomial.md
+          - value_provider/meta/number/random_uniform.md
+          - value_provider/meta/number/sum.md
+          - value_provider/meta/weighted.md
+        - General Types:
+          - value_provider/int/adjacent_blocks.md
+          - value_provider/int/blocks_colliding_box.md
+          - value_provider/int/blocks_intersecting_box.md
+          - value_provider/int/count_in_area.md
+          - value_provider/int/effect_amplifier.md
+          - value_provider/int/entity_active_effects.md
+          - value_provider/int/equipped_enchantment_level.md
+          - value_provider/int/item_count_max.md
+          - value_provider/int/item_count.md
+          - value_provider/int/item_fuel.md
+          - value_provider/int/key_pressed_ticks.md
+          - value_provider/int/key_pressed_time.md
+          - value_provider/int/light_level.md
+          - value_provider/int/nbt.md
+          - value_provider/int/player_food.md
+          - value_provider/int/power_cooldown_remaining_ticks.md
+          - value_provider/int/resource.md
+          - value_provider/int/slot_id.md
+          - value_provider/int/time.md
+      - Item Provider:
+        - value_provider/item/index.md
+        - Types:
+          - value_provider/meta/conditional_composite.md
+          - value_provider/meta/conditional.md
+          - value_provider/meta/context.md
+          - value_provider/meta/weighted.md
+      - NBT Provider:
+        - value_provider/nbt/index.md
+        - Meta Types:
+          - value_provider/meta/conditional_composite.md
+          - value_provider/meta/conditional.md
+          - value_provider/nbt/constant.md
+          - value_provider/meta/context.md
+          - value_provider/meta/weighted.md
+        - General Types:
+          - value_provider/nbt/block.md
+          - value_provider/nbt/entity.md
+          - value_provider/nbt/item.md
+          - value_provider/nbt/power.md
+          - value_provider/nbt/storage.md
+      - Slot Provider:
+        - value_provider/slot/index.md
+        - Meta Types:
+          - value_provider/meta/conditional_composite.md
+          - value_provider/meta/conditional.md
+          - value_provider/meta/context.md
+          - value_provider/meta/weighted.md
+        - General Types:
+          - value_provider/slot/block.md
+          - value_provider/slot/entity.md
+      - String Provider:
+        - value_provider/string/index.md
+        - Meta Types:
+          - value_provider/meta/conditional_composite.md
+          - value_provider/meta/conditional.md
+          - value_provider/string/constant.md
+          - value_provider/string/escape.md
+          - value_provider/string/join.md
+          - value_provider/meta/context.md
+          - value_provider/meta/weighted.md
+        - General Types:
+          - value_provider/string/entity_uuid.md
+          - value_provider/string/from_float.md
+          - value_provider/string/from_int.md
+          - value_provider/string/nbt.md
+      - Vec3 Provider:
+        - value_provider/vec3/index.md
+        - Meta Types:
+          - value_provider/meta/conditional_composite.md
+          - value_provider/meta/conditional.md
+          - value_provider/vec3/constant.md
+          - value_provider/meta/context.md
+          - value_provider/vec3/dynamic.md
+          - value_provider/vec3/offset.md
+          - value_provider/meta/weighted.md
+        - General Types:
+          - value_provider/vec3/block_position.md
+          - value_provider/vec3/direction.md
+          - value_provider/vec3/entity_position.md
+          - value_provider/vec3/entity_velocity.md
+          - value_provider/vec3/entity_view.md
 
 plugins:
   - search

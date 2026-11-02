@@ -1,10 +1,6 @@
 #   String { #string_comparison }
 
-Compares the first and second strings lexicographically(1).
-{ .annotate }
-
-
-1. Lexicographical comparison means comparing two strings based on the order of their characters, similar to how words are arranged in a dictionary.
+Compares two strings lexicographically[^1].
 
 
 Type ID: `kaya:string`
@@ -48,3 +44,6 @@ This example checks if the first string is lexographically less than the second 
         <td style="vertical-align: middle">Added the type.</td>
     </tr>
 </table>
+
+
+[^1]: Comparing strings lexicographically means comparing the order of the strings' characters, similar to how words are arranged in a dictionary

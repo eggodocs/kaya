@@ -1,9 +1,6 @@
 #   Damage Source Provider
 
-Damage source providers are data objects that operate on the given context, and return a `DamageSource`(1) based on the provided information.
-{ .annotate }
-
-1. `DamageSource` is an object that contains the damage type, causing/direct entity, and a position.
+Damage source providers are data objects that operate on the given context, and return a damage source based on the provided information.
 
 
 ### Format
