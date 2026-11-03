@@ -66,6 +66,7 @@ Field | Type | Default | Description
 - [`item/attribute`](item_attribute.md)
 - [`nbt`](nbt.md)
 - [`player/saturation`](player_saturation.md)
+- [`player/xp/progress`](player_xp_progress.md)
 - [`power/cooldown/progress`](power_cooldown_progress.md)
 - [`rain_level`](rain_level.md)
 - [`resource`](resource.md)
