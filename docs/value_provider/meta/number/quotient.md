@@ -3,7 +3,7 @@
 Divides a number and uses the quotient as the provided number value.
 
 
-Type ID: `kaya:quotient`
+Type ID: `kaya:quotient`[^1]
 
 
 !!! note
@@ -54,3 +54,6 @@ $(Value = FoodLevel \div 20)$
         <td style="vertical-align: middle">Added the type.</td>
     </tr>
 </table>
+
+
+[^1]: Aliases: `div`, `divide`

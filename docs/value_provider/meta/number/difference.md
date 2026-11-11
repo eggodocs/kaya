@@ -3,7 +3,7 @@
 Subtracts all the number values and uses the difference as the provided number value.
 
 
-Type ID: `kaya:difference`
+Type ID: `kaya:difference`[^1]
 
 
 !!! note
@@ -55,3 +55,6 @@ $(Value = LightLevel + 4)$
         <td style="vertical-align: middle">Added the type.</td>
     </tr>
 </table>
+
+
+[^1]: Aliases: `sub`, `diff`, `subtract`

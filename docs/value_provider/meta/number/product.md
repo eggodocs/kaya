@@ -3,7 +3,7 @@
 Multiplies all the number values and uses the product as the provided number value.
 
 
-Type ID: `kaya:product`
+Type ID: `kaya:product`[^1]
 
 
 !!! note
@@ -53,3 +53,6 @@ $(Value = AttributeValue * 0.1)$
         <td style="vertical-align: middle">Added the type.</td>
     </tr>
 </table>
+
+
+[^1]: Aliases: `mul`, `multiply`

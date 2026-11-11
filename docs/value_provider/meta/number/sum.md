@@ -3,7 +3,7 @@
 Adds all the number values and uses the sum as the provided number value.
 
 
-Type ID: `kaya:sum`
+Type ID: `kaya:sum`[^1]
 
 
 !!! note
@@ -54,3 +54,6 @@ $(Value = EnchantmentLevel + 1)$
         <td style="vertical-align: middle">Added the type.</td>
     </tr>
 </table>
+
+
+[^1]: Aliases: `add`, `addition`

@@ -3,7 +3,7 @@
 Provides a container that has 6 rows and 9 columns.
 
 
-Type ID: `kaya:generic_9x6`
+Type ID: `kaya:generic_9x6`[^1]
 
 
 ### Format
@@ -47,3 +47,6 @@ Type ID: `kaya:generic_9x6`
         <td style="vertical-align: middle">Added the type.</td>
     </tr>
 </table>
+
+
+[^1]: Aliases: `double_chest`

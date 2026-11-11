@@ -11,7 +11,7 @@ example:
 Interpolates a float value.
 
 
-Type ID: `kaya:linear_interpolated`
+Type ID: `kaya:linear_interpolated`[^1]
 
 
 ### Format
@@ -68,3 +68,6 @@ For example, if the attribute has a value of ${{ example.delta }}$, the provided
         <td style="vertical-align: middle">Added the type.</td>
     </tr>
 </table>
+
+
+[^1]: Aliases: `lerp`

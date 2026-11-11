@@ -3,7 +3,7 @@
 Calculates a pseudo-random number from the specified number range.
 
 
-Type ID: `kaya:random/uniform`
+Type ID: `kaya:random/uniform`[^1]
 
 
 !!! note
@@ -46,3 +46,6 @@ This example is an int provider that will calculate an integer ranging from $1$ 
         <td style="vertical-align: middle">Added the type.</td>
     </tr>
 </table>
+
+
+[^1]: Aliases: `random`, `rand`

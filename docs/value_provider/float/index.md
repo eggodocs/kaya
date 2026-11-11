@@ -22,8 +22,6 @@ Field | Type | Default | Description
 
 ### Meta types
 
-<div class="annotate" markdown>
-
 - [`absolute`](../meta/number/absolute.md)(1)
 - [`clamped`](../meta/number/clamped.md)
 - [`conditional/composite`](../meta/conditional_composite.md)
@@ -43,16 +41,6 @@ Field | Type | Default | Description
 - [`round`](round.md)
 - [`sum`](../meta/number/sum.md)(7)
 - [`weighted`](../meta/weighted.md)
-
-</div>
-
-1. Aliases: `abs`
-2. Aliases: `sub`, `diff`, `subtract`
-3. Aliases: `lerp`
-4. Aliases: `mul`, `multiply`
-5. Aliases: `div`, `divide`
-6. Aliases: `random`, `rand`
-7. Aliases: `add`, `addition`
 
 
 ### Types
