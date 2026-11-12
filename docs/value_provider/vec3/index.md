@@ -25,6 +25,7 @@ Field | Type | Default | Description
 - [`conditional`](../meta/conditional.md)
 - [`constant`](constant.md)
 - [`context`](../meta/context.md)
+- [`cross_product`](cross_product.md)
 - [`dynamic`](dynamic.md)
 - [`normalize`](normalize.md)
 - [`offset`](offset.md)
