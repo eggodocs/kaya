@@ -26,6 +26,7 @@ Field | Type | Default | Description
 - [`constant`](constant.md)
 - [`context`](../meta/context.md)
 - [`dynamic`](dynamic.md)
+- [`normalize`](normalize.md)
 - [`offset`](offset.md)
 - [`weighted`](../meta/weighted.md)
 

@@ -55,6 +55,10 @@ def define_env(env):
         return math.sqrt(x)
 
     @env.macro
+    def sqr(x):
+        return x * x
+
+    @env.macro
     def brightness_dict(ambient_light=float):
 
         values = {}

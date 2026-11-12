@@ -492,11 +492,12 @@ nav:
         - Meta Types:
           - value_provider/meta/conditional_composite.md
           - value_provider/meta/conditional.md
-          - value_provider/vec3/constant.md
           - value_provider/meta/context.md
-          - value_provider/vec3/dynamic.md
-          - value_provider/vec3/offset.md
           - value_provider/meta/weighted.md
+          - value_provider/vec3/constant.md
+          - value_provider/vec3/dynamic.md
+          - value_provider/vec3/normalize.md
+          - value_provider/vec3/offset.md
         - General Types:
           - value_provider/vec3/block_position.md
           - value_provider/vec3/direction.md
