@@ -392,6 +392,8 @@ nav:
           - value_provider/float/distance_between_vectors.md
           - value_provider/float/entity_attribute.md
           - value_provider/float/entity_fluid_height.md
+          - value_provider/float/entity_pitch.md
+          - value_provider/float/entity_yaw.md
           - value_provider/float/item_attribute.md
           - value_provider/float/nbt.md
           - value_provider/float/player_saturation.md
