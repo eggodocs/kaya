@@ -33,6 +33,7 @@ Field | Type | Default | Description
 - [`offset`](offset.md)
 - [`product`](product.md)
 - [`reverse`](reverse.md)
+- [`sum`](sum.md)
 - [`weighted`](../meta/weighted.md)
 
 

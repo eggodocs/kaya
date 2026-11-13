@@ -503,6 +503,7 @@ nav:
           - value_provider/vec3/offset.md
           - value_provider/vec3/product.md
           - value_provider/vec3/reverse.md
+          - value_provider/vec3/sum.md
         - General Types:
           - value_provider/vec3/block_position.md
           - value_provider/vec3/direction.md
