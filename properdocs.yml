@@ -501,6 +501,7 @@ nav:
           - value_provider/vec3/linear_interpolated.md
           - value_provider/vec3/normalize.md
           - value_provider/vec3/offset.md
+          - value_provider/vec3/product.md
           - value_provider/vec3/reverse.md
         - General Types:
           - value_provider/vec3/block_position.md

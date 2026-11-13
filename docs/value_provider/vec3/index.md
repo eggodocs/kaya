@@ -31,6 +31,7 @@ Field | Type | Default | Description
 - [`linear_interpolated`](linear_interpolated.md)
 - [`normalize`](normalize.md)
 - [`offset`](offset.md)
+- [`product`](product.md)
 - [`reverse`](reverse.md)
 - [`weighted`](../meta/weighted.md)
 
