@@ -498,6 +498,7 @@ nav:
           - value_provider/vec3/cross_product.md
           - value_provider/vec3/difference.md
           - value_provider/vec3/dynamic.md
+          - value_provider/vec3/linear_interpolated.md
           - value_provider/vec3/normalize.md
           - value_provider/vec3/offset.md
         - General Types:

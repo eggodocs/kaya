@@ -28,6 +28,7 @@ Field | Type | Default | Description
 - [`cross_product`](cross_product.md)
 - [`difference`](difference.md)
 - [`dynamic`](dynamic.md)
+- [`linear_interpolated`](linear_interpolated.md)
 - [`normalize`](normalize.md)
 - [`offset`](offset.md)
 - [`weighted`](../meta/weighted.md)
