@@ -1,9 +1,9 @@
-#   Dot Product
+#   Vector Dot Product
 
 Provides the dot product of two vectors.
 
 
-Type ID: `kaya:dot_product`
+Type ID: `kaya:vector/dot_product`
 
 
 ### Format
