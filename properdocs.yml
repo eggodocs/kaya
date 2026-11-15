@@ -400,6 +400,7 @@ nav:
           - value_provider/float/resource.md
           - value_provider/float/thunder_level.md
           - value_provider/float/vector_component.md
+          - value_provider/float/vector_dot_product.md
           - value_provider/float/vector_length.md
       - Int Provider:
         - value_provider/int/index.md

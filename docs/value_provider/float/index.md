@@ -59,4 +59,5 @@ Field | Type | Default | Description
 - [`resource`](resource.md)
 - [`thunder_level`](thunder_level.md)
 - [`vector/component`](vector_component.md)
+- [`vector/dot_product`](vector_dot_product.md)
 - [`vector/length`](vector_length.md)
