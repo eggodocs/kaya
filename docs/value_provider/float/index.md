@@ -42,6 +42,7 @@ Field | Type | Default | Description
 - [`random/uniform`](../meta/number/random_uniform.md)
 - [`round`](round.md)
 - [`sine/arc`](sine_arc.md)
+- [`sine`](sine.md)
 - [`sum`](../meta/number/sum.md)(7)
 - [`weighted`](../meta/weighted.md)
 

@@ -385,6 +385,7 @@ nav:
           - value_provider/meta/number/random_uniform.md
           - value_provider/float/round.md
           - value_provider/float/sine_arc.md
+          - value_provider/float/sine.md
           - value_provider/meta/number/sum.md
           - value_provider/meta/weighted.md
         - General Types:
