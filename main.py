@@ -3,6 +3,9 @@ import decimal
 
 def define_env(env):
 
+    degrees_to_radians_multiplier = 0.017453292519943295
+    radians_to_degrees_multiplier = 57.29577951308232
+
     def quantize(number, format, rounding_mode=None):
         return decimal.Decimal(number).quantize(decimal.Decimal(format), rounding_mode)
 
@@ -63,6 +66,22 @@ def define_env(env):
             values[light_level] = ambient_light + (1 - ambient_light) * light_level / (60 - 3 * light_level)
 
         return values
+
+    @env.macro
+    def to_radians(degrees):
+        return degrees * degrees_to_radians_multiplier
+
+    @env.macro
+    def to_degrees(radians):
+        return radians * radians_to_degrees_multiplier
+
+    @env.macro
+    def cos(radians):
+        return math.cos(radians)
+
+    @env.macro
+    def acos(cos):
+        return math.acos(cos)
 
     @env.filter
     def string_transform(elements=list, pattern=str):

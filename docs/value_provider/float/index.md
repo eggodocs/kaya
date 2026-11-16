@@ -28,6 +28,7 @@ Field | Type | Default | Description
 - [`conditional`](../meta/conditional.md)
 - [`constant`](constant.md)
 - [`context`](../meta/context.md)
+- [`cosine/arc`](cosine_arc.md)
 - [`difference`](../meta/number/difference.md)(2)
 - [`from_int`](from_int.md)
 - [`linear_interpolated`](linear_interpolated.md)(3)
