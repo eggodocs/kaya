@@ -389,6 +389,7 @@ nav:
           - value_provider/float/square_root_inverse.md
           - value_provider/float/square_root.md
           - value_provider/meta/number/sum.md
+          - value_provider/float/tangent_arc_2.md
           - value_provider/meta/weighted.md
         - General Types:
           - value_provider/float/box_component.md
