@@ -50,6 +50,7 @@ Field | Type | Default | Description
 - [`tangent/arc`](tangent_arc.md)
 - [`tangent`](tangent.md)
 - [`to_degrees`](to_degrees.md)
+- [`to_radians`](to_radians.md)
 - [`weighted`](../meta/weighted.md)
 
 

@@ -1,10 +1,13 @@
 import math
 import decimal
 
+deg_to_rad = 0.017453292519943295
+rad_to_deg = 57.29577951308232
+
 def define_env(env):
 
-    degrees_to_radians_multiplier = 0.017453292519943295
-    radians_to_degrees_multiplier = 57.29577951308232
+    env.variables.deg_to_rad = deg_to_rad
+    env.variables.rad_to_deg = rad_to_deg
 
     def quantize(number, format, rounding_mode=None):
         return decimal.Decimal(number).quantize(decimal.Decimal(format), rounding_mode)
@@ -69,11 +72,11 @@ def define_env(env):
 
     @env.macro
     def to_radians(degrees):
-        return degrees * degrees_to_radians_multiplier
+        return degrees * deg_to_rad
 
     @env.macro
     def to_degrees(radians):
-        return radians * radians_to_degrees_multiplier
+        return radians * rad_to_deg
 
     @env.macro
     def cos(radians):

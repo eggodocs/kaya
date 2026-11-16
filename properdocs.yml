@@ -393,6 +393,7 @@ nav:
           - value_provider/float/tangent_arc.md
           - value_provider/float/tangent.md
           - value_provider/float/to_degrees.md
+          - value_provider/float/to_radians.md
           - value_provider/meta/weighted.md
         - General Types:
           - value_provider/float/box_component.md

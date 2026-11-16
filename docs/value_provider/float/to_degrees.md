@@ -8,7 +8,7 @@ Type ID: `kaya:to_degrees`
 
 !!! note
 
-    The formula for this type is as follows: $deg = rad * 57.29577951308232$
+    The formula for this type is as follows: $deg = rad \times {{ rad_to_deg }}$
 
 
 ### Format
@@ -30,7 +30,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will provide degree angle of the radian angle {{ radians }}, which will be {{ degrees }}.
+This example will provide the computed radian angle from degree angle {{ degrees }}, which will be {{ radians }}.
 
 
 ### History
