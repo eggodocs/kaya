@@ -44,7 +44,8 @@ Field | Type | Default | Description
 - [`sine/arc`](sine_arc.md)
 - [`sine`](sine.md)
 - [`square_root/inverse`](square_root_inverse.md)
-- [`sum`](../meta/number/sum.md)(7)
+- [`square_root`](square_root.md)
+- [`sum`](../meta/number/sum.md)
 - [`weighted`](../meta/weighted.md)
 
 
