@@ -22,34 +22,23 @@ Field | Type | Default | Description
 
 ### Meta types
 
-<div class="annotate" markdown>
-
-- [`absolute`](../meta/number/absolute.md)(1)
+- [`absolute`](../meta/number/absolute.md)
 - [`clamped`](../meta/number/clamped.md)
 - [`conditional/composite`](../meta/conditional_composite.md)
 - [`conditional`](../meta/conditional.md)
 - [`constant`](constant.md)
 - [`context`](../meta/context.md)
-- [`difference`](../meta/number/difference.md) (2)
+- [`difference`](../meta/number/difference.md)
 - [`from_float`](from_float.md)
 - [`max`](../meta/number/max.md)
 - [`min`](../meta/number/min.md)
 - [`negate`](../meta/number/negate.md)
-- [`product`](../meta/number/product.md) (3)
-- [`quotient`](../meta/number/quotient.md)(4)
+- [`product`](../meta/number/product.md)
+- [`quotient`](../meta/number/quotient.md)
 - [`random/binomial`](random_binomial.md)
-- [`random/uniform`](../meta/number/random_uniform.md)(5)
-- [`sum`](../meta/number/sum.md)(6)
+- [`random/uniform`](../meta/number/random_uniform.md)
+- [`sum`](../meta/number/sum.md)
 - [`weighted`](../meta/weighted.md)
-
-</div>
-
-1. Aliases: `abs`
-2. Aliases: `sub`, `diff`, `subtract`
-3. Aliases: `mul`, `multiply`
-4. Aliases: `div`, `divide`
-5. Aliases: `rand`, `random`
-6. Aliases: `add`, `addition`
 
 
 ### Types
