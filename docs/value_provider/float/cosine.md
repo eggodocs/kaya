@@ -1,6 +1,6 @@
 #   Cosine
 
-Provides the trigonometric cosine of an angle.
+Provides the [trigonometric cosine](https://en.wikipedia.org/wiki/Sine_and_cosine) of an angle.
 
 
 Type: `kaya:cosine`[^1]
@@ -15,8 +15,8 @@ Field | Type | Default | Description
 
 ### Example
 
-{% set degrees = 45 %}
 {% set radians = to_radians(45) %}
+{% set degrees = to_degrees(radians) %}
 {% set cos = cos(radians) %}
 
 ```json

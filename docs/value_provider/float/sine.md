@@ -1,6 +1,6 @@
 #   Sine
 
-Provides the trigonometric sine of an angle.
+Provides the [trigonometric sine](https://en.wikipedia.org/wiki/Sine_and_cosine) of an angle.
 
 
 Type ID: `kaya:sine`[^1]
