@@ -47,6 +47,7 @@ Field | Type | Default | Description
 - [`square_root`](square_root.md)
 - [`sum`](../meta/number/sum.md)
 - [`tangent/arc/2`](tangent_arc_2.md)
+- [`tangent/arc`](tangent_arc.md)
 - [`weighted`](../meta/weighted.md)
 
 

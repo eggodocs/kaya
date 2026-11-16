@@ -106,6 +106,10 @@ def define_env(env):
     @env.macro
     def atan(x):
         return math.atan(x)
+    
+    @env.macro
+    def tan(x):
+        return math.tan(x)
 
     @env.filter
     def string_transform(elements=list, pattern=str):
