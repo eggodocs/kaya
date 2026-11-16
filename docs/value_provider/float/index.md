@@ -43,6 +43,7 @@ Field | Type | Default | Description
 - [`round`](round.md)
 - [`sine/arc`](sine_arc.md)
 - [`sine`](sine.md)
+- [`square_root/inverse`](square_root_inverse.md)
 - [`sum`](../meta/number/sum.md)(7)
 - [`weighted`](../meta/weighted.md)
 

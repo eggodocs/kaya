@@ -1,5 +1,6 @@
 import math
 import decimal
+import struct
 
 def define_env(env):
 
@@ -90,6 +91,23 @@ def define_env(env):
     @env.macro
     def asin(sin):
         return math.asin(sin)
+
+    @env.macro
+    def sqrt(v):
+        return math.sqrt(v)
+
+    @env.macro
+    def inv_sqrt(v):
+        return 1.0 / sqrt(v)
+
+    @env.macro
+    def fast_inv_sqrt(v):
+        if v <= 0:
+            return float("nan")
+        i = struct.unpack(">i", struct.pack(">f", v))[0]
+        i = 0x5F3759DF - (i >> 1)
+        y = struct.unpack(">f", struct.pack(">i", i))[0]
+        return y * (1.5 - 0.5 * v * y * y)
 
     @env.filter
     def string_transform(elements=list, pattern=str):

@@ -374,7 +374,7 @@ nav:
           - value_provider/float/cosine_arc.md
           - value_provider/float/cosine.md
           - value_provider/meta/number/difference.md
-          - value_provider/float/from_init.md
+          - value_provider/float/from_int.md
           - value_provider/float/linear_interpolated.md
           - value_provider/meta/number/max.md
           - value_provider/meta/number/min.md
@@ -386,6 +386,7 @@ nav:
           - value_provider/float/round.md
           - value_provider/float/sine_arc.md
           - value_provider/float/sine.md
+          - value_provider/float/square_root_inverse.md
           - value_provider/meta/number/sum.md
           - value_provider/meta/weighted.md
         - General Types:
