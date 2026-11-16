@@ -38,7 +38,6 @@ execute if kaya:condition <condition> with <parameters> ...
 
 <table>
     <tr>
-        <td style="text-align: center; vertical-align: middle"><b>Minecraft</b></td>
         <td style="text-align: center; vertical-align: middle"><b>Mod</b></td>
         <td style="vertical-align: middle"><b>Changelog</b></td>
     </tr>
