@@ -22,7 +22,7 @@ Field | Type | Default | Description
 
 ### Meta types
 
-- [`absolute`](../meta/number/absolute.md)(1)
+- [`absolute`](../meta/number/absolute.md)
 - [`clamped`](../meta/number/clamped.md)
 - [`conditional/composite`](../meta/conditional_composite.md)
 - [`conditional`](../meta/conditional.md)
@@ -30,17 +30,18 @@ Field | Type | Default | Description
 - [`context`](../meta/context.md)
 - [`cosine/arc`](cosine_arc.md)
 - [`cosine`](cosine.md)
-- [`difference`](../meta/number/difference.md)(2)
+- [`difference`](../meta/number/difference.md)
 - [`from_int`](from_int.md)
-- [`linear_interpolated`](linear_interpolated.md)(3)
+- [`linear_interpolated`](linear_interpolated.md)
 - [`max`](../meta/number/max.md)
 - [`min`](../meta/number/min.md)
 - [`negate`](../meta/number/negate.md)
 - [`power`](power.md)
-- [`product`](../meta/number/product.md)(4)
-- [`quotient`](../meta/number/quotient.md)(5)
-- [`random/uniform`](../meta/number/random_uniform.md)(6)
+- [`product`](../meta/number/product.md)
+- [`quotient`](../meta/number/quotient.md)
+- [`random/uniform`](../meta/number/random_uniform.md)
 - [`round`](round.md)
+- [`sine/arc`](sine_arc.md)
 - [`sum`](../meta/number/sum.md)(7)
 - [`weighted`](../meta/weighted.md)
 

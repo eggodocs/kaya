@@ -83,6 +83,14 @@ def define_env(env):
     def acos(cos):
         return math.acos(cos)
 
+    @env.macro
+    def sin(radians):
+        return math.sin(radians)
+
+    @env.macro
+    def asin(sin):
+        return math.asin(sin)
+
     @env.filter
     def string_transform(elements=list, pattern=str):
 
