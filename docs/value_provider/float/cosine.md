@@ -29,7 +29,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will convert the {{ degrees }} degree angle into radians and calculate its cosine value, which will be {{ cos }}.
+This example will convert the {{ degrees }} degree angle into a radian angle and provide its cosine value, which will be {{ cos }}.
 
 1. The converted radian angle will be {{ radians }}.
 

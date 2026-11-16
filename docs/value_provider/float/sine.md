@@ -24,12 +24,14 @@ Field | Type | Default | Description
     "type": "kaya:sine",
     "value": {
         "type": "kaya:to_radians",
-        "degrees": {{ degrees }}
+        "degrees": {{ degrees }}//(1)!
     }
 }
 ```
 
-This example will convert the {{ degrees }} degree angle into radians and calculate its sine value, which will be {{ sin }}.
+This example will convert the {{ degrees }} degree angle into a radian angle and provide its sine value, which will be {{ sin }}.
+
+1. The convered radian angle will be {{ radians }}.
 
 
 ### History
