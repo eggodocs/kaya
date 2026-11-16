@@ -29,9 +29,6 @@ Field | Type | Default | Description
 
 This example will provide the inverse of the cosine value {{ cos }}, which will be {{ acos }}.
 
-
-[^1]: Aliases: `acos`
-
 1. The cosine value of the {{ radians }} radian angle, which is {{ degrees }} when converted to a degree angle.
 
 
@@ -49,3 +46,7 @@ This example will provide the inverse of the cosine value {{ cos }}, which will 
         <td style="vertical-align: middle">Added the type.</td>
     </tr>
 </table>
+
+
+
+[^1]: Aliases: `acos`

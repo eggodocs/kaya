@@ -368,6 +368,7 @@ nav:
         - Meta Types:
           - value_provider/float/constant.md
           - value_provider/float/cosine_arc.md
+          - value_provider/float/cosine.md
           - value_provider/float/from_int.md
           - value_provider/float/linear_interpolated.md
           - value_provider/float/power.md
