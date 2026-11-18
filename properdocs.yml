@@ -489,8 +489,8 @@ nav:
           - value_provider/meta/context.md
           - value_provider/meta/weighted.md
         - General Types:
-          - value_provider/slot/block.md
-          - value_provider/slot/entity.md
+          - value_provider/slot/from_block.md
+          - value_provider/slot/from_entity.md
       - String Provider:
         - value_provider/string/index.md
         - Meta Types:

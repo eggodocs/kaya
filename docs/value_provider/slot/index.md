@@ -24,6 +24,6 @@ Field | Type | Default | Description
 
 ### Types
 
-- [`block`](block.md)
-- [`entity`](entity.md)
+- [`from_block`](from_block.md)
+- [`from_entity`](from_entity.md)
   

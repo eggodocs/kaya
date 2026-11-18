@@ -3,7 +3,7 @@
 Provides the slot from a block.
 
 
-Type ID: `kaya:block`
+Type ID: `kaya:block`[^1]
 
 
 ### Format
@@ -42,3 +42,6 @@ This example provides the first slot of the block provided by the `kaya:used_blo
         <td style="vertical-align: middle">Added the type.</td>
     </tr>
 </table>
+
+
+[^1]: Aliases: `block`

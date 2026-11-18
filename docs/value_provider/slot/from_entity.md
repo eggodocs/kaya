@@ -3,7 +3,7 @@
 Provides the slot from an entity.
 
 
-Type ID: `kaya:entity`
+Type ID: `kaya:entity`[^1]
 
 
 ### Format
@@ -42,3 +42,6 @@ This example provides the 9th hotbar slot of the entity provided by the `kaya:th
         <td style="vertical-align: middle">Added the type.</td>
     </tr>
 </table>
+
+
+[^1]: Aliases: `entity`
