@@ -1,6 +1,9 @@
 import math
 import decimal
 
+deg_to_rad = 0.017453292519943295
+rad_to_deg = 57.29577951308232
+
 class Vec3f:
 
     def __init__(self, x=float, y=float, z=float):
@@ -12,6 +15,9 @@ class Vec3f:
         return "X: " + str(self.x) + ", Y: " + str(self.y) + ", Z: " + str(self.z)
 
 def define_env(env):
+
+    env.variables.deg_to_rad = deg_to_rad
+    env.variables.rad_to_deg = rad_to_deg
 
     def quantize(number, format, rounding_mode=None):
         return decimal.Decimal(number).quantize(decimal.Decimal(format), rounding_mode)
@@ -79,6 +85,48 @@ def define_env(env):
         return values
 
     @env.macro
+    def to_radians(degrees):
+        return degrees * deg_to_rad
+
+    @env.macro
+    def to_degrees(radians):
+        return radians * rad_to_deg
+
+    @env.macro
+    def cos(radians):
+        return math.cos(radians)
+
+    @env.macro
+    def acos(cos):
+        return math.acos(cos)
+
+    @env.macro
+    def sin(radians):
+        return math.sin(radians)
+
+    @env.macro
+    def asin(sin):
+        return math.asin(sin)
+
+    @env.macro
+    def sqrt(v):
+        return math.sqrt(v)
+
+    @env.macro
+    def inv_sqrt(v):
+        return 1.0 / sqrt(v)
+
+    @env.macro
+    def atan2(y, x):
+        return math.atan2(y, x)
+
+    @env.macro
+    def atan(x):
+        return math.atan(x)
+    
+    @env.macro
+    def tan(x):
+        return math.tan(x)
     def cross_product(a=Vec3f, b=Vec3f):
         return Vec3f(
             floor(a.y * b.z - a.z * b.y, "1.00"),

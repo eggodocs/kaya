@@ -367,11 +367,12 @@ nav:
         - value_provider/float/index.md
         - Meta Types:
           - value_provider/meta/number/absolute.md
-          - value_provider/meta/number/clamped.md
           - value_provider/meta/conditional_composite.md
           - value_provider/meta/conditional.md
           - value_provider/float/constant.md
           - value_provider/meta/context.md
+          - value_provider/float/cosine_arc.md
+          - value_provider/float/cosine.md
           - value_provider/meta/number/difference.md
           - value_provider/float/from_int.md
           - value_provider/float/linear_interpolated.md
@@ -383,7 +384,16 @@ nav:
           - value_provider/meta/number/quotient.md
           - value_provider/meta/number/random_uniform.md
           - value_provider/float/round.md
+          - value_provider/float/sine_arc.md
+          - value_provider/float/sine.md
+          - value_provider/float/square_root_inverse.md
+          - value_provider/float/square_root.md
           - value_provider/meta/number/sum.md
+          - value_provider/float/tangent_arc_2.md
+          - value_provider/float/tangent_arc.md
+          - value_provider/float/tangent.md
+          - value_provider/float/to_degrees.md
+          - value_provider/float/to_radians.md
           - value_provider/meta/weighted.md
         - General Types:
           - value_provider/float/box_component.md
