@@ -1009,6 +1009,10 @@
          <lastmod>2026-11-18</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/player_xp_progress/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/power/</loc>
          <lastmod>2026-11-18</lastmod>
     </url>
@@ -1110,6 +1114,18 @@
     </url>
     <url>
          <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/int/player_food/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/int/player_xp_level/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/int/player_xp_next/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/int/player_xp_score/</loc>
          <lastmod>2026-11-18</lastmod>
     </url>
     <url>
