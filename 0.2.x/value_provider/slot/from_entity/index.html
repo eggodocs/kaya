@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://eggodocs.github.io/kaya/0.2.x/value_provider/slot/block/">
+        <link rel="canonical" href="https://eggodocs.github.io/kaya/0.2.x/value_provider/slot/from_entity/">
       
       
-        <link rel="prev" href="../../meta/weighted/">
+        <link rel="prev" href="../from_block/">
       
       
-        <link rel="next" href="../entity/">
+        <link rel="next" href="../../string/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Block - Kaya Documentation</title>
+        <title>Entity - Kaya Documentation</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#block" class="md-skip">
+        <a href="#entity" class="md-skip">
           Skip to content
         </a>
       
@@ -129,7 +129,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Block
+              Entity
             
           </span>
         </div>
@@ -15555,6 +15555,34 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../from_block/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Block
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -15574,7 +15602,7 @@
   <span class="md-ellipsis">
     
   
-    Block
+    Entity
   
 
     
@@ -15592,7 +15620,7 @@
   <span class="md-ellipsis">
     
   
-    Block
+    Entity
   
 
     
@@ -15654,34 +15682,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../entity/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Entity
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -17213,7 +17213,7 @@
     
     
       <li class="md-path__item">
-        <a href="./" class="md-path__link">
+        <a href="../from_block/" class="md-path__link">
           
   <span class="md-ellipsis">
     General Types
@@ -17238,9 +17238,9 @@
   
 
 
-<h1 id="block">Block</h1>
-<p>Provides the slot from a block.</p>
-<p>Type ID: <code>kaya:block</code></p>
+<h1 id="entity">Entity</h1>
+<p>Provides the slot from an entity.</p>
+<p>Type ID: <code>kaya:entity</code><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
 <h3 id="format">Format</h3>
 <table>
 <thead>
@@ -17253,30 +17253,30 @@
 </thead>
 <tbody>
 <tr>
-<td><code>block</code></td>
-<td><a class="autorefs autorefs-internal" href="../../block/#block_provider">Block Provider</a></td>
+<td><code>entity</code></td>
+<td><a class="autorefs autorefs-internal" href="../../entity/#entity_provider">Entity Provider</a></td>
 <td style="text-align: center;"></td>
-<td>The block to get the slot from.</td>
+<td>The entity to get the slot from.</td>
 </tr>
 <tr>
 <td><code>slot</code></td>
 <td><a class="autorefs autorefs-internal" href="../../int/#int_provider">Int Provider</a></td>
 <td style="text-align: center;"></td>
-<td>The numerical ID of the slot to get from the block.</td>
+<td>The numerical ID of the slot to get from the entity.</td>
 </tr>
 </tbody>
 </table>
 <h3 id="example">Example</h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">{</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"kaya:block"</span><span class="p">,</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nt">"block"</span><span class="p">:</span><span class="w"> </span><span class="s2">"used_block"</span><span class="p">,</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"kaya:entity"</span><span class="p">,</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nt">"block"</span><span class="p">:</span><span class="w"> </span><span class="s2">"this"</span><span class="p">,</span>
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="nt">"slot"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"kaya:slot_id"</span><span class="p">,</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">        </span><span class="nt">"slot"</span><span class="p">:</span><span class="w"> </span><span class="s2">"container.0"</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">        </span><span class="nt">"slot"</span><span class="p">:</span><span class="w"> </span><span class="s2">"hotbar.9"</span>
 <a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="p">}</span>
 </code></pre></div>
-<p>This example provides the first slot of the block provided by the <code>kaya:used_block</code> context parameter.</p>
+<p>This example provides the 9th hotbar slot of the entity provided by the <code>kaya:this_entity</code> context parameter.</p>
 <h3 id="history">History</h3>
 <table>
     <tr>
@@ -17288,6 +17288,15 @@
         <td style="vertical-align: middle">Added the type.</td>
     </tr>
 </table>
+
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Aliases: <code>entity</code>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 
