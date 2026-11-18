@@ -402,6 +402,7 @@ nav:
           - value_provider/float/resource.md
           - value_provider/float/thunder_level.md
           - value_provider/float/vector_component.md
+          - value_provider/float/vector_dot_product.md
           - value_provider/float/vector_length.md
       - Int Provider:
         - value_provider/int/index.md
@@ -495,11 +496,19 @@ nav:
         - Meta Types:
           - value_provider/meta/conditional_composite.md
           - value_provider/meta/conditional.md
-          - value_provider/vec3/constant.md
           - value_provider/meta/context.md
-          - value_provider/vec3/dynamic.md
-          - value_provider/vec3/offset.md
           - value_provider/meta/weighted.md
+          - value_provider/vec3/constant.md
+          - value_provider/vec3/cross_product.md
+          - value_provider/vec3/difference.md
+          - value_provider/vec3/dynamic.md
+          - value_provider/vec3/linear_interpolated.md
+          - value_provider/vec3/normalize.md
+          - value_provider/vec3/offset.md
+          - value_provider/vec3/product.md
+          - value_provider/vec3/reverse.md
+          - value_provider/vec3/rotate.md
+          - value_provider/vec3/sum.md
         - General Types:
           - value_provider/vec3/block_position.md
           - value_provider/vec3/direction.md
