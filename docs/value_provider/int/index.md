@@ -46,6 +46,7 @@ Field | Type | Default | Description
 - [`adjacent_blocks`](adjacent_blocks.md)
 - [`blocks_colliding_box`](blocks_colliding_box.md)
 - [`blocks_intersecting_box`](blocks_intersecting_box.md)
+- [`command_result`](command_result.md)
 - [`count_in_area`](count_in_area.md)
 - [`effect/amplifier`](effect_amplifier.md)
 - [`entity/active_effects`](entity_active_effects.md)

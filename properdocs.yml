@@ -425,6 +425,7 @@ nav:
           - value_provider/int/adjacent_blocks.md
           - value_provider/int/blocks_colliding_box.md
           - value_provider/int/blocks_intersecting_box.md
+          - value_provider/int/command_result.md
           - value_provider/int/count_in_area.md
           - value_provider/int/effect_amplifier.md
           - value_provider/int/entity_active_effects.md
