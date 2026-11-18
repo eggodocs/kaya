@@ -4,6 +4,16 @@ import decimal
 deg_to_rad = 0.017453292519943295
 rad_to_deg = 57.29577951308232
 
+class Vec3f:
+
+    def __init__(self, x=float, y=float, z=float):
+        self.x = x
+        self.y = y
+        self.z = z
+
+    def __str__(self):
+        return "X: " + str(self.x) + ", Y: " + str(self.y) + ", Z: " + str(self.z)
+
 def define_env(env):
 
     env.variables.deg_to_rad = deg_to_rad
@@ -61,6 +71,10 @@ def define_env(env):
         return math.sqrt(x)
 
     @env.macro
+    def sqr(x):
+        return x * x
+
+    @env.macro
     def brightness_dict(ambient_light=float):
 
         values = {}
@@ -113,6 +127,20 @@ def define_env(env):
     @env.macro
     def tan(x):
         return math.tan(x)
+    def cross_product(a=Vec3f, b=Vec3f):
+        return Vec3f(
+            floor(a.y * b.z - a.z * b.y, "1.00"),
+            floor(a.z * b.x - a.x * b.z, "1.00"),
+            floor(a.x * b.y - a.y * b.x, "1.00")
+        )
+
+    @env.macro
+    def to_str(o):
+        return str(o)
+
+    @env.macro
+    def vec3f(x=float, y=float, z=float):
+        return Vec3f(x, y, z)
 
     @env.filter
     def string_transform(elements=list, pattern=str):
