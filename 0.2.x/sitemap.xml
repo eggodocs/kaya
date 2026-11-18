@@ -977,6 +977,14 @@
          <lastmod>2026-11-18</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/cosine/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/cosine_arc/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/distance_between_vectors/</loc>
          <lastmod>2026-11-18</lastmod>
     </url>
@@ -1041,7 +1049,43 @@
          <lastmod>2026-11-18</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/sine/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/sine_arc/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/square_root/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/square_root_inverse/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/tangent/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/tangent_arc/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/tangent_arc_2/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/thunder_level/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/to_degrees/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/to_radians/</loc>
          <lastmod>2026-11-18</lastmod>
     </url>
     <url>
