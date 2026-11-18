@@ -51,6 +51,8 @@ Field | Type | Default | Description
 - [`distance_between_vectors`](distance_between_vectors.md)
 - [`entity/attribute`](entity_attribute.md)
 - [`entity/fluid_height`](entity_fluid_height.md)
+- [`entity/pitch`](entity_pitch.md)
+- [`entity/yaw`](entity_yaw.md)
 - [`item/attribute`](item_attribute.md)
 - [`nbt`](nbt.md)
 - [`player/saturation`](player_saturation.md)
