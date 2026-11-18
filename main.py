@@ -127,6 +127,8 @@ def define_env(env):
     @env.macro
     def tan(x):
         return math.tan(x)
+
+    @env.macro
     def cross_product(a=Vec3f, b=Vec3f):
         return Vec3f(
             floor(a.y * b.z - a.z * b.y, "1.00"),

@@ -1,4 +1,4 @@
-#   Power
+#   Power { #nbt_power }
 
 Encodes the data of the referenced power as NBT and uses it as the provided value.
 

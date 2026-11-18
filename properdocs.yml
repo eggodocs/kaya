@@ -367,6 +367,7 @@ nav:
         - value_provider/float/index.md
         - Meta Types:
           - value_provider/meta/number/absolute.md
+          - value_provider/meta/number/clamped.md
           - value_provider/meta/conditional_composite.md
           - value_provider/meta/conditional.md
           - value_provider/float/constant.md
@@ -407,6 +408,7 @@ nav:
           - value_provider/float/item_attribute.md
           - value_provider/float/nbt.md
           - value_provider/float/player_saturation.md
+          - value_provider/float/player_xp_progress.md
           - value_provider/float/power_cooldown_progress.md
           - value_provider/float/rain_level.md
           - value_provider/float/resource.md
@@ -451,6 +453,9 @@ nav:
           - value_provider/int/light_level.md
           - value_provider/int/nbt.md
           - value_provider/int/player_food.md
+          - value_provider/int/player_xp_level.md
+          - value_provider/int/player_xp_next.md
+          - value_provider/int/player_xp_score.md
           - value_provider/int/power_cooldown_remaining_ticks.md
           - value_provider/int/resource.md
           - value_provider/int/slot_id.md

@@ -1,4 +1,4 @@
-#   Power
+#   Power { #float_power }
 
 Provides a float value raised to the power of another float.
 
