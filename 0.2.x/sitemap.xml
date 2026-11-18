@@ -989,6 +989,14 @@
          <lastmod>2026-11-18</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/entity_pitch/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/entity_yaw/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/from_int/</loc>
          <lastmod>2026-11-18</lastmod>
     </url>
@@ -1038,6 +1046,10 @@
     </url>
     <url>
          <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/vector_component/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/float/vector_dot_product/</loc>
          <lastmod>2026-11-18</lastmod>
     </url>
     <url>
@@ -1297,6 +1309,14 @@
          <lastmod>2026-11-18</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/vec3/cross_product/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/vec3/difference/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/vec3/direction/</loc>
          <lastmod>2026-11-18</lastmod>
     </url>
@@ -1317,7 +1337,31 @@
          <lastmod>2026-11-18</lastmod>
     </url>
     <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/vec3/linear_interpolated/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/vec3/normalize/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
          <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/vec3/offset/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/vec3/product/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/vec3/reverse/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/vec3/rotate/</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://eggodocs.github.io/kaya/0.2.x/value_provider/vec3/sum/</loc>
          <lastmod>2026-11-18</lastmod>
     </url>
 </urlset>
