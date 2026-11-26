@@ -15,24 +15,59 @@ Validates and executes the specified action.
 
 ## Syntax
 
-```mcfunction
-action dump <id> [<indent>]
+### Syntax tree
 
-action execute <action> with <parameters>
+`/action ...`
+
+<ul>
+    <li>
+        <code>... <a href="#execute">execute</a> &lt;action&gt; with &lt;parameters&gt;</code>
+    </li>
+    <li>
+        <code>... <a href="#dump">dump</a> &lt;action&gt; [&lt;indent&gt;]</code>
+    </li>
+</ul>
+
+### Sub-commands
+
+#### execute
+
+Executes a specific action.
+
+##### Syntax
+
+```mcfunction
+execute <action> with <parameters>
 ```
 
+##### Arguments
 
-##  Arguments
-
-- `<id>`: [identifier]({{ mc.identifier }})
-    - The ID of the action to encode and display as JSON in chat.
-- `<action>`: [identifier]({{ mc.identifier}}), [tag]({{ mc.tag }}), or an [inlined_action][action]
+- `<action>`: [identifier], [tag]({{ mc.tag }}), or [action][action]
     - The action(s) to execute.
 - `<parameters>`: [context_parameter_map][context_parameter_map]
     - The context to provide to the specified action.
 
 
-### History
+#### dump
+
+Encodes the action to JSON and dumps it in the chat (visible only to the executor of the command.)
+
+##### Syntax
+
+```mcfunction
+dump <action> [<indent>]
+```
+
+##### Arguments
+
+- `<action>`: [identifier]({{ mc.identifier }})
+    - The ID of the action to encode and dump its JSON.
+- `<indent>`: [integer](https://minecraft.wiki/w/Argument_types#brigadier:integer)
+    - Specifies the indent for each line.
+    - If omitted, this will default to `4`.
+
+
+## History
 
 <table>
     <tr>
