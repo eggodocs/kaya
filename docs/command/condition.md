@@ -3,6 +3,40 @@
 Validates and invokes the specified condition.
 
 
+??? note
+
+    This command is also available as a sub-command for `/execute` with the same syntax as `/condition test`:
+
+    ```mcfunction
+    execute (if|unless) kaya:condition <condition> with <parameters>
+    ```
+
+
+## Syntax
+
+
+### Syntax tree
+
+`/condition ...`
+
+<ul>
+    <li>
+        <code>... <a href="#test">test</a> &lt;condition&gt; with &lt;parameters&gt;</code>
+    </li>
+    <li>
+        <code>... <a href="#dump">dump</a> &lt;condition&gt; [&lt;indent&gt;]</code>
+    </li>
+</ul>
+
+
+### Sub-commands
+
+
+#### test
+
+Invokes a specific condition.
+
+
 ???+ info
 
     This command provides the following context parameters by default:
@@ -13,28 +47,43 @@ Validates and invokes the specified condition.
     `kaya:command/position` | The position of the entity that executed the command, or the current world's spawn position *(can be changed with `/execute at` or `/execute positioned`)*
 
 
-## Syntax
+##### Syntax
 
 ```mcfunction
-condition dump <id> [<indent>]
-
-condition test <condition> with <parameters>
-
-execute if kaya:condition <condition> with <parameters> ...
+test <condition> with <parameters>
 ```
 
 
-##  Arguments
+##### Arguments
 
-- `<id>`: [identifier]({{ mc.identifier }})
-    - The ID of the condition to encode and display as JSON in chat.
-- `<condition>`: [identifier]({{ mc.identifier}}), or an [inlined_condition][condition]
+- `<condition>`: [identifier]({{ mc.identifier }}) or [condition][condition]
     - The condition to invoke.
 - `<parameters>`: [context_parameter_map][context_parameter_map]
-    - The context to provide to the specified action.
+    - The context to provide to the specified condition.
 
 
-### History
+#### dump
+
+Encodes the condition to JSON and dumps it in the chat (visible only to the executor of the command.)
+
+
+##### Syntax
+
+```mcfunction
+dump <condition> [<indent>]
+```
+
+
+##### Arguments
+
+- `<condition>`: [identifier]({{ mc.identifier }})
+    - The ID of the condition to encode and dump its JSON.
+- `<indent>`: [integer](https://minecraft.wiki/w/Argument_types#brigadier:integer)
+    - Specifies the indent for each line.
+    - If omitted, this will default to `4`.
+
+
+## History
 
 <table>
     <tr>

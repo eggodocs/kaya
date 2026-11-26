@@ -5,6 +5,7 @@ Grants, revokes, or lists a set of powers to or from an entity or multiple entit
 
 ##  Syntax
 
+
 ### Syntax tree
 
 `/power ...`
@@ -30,17 +31,21 @@ Grants, revokes, or lists a set of powers to or from an entity or multiple entit
     </li>
 </ul>
 
+
 ### Sub-commands
+
 
 #### grant
 
 Grants a single or multiple powers to an entity or entities.
+
 
 ##### Syntax
 
 ```mcfunction
 grant <targets> <power> [<source>]
 ```
+
 
 ##### Arguments
 
@@ -58,11 +63,13 @@ grant <targets> <power> [<source>]
 
 Revokes a single or multiple powers from a specific source from an entity or entities.
 
+
 ##### Syntax
 
 ```mcfunction
 revoke <targets> (all|<power>) [<source>]
 ```
+
 
 ##### Arguments
 
@@ -82,11 +89,13 @@ revoke <targets> (all|<power>) [<source>]
 
 Revokes a single or multiple powers from every source from an entity or entities.
 
+
 ##### Syntax
 
 ```mcfunction
 remove <targets> <power>
 ```
+
 
 ##### Arguments
 
@@ -101,11 +110,13 @@ remove <targets> <power>
 
 Clears all powers of an entity or entities.
 
+
 ##### Syntax
 
 ```mcfunction
 clear <targets>
 ```
+
 
 ##### Arguments
 
@@ -116,13 +127,16 @@ clear <targets>
 
 #### list
 
+
 Lists all the powers of an entity.
+
 
 ##### Syntax
 
 ```mcfunction
 list <target> [<includeSubPowers>]
 ```
+
 
 ##### Arguments
 
@@ -138,11 +152,13 @@ list <target> [<includeSubPowers>]
 
 Encodes the power into JSON and dumps it in the chat (visible only to the executor of the command.)
 
+
 ##### Syntax
 
 ```mcfunction
 dump <power> [<indent>]
 ```
+
 
 ##### Arguments
 

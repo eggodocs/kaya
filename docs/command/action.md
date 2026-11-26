@@ -3,17 +3,8 @@
 Validates and executes the specified action.
 
 
-???+ info
-
-    This command provides the following context parameters by default:
-
-    Parameter | Description
-    ----------|------------
-    `kaya:command/entity` | The entity that executed the command, or none if the server executed the command *(can be changed with `/execute as`)*
-    `kaya:command/position` | The position of the entity that executed the command, or the current world's spawn position *(can be changed with `/execute at` or `/execute positioned`)*
-
-
 ## Syntax
+
 
 ### Syntax tree
 
@@ -28,11 +19,24 @@ Validates and executes the specified action.
     </li>
 </ul>
 
+
 ### Sub-commands
+
 
 #### execute
 
 Executes a specific action.
+
+
+???+ info
+
+    This command provides the following context parameters by default:
+
+    Parameter | Description
+    ----------|------------
+    `kaya:command/entity` | The entity that executed the command, or none if the server executed the command *(can be changed with `/execute as`)*
+    `kaya:command/position` | The position of the entity that executed the command, or the current world's spawn position *(can be changed with `/execute at` or `/execute positioned`)*
+
 
 ##### Syntax
 
@@ -40,9 +44,10 @@ Executes a specific action.
 execute <action> with <parameters>
 ```
 
+
 ##### Arguments
 
-- `<action>`: [identifier], [tag]({{ mc.tag }}), or [action][action]
+- `<action>`: [identifier]({{ mc.identifier }}), [tag]({{ mc.tag }}), or [action][action]
     - The action(s) to execute.
 - `<parameters>`: [context_parameter_map][context_parameter_map]
     - The context to provide to the specified action.
@@ -52,11 +57,13 @@ execute <action> with <parameters>
 
 Encodes the action to JSON and dumps it in the chat (visible only to the executor of the command.)
 
+
 ##### Syntax
 
 ```mcfunction
 dump <action> [<indent>]
 ```
+
 
 ##### Arguments
 
