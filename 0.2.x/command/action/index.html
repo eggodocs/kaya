@@ -17428,6 +17428,21 @@
 
 <h1 id="action_command">/action (Command)</h1>
 <p>Validates and executes the specified action.</p>
+<h2 id="syntax">Syntax</h2>
+<h3 id="syntax_tree">Syntax tree</h3>
+<p><code>/action ...</code></p>
+<ul>
+    <li>
+        <code>... <a href="#execute">execute</a> &lt;action&gt; with &lt;parameters&gt;</code>
+    </li>
+    <li>
+        <code>... <a href="#dump">dump</a> &lt;action&gt; [&lt;indent&gt;]</code>
+    </li>
+</ul>
+
+<h3 id="sub-commands">Sub-commands</h3>
+<h4 id="execute">execute</h4>
+<p>Executes a specific action.</p>
 <details class="info" open="open">
 <summary>Info</summary>
 <p>This command provides the following context parameters by default:</p>
@@ -17450,27 +17465,12 @@
 </tbody>
 </table>
 </details>
-<h2 id="syntax">Syntax</h2>
-<h3 id="syntax_tree">Syntax tree</h3>
-<p><code>/action ...</code></p>
-<ul>
-    <li>
-        <code>... <a href="#execute">execute</a> &lt;action&gt; with &lt;parameters&gt;</code>
-    </li>
-    <li>
-        <code>... <a href="#dump">dump</a> &lt;action&gt; [&lt;indent&gt;]</code>
-    </li>
-</ul>
-
-<h3 id="sub-commands">Sub-commands</h3>
-<h4 id="execute">execute</h4>
-<p>Executes a specific action.</p>
 <h5 id="syntax_1">Syntax</h5>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">execute</span><span class="w"> </span><span class="o">&lt;</span><span class="kc">action</span><span class="o">&gt;</span><span class="w"> </span><span class="kc">with</span><span class="w"> </span><span class="o">&lt;</span><span class="kc">parameters</span><span class="o">&gt;</span>
 </code></pre></div>
 <h5 id="arguments">Arguments</h5>
 <ul>
-<li><code>&lt;action&gt;</code>: [identifier], <a href="https://minecraft.wiki/w/Tag_(Java_Edition)">tag</a>, or <a class="autorefs autorefs-internal" href="../../action/#action">action</a><ul>
+<li><code>&lt;action&gt;</code>: <a href="https://minecraft.wiki/w/Identifier">identifier</a>, <a href="https://minecraft.wiki/w/Tag_(Java_Edition)">tag</a>, or <a class="autorefs autorefs-internal" href="../../action/#action">action</a><ul>
 <li>The action(s) to execute.</li>
 </ul>
 </li>
