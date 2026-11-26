@@ -52,9 +52,10 @@ nav:
     - Getting started: guide/getting_started.md
     - Making a power: guide/making_a_power.md
     - Commands:
-      - command/action.md
-      - command/condition.md
-      - command/resource.md
+      - "/action": command/action.md
+      - "/condition": command/condition.md
+      - "/power": command/power.md
+      - "/resource": command/resource.md
   - Action:
     - action/index.md
     - Meta Types:

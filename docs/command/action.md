@@ -1,4 +1,4 @@
-#   /action { #action_command }
+#   /action (Command)
 
 Validates and executes the specified action.
 

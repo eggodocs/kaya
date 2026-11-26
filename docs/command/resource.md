@@ -1,4 +1,4 @@
-#   /resource { #resource_command }
+#   /resource (Command)
 
 Gets or sets the value of a float/int resource.
 

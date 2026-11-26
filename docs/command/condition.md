@@ -1,4 +1,4 @@
-#   /condition { #condition_command }
+#   /condition (Command)
 
 Validates and invokes the specified condition.
 
