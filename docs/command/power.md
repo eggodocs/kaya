@@ -151,3 +151,17 @@ dump <power> [<indent>]
 - `<indent>`: [integer](https://minecraft.wiki/w/Argument_types#brigadier:integer)
     - Specifies the indent for each line.
     - If omitted, this will default to `4`.
+
+
+## History
+
+<table>
+    <tr>
+        <td style="text-align: center; vertical-align: middle"><b>Mod</b></td>
+        <td style="vertical-align: middle"><b>Changelog</b></td>
+    </tr>
+    <tr style="text-align: center; vertical-align: middle">
+        <td style="text-align: center; vertical-align: middle">0.1.0</td>
+        <td style="vertical-align: middle">Added the command.</td>
+    </tr>
+</table>
