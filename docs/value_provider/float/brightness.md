@@ -8,7 +8,16 @@ Type ID: `kaya:brightness`
 
 ???+ info
 
-    The brightness value is calculated using the following formula: $(Brightness = AmbientLight + (1 - AmbientLight) * LightLevel \div (60 - 3 * LightLevel))$
+    The brightness value is calculated using the following formula:
+    
+    $$
+    Brightness = AmbientLight + (1 - AmbientLight) \times LightLevel \div (60 - 3 \times LightLevel)
+    $$
+
+    Where:
+
+    - $AmbientLight$ is the ambient light specified in the dimension's definition.
+    - $LightLevel$ is the highest light level between the block and sky light level at the specified position.
 
 
 ??? tip "Brightness values for the vanilla dimensions"
@@ -16,7 +25,7 @@ Type ID: `kaya:brightness`
     Here's a table of light levels with their corresponding brightness values in each vanilla dimension:
 
     {% for dimension, ambient_light in dimension_ambient_lights.items() %}
-    === "`{{ dimension }}` (ambient light of ${{ ambient_light }}$)"
+    === "`{{ dimension }}`"
 
         Light level | Brightness
         ------------|-----------
